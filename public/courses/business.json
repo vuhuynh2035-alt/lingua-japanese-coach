@@ -1,0 +1,1587 @@
+{
+ "id": "business",
+ "title": "Tiếng Nhật công sở",
+ "version": "1.0.0",
+ "framework": "JLPT N5–N2",
+ "overview": "8 bài từ N5 đến N2 cho môi trường văn phòng Nhật: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, kính ngữ và thương lượng.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "business-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Giới thiệu công ty và chức vụ",
+   "objective": "Nói tên công ty, bộ phận, chức vụ và đưa danh thiếp.",
+   "reading": "ミン: はじめまして。ABC商事のミンです。\n田中: 営業部の田中です。名刺をどうぞ。\nミン: ありがとうございます。私の名刺です。\n田中: ミンさんは何部ですか。\nミン: 技術部です。どうぞよろしくお願いします。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "はじめまして。ABC商事のミンです。",
+     "phonetic": "Hajimemashite. Ē-bī-shī Shōji no Min desu.",
+     "translation": "Rất vui được gặp. Tôi là Minh của công ty ABC Shoji."
+    },
+    {
+     "speaker": "田中",
+     "text": "営業部の田中です。名刺をどうぞ。",
+     "phonetic": "Eigyōbu no Tanaka desu. Meishi o dōzo.",
+     "translation": "Tôi là Tanaka, phòng kinh doanh. Mời nhận danh thiếp."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ありがとうございます。私の名刺です。",
+     "phonetic": "Arigatō gozaimasu. Watashi no meishi desu.",
+     "translation": "Cảm ơn anh. Đây là danh thiếp của tôi."
+    },
+    {
+     "speaker": "田中",
+     "text": "ミンさんは何部ですか。",
+     "phonetic": "Min-san wa nanbu desu ka.",
+     "translation": "Bạn Minh ở bộ phận nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "技術部です。どうぞよろしくお願いします。",
+     "phonetic": "Gijutsubu desu. Dōzo yoroshiku onegai shimasu.",
+     "translation": "Tôi ở phòng kỹ thuật. Rất mong được giúp đỡ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "会社",
+     "reading": "kaisha",
+     "definition": "công ty",
+     "example": "私は会社員です。 (Tôi là nhân viên công ty.)"
+    },
+    {
+     "term": "名刺",
+     "reading": "meishi",
+     "definition": "danh thiếp",
+     "example": "名刺をどうぞ。 (Mời nhận danh thiếp.)"
+    },
+    {
+     "term": "営業部",
+     "reading": "eigyōbu",
+     "definition": "phòng kinh doanh",
+     "example": "営業部で働いています。 (Tôi làm ở phòng kinh doanh.)"
+    },
+    {
+     "term": "技術部",
+     "reading": "gijutsubu",
+     "definition": "phòng kỹ thuật",
+     "example": "技術部のミンです。 (Tôi là Minh ở phòng kỹ thuật.)"
+    },
+    {
+     "term": "部長",
+     "reading": "buchō",
+     "definition": "trưởng phòng",
+     "example": "田中部長は会議室にいます。 (Trưởng phòng Tanaka đang ở phòng họp.)"
+    }
+   ],
+   "grammar": {
+    "title": "N の N (sở hữu / thuộc về) và 〜さん",
+    "explanation": "N1 の N2 nối hai danh từ: ABC商事のミン (Minh của công ty ABC). Gọi người khác thêm さん, không dùng với tên mình. Hỏi bộ phận: 何部ですか。",
+    "examples": [
+     "技術部のミンです。[gijutsubu no Min desu] (Tôi là Minh phòng kỹ thuật.)",
+     "田中さんは部長です。[Tanaka-san wa buchō desu] (Anh Tanaka là trưởng phòng.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Cúi chào và giọng lịch sự",
+    "tip": "Khi trao danh thiếp: dùng hai tay, hơi cúi, nói rõ tên công ty rồi tên mình. Các từ ghép như 「えいぎょうぶ」 chia thành từng cụm để dễ nghe.",
+    "words": [
+     "めいし",
+     "えいぎょうぶ",
+     "ぎじゅつぶ",
+     "ぶちょう"
+    ]
+   },
+   "speakingTasks": [
+    "Tự giới thiệu: tên công ty, bộ phận và tên bạn.",
+    "Thầy/cô đưa danh thiếp — bạn đáp lại."
+   ],
+   "questions": [
+    {
+     "prompt": "Tự giới thiệu đúng:",
+     "options": [
+      "ABC商事のミンです。",
+      "ABC商事をミンです。",
+      "ABC商事はミンさんです。"
+     ],
+     "answer": 0,
+     "explanation": "N の N: ABC商事 の ミン."
+    },
+    {
+     "prompt": "Hỏi bộ phận của người khác:",
+     "options": [
+      "何時ですか。",
+      "何人ですか。",
+      "何部ですか。"
+     ],
+     "answer": 2,
+     "explanation": "部 = bộ phận."
+    },
+    {
+     "prompt": "Không dùng 「さん」 khi nói về:",
+     "options": [
+      "đồng nghiệp",
+      "khách hàng",
+      "bản thân mình"
+     ],
+     "answer": 2,
+     "explanation": "Không gắn さん sau tên chính mình."
+    },
+    {
+     "prompt": "「名刺」 là:",
+     "options": [
+      "hóa đơn",
+      "danh thiếp",
+      "thẻ nhân viên"
+     ],
+     "answer": 1,
+     "explanation": "名刺 = danh thiếp."
+    },
+    {
+     "prompt": "「名刺」 có nghĩa là gì?",
+     "options": [
+      "danh thiếp",
+      "phòng kinh doanh",
+      "công ty"
+     ],
+     "answer": 0,
+     "explanation": "「名刺」 [meishi] = danh thiếp."
+    },
+    {
+     "prompt": "「会社」 đọc là gì?",
+     "options": [
+      "kaisha",
+      "eigyōbu",
+      "gijutsubu"
+     ],
+     "answer": 0,
+     "explanation": "「会社」 đọc là [kaisha], nghĩa là công ty."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 田中＿＿＿は会議室にいます。  (Trưởng phòng Tanaka đang ở phòng họp.)",
+     "options": [
+      "営業部",
+      "部長",
+      "名刺"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「部長」 (trưởng phòng). Câu đầy đủ: 田中部長は会議室にいます。"
+    },
+    {
+     "prompt": "「営業部」 có nghĩa là gì?",
+     "options": [
+      "danh thiếp",
+      "công ty",
+      "phòng kinh doanh"
+     ],
+     "answer": 2,
+     "explanation": "「営業部」 [eigyōbu] = phòng kinh doanh."
+    },
+    {
+     "prompt": "「営業部」 đọc là gì?",
+     "options": [
+      "kaisha",
+      "meishi",
+      "eigyōbu"
+     ],
+     "answer": 2,
+     "explanation": "「営業部」 đọc là [eigyōbu], nghĩa là phòng kinh doanh."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿で働いています。  (Tôi làm ở phòng kinh doanh.)",
+     "options": [
+      "名刺",
+      "会社",
+      "営業部"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「営業部」 (phòng kinh doanh). Câu đầy đủ: 営業部で働いています。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Chào hỏi hằng ngày ở công ty",
+   "objective": "Dùng các câu chào quen thuộc: おはようございます、お疲れ様です、お先に失礼します。",
+   "reading": "ミン: おはようございます。\n田中: おはようございます。今日もよろしくお願いします。\nミン: こちらこそ。\n田中: お疲れ様です。もう帰りますか。\nミン: はい。お先に失礼します。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "おはようございます。",
+     "phonetic": "Ohayō gozaimasu.",
+     "translation": "Chào buổi sáng."
+    },
+    {
+     "speaker": "田中",
+     "text": "おはようございます。今日もよろしくお願いします。",
+     "phonetic": "Ohayō gozaimasu. Kyō mo yoroshiku onegai shimasu.",
+     "translation": "Chào buổi sáng. Hôm nay cũng nhờ bạn giúp đỡ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "こちらこそ。",
+     "phonetic": "Kochira koso.",
+     "translation": "Tôi cũng vậy ạ."
+    },
+    {
+     "speaker": "田中",
+     "text": "お疲れ様です。もう帰りますか。",
+     "phonetic": "Otsukaresama desu. Mō kaerimasu ka.",
+     "translation": "Bạn vất vả rồi. Bạn về rồi à?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい。お先に失礼します。",
+     "phonetic": "Hai. Osaki ni shitsurei shimasu.",
+     "translation": "Vâng. Tôi xin phép về trước ạ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "おはようございます",
+     "reading": "ohayō gozaimasu",
+     "definition": "chào buổi sáng",
+     "example": "おはようございます、田中さん。 (Chào buổi sáng, anh Tanaka.)"
+    },
+    {
+     "term": "お疲れ様です",
+     "reading": "otsukaresama desu",
+     "definition": "bạn vất vả rồi (chào đồng nghiệp)",
+     "example": "お疲れ様です。 (Bạn vất vả rồi.)"
+    },
+    {
+     "term": "お先に失礼します",
+     "reading": "osaki ni shitsurei shimasu",
+     "definition": "tôi xin phép về trước",
+     "example": "お先に失礼します。 (Tôi xin phép về trước.)"
+    },
+    {
+     "term": "帰ります",
+     "reading": "kaerimasu",
+     "definition": "về nhà",
+     "example": "六時に帰ります。 (Tôi về lúc 6 giờ.)"
+    },
+    {
+     "term": "こちらこそ",
+     "reading": "kochira koso",
+     "definition": "tôi mới là người cần nói vậy",
+     "example": "こちらこそ、お願いします。 (Tôi mới là người nhờ ạ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ませんか・〜ましょう",
+    "explanation": "Câu hỏi lịch sự: V ますか. Rủ rê: V ませんか (bạn có ~ không?) và V ましょう (cùng ~ nhé). Chào kết thúc ngày làm: お先に失礼します; đáp lại: お疲れ様でした.",
+    "examples": [
+     "一緒に昼ごはんを食べませんか。[issho ni hirugohan o tabemasen ka] (Cùng ăn trưa không?)",
+     "会議を始めましょう。[kaigi o hajimemashō] (Chúng ta bắt đầu họp nhé.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nối âm và nhấn nhẹ",
+    "tip": "Các câu chào dài đọc liền mạch: 「おつかれさまです」 chia 3 nhịp. 「しつれいします」 giữ っ ngắn nhưng dứt khoát.",
+    "words": [
+     "おつかれさま",
+     "しつれい",
+     "おはよう",
+     "こちらこそ"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai đến công ty buổi sáng và chào đồng nghiệp.",
+    "Chào khi ra về với thầy/cô (đóng vai đồng nghiệp)."
+   ],
+   "questions": [
+    {
+     "prompt": "Khi ra về trước đồng nghiệp, nói:",
+     "options": [
+      "お先に失礼します。",
+      "いただきます。",
+      "ただいま。"
+     ],
+     "answer": 0,
+     "explanation": "Câu chuẩn khi về trước."
+    },
+    {
+     "prompt": "Đáp lại 「お先に失礼します」 là:",
+     "options": [
+      "お疲れ様でした。",
+      "いらっしゃいませ。",
+      "おはようございます。"
+     ],
+     "answer": 0,
+     "explanation": "お疲れ様でした là lời đáp."
+    },
+    {
+     "prompt": "Rủ đồng nghiệp ăn trưa:",
+     "options": [
+      "一緒に昼ごはんを食べるですか。",
+      "一緒に昼ごはんを食べませんか。",
+      "一緒に昼ごはんを食べますました。"
+     ],
+     "answer": 1,
+     "explanation": "V ませんか = rủ rê."
+    },
+    {
+     "prompt": "「こちらこそ」 dùng khi nào?",
+     "options": [
+      "Đáp lại lời cảm ơn/nhờ vả",
+      "Khi chào buổi sáng",
+      "Khi từ chối"
+     ],
+     "answer": 0,
+     "explanation": "Nghĩa: “tôi mới là người cần nói vậy”."
+    },
+    {
+     "prompt": "「お疲れ様です」 có nghĩa là gì?",
+     "options": [
+      "tôi mới là người cần nói vậy",
+      "về nhà",
+      "bạn vất vả rồi (chào đồng nghiệp)"
+     ],
+     "answer": 2,
+     "explanation": "「お疲れ様です」 [otsukaresama desu] = bạn vất vả rồi (chào đồng nghiệp)."
+    },
+    {
+     "prompt": "「こちらこそ」 đọc là gì?",
+     "options": [
+      "ohayō gozaimasu",
+      "otsukaresama desu",
+      "kochira koso"
+     ],
+     "answer": 2,
+     "explanation": "「こちらこそ」 đọc là [kochira koso], nghĩa là tôi mới là người cần nói vậy."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿、田中さん。  (Chào buổi sáng, anh Tanaka.)",
+     "options": [
+      "お先に失礼します",
+      "おはようございます",
+      "こちらこそ"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「おはようございます」 (chào buổi sáng). Câu đầy đủ: おはようございます、田中さん。"
+    },
+    {
+     "prompt": "「帰ります」 có nghĩa là gì?",
+     "options": [
+      "về nhà",
+      "chào buổi sáng",
+      "bạn vất vả rồi (chào đồng nghiệp)"
+     ],
+     "answer": 0,
+     "explanation": "「帰ります」 [kaerimasu] = về nhà."
+    },
+    {
+     "prompt": "「お先に失礼します」 đọc là gì?",
+     "options": [
+      "osaki ni shitsurei shimasu",
+      "otsukaresama desu",
+      "kochira koso"
+     ],
+     "answer": 0,
+     "explanation": "「お先に失礼します」 đọc là [osaki ni shitsurei shimasu], nghĩa là tôi xin phép về trước."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿。  (Bạn vất vả rồi.)",
+     "options": [
+      "帰ります",
+      "こちらこそ",
+      "お疲れ様です"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「お疲れ様です」 (bạn vất vả rồi (chào đồng nghiệp)). Câu đầy đủ: お疲れ様です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Nghe và gọi điện thoại cơ bản",
+   "objective": "Nhận điện thoại, hỏi tên người gọi, nhắn lại và gọi lại.",
+   "reading": "受付: はい、ABC商事でございます。\n客: 営業部の田中さんをお願いします。\n受付: 申し訳ありません。田中は今、席を外しております。\n客: では、伝言をお願いできますか。\n受付: はい、お名前と電話番号をお願いします。",
+   "dialogue": [
+    {
+     "speaker": "受付",
+     "text": "はい、ABC商事でございます。",
+     "phonetic": "Hai, Ē-bī-shī Shōji de gozaimasu.",
+     "translation": "Vâng, công ty ABC Shoji xin nghe ạ."
+    },
+    {
+     "speaker": "客",
+     "text": "営業部の田中さんをお願いします。",
+     "phonetic": "Eigyōbu no Tanaka-san o onegai shimasu.",
+     "translation": "Cho tôi gặp anh Tanaka phòng kinh doanh."
+    },
+    {
+     "speaker": "受付",
+     "text": "申し訳ありません。田中は今、席を外しております。",
+     "phonetic": "Mōshiwake arimasen. Tanaka wa ima, seki o hazushite orimasu.",
+     "translation": "Xin lỗi, anh Tanaka hiện không có ở chỗ."
+    },
+    {
+     "speaker": "客",
+     "text": "では、伝言をお願いできますか。",
+     "phonetic": "Dewa, dengon o onegai dekimasu ka.",
+     "translation": "Vậy tôi nhắn lại được không?"
+    },
+    {
+     "speaker": "受付",
+     "text": "はい、お名前と電話番号をお願いします。",
+     "phonetic": "Hai, onamae to denwa bangō o onegai shimasu.",
+     "translation": "Vâng, xin cho biết tên và số điện thoại."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "席を外す",
+     "reading": "seki o hazusu",
+     "definition": "không có ở chỗ ngồi",
+     "example": "今、席を外しております。 (Hiện anh ấy không có ở chỗ.)"
+    },
+    {
+     "term": "伝言",
+     "reading": "dengon",
+     "definition": "lời nhắn",
+     "example": "伝言をお願いします。 (Xin nhắn lại giúp.)"
+    },
+    {
+     "term": "電話番号",
+     "reading": "denwa bangō",
+     "definition": "số điện thoại",
+     "example": "電話番号を教えてください。 (Xin cho biết số điện thoại.)"
+    },
+    {
+     "term": "折り返す",
+     "reading": "orikaesu",
+     "definition": "gọi lại",
+     "example": "折り返しお電話します。 (Tôi sẽ gọi lại cho anh/chị.)"
+    },
+    {
+     "term": "少々お待ちください",
+     "reading": "shōshō omachi kudasai",
+     "definition": "xin vui lòng đợi một chút",
+     "example": "少々お待ちください。 (Xin vui lòng đợi một chút.)"
+    }
+   ],
+   "grammar": {
+    "title": "Kính ngữ khi nghe điện thoại",
+    "explanation": "Với người trong công ty nói với khách bên ngoài, dùng khiêm nhường: 田中は〜おります (không thêm さん). Cách nói chuẩn: 少々お待ちください, 申し訳ありません, 折り返しご連絡いたします。",
+    "examples": [
+     "田中は外出しております。[Tanaka wa gaishutsu shite orimasu] (Anh Tanaka đang ra ngoài.)",
+     "折り返しご連絡いたします。[orikaeshi gorenraku itashimasu] (Chúng tôi sẽ gọi lại ạ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số điện thoại",
+    "tip": "Đọc từng chữ số, ngắt theo nhóm: 03-1234-5678 (zero-san no ichi ni san yon no go roku nana hachi). Số 0 đọc zero hoặc rei; 4 đọc yon; 7 đọc nana.",
+    "words": [
+     "ぜろ",
+     "よん",
+     "なな",
+     "きゅう"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai lễ tân nhận điện thoại và ghi lời nhắn.",
+    "Gọi cho thầy/cô để xin gặp một người và để lại số điện thoại."
+   ],
+   "questions": [
+    {
+     "prompt": "Khi người trong công ty không có mặt, nói với khách:",
+     "options": [
+      "田中がいません。",
+      "田中さんは席を外していらっしゃいます。",
+      "田中は席を外しております。"
+     ],
+     "answer": 2,
+     "explanation": "Với bên ngoài: không thêm さん, dùng khiêm nhường."
+    },
+    {
+     "prompt": "“Xin vui lòng đợi một chút.” là:",
+     "options": [
+      "少々お待ちください。",
+      "待ってね。",
+      "ちょっと待つです。"
+     ],
+     "answer": 0,
+     "explanation": "Cách nói lịch sự khi nhận điện thoại."
+    },
+    {
+     "prompt": "「伝言」 là:",
+     "options": [
+      "lời mời",
+      "lời xin lỗi",
+      "lời nhắn"
+     ],
+     "answer": 2,
+     "explanation": "伝言 = lời nhắn."
+    },
+    {
+     "prompt": "Số 7 trong số điện thoại thường đọc là:",
+     "options": [
+      "なな",
+      "ひち",
+      "しち"
+     ],
+     "answer": 0,
+     "explanation": "Đọc nana để khỏi nhầm với shi (4)."
+    },
+    {
+     "prompt": "「電話番号」 có nghĩa là gì?",
+     "options": [
+      "số điện thoại",
+      "gọi lại",
+      "lời nhắn"
+     ],
+     "answer": 0,
+     "explanation": "「電話番号」 [denwa bangō] = số điện thoại."
+    },
+    {
+     "prompt": "「席を外す」 đọc là gì?",
+     "options": [
+      "dengon",
+      "seki o hazusu",
+      "orikaesu"
+     ],
+     "answer": 1,
+     "explanation": "「席を外す」 đọc là [seki o hazusu], nghĩa là không có ở chỗ ngồi."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を教えてください。  (Xin cho biết số điện thoại.)",
+     "options": [
+      "伝言",
+      "折り返す",
+      "電話番号"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「電話番号」 (số điện thoại). Câu đầy đủ: 電話番号を教えてください。"
+    },
+    {
+     "prompt": "「折り返す」 có nghĩa là gì?",
+     "options": [
+      "không có ở chỗ ngồi",
+      "xin vui lòng đợi một chút",
+      "gọi lại"
+     ],
+     "answer": 2,
+     "explanation": "「折り返す」 [orikaesu] = gọi lại."
+    },
+    {
+     "prompt": "「伝言」 đọc là gì?",
+     "options": [
+      "orikaesu",
+      "denwa bangō",
+      "dengon"
+     ],
+     "answer": 2,
+     "explanation": "「伝言」 đọc là [dengon], nghĩa là lời nhắn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿。  (Xin vui lòng đợi một chút.)",
+     "options": [
+      "電話番号",
+      "席を外す",
+      "少々お待ちください"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「少々お待ちください」 (xin vui lòng đợi một chút). Câu đầy đủ: 少々お待ちください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Hẹn lịch và dời lịch",
+   "objective": "Hẹn giờ gặp, hỏi lịch trống và xin dời lịch.",
+   "reading": "ミン: 来週、お打ち合わせをお願いしたいのですが。\n田中: 火曜日の午後は空いていますよ。\nミン: では、三時はいかがでしょうか。\n田中: はい、大丈夫です。会議室を予約しておきます。\nミン: お願いします。よろしくお願いいたします。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "来週、お打ち合わせをお願いしたいのですが。",
+     "phonetic": "Raishū, outaawase o onegai shitai no desu ga.",
+     "translation": "Tuần sau tôi muốn xin một buổi họp ạ."
+    },
+    {
+     "speaker": "田中",
+     "text": "火曜日の午後は空いていますよ。",
+     "phonetic": "Kayōbi no gogo wa aite imasu yo.",
+     "translation": "Chiều thứ Ba tôi rảnh."
+    },
+    {
+     "speaker": "ミン",
+     "text": "では、三時はいかがでしょうか。",
+     "phonetic": "Dewa, sanji wa ikaga deshō ka.",
+     "translation": "Vậy 3 giờ có được không ạ?"
+    },
+    {
+     "speaker": "田中",
+     "text": "はい、大丈夫です。会議室を予約しておきます。",
+     "phonetic": "Hai, daijōbu desu. Kaigishitsu o yoyaku shite okimasu.",
+     "translation": "Vâng, được. Tôi sẽ đặt sẵn phòng họp."
+    },
+    {
+     "speaker": "ミン",
+     "text": "お願いします。よろしくお願いいたします。",
+     "phonetic": "Onegai shimasu. Yoroshiku onegai itashimasu.",
+     "translation": "Nhờ anh. Rất mong được anh giúp đỡ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "打ち合わせ",
+     "reading": "uchiawase",
+     "definition": "buổi trao đổi, họp nhỏ",
+     "example": "打ち合わせは三時からです。 (Buổi trao đổi từ 3 giờ.)"
+    },
+    {
+     "term": "空いています",
+     "reading": "aite imasu",
+     "definition": "đang rảnh / còn trống",
+     "example": "明日の午後は空いています。 (Chiều mai tôi rảnh.)"
+    },
+    {
+     "term": "いかがですか",
+     "reading": "ikaga desu ka",
+     "definition": "thế nào ạ? (lịch sự)",
+     "example": "三時はいかがですか。 (3 giờ thì thế nào ạ?)"
+    },
+    {
+     "term": "予約",
+     "reading": "yoyaku",
+     "definition": "đặt trước",
+     "example": "会議室を予約します。 (Tôi đặt phòng họp.)"
+    },
+    {
+     "term": "変更",
+     "reading": "henkō",
+     "definition": "thay đổi",
+     "example": "時間を変更したいです。 (Tôi muốn đổi giờ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ておきます・〜たいのですが",
+    "explanation": "V て + おく: làm sẵn để chuẩn bị. 〜たいのですが: mở đầu lời đề nghị một cách mềm mại. いかがですか là cách nói lịch sự của どうですか。",
+    "examples": [
+     "資料を準備しておきます。[shiryō o junbi shite okimasu] (Tôi sẽ chuẩn bị sẵn tài liệu.)",
+     "日程を変更したいのですが。[nittei o henkō shitai no desu ga] (Tôi muốn đổi lịch ạ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giờ trong công việc",
+    "tip": "Giờ: 三時 sanji, 四時 yoji, 九時 kuji. Khoảng thời gian: 三十分 sanjuppun. Nói “khoảng” thêm ぐらい / ごろ: 三時ごろ.",
+    "words": [
+     "さんじ",
+     "よじ",
+     "くじ",
+     "さんじゅっぷん"
+    ]
+   },
+   "speakingTasks": [
+    "Hẹn một buổi họp với thầy/cô, đề xuất 2 khung giờ.",
+    "Xin dời lịch vì lý do công việc."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi sẽ đặt sẵn phòng họp.” là:",
+     "options": [
+      "会議室を予約ておきます。",
+      "会議室を予約しておきます。",
+      "会議室が予約しておきます。"
+     ],
+     "answer": 1,
+     "explanation": "V て + おきます = làm sẵn."
+    },
+    {
+     "prompt": "Câu mềm mại xin dời lịch:",
+     "options": [
+      "日程は変更だ。",
+      "日程を変更したいのですが。",
+      "日程を変更しろ。"
+     ],
+     "answer": 1,
+     "explanation": "たいのですが làm lời nhờ nhẹ nhàng."
+    },
+    {
+     "prompt": "「いかがですか」 nghĩa là:",
+     "options": [
+      "Ở đâu ạ?",
+      "Ai ạ?",
+      "Thế nào ạ? (lịch sự)"
+     ],
+     "answer": 2,
+     "explanation": "いかが là dạng lịch sự của どう."
+    },
+    {
+     "prompt": "「空いています」 dùng cho:",
+     "options": [
+      "việc bận",
+      "lịch rảnh / chỗ trống",
+      "việc đã xong"
+     ],
+     "answer": 1,
+     "explanation": "空く = trống."
+    },
+    {
+     "prompt": "「予約」 có nghĩa là gì?",
+     "options": [
+      "đang rảnh / còn trống",
+      "đặt trước",
+      "thế nào ạ? (lịch sự)"
+     ],
+     "answer": 1,
+     "explanation": "「予約」 [yoyaku] = đặt trước."
+    },
+    {
+     "prompt": "「空いています」 đọc là gì?",
+     "options": [
+      "aite imasu",
+      "ikaga desu ka",
+      "henkō"
+     ],
+     "answer": 0,
+     "explanation": "「空いています」 đọc là [aite imasu], nghĩa là đang rảnh / còn trống."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 時間を＿＿＿したいです。  (Tôi muốn đổi giờ.)",
+     "options": [
+      "変更",
+      "打ち合わせ",
+      "空いています"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「変更」 (thay đổi). Câu đầy đủ: 時間を変更したいです。"
+    },
+    {
+     "prompt": "「打ち合わせ」 có nghĩa là gì?",
+     "options": [
+      "thay đổi",
+      "thế nào ạ? (lịch sự)",
+      "buổi trao đổi, họp nhỏ"
+     ],
+     "answer": 2,
+     "explanation": "「打ち合わせ」 [uchiawase] = buổi trao đổi, họp nhỏ."
+    },
+    {
+     "prompt": "「いかがですか」 đọc là gì?",
+     "options": [
+      "aite imasu",
+      "ikaga desu ka",
+      "uchiawase"
+     ],
+     "answer": 1,
+     "explanation": "「いかがですか」 đọc là [ikaga desu ka], nghĩa là thế nào ạ? (lịch sự)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は三時からです。  (Buổi trao đổi từ 3 giờ.)",
+     "options": [
+      "いかがですか",
+      "打ち合わせ",
+      "変更"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「打ち合わせ」 (buổi trao đổi, họp nhỏ). Câu đầy đủ: 打ち合わせは三時からです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Viết email công việc",
+   "objective": "Viết email mở đầu, nêu yêu cầu, đính kèm và kết thư.",
+   "reading": "ミン: 件名：会議資料のご送付\nミン: 田中様 いつもお世話になっております。ABC商事のミンです。\nミン: 明日の会議の資料を添付いたしましたので、ご確認ください。\nミン: ご不明な点がございましたら、お知らせください。\nミン: 何とぞよろしくお願い申し上げます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "件名：会議資料のご送付",
+     "translation": "Tiêu đề: Gửi tài liệu cuộc họp"
+    },
+    {
+     "speaker": "ミン",
+     "text": "田中様 いつもお世話になっております。ABC商事のミンです。",
+     "translation": "Kính gửi anh Tanaka. Cảm ơn anh vẫn luôn giúp đỡ. Tôi là Minh của ABC Shoji."
+    },
+    {
+     "speaker": "ミン",
+     "text": "明日の会議の資料を添付いたしましたので、ご確認ください。",
+     "translation": "Tôi đã đính kèm tài liệu cuộc họp ngày mai, mong anh xác nhận."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ご不明な点がございましたら、お知らせください。",
+     "translation": "Nếu có điểm nào chưa rõ, xin anh cho tôi biết."
+    },
+    {
+     "speaker": "ミン",
+     "text": "何とぞよろしくお願い申し上げます。",
+     "translation": "Rất mong nhận được sự giúp đỡ của anh."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "件名",
+     "reading": "けんめい",
+     "definition": "tiêu đề email",
+     "example": "件名を書いてください。 (Hãy viết tiêu đề.)"
+    },
+    {
+     "term": "添付",
+     "reading": "てんぷ",
+     "definition": "đính kèm",
+     "example": "資料を添付いたしました。 (Tôi đã đính kèm tài liệu.)"
+    },
+    {
+     "term": "ご確認",
+     "reading": "ごかくにん",
+     "definition": "việc xác nhận (kính)",
+     "example": "ご確認をお願いします。 (Xin anh/chị xác nhận.)"
+    },
+    {
+     "term": "不明",
+     "reading": "ふめい",
+     "definition": "không rõ",
+     "example": "不明な点がございます。 (Có điểm chưa rõ.)"
+    },
+    {
+     "term": "お世話になっております",
+     "reading": "おせわになっております",
+     "definition": "cảm ơn sự giúp đỡ (mở đầu email)",
+     "example": "いつもお世話になっております。 (Cảm ơn anh vẫn luôn giúp đỡ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜いたしました・〜ましたら・〜ください",
+    "explanation": "Email công việc dùng khiêm nhường: 送付いたしました, 添付いたしました. Điều kiện lịch sự: V ましたら (nếu ~). Nhờ: ご〜ください / お〜ください. Kết thư: 何とぞよろしくお願い申し上げます.",
+    "examples": [
+     "資料を送付いたしました。(Tôi đã gửi tài liệu.)",
+     "ご不明な点がございましたら、ご連絡ください。(Nếu có điểm chưa rõ, xin hãy liên lạc.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc to email",
+    "tip": "Đọc câu mở đầu chậm và rõ: 「いつもお世話になっております」 chia thành い・つ・も / お・せ・わ・に / な・っ・て / お・り・ま・す. Ngắt nhịp sau mỗi cụm.",
+    "words": [
+     "おせわになっております",
+     "けんめい",
+     "てんぷ",
+     "ごかくにん"
+    ]
+   },
+   "speakingTasks": [
+    "Viết miệng một email xác nhận lịch họp (4–5 câu).",
+    "Đọc lại email và thầy/cô sửa các chỗ chưa lịch sự."
+   ],
+   "questions": [
+    {
+     "prompt": "Câu mở đầu email chuẩn là:",
+     "options": [
+      "元気？",
+      "いつもお世話になっております。",
+      "こんにちは、君。"
+     ],
+     "answer": 1,
+     "explanation": "Cách mở đầu thông dụng trong công việc."
+    },
+    {
+     "prompt": "“Tôi đã đính kèm tài liệu.” là:",
+     "options": [
+      "資料を添付したです。",
+      "資料が添付するました。",
+      "資料を添付いたしました。"
+     ],
+     "answer": 2,
+     "explanation": "いたしました = khiêm nhường của しました."
+    },
+    {
+     "prompt": "“Nếu có điểm chưa rõ, xin liên lạc.” là:",
+     "options": [
+      "不明があるなら連絡です。",
+      "ご不明な点がございましたら、ご連絡ください。",
+      "不明なら連絡しろ。"
+     ],
+     "answer": 1,
+     "explanation": "ございましたら là kính ngữ."
+    },
+    {
+     "prompt": "「件名」 là:",
+     "options": [
+      "chữ ký",
+      "tiêu đề",
+      "địa chỉ"
+     ],
+     "answer": 1,
+     "explanation": "件名 = tiêu đề email."
+    },
+    {
+     "prompt": "「不明」 có nghĩa là gì?",
+     "options": [
+      "đính kèm",
+      "không rõ",
+      "việc xác nhận (kính)"
+     ],
+     "answer": 1,
+     "explanation": "「不明」 [ふめい] = không rõ."
+    },
+    {
+     "prompt": "「添付」 đọc là gì?",
+     "options": [
+      "てんぷ",
+      "ふめい",
+      "けんめい"
+     ],
+     "answer": 0,
+     "explanation": "「添付」 đọc là [てんぷ], nghĩa là đính kèm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をお願いします。  (Xin anh/chị xác nhận.)",
+     "options": [
+      "件名",
+      "ご確認",
+      "お世話になっております"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「ご確認」 (việc xác nhận (kính)). Câu đầy đủ: ご確認をお願いします。"
+    },
+    {
+     "prompt": "「添付」 có nghĩa là gì?",
+     "options": [
+      "không rõ",
+      "tiêu đề email",
+      "đính kèm"
+     ],
+     "answer": 2,
+     "explanation": "「添付」 [てんぷ] = đính kèm."
+    },
+    {
+     "prompt": "「ご確認」 đọc là gì?",
+     "options": [
+      "けんめい",
+      "ごかくにん",
+      "おせわになっております"
+     ],
+     "answer": 1,
+     "explanation": "「ご確認」 đọc là [ごかくにん], nghĩa là việc xác nhận (kính)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 資料を＿＿＿いたしました。  (Tôi đã đính kèm tài liệu.)",
+     "options": [
+      "件名",
+      "添付",
+      "不明"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「添付」 (đính kèm). Câu đầy đủ: 資料を添付いたしました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Họp và báo cáo (報連相)",
+   "objective": "Báo cáo, liên lạc, xin tư vấn; phát biểu trong họp.",
+   "reading": "ミン: 部長、進捗についてご報告いたします。\nミン: 現在、予定より二日遅れていますが、来週中には完了する見込みです。\n部長: 遅れている原因は何ですか。\nミン: 取引先からの資料が遅れたためです。早急に再度確認いたします。\n部長: 分かりました。何かあったらすぐ相談してください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "部長、進捗についてご報告いたします。",
+     "translation": "Thưa trưởng phòng, tôi xin báo cáo về tiến độ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "現在、予定より二日遅れていますが、来週中には完了する見込みです。",
+     "translation": "Hiện đang chậm hai ngày so với dự kiến, nhưng dự kiến hoàn thành trong tuần sau."
+    },
+    {
+     "speaker": "部長",
+     "text": "遅れている原因は何ですか。",
+     "translation": "Nguyên nhân chậm là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "取引先からの資料が遅れたためです。早急に再度確認いたします。",
+     "translation": "Do tài liệu từ đối tác đến muộn. Tôi sẽ xác nhận lại ngay."
+    },
+    {
+     "speaker": "部長",
+     "text": "分かりました。何かあったらすぐ相談してください。",
+     "translation": "Tôi hiểu rồi. Có gì thì hãy trao đổi ngay."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "報告",
+     "reading": "ほうこく",
+     "definition": "báo cáo",
+     "example": "進捗を報告します。 (Tôi báo cáo tiến độ.)"
+    },
+    {
+     "term": "進捗",
+     "reading": "しんちょく",
+     "definition": "tiến độ",
+     "example": "進捗はどうですか。 (Tiến độ thế nào?)"
+    },
+    {
+     "term": "見込み",
+     "reading": "みこみ",
+     "definition": "dự kiến, triển vọng",
+     "example": "来週完了する見込みです。 (Dự kiến hoàn thành tuần sau.)"
+    },
+    {
+     "term": "原因",
+     "reading": "げんいん",
+     "definition": "nguyên nhân",
+     "example": "原因を調べています。 (Tôi đang tìm nguyên nhân.)"
+    },
+    {
+     "term": "相談",
+     "reading": "そうだん",
+     "definition": "trao đổi, xin ý kiến",
+     "example": "上司に相談します。 (Tôi xin ý kiến cấp trên.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ため・〜見込みです・〜ていますが",
+    "explanation": "〜ため nêu nguyên nhân trang trọng: 資料が遅れたためです. 〜見込みです: dự kiến. 〜ていますが…: nêu hiện trạng rồi chuyển sang thông tin tích cực / giải pháp.",
+    "examples": [
+     "雨のため、中止になりました。(Do trời mưa nên bị hủy.)",
+     "来月完成する見込みです。(Dự kiến hoàn thành tháng sau.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Trình bày ngắn gọn",
+    "tip": "Cấu trúc báo cáo: kết luận → nguyên nhân → giải pháp. Nói chậm, chia câu thành cụm ngắn, nhấn con số và ngày tháng: 「二日」「来週中」.",
+    "words": [
+     "しんちょく",
+     "ほうこく",
+     "げんいん",
+     "みこみ"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cáo tiến độ một công việc (chậm 2 ngày) trong 4 câu.",
+    "Thầy/cô là trưởng phòng — trả lời câu hỏi về nguyên nhân."
+   ],
+   "questions": [
+    {
+     "prompt": "「報連相」 gồm:",
+     "options": [
+      "Báo giá, lưu ý, số lượng",
+      "Báo cáo, liên lạc, trao đổi",
+      "Bán, liên kết, sửa"
+     ],
+     "answer": 1,
+     "explanation": "報告・連絡・相談."
+    },
+    {
+     "prompt": "“Do trời mưa nên bị hủy.” là:",
+     "options": [
+      "雨を、中止なりました。",
+      "雨のため、中止になりました。",
+      "雨のために、中止になるました。"
+     ],
+     "answer": 1,
+     "explanation": "〜ため = vì (nguyên nhân)."
+    },
+    {
+     "prompt": "「見込みです」 nghĩa là:",
+     "options": [
+      "đã xong",
+      "dự kiến",
+      "chắc chắn không"
+     ],
+     "answer": 1,
+     "explanation": "見込み = dự kiến."
+    },
+    {
+     "prompt": "Thứ tự báo cáo tốt:",
+     "options": [
+      "Giải thích dài rồi mới kết luận",
+      "Chỉ nói giải pháp",
+      "Kết luận → nguyên nhân → giải pháp"
+     ],
+     "answer": 2,
+     "explanation": "Báo cáo ngắn gọn, kết luận trước."
+    },
+    {
+     "prompt": "「原因」 có nghĩa là gì?",
+     "options": [
+      "trao đổi, xin ý kiến",
+      "nguyên nhân",
+      "báo cáo"
+     ],
+     "answer": 1,
+     "explanation": "「原因」 [げんいん] = nguyên nhân."
+    },
+    {
+     "prompt": "「報告」 đọc là gì?",
+     "options": [
+      "げんいん",
+      "そうだん",
+      "ほうこく"
+     ],
+     "answer": 2,
+     "explanation": "「報告」 đọc là [ほうこく], nghĩa là báo cáo."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 進捗を＿＿＿します。  (Tôi báo cáo tiến độ.)",
+     "options": [
+      "報告",
+      "相談",
+      "原因"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「報告」 (báo cáo). Câu đầy đủ: 進捗を報告します。"
+    },
+    {
+     "prompt": "「報告」 có nghĩa là gì?",
+     "options": [
+      "nguyên nhân",
+      "báo cáo",
+      "trao đổi, xin ý kiến"
+     ],
+     "answer": 1,
+     "explanation": "「報告」 [ほうこく] = báo cáo."
+    },
+    {
+     "prompt": "「見込み」 đọc là gì?",
+     "options": [
+      "ほうこく",
+      "みこみ",
+      "そうだん"
+     ],
+     "answer": 1,
+     "explanation": "「見込み」 đọc là [みこみ], nghĩa là dự kiến, triển vọng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿はどうですか。  (Tiến độ thế nào?)",
+     "options": [
+      "報告",
+      "進捗",
+      "原因"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「進捗」 (tiến độ). Câu đầy đủ: 進捗はどうですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Tiếp khách và kính ngữ nâng cao",
+   "objective": "Dùng 尊敬語・謙譲語 khi tiếp khách và đón tiếp công việc.",
+   "reading": "受付: 本日はお越しいただき、ありがとうございます。\n客: ABC商事の山田と申します。十時にお約束をしております。\n受付: 山田様でいらっしゃいますね。ただいま担当の者を呼んでまいります。\n受付: どうぞ、こちらでお待ちください。お茶をお持ちいたします。\n客: ありがとうございます。恐れ入ります。",
+   "dialogue": [
+    {
+     "speaker": "受付",
+     "text": "本日はお越しいただき、ありがとうございます。",
+     "translation": "Cảm ơn quý khách hôm nay đã đến."
+    },
+    {
+     "speaker": "客",
+     "text": "ABC商事の山田と申します。十時にお約束をしております。",
+     "translation": "Tôi là Yamada của ABC Shoji. Tôi có hẹn lúc 10 giờ."
+    },
+    {
+     "speaker": "受付",
+     "text": "山田様でいらっしゃいますね。ただいま担当の者を呼んでまいります。",
+     "translation": "Quý khách Yamada ạ. Tôi sẽ gọi người phụ trách ngay."
+    },
+    {
+     "speaker": "受付",
+     "text": "どうぞ、こちらでお待ちください。お茶をお持ちいたします。",
+     "translation": "Xin mời chờ ở đây. Tôi sẽ mang trà đến ạ."
+    },
+    {
+     "speaker": "客",
+     "text": "ありがとうございます。恐れ入ります。",
+     "translation": "Cảm ơn. Xin lỗi đã làm phiền."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "お越しいただく",
+     "reading": "おこしいただく",
+     "definition": "được quý khách đến (kính ngữ)",
+     "example": "遠くからお越しいただきました。 (Quý khách đã đến từ xa.)"
+    },
+    {
+     "term": "担当",
+     "reading": "たんとう",
+     "definition": "phụ trách",
+     "example": "担当の者を呼びます。 (Tôi gọi người phụ trách.)"
+    },
+    {
+     "term": "まいります",
+     "reading": "まいります",
+     "definition": "đi / đến (khiêm nhường)",
+     "example": "すぐ参ります。 (Tôi đến ngay.)"
+    },
+    {
+     "term": "お待ちください",
+     "reading": "おまちください",
+     "definition": "xin vui lòng đợi",
+     "example": "こちらでお待ちください。 (Xin chờ ở đây.)"
+    },
+    {
+     "term": "お約束",
+     "reading": "おやくそく",
+     "definition": "cuộc hẹn",
+     "example": "お約束はございますか。 (Quý khách có hẹn trước không ạ?)"
+    }
+   ],
+   "grammar": {
+    "title": "尊敬語 và 謙譲語 khi tiếp khách",
+    "explanation": "Với khách: いらっしゃる (đến/ở), おっしゃる (nói), お越しになる (đến). Với bản thân: 参る (đến), 申す (nói), いたす (làm), 伺う (đến thăm/hỏi). Mẫu: お/ご + V ます bỏ ます + になる (kính), お/ご + V + する・いたす (khiêm nhường).",
+    "examples": [
+     "お客様がお見えになりました。(Khách đã đến ạ.)",
+     "私がご案内いたします。(Để tôi dẫn đường ạ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng điệu tiếp khách",
+    "tip": "Nói chậm, giọng ấm và nụ cười. Kéo nhẹ cuối câu: 「お待ちください」. Tránh nói nhanh và cụt lủn với khách.",
+    "words": [
+     "いらっしゃいませ",
+     "おこしいただき",
+     "たんとう",
+     "まいります"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai lễ tân tiếp khách có hẹn bằng kính ngữ.",
+    "Giới thiệu bản thân và công ty với khách bằng 謙譲語."
+   ],
+   "questions": [
+    {
+     "prompt": "Khiêm nhường ngữ của 「行く / 来る」 là:",
+     "options": [
+      "いらっしゃる",
+      "おいでになる",
+      "参る"
+     ],
+     "answer": 2,
+     "explanation": "参る là khiêm nhường; いらっしゃる là kính ngữ."
+    },
+    {
+     "prompt": "Khi giới thiệu bản thân với khách, nói:",
+     "options": [
+      "山田とおっしゃいます。",
+      "山田と申します。",
+      "山田でいらっしゃいます。"
+     ],
+     "answer": 1,
+     "explanation": "申す là khiêm nhường ngữ."
+    },
+    {
+     "prompt": "“Để tôi dẫn đường ạ.” là:",
+     "options": [
+      "私がご案内なさいます。",
+      "私がご案内いたします。",
+      "私が案内でいらっしゃいます。"
+     ],
+     "answer": 1,
+     "explanation": "ご〜いたします: khiêm nhường."
+    },
+    {
+     "prompt": "「お越しいただく」 dùng cho ai?",
+     "options": [
+      "Đồng nghiệp ngang cấp",
+      "Khách",
+      "Bản thân"
+     ],
+     "answer": 1,
+     "explanation": "Hành động của khách được tôn kính."
+    },
+    {
+     "prompt": "「お約束」 có nghĩa là gì?",
+     "options": [
+      "cuộc hẹn",
+      "phụ trách",
+      "xin vui lòng đợi"
+     ],
+     "answer": 0,
+     "explanation": "「お約束」 [おやくそく] = cuộc hẹn."
+    },
+    {
+     "prompt": "「お約束」 đọc là gì?",
+     "options": [
+      "おやくそく",
+      "たんとう",
+      "おまちください"
+     ],
+     "answer": 0,
+     "explanation": "「お約束」 đọc là [おやくそく], nghĩa là cuộc hẹn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿の者を呼びます。  (Tôi gọi người phụ trách.)",
+     "options": [
+      "担当",
+      "まいります",
+      "お越しいただく"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「担当」 (phụ trách). Câu đầy đủ: 担当の者を呼びます。"
+    },
+    {
+     "prompt": "「お越しいただく」 có nghĩa là gì?",
+     "options": [
+      "được quý khách đến (kính ngữ)",
+      "đi / đến (khiêm nhường)",
+      "cuộc hẹn"
+     ],
+     "answer": 0,
+     "explanation": "「お越しいただく」 [おこしいただく] = được quý khách đến (kính ngữ)."
+    },
+    {
+     "prompt": "「担当」 đọc là gì?",
+     "options": [
+      "おこしいただく",
+      "まいります",
+      "たんとう"
+     ],
+     "answer": 2,
+     "explanation": "「担当」 đọc là [たんとう], nghĩa là phụ trách."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿はございますか。  (Quý khách có hẹn trước không ạ?)",
+     "options": [
+      "お約束",
+      "担当",
+      "お待ちください"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「お約束」 (cuộc hẹn). Câu đầy đủ: お約束はございますか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Thương lượng và thuyết phục",
+   "objective": "Đưa đề nghị, nhượng bộ có điều kiện và đạt thỏa thuận.",
+   "reading": "ミン: 御社のご要望を踏まえて、納期を一週間短縮することは可能です。\n取引先: それはありがたいです。ただ、価格の面ではもう少し調整していただけないでしょうか。\nミン: 数量を増やしていただけるなら、五パーセントの割引を検討いたします。\n取引先: では、その条件で社内に持ち帰って検討します。\nミン: ご検討のほど、よろしくお願い申し上げます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "御社のご要望を踏まえて、納期を一週間短縮することは可能です。",
+     "translation": "Dựa trên yêu cầu của quý công ty, tôi có thể rút ngắn thời hạn giao hàng một tuần."
+    },
+    {
+     "speaker": "取引先",
+     "text": "それはありがたいです。ただ、価格の面ではもう少し調整していただけないでしょうか。",
+     "translation": "Điều đó thật tốt. Nhưng về giá, chúng tôi mong quý công ty điều chỉnh thêm được không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "数量を増やしていただけるなら、五パーセントの割引を検討いたします。",
+     "translation": "Nếu quý công ty tăng số lượng thì chúng tôi sẽ xem xét giảm 5%."
+    },
+    {
+     "speaker": "取引先",
+     "text": "では、その条件で社内に持ち帰って検討します。",
+     "translation": "Vậy chúng tôi sẽ mang điều kiện đó về trong nội bộ để xem xét."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ご検討のほど、よろしくお願い申し上げます。",
+     "translation": "Rất mong quý công ty xem xét giúp."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "納期",
+     "reading": "のうき",
+     "definition": "thời hạn giao hàng",
+     "example": "納期を守ります。 (Tôi giữ đúng thời hạn giao hàng.)"
+    },
+    {
+     "term": "短縮",
+     "reading": "たんしゅく",
+     "definition": "rút ngắn",
+     "example": "期間を短縮します。 (Tôi rút ngắn thời gian.)"
+    },
+    {
+     "term": "割引",
+     "reading": "わりびき",
+     "definition": "giảm giá",
+     "example": "割引をお願いできますか。 (Có thể giảm giá không?)"
+    },
+    {
+     "term": "条件",
+     "reading": "じょうけん",
+     "definition": "điều kiện",
+     "example": "その条件でお願いします。 (Xin theo điều kiện đó.)"
+    },
+    {
+     "term": "検討",
+     "reading": "けんとう",
+     "definition": "xem xét",
+     "example": "前向きに検討します。 (Tôi sẽ xem xét tích cực.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜を踏まえて・〜なら・〜ていただけないでしょうか",
+    "explanation": "〜を踏まえて: dựa trên ~. V るなら: nếu ~ (điều kiện đề nghị). 〜ていただけないでしょうか: nhờ cực kỳ lịch sự (dạng phủ định + nghi vấn). Từ chối khéo: 難しい状況です.",
+    "examples": [
+     "ご意見を踏まえて、計画を修正します。(Dựa trên ý kiến, tôi sẽ chỉnh kế hoạch.)",
+     "ご検討いただけないでしょうか。(Quý vị có thể xem xét giúp không ạ?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng điệu thương lượng",
+    "tip": "Giữ giọng điềm tĩnh, nhấn con số (五パーセント) và điều kiện (数量を増やしていただけるなら). Ngắt ngắn sau mỗi điều kiện để đối tác theo kịp.",
+    "words": [
+     "のうき",
+     "わりびき",
+     "じょうけん",
+     "けんとう"
+    ]
+   },
+   "speakingTasks": [
+    "Thương lượng với thầy/cô (đối tác) về giá và thời hạn giao hàng.",
+    "Đưa một nhượng bộ kèm một điều kiện."
+   ],
+   "questions": [
+    {
+     "prompt": "Mẫu nhờ lịch sự nhất:",
+     "options": [
+      "検討してください。",
+      "ご検討いただけないでしょうか。",
+      "検討しろ。"
+     ],
+     "answer": 1,
+     "explanation": "〜ていただけないでしょうか rất mềm."
+    },
+    {
+     "prompt": "「割引」 nghĩa là:",
+     "options": [
+      "hóa đơn",
+      "giảm giá",
+      "thời hạn"
+     ],
+     "answer": 1,
+     "explanation": "割引 = giảm giá."
+    },
+    {
+     "prompt": "“Nếu quý công ty tăng số lượng thì ...” là:",
+     "options": [
+      "数量を増やしてしまうなら、",
+      "数量を増やそうとするなら、",
+      "数量を増やしていただけるなら、"
+     ],
+     "answer": 2,
+     "explanation": "V ていただけるなら: nếu quý vị làm giúp thì ..."
+    },
+    {
+     "prompt": "「納期を短縮する」 là:",
+     "options": [
+      "tăng giá",
+      "rút ngắn thời hạn giao hàng",
+      "kéo dài hợp đồng"
+     ],
+     "answer": 1,
+     "explanation": "短縮 = rút ngắn."
+    },
+    {
+     "prompt": "「短縮」 có nghĩa là gì?",
+     "options": [
+      "điều kiện",
+      "xem xét",
+      "rút ngắn"
+     ],
+     "answer": 2,
+     "explanation": "「短縮」 [たんしゅく] = rút ngắn."
+    },
+    {
+     "prompt": "「割引」 đọc là gì?",
+     "options": [
+      "じょうけん",
+      "わりびき",
+      "けんとう"
+     ],
+     "answer": 1,
+     "explanation": "「割引」 đọc là [わりびき], nghĩa là giảm giá."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 期間を＿＿＿します。  (Tôi rút ngắn thời gian.)",
+     "options": [
+      "短縮",
+      "検討",
+      "条件"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「短縮」 (rút ngắn). Câu đầy đủ: 期間を短縮します。"
+    },
+    {
+     "prompt": "「検討」 có nghĩa là gì?",
+     "options": [
+      "giảm giá",
+      "rút ngắn",
+      "xem xét"
+     ],
+     "answer": 2,
+     "explanation": "「検討」 [けんとう] = xem xét."
+    },
+    {
+     "prompt": "「納期」 đọc là gì?",
+     "options": [
+      "のうき",
+      "けんとう",
+      "じょうけん"
+     ],
+     "answer": 0,
+     "explanation": "「納期」 đọc là [のうき], nghĩa là thời hạn giao hàng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 前向きに＿＿＿します。  (Tôi sẽ xem xét tích cực.)",
+     "options": [
+      "短縮",
+      "検討",
+      "割引"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「検討」 (xem xét). Câu đầy đủ: 前向きに検討します。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

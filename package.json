@@ -1,0 +1,29 @@
+{
+  "name": "japanese-coach",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/write-version.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/write-version.mjs",
+    "build": "next build",
+    "publish:pages": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish-pages.ps1",
+    "lint": "eslint src next.config.ts eslint.config.mjs"
+  },
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.6",
+    "typescript": "^5.9.2"
+  },
+  "overrides": {
+    "postcss": "^8.5.23"
+  }
+}

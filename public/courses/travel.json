@@ -1,0 +1,1592 @@
+{
+ "id": "travel",
+ "title": "Tiếng Nhật du lịch",
+ "version": "1.0.0",
+ "framework": "JLPT N5–N2",
+ "overview": "8 bài từ N5 đến N2 cho chuyến đi Nhật: sân bay, khách sạn, tàu điện, nhà hàng, tham quan, xử lý sự cố, ryokan/onsen và khiếu nại.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "travel-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Làm thủ tục ở sân bay",
+   "objective": "Check-in, đưa hộ chiếu, ký gửi hành lý và hỏi cửa ra máy bay.",
+   "reading": "係員: パスポートを見せてください。\nミン: はい、どうぞ。\n係員: 荷物は預けますか。\nミン: はい、スーツケースを一つ預けます。\n係員: 搭乗口は十二番です。",
+   "dialogue": [
+    {
+     "speaker": "係員",
+     "text": "パスポートを見せてください。",
+     "phonetic": "Pasupōto o misete kudasai.",
+     "translation": "Xin cho tôi xem hộ chiếu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、どうぞ。",
+     "phonetic": "Hai, dōzo.",
+     "translation": "Vâng, đây ạ."
+    },
+    {
+     "speaker": "係員",
+     "text": "荷物は預けますか。",
+     "phonetic": "Nimotsu wa azukemasu ka.",
+     "translation": "Quý khách có gửi hành lý không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、スーツケースを一つ預けます。",
+     "phonetic": "Hai, sūtsukēsu o hitotsu azukemasu.",
+     "translation": "Có, tôi gửi một vali."
+    },
+    {
+     "speaker": "係員",
+     "text": "搭乗口は十二番です。",
+     "phonetic": "Tōjōguchi wa jūni-ban desu.",
+     "translation": "Cửa lên máy bay là số 12."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "パスポート",
+     "reading": "pasupōto",
+     "definition": "hộ chiếu",
+     "example": "パスポートを見せてください。 (Xin cho xem hộ chiếu.)"
+    },
+    {
+     "term": "荷物",
+     "reading": "nimotsu",
+     "definition": "hành lý",
+     "example": "荷物は何個ですか。 (Hành lý mấy kiện?)"
+    },
+    {
+     "term": "預けます",
+     "reading": "azukemasu",
+     "definition": "gửi, ký gửi",
+     "example": "荷物を預けます。 (Tôi ký gửi hành lý.)"
+    },
+    {
+     "term": "搭乗口",
+     "reading": "tōjōguchi",
+     "definition": "cửa lên máy bay",
+     "example": "搭乗口はどこですか。 (Cửa lên máy bay ở đâu?)"
+    },
+    {
+     "term": "窓側",
+     "reading": "madogawa",
+     "definition": "ghế cạnh cửa sổ",
+     "example": "窓側の席をお願いします。 (Cho tôi ghế cạnh cửa sổ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜てください và số đếm đồ vật",
+    "explanation": "Nhờ lịch sự: V て + ください. Đếm đồ vật nhỏ: 一つ (hitotsu), 二つ (futatsu), 三つ (mittsu). Số thứ tự: 〜番 (〜ban).",
+    "examples": [
+     "切符を見せてください。[kippu o misete kudasai] (Xin cho xem vé.)",
+     "荷物は二つです。[nimotsu wa futatsu desu] (Hành lý có hai kiện.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nguyên âm dài trong từ mượn",
+    "tip": "Từ katakana thường có âm kéo dài ー: パスポート (pasupōto), スーツケース (sūtsukēsu). Kéo đủ hai phách, đừng đọc ngắn.",
+    "words": [
+     "ぱすぽーと",
+     "すーつけーす",
+     "とうじょうぐち",
+     "まどがわ"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai check-in và nói bạn gửi một vali.",
+    "Hỏi thầy/cô cửa lên máy bay ở đâu."
+   ],
+   "questions": [
+    {
+     "prompt": "“Xin cho xem hộ chiếu.” là:",
+     "options": [
+      "パスポートを見るください。",
+      "パスポートが見せます。",
+      "パスポートを見せてください。"
+     ],
+     "answer": 2,
+     "explanation": "見せる → 見せて + ください."
+    },
+    {
+     "prompt": "Muốn ghế cạnh cửa sổ:",
+     "options": [
+      "窓側の席がいません。",
+      "窓側の席をお願いします。",
+      "窓側の席にです。"
+     ],
+     "answer": 1,
+     "explanation": "N をお願いします = cho tôi N."
+    },
+    {
+     "prompt": "「荷物を預ける」 nghĩa là:",
+     "options": [
+      "xách hành lý",
+      "mua hành lý",
+      "ký gửi hành lý"
+     ],
+     "answer": 2,
+     "explanation": "預ける = gửi."
+    },
+    {
+     "prompt": "Cửa số 12 là:",
+     "options": [
+      "十二個",
+      "十二人",
+      "十二番"
+     ],
+     "answer": 2,
+     "explanation": "〜番 dùng cho số thứ tự."
+    },
+    {
+     "prompt": "「搭乗口」 có nghĩa là gì?",
+     "options": [
+      "hộ chiếu",
+      "cửa lên máy bay",
+      "ghế cạnh cửa sổ"
+     ],
+     "answer": 1,
+     "explanation": "「搭乗口」 [tōjōguchi] = cửa lên máy bay."
+    },
+    {
+     "prompt": "「搭乗口」 đọc là gì?",
+     "options": [
+      "pasupōto",
+      "madogawa",
+      "tōjōguchi"
+     ],
+     "answer": 2,
+     "explanation": "「搭乗口」 đọc là [tōjōguchi], nghĩa là cửa lên máy bay."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を見せてください。  (Xin cho xem hộ chiếu.)",
+     "options": [
+      "荷物",
+      "パスポート",
+      "窓側"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「パスポート」 (hộ chiếu). Câu đầy đủ: パスポートを見せてください。"
+    },
+    {
+     "prompt": "「荷物」 có nghĩa là gì?",
+     "options": [
+      "hành lý",
+      "hộ chiếu",
+      "gửi, ký gửi"
+     ],
+     "answer": 0,
+     "explanation": "「荷物」 [nimotsu] = hành lý."
+    },
+    {
+     "prompt": "「預けます」 đọc là gì?",
+     "options": [
+      "azukemasu",
+      "tōjōguchi",
+      "nimotsu"
+     ],
+     "answer": 0,
+     "explanation": "「預けます」 đọc là [azukemasu], nghĩa là gửi, ký gửi."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿はどこですか。  (Cửa lên máy bay ở đâu?)",
+     "options": [
+      "窓側",
+      "パスポート",
+      "搭乗口"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「搭乗口」 (cửa lên máy bay). Câu đầy đủ: 搭乗口はどこですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Từ vựng",
+   "title": "Nhận phòng khách sạn",
+   "objective": "Nhận phòng, hỏi giờ ăn sáng, Wi-Fi và giờ trả phòng.",
+   "reading": "ミン: 予約しているミンです。\n受付: ミン様ですね。二泊のご予約です。\nミン: 朝ごはんは何時からですか。\n受付: 七時から九時までです。\nミン: Wi-Fiは無料ですか。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "予約しているミンです。",
+     "phonetic": "Yoyaku shite iru Min desu.",
+     "translation": "Tôi là Minh, đã đặt phòng trước."
+    },
+    {
+     "speaker": "受付",
+     "text": "ミン様ですね。二泊のご予約です。",
+     "phonetic": "Min-sama desu ne. Nihaku no goyoyaku desu.",
+     "translation": "Quý khách Minh nhỉ. Quý khách đặt hai đêm."
+    },
+    {
+     "speaker": "ミン",
+     "text": "朝ごはんは何時からですか。",
+     "phonetic": "Asagohan wa nanji kara desu ka.",
+     "translation": "Bữa sáng từ mấy giờ ạ?"
+    },
+    {
+     "speaker": "受付",
+     "text": "七時から九時までです。",
+     "phonetic": "Shichiji kara kuji made desu.",
+     "translation": "Từ 7 giờ đến 9 giờ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "Wi-Fiは無料ですか。",
+     "phonetic": "Wai-fai wa muryō desu ka.",
+     "translation": "Wi-Fi miễn phí phải không?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "予約",
+     "reading": "yoyaku",
+     "definition": "đặt trước",
+     "example": "予約しています。 (Tôi đã đặt trước.)"
+    },
+    {
+     "term": "朝ごはん",
+     "reading": "asagohan",
+     "definition": "bữa sáng",
+     "example": "朝ごはんは七時からです。 (Bữa sáng từ 7 giờ.)"
+    },
+    {
+     "term": "無料",
+     "reading": "muryō",
+     "definition": "miễn phí",
+     "example": "水は無料です。 (Nước miễn phí.)"
+    },
+    {
+     "term": "鍵",
+     "reading": "kagi",
+     "definition": "chìa khóa",
+     "example": "鍵をください。 (Cho tôi chìa khóa.)"
+    },
+    {
+     "term": "チェックアウト",
+     "reading": "chekku auto",
+     "definition": "trả phòng",
+     "example": "チェックアウトは何時ですか。 (Trả phòng lúc mấy giờ?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜から〜まで và 〜は〜ですか",
+    "explanation": "から chỉ điểm bắt đầu, まで chỉ điểm kết thúc: 七時から九時まで. Hỏi giờ: 何時ですか. Hỏi có miễn phí không: 無料ですか。",
+    "examples": [
+     "七時から九時までです。[shichiji kara kuji made desu] (Từ 7 giờ đến 9 giờ.)",
+     "朝ごはんは無料です。[asagohan wa muryō desu] (Bữa sáng miễn phí.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm 「ゅ」 và 「ょ」",
+    "tip": "Âm ghép như りょ (ryo), きゅ (kyu), しゃ (sha) đọc trong một phách. 「むりょう」 và 「ごりょうしん」 cần giữ ryo gọn, không tách ri-yo.",
+    "words": [
+     "むりょう",
+     "よやく",
+     "きゅうけい",
+     "ちょっと"
+    ]
+   },
+   "speakingTasks": [
+    "Nhận phòng với thầy/cô: nói tên và số đêm.",
+    "Hỏi giờ ăn sáng và Wi-Fi."
+   ],
+   "questions": [
+    {
+     "prompt": "“Bữa sáng từ 7 đến 9 giờ.” là:",
+     "options": [
+      "七時から九時までです。",
+      "七時まで九時からです。",
+      "七時に九時です。"
+     ],
+     "answer": 0,
+     "explanation": "から = từ; まで = đến."
+    },
+    {
+     "prompt": "「無料」 nghĩa là:",
+     "options": [
+      "đã đặt",
+      "đắt",
+      "miễn phí"
+     ],
+     "answer": 2,
+     "explanation": "無料 (muryō) = miễn phí."
+    },
+    {
+     "prompt": "Nói tên khi đã đặt phòng:",
+     "options": [
+      "予約をミンです。",
+      "予約があるミンますです。",
+      "予約しているミンです。"
+     ],
+     "answer": 2,
+     "explanation": "予約している = đã đặt trước."
+    },
+    {
+     "prompt": "Hỏi giờ trả phòng:",
+     "options": [
+      "チェックアウトは何時ですか。",
+      "チェックアウトは何ですか。",
+      "チェックアウトはどこですか。"
+     ],
+     "answer": 0,
+     "explanation": "何時 = mấy giờ."
+    },
+    {
+     "prompt": "「鍵」 có nghĩa là gì?",
+     "options": [
+      "bữa sáng",
+      "đặt trước",
+      "chìa khóa"
+     ],
+     "answer": 2,
+     "explanation": "「鍵」 [kagi] = chìa khóa."
+    },
+    {
+     "prompt": "「無料」 đọc là gì?",
+     "options": [
+      "yoyaku",
+      "muryō",
+      "kagi"
+     ],
+     "answer": 1,
+     "explanation": "「無料」 đọc là [muryō], nghĩa là miễn phí."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿しています。  (Tôi đã đặt trước.)",
+     "options": [
+      "無料",
+      "予約",
+      "朝ごはん"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「予約」 (đặt trước). Câu đầy đủ: 予約しています。"
+    },
+    {
+     "prompt": "「予約」 có nghĩa là gì?",
+     "options": [
+      "bữa sáng",
+      "đặt trước",
+      "miễn phí"
+     ],
+     "answer": 1,
+     "explanation": "「予約」 [yoyaku] = đặt trước."
+    },
+    {
+     "prompt": "「鍵」 đọc là gì?",
+     "options": [
+      "yoyaku",
+      "kagi",
+      "asagohan"
+     ],
+     "answer": 1,
+     "explanation": "「鍵」 đọc là [kagi], nghĩa là chìa khóa."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は七時からです。  (Bữa sáng từ 7 giờ.)",
+     "options": [
+      "予約",
+      "朝ごはん",
+      "無料"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「朝ごはん」 (bữa sáng). Câu đầy đủ: 朝ごはんは七時からです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Mua vé và đi tàu điện",
+   "objective": "Mua vé, hỏi tàu, hỏi sân ga và chuyển tàu.",
+   "reading": "ミン: 新宿までいくらですか。\n駅員: 二百四十円です。\nミン: 次の電車は何時ですか。\n駅員: 十時十分です。三番ホームから出ます。\nミン: 渋谷で乗り換えますか。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "新宿までいくらですか。",
+     "phonetic": "Shinjuku made ikura desu ka.",
+     "translation": "Đến Shinjuku giá bao nhiêu?"
+    },
+    {
+     "speaker": "駅員",
+     "text": "二百四十円です。",
+     "phonetic": "Nihyaku yonjū-en desu.",
+     "translation": "240 yên ạ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "次の電車は何時ですか。",
+     "phonetic": "Tsugi no densha wa nanji desu ka.",
+     "translation": "Chuyến tàu tiếp theo lúc mấy giờ?"
+    },
+    {
+     "speaker": "駅員",
+     "text": "十時十分です。三番ホームから出ます。",
+     "phonetic": "Jūji juppun desu. Sanban hōmu kara demasu.",
+     "translation": "Lúc 10 giờ 10. Tàu xuất phát từ sân ga số 3."
+    },
+    {
+     "speaker": "ミン",
+     "text": "渋谷で乗り換えますか。",
+     "phonetic": "Shibuya de norikaemasu ka.",
+     "translation": "Tôi có phải đổi tàu ở Shibuya không?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "切符",
+     "reading": "kippu",
+     "definition": "vé",
+     "example": "切符を買います。 (Tôi mua vé.)"
+    },
+    {
+     "term": "乗り換える",
+     "reading": "norikaeru",
+     "definition": "đổi tàu",
+     "example": "新宿で乗り換えます。 (Tôi đổi tàu ở Shinjuku.)"
+    },
+    {
+     "term": "ホーム",
+     "reading": "hōmu",
+     "definition": "sân ga",
+     "example": "何番ホームですか。 (Sân ga số mấy?)"
+    },
+    {
+     "term": "次",
+     "reading": "tsugi",
+     "definition": "tiếp theo",
+     "example": "次の駅で降ります。 (Tôi xuống ở ga tiếp theo.)"
+    },
+    {
+     "term": "降ります",
+     "reading": "orimasu",
+     "definition": "xuống (tàu, xe)",
+     "example": "渋谷で降ります。 (Tôi xuống ở Shibuya.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜まで và 〜で乗り換える",
+    "explanation": "N まで: đến N. 乗る (lên) dùng に: 電車に乗る; 降りる (xuống) dùng を: 電車を降りる. Đổi tàu: N で乗り換える. Giờ phút: 十分 juppun, 三十分 sanjuppun.",
+    "examples": [
+     "東京駅で乗り換えます。[Tōkyō-eki de norikaemasu] (Tôi đổi tàu ở ga Tokyo.)",
+     "電車に乗ります。[densha ni norimasu] (Tôi lên tàu.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Biến âm hàng phút",
+    "tip": "Phút có biến âm: 一分 ippun, 三分 sanpun, 十分 juppun. Nhớ rằng 十分 đọc juppun, không đọc jūfun.",
+    "words": [
+     "いっぷん",
+     "さんぷん",
+     "じゅっぷん",
+     "ごふん"
+    ]
+   },
+   "speakingTasks": [
+    "Mua vé đến một ga và hỏi chuyến tàu tiếp theo.",
+    "Hỏi thầy/cô cách đổi tàu ở Shinjuku."
+   ],
+   "questions": [
+    {
+     "prompt": "10 phút đọc là:",
+     "options": [
+      "じゅうふん",
+      "じっぷん",
+      "じゅっぷん"
+     ],
+     "answer": 2,
+     "explanation": "十分 = juppun (biến âm)."
+    },
+    {
+     "prompt": "“Tôi đổi tàu ở Shibuya.” là:",
+     "options": [
+      "渋谷に乗り換えです。",
+      "渋谷で乗り換えます。",
+      "渋谷を乗り換えます。"
+     ],
+     "answer": 1,
+     "explanation": "Nơi diễn ra hành động: で."
+    },
+    {
+     "prompt": "“Tôi lên tàu.” là:",
+     "options": [
+      "電車を乗ります。",
+      "電車で乗ります。",
+      "電車に乗ります。"
+     ],
+     "answer": 2,
+     "explanation": "乗る đi với に."
+    },
+    {
+     "prompt": "Hỏi giá vé đến Shinjuku:",
+     "options": [
+      "新宿をいくらですか。",
+      "新宿でいくらですか。",
+      "新宿までいくらですか。"
+     ],
+     "answer": 2,
+     "explanation": "まで = đến."
+    },
+    {
+     "prompt": "「次」 có nghĩa là gì?",
+     "options": [
+      "tiếp theo",
+      "đổi tàu",
+      "sân ga"
+     ],
+     "answer": 0,
+     "explanation": "「次」 [tsugi] = tiếp theo."
+    },
+    {
+     "prompt": "「乗り換える」 đọc là gì?",
+     "options": [
+      "tsugi",
+      "orimasu",
+      "norikaeru"
+     ],
+     "answer": 2,
+     "explanation": "「乗り換える」 đọc là [norikaeru], nghĩa là đổi tàu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿の駅で降ります。  (Tôi xuống ở ga tiếp theo.)",
+     "options": [
+      "ホーム",
+      "乗り換える",
+      "次"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「次」 (tiếp theo). Câu đầy đủ: 次の駅で降ります。"
+    },
+    {
+     "prompt": "「乗り換える」 có nghĩa là gì?",
+     "options": [
+      "xuống (tàu, xe)",
+      "đổi tàu",
+      "tiếp theo"
+     ],
+     "answer": 1,
+     "explanation": "「乗り換える」 [norikaeru] = đổi tàu."
+    },
+    {
+     "prompt": "「降ります」 đọc là gì?",
+     "options": [
+      "orimasu",
+      "kippu",
+      "tsugi"
+     ],
+     "answer": 0,
+     "explanation": "「降ります」 đọc là [orimasu], nghĩa là xuống (tàu, xe)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 何番＿＿＿ですか。  (Sân ga số mấy?)",
+     "options": [
+      "ホーム",
+      "乗り換える",
+      "降ります"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「ホーム」 (sân ga). Câu đầy đủ: 何番ホームですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Gọi món và nói về dị ứng",
+   "objective": "Hỏi nguyên liệu, nói dị ứng và nhờ bỏ bớt thành phần.",
+   "reading": "店員: ご注文はお決まりですか。\nミン: この料理にはえびが入っていますか。\n店員: はい、入っています。\nミン: 私はえびのアレルギーがあります。\n店員: では、えびを抜いてお作りしますね。",
+   "dialogue": [
+    {
+     "speaker": "店員",
+     "text": "ご注文はお決まりですか。",
+     "phonetic": "Gochūmon wa okimari desu ka.",
+     "translation": "Quý khách đã chọn món chưa ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "この料理にはえびが入っていますか。",
+     "phonetic": "Kono ryōri ni wa ebi ga haitte imasu ka.",
+     "translation": "Món này có tôm không ạ?"
+    },
+    {
+     "speaker": "店員",
+     "text": "はい、入っています。",
+     "phonetic": "Hai, haitte imasu.",
+     "translation": "Vâng, có ạ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "私はえびのアレルギーがあります。",
+     "phonetic": "Watashi wa ebi no arerugī ga arimasu.",
+     "translation": "Tôi bị dị ứng tôm."
+    },
+    {
+     "speaker": "店員",
+     "text": "では、えびを抜いてお作りしますね。",
+     "phonetic": "Dewa, ebi o nuite otsukuri shimasu ne.",
+     "translation": "Vậy tôi sẽ làm món này không có tôm nhé."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "アレルギー",
+     "reading": "arerugī",
+     "definition": "dị ứng",
+     "example": "卵のアレルギーがあります。 (Tôi bị dị ứng trứng.)"
+    },
+    {
+     "term": "入っています",
+     "reading": "haitte imasu",
+     "definition": "có (nguyên liệu) bên trong",
+     "example": "肉が入っていますか。 (Có thịt bên trong không?)"
+    },
+    {
+     "term": "抜く",
+     "reading": "nuku",
+     "definition": "bỏ ra, bỏ bớt",
+     "example": "わさびを抜いてください。 (Xin bỏ wasabi ra.)"
+    },
+    {
+     "term": "えび",
+     "reading": "ebi",
+     "definition": "tôm",
+     "example": "えびが好きです。 (Tôi thích tôm.)"
+    },
+    {
+     "term": "牛肉",
+     "reading": "gyūniku",
+     "definition": "thịt bò",
+     "example": "牛肉は食べられません。 (Tôi không ăn được thịt bò.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ています (trạng thái) và 〜を抜いてください",
+    "explanation": "V ている cũng diễn tả trạng thái kết quả: 入っている (đang chứa bên trong). Nhờ bỏ bớt: N を抜いてください. Nói không ăn được: N は食べられません.",
+    "examples": [
+     "ナッツが入っていますか。[nattsu ga haitte imasu ka] (Có hạt không ạ?)",
+     "ねぎを抜いてください。[negi o nuite kudasai] (Xin bỏ hành.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm ん",
+    "tip": "Âm ん đọc khác nhau theo âm sau: trước p/b/m thành “m” (さんぽ sampo), trước k/g thành “ng” (さんかい). Giữ ん dài một phách.",
+    "words": [
+     "さんぽ",
+     "ごはん",
+     "えび",
+     "ぎゅうにく"
+    ]
+   },
+   "speakingTasks": [
+    "Nói bạn dị ứng gì và nhờ bỏ nguyên liệu đó.",
+    "Thầy/cô là nhân viên — hỏi lại để xác nhận."
+   ],
+   "questions": [
+    {
+     "prompt": "“Có tôm trong món này không?” là:",
+     "options": [
+      "えびを入れますか。",
+      "えびはありませんか。",
+      "えびが入っていますか。"
+     ],
+     "answer": 2,
+     "explanation": "入っている = có chứa bên trong."
+    },
+    {
+     "prompt": "“Xin bỏ hành.” là:",
+     "options": [
+      "ねぎを抜くください。",
+      "ねぎが抜いてです。",
+      "ねぎを抜いてください。"
+     ],
+     "answer": 2,
+     "explanation": "抜く → 抜いて + ください."
+    },
+    {
+     "prompt": "「アレルギー」 nghĩa là:",
+     "options": [
+      "khẩu vị",
+      "dị ứng",
+      "thực đơn"
+     ],
+     "answer": 1,
+     "explanation": "アレルギー = dị ứng."
+    },
+    {
+     "prompt": "“Tôi không ăn được thịt bò.” là:",
+     "options": [
+      "牛肉は食べますません。",
+      "牛肉が食べたいません。",
+      "牛肉は食べられません。"
+     ],
+     "answer": 2,
+     "explanation": "食べられない: không ăn được."
+    },
+    {
+     "prompt": "「抜く」 có nghĩa là gì?",
+     "options": [
+      "có (nguyên liệu) bên trong",
+      "bỏ ra, bỏ bớt",
+      "tôm"
+     ],
+     "answer": 1,
+     "explanation": "「抜く」 [nuku] = bỏ ra, bỏ bớt."
+    },
+    {
+     "prompt": "「えび」 đọc là gì?",
+     "options": [
+      "arerugī",
+      "haitte imasu",
+      "ebi"
+     ],
+     "answer": 2,
+     "explanation": "「えび」 đọc là [ebi], nghĩa là tôm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 肉が＿＿＿か。  (Có thịt bên trong không?)",
+     "options": [
+      "えび",
+      "アレルギー",
+      "入っています"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「入っています」 (có (nguyên liệu) bên trong). Câu đầy đủ: 肉が入っていますか。"
+    },
+    {
+     "prompt": "「えび」 có nghĩa là gì?",
+     "options": [
+      "tôm",
+      "dị ứng",
+      "có (nguyên liệu) bên trong"
+     ],
+     "answer": 0,
+     "explanation": "「えび」 [ebi] = tôm."
+    },
+    {
+     "prompt": "「入っています」 đọc là gì?",
+     "options": [
+      "ebi",
+      "haitte imasu",
+      "arerugī"
+     ],
+     "answer": 1,
+     "explanation": "「入っています」 đọc là [haitte imasu], nghĩa là có (nguyên liệu) bên trong."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 卵の＿＿＿があります。  (Tôi bị dị ứng trứng.)",
+     "options": [
+      "アレルギー",
+      "牛肉",
+      "えび"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「アレルギー」 (dị ứng). Câu đầy đủ: 卵のアレルギーがあります。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Tham quan và hỏi thông tin",
+   "objective": "Hỏi giờ mở cửa, giá vé, tour và gợi ý địa điểm.",
+   "reading": "ミン: すみません、この寺は何時まで開いていますか。\n係員: 午後五時までです。月曜日は休みです。\nミン: 入場料はいくらですか。\n係員: 大人は五百円、学生は三百円です。\nミン: 日本語のガイドツアーはありますか。\n係員: 十一時からあります。約一時間です。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、この寺は何時まで開いていますか。",
+     "translation": "Xin lỗi, ngôi chùa này mở cửa đến mấy giờ ạ?"
+    },
+    {
+     "speaker": "係員",
+     "text": "午後五時までです。月曜日は休みです。",
+     "translation": "Đến 5 giờ chiều. Thứ Hai nghỉ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "入場料はいくらですか。",
+     "translation": "Vé vào cửa bao nhiêu ạ?"
+    },
+    {
+     "speaker": "係員",
+     "text": "大人は五百円、学生は三百円です。",
+     "translation": "Người lớn 500 yên, học sinh 300 yên."
+    },
+    {
+     "speaker": "ミン",
+     "text": "日本語のガイドツアーはありますか。",
+     "translation": "Có tour có hướng dẫn viên tiếng Nhật không ạ?"
+    },
+    {
+     "speaker": "係員",
+     "text": "十一時からあります。約一時間です。",
+     "translation": "Có, từ 11 giờ. Khoảng một tiếng."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "入場料",
+     "reading": "にゅうじょうりょう",
+     "definition": "phí vào cửa",
+     "example": "入場料は五百円です。 (Phí vào cửa là 500 yên.)"
+    },
+    {
+     "term": "開く",
+     "reading": "あく",
+     "definition": "mở (cửa)",
+     "example": "店は十時に開きます。 (Cửa hàng mở lúc 10 giờ.)"
+    },
+    {
+     "term": "休み",
+     "reading": "やすみ",
+     "definition": "ngày nghỉ",
+     "example": "月曜日は休みです。 (Thứ Hai là ngày nghỉ.)"
+    },
+    {
+     "term": "ガイドツアー",
+     "reading": "がいどつあー",
+     "definition": "tour có hướng dẫn viên",
+     "example": "ガイドツアーに参加します。 (Tôi tham gia tour có hướng dẫn.)"
+    },
+    {
+     "term": "約",
+     "reading": "やく",
+     "definition": "khoảng",
+     "example": "約一時間かかります。 (Mất khoảng một tiếng.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ています (trạng thái) và 〜まで",
+    "explanation": "開いている: đang mở (trạng thái). 〜まで chỉ giới hạn thời gian. Hỏi “có ... không”: N はありますか。",
+    "examples": [
+     "何時まで開いていますか。(Mở cửa đến mấy giờ?)",
+     "英語のパンフレットはありますか。(Có tờ rơi tiếng Anh không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số lớn và đơn vị",
+    "tip": "五百円 gohyaku-en, 三百円 sanbyaku-en, 約 yaku. Đọc từng cụm, nhấn âm biến đổi: 三百 (sanbyaku), 六百 (roppyaku), 八百 (happyaku).",
+    "words": [
+     "さんびゃく",
+     "ろっぴゃく",
+     "はっぴゃく",
+     "にゅうじょうりょう"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi thầy/cô thông tin về một ngôi chùa: giờ, giá, tour.",
+    "Giới thiệu địa điểm nổi tiếng nhất ở quê bạn."
+   ],
+   "questions": [
+    {
+     "prompt": "「開いています」 nghĩa là:",
+     "options": [
+      "đang mở cửa",
+      "sẽ đóng cửa",
+      "đã bị hỏng"
+     ],
+     "answer": 0,
+     "explanation": "V ている diễn tả trạng thái."
+    },
+    {
+     "prompt": "“Có tour tiếng Nhật không?” là:",
+     "options": [
+      "日本語のガイドツアーをいますか。",
+      "日本語のガイドツアーはありますか。",
+      "日本語のガイドツアーですか。"
+     ],
+     "answer": 1,
+     "explanation": "あります dùng cho đồ vật/sự kiện."
+    },
+    {
+     "prompt": "300 yên đọc là:",
+     "options": [
+      "みっつびゃくえん",
+      "さんびゃくえん",
+      "さんひゃくえん"
+     ],
+     "answer": 1,
+     "explanation": "三百 = sanbyaku (biến âm)."
+    },
+    {
+     "prompt": "「約一時間」 nghĩa là:",
+     "options": [
+      "đúng một tiếng",
+      "khoảng một tiếng",
+      "hơn một tiếng"
+     ],
+     "answer": 1,
+     "explanation": "約 = khoảng."
+    },
+    {
+     "prompt": "「入場料」 có nghĩa là gì?",
+     "options": [
+      "tour có hướng dẫn viên",
+      "mở (cửa)",
+      "phí vào cửa"
+     ],
+     "answer": 2,
+     "explanation": "「入場料」 [にゅうじょうりょう] = phí vào cửa."
+    },
+    {
+     "prompt": "「休み」 đọc là gì?",
+     "options": [
+      "やすみ",
+      "がいどつあー",
+      "やく"
+     ],
+     "answer": 0,
+     "explanation": "「休み」 đọc là [やすみ], nghĩa là ngày nghỉ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿に参加します。  (Tôi tham gia tour có hướng dẫn.)",
+     "options": [
+      "入場料",
+      "約",
+      "ガイドツアー"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「ガイドツアー」 (tour có hướng dẫn viên). Câu đầy đủ: ガイドツアーに参加します。"
+    },
+    {
+     "prompt": "「休み」 có nghĩa là gì?",
+     "options": [
+      "tour có hướng dẫn viên",
+      "ngày nghỉ",
+      "khoảng"
+     ],
+     "answer": 1,
+     "explanation": "「休み」 [やすみ] = ngày nghỉ."
+    },
+    {
+     "prompt": "「約」 đọc là gì?",
+     "options": [
+      "にゅうじょうりょう",
+      "やく",
+      "やすみ"
+     ],
+     "answer": 1,
+     "explanation": "「約」 đọc là [やく], nghĩa là khoảng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿一時間かかります。  (Mất khoảng một tiếng.)",
+     "options": [
+      "入場料",
+      "約",
+      "休み"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「約」 (khoảng). Câu đầy đủ: 約一時間かかります。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Xử lý sự cố: mất đồ, quên đồ",
+   "objective": "Báo mất đồ, mô tả đồ vật và nhờ liên lạc.",
+   "reading": "ミン: すみません、電車の中にかばんを忘れてしまいました。\n駅員: どんなかばんですか。\nミン: 黒くて、小さいリュックです。赤いキーホルダーがついています。\n駅員: 見つかったら、お電話します。連絡先を教えてください。\nミン: ホテルのアドレスでもいいですか。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、電車の中にかばんを忘れてしまいました。",
+     "translation": "Xin lỗi, tôi để quên cặp trên tàu."
+    },
+    {
+     "speaker": "駅員",
+     "text": "どんなかばんですか。",
+     "translation": "Cặp như thế nào ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "黒くて、小さいリュックです。赤いキーホルダーがついています。",
+     "translation": "Đó là ba lô nhỏ màu đen, có móc khóa màu đỏ."
+    },
+    {
+     "speaker": "駅員",
+     "text": "見つかったら、お電話します。連絡先を教えてください。",
+     "translation": "Nếu tìm thấy tôi sẽ gọi. Xin cho biết số liên lạc."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ホテルのアドレスでもいいですか。",
+     "translation": "Địa chỉ khách sạn cũng được chứ ạ?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "忘れる",
+     "reading": "わすれる",
+     "definition": "quên, để quên",
+     "example": "傘を忘れてしまいました。 (Tôi lỡ quên ô.)"
+    },
+    {
+     "term": "見つかる",
+     "reading": "みつかる",
+     "definition": "được tìm thấy",
+     "example": "財布が見つかりました。 (Ví đã được tìm thấy.)"
+    },
+    {
+     "term": "連絡先",
+     "reading": "れんらくさき",
+     "definition": "thông tin liên lạc",
+     "example": "連絡先を教えてください。 (Xin cho biết thông tin liên lạc.)"
+    },
+    {
+     "term": "落とす",
+     "reading": "おとす",
+     "definition": "đánh rơi",
+     "example": "財布を落としました。 (Tôi làm rơi ví.)"
+    },
+    {
+     "term": "警察",
+     "reading": "けいさつ",
+     "definition": "cảnh sát",
+     "example": "警察に届けます。 (Tôi báo cho cảnh sát.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜てしまう・〜たら・〜ている (mô tả)",
+    "explanation": "V て + しまう: lỡ làm gì, tiếc nuối. V たら: nếu / khi (đã). N が + ついている: có gắn kèm. Dùng 〜くて nối tính từ: 黒くて小さい.",
+    "examples": [
+     "財布を落としてしまいました。(Tôi lỡ làm rơi ví.)",
+     "見つかったら、連絡します。(Nếu tìm thấy, tôi sẽ liên lạc.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Tốc độ nói khi cần giúp đỡ",
+    "tip": "Khi nhờ giúp hãy nói chậm, rõ từng cụm và nhấn từ quan trọng: 「かばんを・忘れて・しまいました」. Nói “すみません” trước để thu hút chú ý.",
+    "words": [
+     "わすれて",
+     "みつかる",
+     "れんらくさき",
+     "けいさつ"
+    ]
+   },
+   "speakingTasks": [
+    "Báo mất ví/điện thoại, mô tả đồ vật và để lại liên lạc.",
+    "Thầy/cô hỏi chi tiết đồ vật — trả lời đầy đủ."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi lỡ để quên cặp.” là:",
+     "options": [
+      "かばんが忘れてしまいます。",
+      "かばんを忘れてしまいました。",
+      "かばんを忘れましたです。"
+     ],
+     "answer": 1,
+     "explanation": "V て + しまいました = lỡ làm."
+    },
+    {
+     "prompt": "“Nếu tìm thấy, xin hãy gọi tôi.” là:",
+     "options": [
+      "見つかるなら、電話します。",
+      "見つかったら、電話してください。",
+      "見つかって、電話ください。"
+     ],
+     "answer": 1,
+     "explanation": "V たら + mệnh lệnh nhờ."
+    },
+    {
+     "prompt": "「連絡先」 nghĩa là:",
+     "options": [
+      "thông tin liên lạc",
+      "thời gian",
+      "địa điểm"
+     ],
+     "answer": 0,
+     "explanation": "連絡先 = nơi/số để liên lạc."
+    },
+    {
+     "prompt": "Nối hai tính từ: “đen và nhỏ”:",
+     "options": [
+      "黒くて小さい",
+      "黒くの小さい",
+      "黒いで小さい"
+     ],
+     "answer": 0,
+     "explanation": "Tính từ い đổi い → くて để nối."
+    },
+    {
+     "prompt": "「落とす」 có nghĩa là gì?",
+     "options": [
+      "đánh rơi",
+      "quên, để quên",
+      "được tìm thấy"
+     ],
+     "answer": 0,
+     "explanation": "「落とす」 [おとす] = đánh rơi."
+    },
+    {
+     "prompt": "「連絡先」 đọc là gì?",
+     "options": [
+      "わすれる",
+      "おとす",
+      "れんらくさき"
+     ],
+     "answer": 2,
+     "explanation": "「連絡先」 đọc là [れんらくさき], nghĩa là thông tin liên lạc."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿に届けます。  (Tôi báo cho cảnh sát.)",
+     "options": [
+      "忘れる",
+      "連絡先",
+      "警察"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「警察」 (cảnh sát). Câu đầy đủ: 警察に届けます。"
+    },
+    {
+     "prompt": "「警察」 có nghĩa là gì?",
+     "options": [
+      "quên, để quên",
+      "cảnh sát",
+      "thông tin liên lạc"
+     ],
+     "answer": 1,
+     "explanation": "「警察」 [けいさつ] = cảnh sát."
+    },
+    {
+     "prompt": "「見つかる」 đọc là gì?",
+     "options": [
+      "みつかる",
+      "れんらくさき",
+      "わすれる"
+     ],
+     "answer": 0,
+     "explanation": "「見つかる」 đọc là [みつかる], nghĩa là được tìm thấy."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を教えてください。  (Xin cho biết thông tin liên lạc.)",
+     "options": [
+      "忘れる",
+      "連絡先",
+      "落とす"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「連絡先」 (thông tin liên lạc). Câu đầy đủ: 連絡先を教えてください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Văn hóa",
+   "title": "Ryokan, onsen và phép lịch sự",
+   "objective": "Đặt phòng ryokan, hỏi cách dùng onsen và hiểu các quy tắc ứng xử.",
+   "reading": "女将: ご宿泊は初めてでいらっしゃいますか。\nミン: はい。温泉の入り方を教えていただけませんか。\n女将: お湯に入る前に、体を洗っていただくことになっております。\nミン: タオルは湯船に入れてはいけませんよね。\n女将: おっしゃる通りです。どうぞごゆっくり。",
+   "dialogue": [
+    {
+     "speaker": "女将",
+     "text": "ご宿泊は初めてでいらっしゃいますか。",
+     "translation": "Quý khách lần đầu lưu trú ở đây ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい。温泉の入り方を教えていただけませんか。",
+     "translation": "Vâng. Chị có thể hướng dẫn cách tắm onsen giúp tôi không?"
+    },
+    {
+     "speaker": "女将",
+     "text": "お湯に入る前に、体を洗っていただくことになっております。",
+     "translation": "Trước khi vào bồn nước nóng, quý khách phải rửa người trước ạ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "タオルは湯船に入れてはいけませんよね。",
+     "translation": "Khăn không được cho vào bồn tắm đúng không ạ?"
+    },
+    {
+     "speaker": "女将",
+     "text": "おっしゃる通りです。どうぞごゆっくり。",
+     "translation": "Đúng như quý khách nói. Xin hãy thư giãn ạ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "宿泊",
+     "reading": "しゅくはく",
+     "definition": "lưu trú",
+     "example": "二泊の宿泊です。 (Lưu trú hai đêm.)"
+    },
+    {
+     "term": "温泉",
+     "reading": "おんせん",
+     "definition": "suối nước nóng",
+     "example": "温泉に入りたいです。 (Tôi muốn tắm onsen.)"
+    },
+    {
+     "term": "湯船",
+     "reading": "ゆぶね",
+     "definition": "bồn tắm",
+     "example": "湯船にタオルを入れないでください。 (Xin đừng cho khăn vào bồn tắm.)"
+    },
+    {
+     "term": "〜てはいけない",
+     "reading": "〜てはいけない",
+     "definition": "không được làm ~",
+     "example": "ここで写真を撮ってはいけません。 (Không được chụp ảnh ở đây.)"
+    },
+    {
+     "term": "ごゆっくり",
+     "reading": "ごゆっくり",
+     "definition": "xin cứ thong thả",
+     "example": "どうぞごゆっくり。 (Xin hãy thong thả.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ことになっております・〜ていただく・〜てはいけない",
+    "explanation": "Quy định lịch sự: V る + ことになっております. 〜ていただく: nhận ơn làm gì (khiêm nhường). 〜てはいけない: cấm đoán. Đáp “đúng vậy” kính ngữ: おっしゃる通りです.",
+    "examples": [
+     "ここでは靴を脱ぐことになっております。(Ở đây quy định cởi giày ạ.)",
+     "説明していただけますか。(Quý vị có thể giải thích cho tôi không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng lịch sự và tốc độ chậm",
+    "tip": "Khi dùng kính ngữ, nói chậm hơn, nhấn nhẹ các đuôi 〜ております / 〜いらっしゃいますか. Giữ nụ cười trong giọng nói giúp nghe mềm hơn.",
+    "words": [
+     "おんせん",
+     "ゆぶね",
+     "いらっしゃる",
+     "ごゆっくり"
+    ]
+   },
+   "speakingTasks": [
+    "Giải thích cho bạn nước ngoài cách tắm onsen (4 bước).",
+    "Hỏi nhân viên ryokan về bữa tối và giờ trả phòng bằng kính ngữ."
+   ],
+   "questions": [
+    {
+     "prompt": "“Không được cho khăn vào bồn tắm.” là:",
+     "options": [
+      "タオルを湯船に入れてはいけません。",
+      "タオルを湯船に入れないます。",
+      "タオルが湯船に入れてです。"
+     ],
+     "answer": 0,
+     "explanation": "V て + はいけません = cấm."
+    },
+    {
+     "prompt": "Câu kính ngữ nào là của nhân viên ryokan?",
+     "options": [
+      "宿泊は初めてなの？",
+      "初めてだよね。",
+      "ご宿泊は初めてでいらっしゃいますか。"
+     ],
+     "answer": 2,
+     "explanation": "いらっしゃいますか là kính ngữ của います."
+    },
+    {
+     "prompt": "「おっしゃる通りです」 nghĩa là:",
+     "options": [
+      "Tôi xin lỗi",
+      "Xin mời vào",
+      "Đúng như quý khách nói"
+     ],
+     "answer": 2,
+     "explanation": "おっしゃる = kính ngữ của 言う."
+    },
+    {
+     "prompt": "Trước khi vào onsen cần:",
+     "options": [
+      "Rửa người",
+      "Mang khăn vào bồn",
+      "Mặc quần áo"
+     ],
+     "answer": 0,
+     "explanation": "Quy tắc: rửa người trước khi vào bồn."
+    },
+    {
+     "prompt": "「ごゆっくり」 có nghĩa là gì?",
+     "options": [
+      "xin cứ thong thả",
+      "bồn tắm",
+      "suối nước nóng"
+     ],
+     "answer": 0,
+     "explanation": "「ごゆっくり」 [ごゆっくり] = xin cứ thong thả."
+    },
+    {
+     "prompt": "「宿泊」 đọc là gì?",
+     "options": [
+      "〜てはいけない",
+      "しゅくはく",
+      "ごゆっくり"
+     ],
+     "answer": 1,
+     "explanation": "「宿泊」 đọc là [しゅくはく], nghĩa là lưu trú."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿にタオルを入れないでください。  (Xin đừng cho khăn vào bồn tắm.)",
+     "options": [
+      "温泉",
+      "ごゆっくり",
+      "湯船"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「湯船」 (bồn tắm). Câu đầy đủ: 湯船にタオルを入れないでください。"
+    },
+    {
+     "prompt": "「宿泊」 có nghĩa là gì?",
+     "options": [
+      "không được làm ~",
+      "lưu trú",
+      "xin cứ thong thả"
+     ],
+     "answer": 1,
+     "explanation": "「宿泊」 [しゅくはく] = lưu trú."
+    },
+    {
+     "prompt": "「湯船」 đọc là gì?",
+     "options": [
+      "ゆぶね",
+      "おんせん",
+      "ごゆっくり"
+     ],
+     "answer": 0,
+     "explanation": "「湯船」 đọc là [ゆぶね], nghĩa là bồn tắm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 二泊の＿＿＿です。  (Lưu trú hai đêm.)",
+     "options": [
+      "ごゆっくり",
+      "宿泊",
+      "〜てはいけない"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「宿泊」 (lưu trú). Câu đầy đủ: 二泊の宿泊です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Khiếu nại dịch vụ và thương lượng",
+   "objective": "Phàn nàn lịch sự, nêu yêu cầu và thương lượng giải pháp.",
+   "reading": "ミン: お忙しいところ恐れ入りますが、部屋のエアコンが動かないんです。\nフロント: 大変申し訳ございません。すぐに係の者を伺わせます。\nミン: 昨日もお伝えしたのですが、まだ直っていません。\nフロント: ご不便をおかけして申し訳ありません。お部屋を変更させていただいてもよろしいでしょうか。\nミン: では、そうしていただけると助かります。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "お忙しいところ恐れ入りますが、部屋のエアコンが動かないんです。",
+     "translation": "Xin lỗi đã làm phiền lúc bận, nhưng điều hòa phòng tôi không chạy."
+    },
+    {
+     "speaker": "フロント",
+     "text": "大変申し訳ございません。すぐに係の者を伺わせます。",
+     "translation": "Thành thật xin lỗi quý khách. Tôi sẽ cho nhân viên đến ngay."
+    },
+    {
+     "speaker": "ミン",
+     "text": "昨日もお伝えしたのですが、まだ直っていません。",
+     "translation": "Hôm qua tôi cũng đã báo rồi, nhưng vẫn chưa được sửa."
+    },
+    {
+     "speaker": "フロント",
+     "text": "ご不便をおかけして申し訳ありません。お部屋を変更させていただいてもよろしいでしょうか。",
+     "translation": "Xin lỗi vì sự bất tiện. Chúng tôi xin đổi phòng cho quý khách được không ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "では、そうしていただけると助かります。",
+     "translation": "Vậy nếu được như thế thì tôi rất cảm ơn."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "恐れ入ります",
+     "reading": "おそれいります",
+     "definition": "xin lỗi (vì làm phiền) / cảm ơn (trang trọng)",
+     "example": "お忙しいところ恐れ入ります。 (Xin lỗi đã làm phiền lúc bận.)"
+    },
+    {
+     "term": "直る",
+     "reading": "なおる",
+     "definition": "được sửa",
+     "example": "エアコンが直りました。 (Điều hòa đã được sửa.)"
+    },
+    {
+     "term": "不便",
+     "reading": "ふべん",
+     "definition": "bất tiện",
+     "example": "ご不便をおかけします。 (Xin lỗi vì đã gây bất tiện.)"
+    },
+    {
+     "term": "変更",
+     "reading": "へんこう",
+     "definition": "thay đổi",
+     "example": "部屋を変更します。 (Tôi đổi phòng.)"
+    },
+    {
+     "term": "助かる",
+     "reading": "たすかる",
+     "definition": "được giúp đỡ, đỡ vất vả",
+     "example": "そうしていただけると助かります。 (Nếu được vậy thì tôi cảm ơn nhiều.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜させていただく・〜のですが・〜ていただけると助かります",
+    "explanation": "させていただく: xin phép làm điều gì (khiêm nhường). 〜のですが: mở đầu lời phàn nàn / nhờ vả mềm. 〜ていただけると助かります: cách nhờ rất lịch sự.",
+    "examples": [
+     "確認させていただきます。(Xin phép được xác nhận.)",
+     "早めに返信していただけると助かります。(Nếu anh/chị hồi âm sớm thì tôi rất cảm ơn.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng điệu khi phàn nàn",
+    "tip": "Giữ giọng bình tĩnh, nhấn sự việc chứ không nhấn cảm xúc: 「まだ直っていません」 hạ giọng cuối câu. Mở đầu mềm bằng 「恐れ入りますが」.",
+    "words": [
+     "おそれいります",
+     "へんこう",
+     "たすかる",
+     "ふべん"
+    ]
+   },
+   "speakingTasks": [
+    "Khiếu nại về một vấn đề trong khách sạn bằng ngôn ngữ lịch sự.",
+    "Thầy/cô đề xuất giải pháp — thương lượng điều kiện."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở đầu phàn nàn lịch sự:",
+     "options": [
+      "いつも通りですが、",
+      "恐れ入りますが、",
+      "ふざけるな、"
+     ],
+     "answer": 1,
+     "explanation": "恐れ入りますが làm mềm lời phàn nàn."
+    },
+    {
+     "prompt": "「そうしていただけると助かります」 nghĩa là:",
+     "options": [
+      "Tôi sẽ làm điều đó",
+      "Tôi không chấp nhận",
+      "Nếu được như vậy thì tôi rất cảm ơn"
+     ],
+     "answer": 2,
+     "explanation": "Cách nhờ rất lịch sự."
+    },
+    {
+     "prompt": "「ご不便をおかけして」 nghĩa là:",
+     "options": [
+      "gây bất tiện",
+      "gây nhầm lẫn",
+      "gây vui vẻ"
+     ],
+     "answer": 0,
+     "explanation": "不便 = bất tiện."
+    },
+    {
+     "prompt": "“Xin phép được đổi phòng.” là:",
+     "options": [
+      "部屋を変更ですます。",
+      "部屋を変更させていただきます。",
+      "部屋を変更してやります。"
+     ],
+     "answer": 1,
+     "explanation": "させていただきます: khiêm nhường xin phép."
+    },
+    {
+     "prompt": "「恐れ入ります」 có nghĩa là gì?",
+     "options": [
+      "thay đổi",
+      "được sửa",
+      "xin lỗi (vì làm phiền) / cảm ơn (trang trọng)"
+     ],
+     "answer": 2,
+     "explanation": "「恐れ入ります」 [おそれいります] = xin lỗi (vì làm phiền) / cảm ơn (trang trọng)."
+    },
+    {
+     "prompt": "「助かる」 đọc là gì?",
+     "options": [
+      "たすかる",
+      "おそれいります",
+      "ふべん"
+     ],
+     "answer": 0,
+     "explanation": "「助かる」 đọc là [たすかる], nghĩa là được giúp đỡ, đỡ vất vả."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: お忙しいところ＿＿＿。  (Xin lỗi đã làm phiền lúc bận.)",
+     "options": [
+      "直る",
+      "変更",
+      "恐れ入ります"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「恐れ入ります」 (xin lỗi (vì làm phiền) / cảm ơn (trang trọng)). Câu đầy đủ: お忙しいところ恐れ入ります。"
+    },
+    {
+     "prompt": "「変更」 có nghĩa là gì?",
+     "options": [
+      "được sửa",
+      "thay đổi",
+      "bất tiện"
+     ],
+     "answer": 1,
+     "explanation": "「変更」 [へんこう] = thay đổi."
+    },
+    {
+     "prompt": "「恐れ入ります」 đọc là gì?",
+     "options": [
+      "へんこう",
+      "なおる",
+      "おそれいります"
+     ],
+     "answer": 2,
+     "explanation": "「恐れ入ります」 đọc là [おそれいります], nghĩa là xin lỗi (vì làm phiền) / cảm ơn (trang trọng)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ご＿＿＿をおかけします。  (Xin lỗi vì đã gây bất tiện.)",
+     "options": [
+      "不便",
+      "直る",
+      "助かる"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「不便」 (bất tiện). Câu đầy đủ: ご不便をおかけします。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

@@ -1,0 +1,392 @@
+"use client";
+
+import { useEffect, useId, useRef } from "react";
+import { realMouthLevel } from "@/lib/lipsync";
+
+export type AvatarKind = "woman" | "man" | "mascot";
+export type AvatarEmotion = "neutral" | "happy" | "cheer" | "thinking" | "surprised";
+export type AvatarStatus = "idle" | "thinking" | "speaking" | "listening";
+
+type Props = {
+  kind: AvatarKind;
+  status?: AvatarStatus;
+  emotion?: AvatarEmotion;
+  size?: number;
+  /** Eyes and head follow the pointer. Turn off for small icons. */
+  interactive?: boolean;
+  className?: string;
+};
+
+const SKIN = ["#ffe6d4", "#f6c2a2", "#d9967a"];
+
+function Defs({ id }: { id: string }) {
+  return (
+    <defs>
+      <radialGradient id={`${id}-skin`} cx="38%" cy="30%" r="80%">
+        <stop offset="0" stopColor={SKIN[0]} />
+        <stop offset="0.55" stopColor={SKIN[1]} />
+        <stop offset="1" stopColor={SKIN[2]} />
+      </radialGradient>
+      <radialGradient id={`${id}-eye`} cx="40%" cy="35%" r="75%">
+        <stop offset="0" stopColor="#ffffff" />
+        <stop offset="1" stopColor="#e3e8ee" />
+      </radialGradient>
+      <radialGradient id={`${id}-iris`} cx="40%" cy="35%" r="70%">
+        <stop offset="0" stopColor="#8a5a34" />
+        <stop offset="1" stopColor="#2e1a0d" />
+      </radialGradient>
+      <linearGradient id={`${id}-hairW`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stopColor="#6b4129" />
+        <stop offset="1" stopColor="#2a160b" />
+      </linearGradient>
+      <linearGradient id={`${id}-hairM`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stopColor="#4b4f5a" />
+        <stop offset="1" stopColor="#15171c" />
+      </linearGradient>
+      <linearGradient id={`${id}-suitW`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#2cb5a5" />
+        <stop offset="1" stopColor="#0b5d57" />
+      </linearGradient>
+      <linearGradient id={`${id}-suitM`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#4f7bd6" />
+        <stop offset="1" stopColor="#18327a" />
+      </linearGradient>
+      <radialGradient id={`${id}-nova`} cx="38%" cy="30%" r="78%">
+        <stop offset="0" stopColor="#fff4c7" />
+        <stop offset="0.55" stopColor="#ffd98a" />
+        <stop offset="1" stopColor="#f4ad52" />
+      </radialGradient>
+      <radialGradient id={`${id}-pupil`} cx="45%" cy="35%" r="75%">
+        <stop offset="0" stopColor="#4a2e1f" />
+        <stop offset="1" stopColor="#140a05" />
+      </radialGradient>
+      <linearGradient id={`${id}-leaf`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stopColor="#9be8a8" />
+        <stop offset="1" stopColor="#36a86a" />
+      </linearGradient>
+    </defs>
+  );
+}
+
+/**
+ * An eye with a moving iris (--look-x/--look-y) and a lid that closes from the top
+ * (--lid for blinks, `rest` for a squint). `lid` is the lid colour.
+ */
+function Eye({ id, name, cx, cy, rx, ry, iris, irisFill, lid, rest = 0, lash }: {
+  id: string; name: string; cx: number; cy: number; rx: number; ry: number;
+  iris: number; irisFill: string; lid: string; rest?: number; lash?: string;
+}) {
+  const clip = `${id}-${name}`;
+  return (
+    <g>
+      <clipPath id={clip}><ellipse cx={cx} cy={cy} rx={rx} ry={ry} /></clipPath>
+      <ellipse cx={cx} cy={cy} rx={rx} ry={ry} fill={`url(#${id}-eye)`} />
+      <g clipPath={`url(#${clip})`}>
+        <g className="av-iris">
+          <circle cx={cx} cy={cy} r={iris} fill={irisFill} />
+          <circle cx={cx} cy={cy} r={iris * 0.5} fill="#0a0604" />
+          <circle cx={cx - iris * 0.38} cy={cy - iris * 0.4} r={iris * 0.28} fill="#fff" />
+          <circle cx={cx + iris * 0.3} cy={cy + iris * 0.34} r={iris * 0.12} fill="#ffffffb0" />
+        </g>
+        <rect className="av-lid" x={cx - rx - 1} y={cy - ry - 1} width={rx * 2 + 2} height={ry * 2 + 2} fill={lid}
+          style={{ "--lid-rest": rest } as React.CSSProperties} />
+      </g>
+      <ellipse cx={cx} cy={cy} rx={rx} ry={ry} fill="none" stroke="#00000022" strokeWidth="1.2" />
+      {lash && <path d={`M${cx - rx} ${cy - ry * 0.3} Q${cx} ${cy - ry * 1.25} ${cx + rx} ${cy - ry * 0.3}`} fill="none" stroke={lash} strokeWidth="2.6" strokeLinecap="round" />}
+    </g>
+  );
+}
+
+function browParams(emotion: AvatarEmotion) {
+  switch (emotion) {
+    case "thinking": return { ly: -7, ry: -1, lr: -8, rr: 4 };
+    case "surprised": return { ly: -9, ry: -9, lr: -4, rr: 4 };
+    case "cheer": return { ly: -4, ry: -4, lr: -3, rr: 3 };
+    case "happy": return { ly: -2, ry: -2, lr: -2, rr: 2 };
+    default: return { ly: 0, ry: 0, lr: 0, rr: 0 };
+  }
+}
+
+function restingMouth(emotion: AvatarEmotion): string {
+  switch (emotion) {
+    case "cheer": return "M84 131 Q100 154 116 131 Q100 139 84 131 Z";
+    case "happy": return "M86 133 Q100 147 114 133";
+    case "surprised": return "M95 134 Q100 130 105 134 Q108 142 100 145 Q92 142 95 134 Z";
+    case "thinking": return "M91 138 Q100 136 109 140";
+    default: return "M91 136 Q100 141 109 136";
+  }
+}
+
+/** Human mouth: a resting shape, or while talking a mouth whose opening follows --mouth. */
+function HumanMouth({ talking, emotion, lip }: { talking: boolean; emotion: AvatarEmotion; lip: string }) {
+  if (talking) {
+    return (
+      <g className="av-mouth-live">
+        <ellipse cx="100" cy="137" rx="11" ry="8" fill="#6b1726" stroke={lip} strokeWidth="2.4" />
+        <path d="M91 132.5 Q100 130 109 132.5 L108 135 Q100 133.5 92 135Z" fill="#fff" />
+        <ellipse cx="100" cy="142" rx="6.5" ry="3" fill="#e0707f" />
+      </g>
+    );
+  }
+  const filled = emotion === "cheer" || emotion === "surprised";
+  return <path d={restingMouth(emotion)} fill={filled ? "#7a1f2b" : "none"} stroke={lip} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />;
+}
+
+function Human({ id, kind, emotion, talking }: { id: string; kind: "woman" | "man"; emotion: AvatarEmotion; talking: boolean }) {
+  const woman = kind === "woman";
+  const brows = browParams(emotion);
+  const lip = woman ? "#c2415c" : "#a8504a";
+  const browColor = woman ? "#3a2113" : "#1e2026";
+  const rest = emotion === "thinking" ? 0.25 : emotion === "cheer" ? 0.15 : 0;
+  return (
+    <g>
+      {woman && (
+        <path d="M48 96 C40 40 78 22 100 22 C124 22 160 42 152 100 C158 150 150 178 138 190 L62 190 C50 178 44 150 48 96Z" fill={`url(#${id}-hairW)`} />
+      )}
+      <path d="M22 240 C22 196 58 176 100 176 C142 176 178 196 178 240Z" fill={`url(#${woman ? `${id}-suitW` : `${id}-suitM`})`} />
+      <path d="M100 176 L76 240 L124 240Z" fill={woman ? "#f5fbfa" : "#f7f8fb"} />
+      {woman
+        ? <path d="M84 178 L100 214 L116 178 Q100 190 84 178Z" fill="#e8f3f1" />
+        : <path d="M94 184 L106 184 L110 236 L100 244 L90 236Z" fill="#c8374a" />}
+      <path d="M82 150 L82 182 Q100 196 118 182 L118 150Z" fill={`url(#${id}-skin)`} />
+      <path d="M82 164 Q100 178 118 164 L118 182 Q100 196 82 182Z" fill="#00000026" />
+      <g className="av-head">
+        <ellipse cx="52" cy="104" rx="7" ry="11" fill={`url(#${id}-skin)`} />
+        <ellipse cx="148" cy="104" rx="7" ry="11" fill={`url(#${id}-skin)`} />
+        {woman && (<><circle cx="52" cy="116" r="3" fill="#f6cf6b" /><circle cx="148" cy="116" r="3" fill="#f6cf6b" /></>)}
+        <ellipse cx="100" cy="100" rx="49" ry="57" fill={`url(#${id}-skin)`} />
+        {woman ? (
+          <path d="M50 92 C46 46 82 30 104 34 C130 36 152 56 150 94 C140 70 124 60 104 58 C84 60 62 68 50 92Z" fill={`url(#${id}-hairW)`} />
+        ) : (
+          <path d="M51 90 C44 40 80 26 102 28 C130 28 156 48 149 92 C146 72 134 58 118 54 C100 62 70 58 56 78Z" fill={`url(#${id}-hairM)`} />
+        )}
+        <path d="M70 44 C86 36 108 36 126 46" fill="none" stroke="#ffffff30" strokeWidth="3" strokeLinecap="round" />
+        <ellipse cx="68" cy="121" rx="10" ry="6" fill="#ff8aa0" opacity={emotion === "cheer" || emotion === "happy" ? 0.45 : 0.2} />
+        <ellipse cx="132" cy="121" rx="10" ry="6" fill="#ff8aa0" opacity={emotion === "cheer" || emotion === "happy" ? 0.45 : 0.2} />
+        <path d="M63 82 Q76 76 90 82" fill="none" stroke={browColor} strokeWidth={woman ? 3 : 4.2} strokeLinecap="round"
+          style={{ transform: `translateY(${brows.ly}px) rotate(${brows.lr}deg)`, transformOrigin: "76px 82px" }} className="av-brow" />
+        <path d="M110 82 Q124 76 137 82" fill="none" stroke={browColor} strokeWidth={woman ? 3 : 4.2} strokeLinecap="round"
+          style={{ transform: `translateY(${brows.ry}px) rotate(${brows.rr}deg)`, transformOrigin: "124px 82px" }} className="av-brow" />
+        <Eye id={id} name="l" cx={76} cy={98} rx={11} ry={9.5} iris={6} irisFill={`url(#${id}-iris)`} lid={SKIN[1]} rest={rest} lash={woman ? "#22110a" : undefined} />
+        <Eye id={id} name="r" cx={124} cy={98} rx={11} ry={9.5} iris={6} irisFill={`url(#${id}-iris)`} lid={SKIN[1]} rest={rest} lash={woman ? "#22110a" : undefined} />
+        {!woman && (
+          <g fill="none" stroke="#2b2f3a" strokeWidth="2.2">
+            <rect x="58" y="86" width="36" height="25" rx="9" fill="#ffffff14" />
+            <rect x="106" y="86" width="36" height="25" rx="9" fill="#ffffff14" />
+            <path d="M94 97 H106" />
+          </g>
+        )}
+        <path d="M100 104 Q96 118 101 121 Q106 120 104 118" fill="none" stroke="#b9775a" strokeWidth="2" strokeLinecap="round" opacity="0.65" />
+        <ellipse cx="98" cy="108" rx="2.6" ry="5" fill="#fff" opacity="0.28" />
+        <HumanMouth talking={talking} emotion={emotion} lip={lip} />
+      </g>
+    </g>
+  );
+}
+
+/** Big glossy chibi eye; the lid (body colour) closes from the top for blinks. */
+function NovaEye({ id, name, cx, rest }: { id: string; name: string; cx: number; rest: number }) {
+  const cy = 120;
+  const clip = `${id}-${name}`;
+  return (
+    <g>
+      <clipPath id={clip}><ellipse cx={cx} cy={cy} rx="12.5" ry="15.5" /></clipPath>
+      <g clipPath={`url(#${clip})`}>
+        <ellipse cx={cx} cy={cy} rx="12.5" ry="15.5" fill={`url(#${id}-pupil)`} />
+        <g className="av-iris">
+          <ellipse cx={cx} cy={cy + 7} rx="8" ry="5" fill="#7b5cff" opacity=".35" />
+          <circle cx={cx - 4} cy={cy - 6} r="4.6" fill="#fff" />
+          <circle cx={cx + 4.5} cy={cy + 4} r="2.1" fill="#fff" opacity=".9" />
+        </g>
+        <rect className="av-lid" x={cx - 14} y={cy - 17} width="28" height="34" fill="#ffd98a"
+          style={{ "--lid-rest": rest } as React.CSSProperties} />
+      </g>
+    </g>
+  );
+}
+
+function novaMouth(emotion: AvatarEmotion) {
+  switch (emotion) {
+    case "cheer": return <path d="M89 140 Q100 158 111 140 Q100 144 89 140Z" fill="#7a2a2a" stroke="#7a2a2a" strokeWidth="2" strokeLinejoin="round" />;
+    case "surprised": return <ellipse cx="100" cy="145" rx="4.5" ry="5.5" fill="#7a2a2a" />;
+    case "thinking": return <path d="M94 145 Q100 142 106 146" fill="none" stroke="#7a2a2a" strokeWidth="2.6" strokeLinecap="round" />;
+    default: return <path d="M92 141 Q96 147 100 142 Q104 147 108 141" fill="none" stroke="#7a2a2a" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />;
+  }
+}
+
+/**
+ * Nova: an original mascot — a round, sunny little bean with big shiny eyes, rosy cheeks
+ * and a leaf sprout on top (it grows a little with every lesson). Its mouth follows the
+ * voice while it talks.
+ */
+function Nova({ id, emotion, talking }: { id: string; emotion: AvatarEmotion; talking: boolean }) {
+  const brows = browParams(emotion);
+  const rest = emotion === "thinking" ? 0.25 : 0;
+  const happyEyes = emotion === "cheer";
+  return (
+    <g>
+      {/* feet */}
+      <ellipse cx="78" cy="230" rx="17" ry="9" fill="#f2a446" />
+      <ellipse cx="122" cy="230" rx="17" ry="9" fill="#f2a446" />
+      {/* arms */}
+      <path d="M40 146 C24 150 20 174 30 184 C38 190 48 180 50 168Z" fill={`url(#${id}-nova)`} className="av-wing av-wing-l" />
+      <path d="M160 146 C176 150 180 174 170 184 C162 190 152 180 150 168Z" fill={`url(#${id}-nova)`} className="av-wing av-wing-r" />
+      <g className="av-body">
+        {/* round bean body */}
+        <path d="M100 50 C150 50 172 94 172 144 C172 198 140 228 100 228 C60 228 28 198 28 144 C28 94 50 50 100 50Z" fill={`url(#${id}-nova)`} />
+        <ellipse cx="100" cy="186" rx="44" ry="32" fill="#fff6dd" opacity=".85" />
+        <path d="M58 84 C68 66 86 58 104 58" fill="none" stroke="#ffffff" strokeWidth="7" strokeLinecap="round" opacity=".7" />
+      </g>
+      {/* leaf sprout */}
+      <g className="av-sprout">
+        <path d="M100 54 C100 44 101 36 103 28" fill="none" stroke="#3fae6e" strokeWidth="4" strokeLinecap="round" />
+        <path d="M102 34 C90 18 72 20 68 32 C80 40 94 40 102 34Z" fill={`url(#${id}-leaf)`} />
+        <path d="M103 30 C114 12 136 12 140 26 C128 36 112 36 103 30Z" fill={`url(#${id}-leaf)`} />
+        <path d="M74 31 Q88 30 100 34 M134 24 Q118 28 105 30" fill="none" stroke="#ffffff" strokeWidth="1.6" strokeLinecap="round" opacity=".55" />
+      </g>
+      <g className="av-head">
+        {/* brows */}
+        <path d="M70 100 Q78 96 86 100" fill="none" stroke="#a8692a" strokeWidth="2.6" strokeLinecap="round"
+          style={{ transform: `translateY(${brows.ly}px) rotate(${brows.lr}deg)`, transformOrigin: "78px 100px" }} className="av-brow" />
+        <path d="M114 100 Q122 96 130 100" fill="none" stroke="#a8692a" strokeWidth="2.6" strokeLinecap="round"
+          style={{ transform: `translateY(${brows.ry}px) rotate(${brows.rr}deg)`, transformOrigin: "122px 100px" }} className="av-brow" />
+        {happyEyes ? (
+          <g fill="none" stroke="#3b2414" strokeWidth="4" strokeLinecap="round">
+            <path d="M67 124 Q78 110 89 124" />
+            <path d="M111 124 Q122 110 133 124" />
+          </g>
+        ) : (
+          <>
+            <NovaEye id={id} name="l" cx={78} rest={rest} />
+            <NovaEye id={id} name="r" cx={122} rest={rest} />
+          </>
+        )}
+        {/* rosy cheeks */}
+        <ellipse cx="60" cy="140" rx="11" ry="7" fill="#ff9eb5" opacity=".6" />
+        <ellipse cx="140" cy="140" rx="11" ry="7" fill="#ff9eb5" opacity=".6" />
+        {talking ? (
+          <g className="av-mouth-live">
+            <ellipse cx="100" cy="146" rx="8.5" ry="7.5" fill="#7a2a2a" />
+            <ellipse cx="100" cy="150" rx="5" ry="3" fill="#ff8a9a" />
+          </g>
+        ) : novaMouth(emotion)}
+      </g>
+    </g>
+  );
+}
+
+/** Calm, natural-looking random numbers between a and b. */
+const between = (a: number, b: number) => a + Math.random() * (b - a);
+
+export function TutorAvatar({ kind, status = "idle", emotion, size = 120, interactive = true, className = "" }: Props) {
+  const rawId = useId();
+  const id = `av${rawId.replace(/[^a-zA-Z0-9]/g, "")}`;
+  const stageRef = useRef<HTMLDivElement | null>(null);
+  const statusRef = useRef(status);
+  statusRef.current = status;
+
+  const talking = status === "speaking";
+  const resolved: AvatarEmotion = emotion
+    ?? (status === "thinking" ? "thinking" : status === "speaking" ? "happy" : status === "listening" ? "surprised" : "happy");
+
+  // One animation loop drives the mouth, blinks, eye movement and pointer-follow through
+  // CSS variables, so React does not re-render 60 times a second.
+  useEffect(() => {
+    const stage = stageRef.current;
+    if (!stage) return;
+    const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
+    let frame = 0;
+    let mouth = 0;
+    let lid = 0;
+    let nextBlink = performance.now() + between(1500, 4000);
+    let blinkUntil = 0;
+    let look = { x: 0, y: 0 };
+    let lookTarget = { x: 0, y: 0 };
+    let nextGlance = performance.now() + between(1200, 3000);
+    let pointer: { x: number; y: number; at: number } | null = null;
+    // Synthetic speech rhythm for when no real audio signal is available.
+    let syllableEnd = 0;
+    let syllableOpen = 0;
+
+    const onMove = (event: PointerEvent) => { pointer = { x: event.clientX, y: event.clientY, at: performance.now() }; };
+    if (interactive && !reduced) window.addEventListener("pointermove", onMove, { passive: true });
+
+    const tick = (now: number) => {
+      const speaking = statusRef.current === "speaking";
+
+      // Mouth: real loudness, else a babble of syllables while speaking.
+      let target = 0;
+      if (speaking) {
+        const real = realMouthLevel();
+        if (real !== null) {
+          target = real;
+        } else {
+          if (now > syllableEnd) {
+            const pause = Math.random() < 0.12;
+            syllableOpen = pause ? 0 : between(0.35, 1);
+            syllableEnd = now + (pause ? between(120, 260) : between(90, 170));
+          }
+          target = syllableOpen;
+        }
+      }
+      mouth += (target - mouth) * (target > mouth ? 0.55 : 0.3);
+
+      // Blinks: random, sometimes double.
+      if (now > nextBlink) {
+        blinkUntil = now + 130;
+        nextBlink = now + (Math.random() < 0.18 ? 260 : between(2200, 5500));
+      }
+      lid = now < blinkUntil ? 1 : Math.max(0, lid - 0.25);
+
+      // Eyes: follow the pointer for a while, otherwise glance around.
+      const box = stage.getBoundingClientRect();
+      if (pointer && now - pointer.at < 2500) {
+        const dx = (pointer.x - (box.left + box.width / 2)) / Math.max(window.innerWidth / 2, 1);
+        const dy = (pointer.y - (box.top + box.height * 0.4)) / Math.max(window.innerHeight / 2, 1);
+        lookTarget = { x: Math.max(-1, Math.min(1, dx)), y: Math.max(-1, Math.min(1, dy)) };
+      } else if (now > nextGlance) {
+        lookTarget = Math.random() < 0.45 ? { x: 0, y: 0 } : { x: between(-0.9, 0.9), y: between(-0.6, 0.6) };
+        nextGlance = now + between(900, 2800);
+      }
+      if (statusRef.current === "thinking") lookTarget = { x: 0.7, y: -0.8 };
+      look = { x: look.x + (lookTarget.x - look.x) * 0.18, y: look.y + (lookTarget.y - look.y) * 0.18 };
+
+      stage.style.setProperty("--mouth", mouth.toFixed(3));
+      stage.style.setProperty("--lid", lid.toFixed(2));
+      stage.style.setProperty("--look-x", (look.x * 4).toFixed(2));
+      stage.style.setProperty("--look-y", (look.y * 3).toFixed(2));
+      stage.style.setProperty("--av-ry", `${(look.x * 10).toFixed(2)}deg`);
+      stage.style.setProperty("--av-rx", `${(-look.y * 6).toFixed(2)}deg`);
+      frame = requestAnimationFrame(tick);
+    };
+    if (!reduced) frame = requestAnimationFrame(tick);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("pointermove", onMove);
+    };
+  }, [interactive]);
+
+  const label = kind === "woman" ? "Cô giáo AI" : kind === "man" ? "Thầy giáo AI" : "Linh vật Nova";
+  return (
+    <div
+      ref={stageRef}
+      className={`av-stage av-${kind} av-status-${status} av-emo-${resolved} ${className}`.trim()}
+      style={{ width: size, height: size * 1.2 }}
+      role="img"
+      aria-label={label}
+    >
+      <div className="av-glow" />
+      {status === "listening" && <><i className="av-ring av-ring-1" /><i className="av-ring av-ring-2" /></>}
+      <div className="av-float">
+        <svg viewBox="0 0 200 250" width={size} height={size * 1.2} className="av-svg">
+          <Defs id={id} />
+          {kind === "mascot"
+            ? <Nova id={id} emotion={resolved} talking={talking} />
+            : <Human id={id} kind={kind} emotion={resolved} talking={talking} />}
+        </svg>
+      </div>
+      <div className="av-shadow" />
+      {status === "thinking" && <div className="av-think"><i /><i /><i /></div>}
+    </div>
+  );
+}
