@@ -15,8 +15,8 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "..", "public", "courses")
-VERSION = "1.0.0"          # keep in step with CURRICULUM_VERSION in src/lib/course-library.ts
-COURSES = ["everyday", "travel", "business"]
+VERSION = "1.1.0"          # keep in step with CURRICULUM_VERSION in src/lib/course-library.ts
+COURSES = ["everyday", "travel", "business", "technology", "healthcare", "finance", "refrigeration"]
 QUIZ_SIZE = 10
 LEVELS = ["A1", "A2", "B1", "B2"]
 

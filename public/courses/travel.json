@@ -1,9 +1,9 @@
 {
  "id": "travel",
  "title": "Tiếng Nhật du lịch",
- "version": "1.0.0",
+ "version": "1.1.0",
  "framework": "JLPT N5–N2",
- "overview": "8 bài từ N5 đến N2 cho chuyến đi Nhật: sân bay, khách sạn, tàu điện, nhà hàng, tham quan, xử lý sự cố, ryokan/onsen và khiếu nại.",
+ "overview": "12 bài từ N5 đến N2 cho chuyến đi Nhật: sân bay, khách sạn, tàu điện, nhà hàng, tham quan, xử lý sự cố, ryokan/onsen và khiếu nại.",
  "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
  "references": [
   {
@@ -415,6 +415,198 @@
    "audioIds": []
   },
   {
+   "id": "travel-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Đổi tiền và mua SIM",
+   "objective": "Đổi tiền, hỏi tỷ giá và mua SIM điện thoại.",
+   "reading": "ミン: すみません、両替をお願いします。\n係員: はい。いくら両替しますか。\nミン: 三百ドルを円にしてください。\nミン: それから、SIMカードはどこで買えますか。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、両替をお願いします。",
+     "phonetic": "Sumimasen, ryōgae o onegai shimasu.",
+     "translation": "Xin lỗi, tôi muốn đổi tiền."
+    },
+    {
+     "speaker": "係員",
+     "text": "はい。いくら両替しますか。",
+     "phonetic": "Hai. Ikura ryōgae shimasu ka.",
+     "translation": "Vâng. Đổi bao nhiêu ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "三百ドルを円にしてください。",
+     "phonetic": "Sanbyaku doru o en ni shite kudasai.",
+     "translation": "Đổi 300 đô sang yên giúp tôi."
+    },
+    {
+     "speaker": "ミン",
+     "text": "それから、SIMカードはどこで買えますか。",
+     "phonetic": "Sorekara, shimu kādo wa doko de kaemasu ka.",
+     "translation": "Rồi, SIM mua ở đâu được ạ?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "両替",
+     "reading": "ryōgae",
+     "definition": "đổi tiền",
+     "example": "両替所はどこですか。 (Quầy đổi tiền ở đâu?)"
+    },
+    {
+     "term": "ドル",
+     "reading": "doru",
+     "definition": "đô la",
+     "example": "百ドルあります。 (Tôi có 100 đô.)"
+    },
+    {
+     "term": "円",
+     "reading": "en",
+     "definition": "yên",
+     "example": "円にしてください。 (Đổi sang yên giúp tôi.)"
+    },
+    {
+     "term": "買えます",
+     "reading": "kaemasu",
+     "definition": "có thể mua",
+     "example": "コンビニで買えます。 (Có thể mua ở cửa hàng tiện lợi.)"
+    },
+    {
+     "term": "手数料",
+     "reading": "tesūryō",
+     "definition": "phí dịch vụ",
+     "example": "手数料はいくらですか。 (Phí là bao nhiêu?)"
+    }
+   ],
+   "grammar": {
+    "title": "N を N にしてください",
+    "explanation": "Đổi A thành B: A を B にしてください. Hỏi nơi có thể mua: どこで買えますか (thể khả năng của 買う là 買える).",
+    "examples": [
+     "ドルを円にしてください。[doru o en ni shite kudasai] (Đổi đô sang yên giúp tôi.)",
+     "切符はどこで買えますか。[kippu wa doko de kaemasu ka] (Vé mua ở đâu được?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài りょう",
+    "tip": "両替 ryōgae có âm りょ (ryo) và nguyên âm dài ō. Đừng đọc thành “ri-o”.",
+    "words": [
+     "りょうがえ",
+     "てすうりょう",
+     "ドル",
+     "かえます"
+    ]
+   },
+   "speakingTasks": [
+    "Đổi tiền tại quầy và hỏi phí.",
+    "Hỏi thầy/cô nơi mua SIM ở sân bay."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi muốn đổi tiền.” là:",
+     "options": [
+      "両替をお願いします。",
+      "両替をあります。",
+      "両替がほしいですか。"
+     ],
+     "answer": 0,
+     "explanation": "N をお願いします = xin làm N."
+    },
+    {
+     "prompt": "Đổi đô sang yên:",
+     "options": [
+      "ドルに円をしてください。",
+      "円をドルでしてください。",
+      "ドルを円にしてください。"
+     ],
+     "answer": 2,
+     "explanation": "A を B にしてください."
+    },
+    {
+     "prompt": "「手数料」 là:",
+     "options": [
+      "tỷ giá",
+      "phí dịch vụ",
+      "tiền mặt"
+     ],
+     "answer": 1,
+     "explanation": "手数料 = phí."
+    },
+    {
+     "prompt": "Thể khả năng của 「買う」 là:",
+     "options": [
+      "買われる",
+      "買える",
+      "買いれる"
+     ],
+     "answer": 1,
+     "explanation": "Nhóm 1: う → える."
+    },
+    {
+     "prompt": "「買えます」 có nghĩa là gì?",
+     "options": [
+      "có thể mua",
+      "đổi tiền",
+      "đô la"
+     ],
+     "answer": 0,
+     "explanation": "「買えます」 [kaemasu] = có thể mua."
+    },
+    {
+     "prompt": "「ドル」 đọc là gì?",
+     "options": [
+      "tesūryō",
+      "doru",
+      "en"
+     ],
+     "answer": 1,
+     "explanation": "「ドル」 đọc là [doru], nghĩa là đô la."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: コンビニで＿＿＿。  (Có thể mua ở cửa hàng tiện lợi.)",
+     "options": [
+      "両替",
+      "買えます",
+      "ドル"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「買えます」 (có thể mua). Câu đầy đủ: コンビニで買えます。"
+    },
+    {
+     "prompt": "「円」 có nghĩa là gì?",
+     "options": [
+      "có thể mua",
+      "yên",
+      "đổi tiền"
+     ],
+     "answer": 1,
+     "explanation": "「円」 [en] = yên."
+    },
+    {
+     "prompt": "「円」 đọc là gì?",
+     "options": [
+      "en",
+      "ryōgae",
+      "kaemasu"
+     ],
+     "answer": 0,
+     "explanation": "「円」 đọc là [en], nghĩa là yên."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿所はどこですか。  (Quầy đổi tiền ở đâu?)",
+     "options": [
+      "両替",
+      "買えます",
+      "円"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「両替」 (đổi tiền). Câu đầy đủ: 両替所はどこですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "travel-a2-1",
    "level": "A2",
    "unit": "N4 · Bài 1",
@@ -811,6 +1003,204 @@
    "audioIds": []
   },
   {
+   "id": "travel-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Đi taxi",
+   "objective": "Nói điểm đến, hỏi thời gian, giá và trả tiền.",
+   "reading": "運転手: どちらまでですか。\nミン: 東京駅までお願いします。\nミン: どのくらいかかりますか。\n運転手: 二十分ぐらいです。\nミン: カードで払えますか。",
+   "dialogue": [
+    {
+     "speaker": "運転手",
+     "text": "どちらまでですか。",
+     "phonetic": "Dochira made desu ka.",
+     "translation": "Đi đâu ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "東京駅までお願いします。",
+     "phonetic": "Tōkyō-eki made onegai shimasu.",
+     "translation": "Đến ga Tokyo giúp tôi."
+    },
+    {
+     "speaker": "ミン",
+     "text": "どのくらいかかりますか。",
+     "phonetic": "Dono kurai kakarimasu ka.",
+     "translation": "Mất khoảng bao lâu ạ?"
+    },
+    {
+     "speaker": "運転手",
+     "text": "二十分ぐらいです。",
+     "phonetic": "Nijuppun gurai desu.",
+     "translation": "Khoảng 20 phút."
+    },
+    {
+     "speaker": "ミン",
+     "text": "カードで払えますか。",
+     "phonetic": "Kādo de haraemasu ka.",
+     "translation": "Trả bằng thẻ được không?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "まで",
+     "reading": "made",
+     "definition": "đến (điểm đến)",
+     "example": "駅までお願いします。 (Đến ga giúp tôi.)"
+    },
+    {
+     "term": "かかります",
+     "reading": "kakarimasu",
+     "definition": "mất (thời gian, tiền)",
+     "example": "三十分かかります。 (Mất 30 phút.)"
+    },
+    {
+     "term": "ぐらい",
+     "reading": "gurai",
+     "definition": "khoảng",
+     "example": "千円ぐらいです。 (Khoảng 1.000 yên.)"
+    },
+    {
+     "term": "払えます",
+     "reading": "haraemasu",
+     "definition": "có thể trả",
+     "example": "カードで払えます。 (Có thể trả bằng thẻ.)"
+    },
+    {
+     "term": "領収書",
+     "reading": "ryōshūsho",
+     "definition": "hóa đơn",
+     "example": "領収書をください。 (Cho tôi hóa đơn.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜まで / どのくらい / で",
+    "explanation": "Điểm đến + までお願いします. Hỏi thời gian: どのくらいかかりますか. Phương thức thanh toán dùng で: カードで.",
+    "examples": [
+     "空港までお願いします。[kūkō made onegai shimasu] (Đến sân bay giúp tôi.)",
+     "現金で払います。[genkin de haraimasu] (Tôi trả tiền mặt.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Biến âm 分",
+    "tip": "分 đọc fun hoặc pun: 二十分 nijuppun, 十分 juppun, 五分 gofun. Âm っ trước ぷ ngắt một nhịp.",
+    "words": [
+     "にじゅっぷん",
+     "かかります",
+     "りょうしゅうしょ",
+     "くうこう"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai khách đi taxi: nói điểm đến, hỏi thời gian và trả tiền.",
+    "Hỏi tài xế có thể trả bằng thẻ không."
+   ],
+   "questions": [
+    {
+     "prompt": "“Đến sân bay giúp tôi.” là:",
+     "options": [
+      "空港にお願いますか。",
+      "空港までお願いします。",
+      "空港をまでください。"
+     ],
+     "answer": 1,
+     "explanation": "Điểm đến + まで."
+    },
+    {
+     "prompt": "Hỏi “Mất bao lâu?”",
+     "options": [
+      "いくつかかりますか。",
+      "どこかかりますか。",
+      "どのくらいかかりますか。"
+     ],
+     "answer": 2,
+     "explanation": "どのくらい hỏi mức độ, thời gian."
+    },
+    {
+     "prompt": "“20 phút” đọc là:",
+     "options": [
+      "にじゅっぷん",
+      "にじゅうふん",
+      "にじゅうぶん"
+     ],
+     "answer": 0,
+     "explanation": "二十分 = nijuppun."
+    },
+    {
+     "prompt": "Xin hóa đơn:",
+     "options": [
+      "領収書でください。",
+      "領収書をください。",
+      "領収書がいます。"
+     ],
+     "answer": 1,
+     "explanation": "N をください."
+    },
+    {
+     "prompt": "「払えます」 có nghĩa là gì?",
+     "options": [
+      "đến (điểm đến)",
+      "hóa đơn",
+      "có thể trả"
+     ],
+     "answer": 2,
+     "explanation": "「払えます」 [haraemasu] = có thể trả."
+    },
+    {
+     "prompt": "「払えます」 đọc là gì?",
+     "options": [
+      "haraemasu",
+      "ryōshūsho",
+      "made"
+     ],
+     "answer": 0,
+     "explanation": "「払えます」 đọc là [haraemasu], nghĩa là có thể trả."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をください。  (Cho tôi hóa đơn.)",
+     "options": [
+      "払えます",
+      "かかります",
+      "領収書"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「領収書」 (hóa đơn). Câu đầy đủ: 領収書をください。"
+    },
+    {
+     "prompt": "「かかります」 có nghĩa là gì?",
+     "options": [
+      "khoảng",
+      "đến (điểm đến)",
+      "mất (thời gian, tiền)"
+     ],
+     "answer": 2,
+     "explanation": "「かかります」 [kakarimasu] = mất (thời gian, tiền)."
+    },
+    {
+     "prompt": "「かかります」 đọc là gì?",
+     "options": [
+      "made",
+      "gurai",
+      "kakarimasu"
+     ],
+     "answer": 2,
+     "explanation": "「かかります」 đọc là [kakarimasu], nghĩa là mất (thời gian, tiền)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 駅＿＿＿お願いします。  (Đến ga giúp tôi.)",
+     "options": [
+      "まで",
+      "かかります",
+      "払えます"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「まで」 (đến (điểm đến)). Câu đầy đủ: 駅までお願いします。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "travel-b1-1",
    "level": "B1",
    "unit": "N3 · Bài 1",
@@ -1202,6 +1592,198 @@
    "audioIds": []
   },
   {
+   "id": "travel-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Trò chuyện với người địa phương",
+   "objective": "Bắt chuyện, hỏi về địa phương và chia sẻ cảm nhận.",
+   "reading": "おばあさん: 旅行ですか。どちらからいらっしゃったんですか。\nミン: ベトナムから来ました。この町は本当にきれいですね。\nおばあさん: ありがとう。この辺りは桜で有名なんですよ。\nミン: そうなんですか。地元のおすすめの料理はありますか。",
+   "dialogue": [
+    {
+     "speaker": "おばあさん",
+     "text": "旅行ですか。どちらからいらっしゃったんですか。",
+     "phonetic": "Ryokō desu ka. Dochira kara irasshatta n desu ka.",
+     "translation": "Đi du lịch à? Cháu từ đâu đến vậy?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "ベトナムから来ました。この町は本当にきれいですね。",
+     "phonetic": "Betonamu kara kimashita. Kono machi wa hontō ni kirei desu ne.",
+     "translation": "Cháu từ Việt Nam. Thị trấn này đẹp thật."
+    },
+    {
+     "speaker": "おばあさん",
+     "text": "ありがとう。この辺りは桜で有名なんですよ。",
+     "phonetic": "Arigatō. Kono atari wa sakura de yūmei na n desu yo.",
+     "translation": "Cảm ơn cháu. Vùng này nổi tiếng về hoa anh đào đấy."
+    },
+    {
+     "speaker": "ミン",
+     "text": "そうなんですか。地元のおすすめの料理はありますか。",
+     "phonetic": "Sō na n desu ka. Jimoto no osusume no ryōri wa arimasu ka.",
+     "translation": "Vậy ạ. Có món ăn địa phương nào nên thử không ạ?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "町",
+     "reading": "machi",
+     "definition": "thị trấn, phố",
+     "example": "この町が好きです。 (Tôi thích thị trấn này.)"
+    },
+    {
+     "term": "有名",
+     "reading": "yūmei",
+     "definition": "nổi tiếng",
+     "example": "京都はお寺で有名です。 (Kyoto nổi tiếng về chùa.)"
+    },
+    {
+     "term": "地元",
+     "reading": "jimoto",
+     "definition": "địa phương",
+     "example": "地元の人に聞きました。 (Tôi đã hỏi người địa phương.)"
+    },
+    {
+     "term": "おすすめ",
+     "reading": "osusume",
+     "definition": "gợi ý, đáng thử",
+     "example": "おすすめは何ですか。 (Món gợi ý là gì?)"
+    },
+    {
+     "term": "辺り",
+     "reading": "atari",
+     "definition": "vùng, quanh đây",
+     "example": "この辺りに駅はありますか。 (Quanh đây có ga không?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜んです và N で有名",
+    "explanation": "〜んです dùng để giải thích hoặc hỏi thông tin với sự quan tâm: どこから来たんですか. N で有名: nổi tiếng về N.",
+    "examples": [
+     "北海道は雪で有名です。[Hokkaidō wa yuki de yūmei desu] (Hokkaido nổi tiếng về tuyết.)",
+     "初めて来たんです。[hajimete kita n desu] (Đây là lần đầu tôi đến.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đáp lời tự nhiên (相づち)",
+    "tip": "Người Nhật thường đệm lời khi nghe: そうなんですか, へえ, なるほど. Lên giọng nhẹ ở そうなんですか để thể hiện quan tâm.",
+    "words": [
+     "そうなんですか",
+     "なるほど",
+     "ゆうめい",
+     "じもと"
+    ]
+   },
+   "speakingTasks": [
+    "Bắt chuyện với người địa phương và hỏi món ăn nên thử.",
+    "Kể cho thầy/cô cảm nhận về một thành phố bạn từng đến."
+   ],
+   "questions": [
+    {
+     "prompt": "Hỏi lịch sự “Bạn từ đâu đến?”",
+     "options": [
+      "どちらに行きますか。",
+      "どちらからいらっしゃったんですか。",
+      "どこから来たか。"
+     ],
+     "answer": 1,
+     "explanation": "いらっしゃる là kính ngữ của 来る."
+    },
+    {
+     "prompt": "“Vùng này nổi tiếng về hoa anh đào.” là:",
+     "options": [
+      "この辺りは桜で有名です。",
+      "この辺りは桜が有名にです。",
+      "この辺りを桜で有名です。"
+     ],
+     "answer": 0,
+     "explanation": "N で有名."
+    },
+    {
+     "prompt": "Lời đệm thể hiện quan tâm:",
+     "options": [
+      "けっこうです",
+      "そうなんですか",
+      "だめです"
+     ],
+     "answer": 1,
+     "explanation": "そうなんですか = vậy à."
+    },
+    {
+     "prompt": "「地元」 nghĩa là:",
+     "options": [
+      "thủ đô",
+      "địa phương",
+      "nước ngoài"
+     ],
+     "answer": 1,
+     "explanation": "地元 = địa phương."
+    },
+    {
+     "prompt": "「有名」 có nghĩa là gì?",
+     "options": [
+      "nổi tiếng",
+      "gợi ý, đáng thử",
+      "thị trấn, phố"
+     ],
+     "answer": 0,
+     "explanation": "「有名」 [yūmei] = nổi tiếng."
+    },
+    {
+     "prompt": "「有名」 đọc là gì?",
+     "options": [
+      "osusume",
+      "machi",
+      "yūmei"
+     ],
+     "answer": 2,
+     "explanation": "「有名」 đọc là [yūmei], nghĩa là nổi tiếng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: この＿＿＿が好きです。  (Tôi thích thị trấn này.)",
+     "options": [
+      "地元",
+      "町",
+      "辺り"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「町」 (thị trấn, phố). Câu đầy đủ: この町が好きです。"
+    },
+    {
+     "prompt": "「おすすめ」 có nghĩa là gì?",
+     "options": [
+      "gợi ý, đáng thử",
+      "nổi tiếng",
+      "vùng, quanh đây"
+     ],
+     "answer": 0,
+     "explanation": "「おすすめ」 [osusume] = gợi ý, đáng thử."
+    },
+    {
+     "prompt": "「おすすめ」 đọc là gì?",
+     "options": [
+      "osusume",
+      "atari",
+      "yūmei"
+     ],
+     "answer": 0,
+     "explanation": "「おすすめ」 đọc là [osusume], nghĩa là gợi ý, đáng thử."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿の人に聞きました。  (Tôi đã hỏi người địa phương.)",
+     "options": [
+      "町",
+      "地元",
+      "辺り"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「地元」 (địa phương). Câu đầy đủ: 地元の人に聞きました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "travel-b2-1",
    "level": "B2",
    "unit": "N2 · Bài 1",
@@ -1583,6 +2165,198 @@
      ],
      "answer": 0,
      "explanation": "Đáp án: 「不便」 (bất tiện). Câu đầy đủ: ご不便をおかけします。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "travel-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Lên kế hoạch chuyến đi dài ngày",
+   "objective": "Lập lịch trình, cân nhắc chi phí và thay đổi kế hoạch.",
+   "reading": "ミン: 二週間で関西と九州を回ろうと思っているんですが。\n旅行会社: それなら、JRパスを使ったほうがお得ですよ。\nミン: 台風が来た場合、予定を変更できますか。\n旅行会社: はい、出発の前日までなら無料で変更できます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "二週間で関西と九州を回ろうと思っているんですが。",
+     "phonetic": "Nishūkan de Kansai to Kyūshū o mawarō to omotte iru n desu ga.",
+     "translation": "Tôi định đi vòng Kansai và Kyushu trong hai tuần."
+    },
+    {
+     "speaker": "旅行会社",
+     "text": "それなら、JRパスを使ったほうがお得ですよ。",
+     "phonetic": "Sore nara, JR pasu o tsukatta hō ga otoku desu yo.",
+     "translation": "Vậy thì dùng JR Pass sẽ lợi hơn đấy."
+    },
+    {
+     "speaker": "ミン",
+     "text": "台風が来た場合、予定を変更できますか。",
+     "phonetic": "Taifū ga kita baai, yotei o henkō dekimasu ka.",
+     "translation": "Nếu có bão thì có thể đổi lịch không?"
+    },
+    {
+     "speaker": "旅行会社",
+     "text": "はい、出発の前日までなら無料で変更できます。",
+     "phonetic": "Hai, shuppatsu no zenjitsu made nara muryō de henkō dekimasu.",
+     "translation": "Vâng, đến ngày trước khởi hành thì đổi miễn phí."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "回る",
+     "reading": "mawaru",
+     "definition": "đi vòng quanh",
+     "example": "京都を回ります。 (Đi một vòng Kyoto.)"
+    },
+    {
+     "term": "お得",
+     "reading": "otoku",
+     "definition": "có lợi, tiết kiệm",
+     "example": "このパスはお得です。 (Vé này có lợi.)"
+    },
+    {
+     "term": "台風",
+     "reading": "taifū",
+     "definition": "bão",
+     "example": "台風が来ます。 (Bão sắp đến.)"
+    },
+    {
+     "term": "予定",
+     "reading": "yotei",
+     "definition": "kế hoạch, lịch trình",
+     "example": "予定を変更します。 (Tôi đổi lịch trình.)"
+    },
+    {
+     "term": "変更",
+     "reading": "henkō",
+     "definition": "thay đổi",
+     "example": "変更できますか。 (Có thể thay đổi không?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ようと思う / 〜たほうがいい / 〜場合",
+    "explanation": "Thể ý chí + と思っている: đang định. V た + ほうがいい: nên làm. 〜場合: trong trường hợp. 〜までなら: nếu trước ~.",
+    "examples": [
+     "来年、日本に住もうと思っています。[rainen, Nihon ni sumō to omotte imasu] (Tôi định sang năm sống ở Nhật.)",
+     "早く予約したほうがいいです。[hayaku yoyaku shita hō ga ii desu] (Nên đặt sớm.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Câu dài có nhiều vế",
+    "tip": "Ngắt nhịp sau が, なら, 場合. Âm dài trong 台風 taifū, 変更 henkō, 九州 Kyūshū phải đủ hai nhịp.",
+    "words": [
+     "たいふう",
+     "へんこう",
+     "きゅうしゅう",
+     "おとく"
+    ]
+   },
+   "speakingTasks": [
+    "Trình bày lịch trình 10 ngày ở Nhật với ngân sách dự kiến.",
+    "Hỏi thầy/cô cách đổi lịch khi gặp thời tiết xấu."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi định đi Kyushu.” là:",
+     "options": [
+      "九州に行こうと思っています。",
+      "九州に行きたい思います。",
+      "九州に行くと思っています。"
+     ],
+     "answer": 0,
+     "explanation": "Thể ý chí 行こう + と思っています."
+    },
+    {
+     "prompt": "Lời khuyên “nên dùng JR Pass”:",
+     "options": [
+      "JRパスを使ったほうがいいです。",
+      "JRパスを使うほうがだめです。",
+      "JRパスを使ってもいいでした。"
+     ],
+     "answer": 0,
+     "explanation": "V た + ほうがいい."
+    },
+    {
+     "prompt": "「台風が来た場合」 nghĩa là:",
+     "options": [
+      "Vì bão đã qua",
+      "Trước khi có bão",
+      "Trong trường hợp có bão"
+     ],
+     "answer": 2,
+     "explanation": "〜場合 = trường hợp."
+    },
+    {
+     "prompt": "「お得」 nghĩa là:",
+     "options": [
+      "có lợi, tiết kiệm",
+      "nguy hiểm",
+      "đắt đỏ"
+     ],
+     "answer": 0,
+     "explanation": "お得 = có lợi."
+    },
+    {
+     "prompt": "「お得」 có nghĩa là gì?",
+     "options": [
+      "có lợi, tiết kiệm",
+      "thay đổi",
+      "đi vòng quanh"
+     ],
+     "answer": 0,
+     "explanation": "「お得」 [otoku] = có lợi, tiết kiệm."
+    },
+    {
+     "prompt": "「変更」 đọc là gì?",
+     "options": [
+      "otoku",
+      "mawaru",
+      "henkō"
+     ],
+     "answer": 2,
+     "explanation": "「変更」 đọc là [henkō], nghĩa là thay đổi."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を変更します。  (Tôi đổi lịch trình.)",
+     "options": [
+      "お得",
+      "台風",
+      "予定"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「予定」 (kế hoạch, lịch trình). Câu đầy đủ: 予定を変更します。"
+    },
+    {
+     "prompt": "「台風」 có nghĩa là gì?",
+     "options": [
+      "bão",
+      "thay đổi",
+      "đi vòng quanh"
+     ],
+     "answer": 0,
+     "explanation": "「台風」 [taifū] = bão."
+    },
+    {
+     "prompt": "「台風」 đọc là gì?",
+     "options": [
+      "taifū",
+      "henkō",
+      "mawaru"
+     ],
+     "answer": 0,
+     "explanation": "「台風」 đọc là [taifū], nghĩa là bão."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が来ます。  (Bão sắp đến.)",
+     "options": [
+      "回る",
+      "台風",
+      "変更"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「台風」 (bão). Câu đầy đủ: 台風が来ます。"
     }
    ],
    "audioIds": []

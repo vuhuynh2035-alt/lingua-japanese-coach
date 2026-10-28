@@ -12,7 +12,7 @@ Mỗi người dùng API key và hạn mức của riêng mình; yêu cầu gử
 
 ## Tính năng
 
-- Giáo trình JLPT N5–N2: 28 bài (everyday 12, travel 8, business 8), 280 câu hỏi. Mỗi bài có hội thoại có romaji và bản dịch, từ vựng, ngữ pháp, mẹo phát âm cho người Việt, nhiệm vụ luyện nói và bài kiểm tra 10 câu (đạt 8/10 để sang bài kế tiếp).
+- Giáo trình JLPT N5–N2: 88 bài trong 7 khóa (giao tiếp hằng ngày 16; du lịch, công sở, công nghệ, y khoa, tài chính, kỹ thuật điện lạnh công nghiệp mỗi khóa 12), 880 câu hỏi. Mỗi bài có hội thoại có romaji và bản dịch, từ vựng, ngữ pháp, mẹo phát âm cho người Việt, nhiệm vụ luyện nói và bài kiểm tra 10 câu (đạt 8/10 để sang bài kế tiếp).
 - Thầy/cô AI trò chuyện bằng giọng nói hoặc văn bản, sửa lỗi ngữ pháp, từ vựng và phát âm theo trình độ.
 - Gia sư hoạt hình (cô giáo, thầy giáo, linh vật) nhép miệng khi đọc; giọng thiết bị hoặc giọng AI (Gemini / OpenAI), chọn vùng miền, nam/nữ.
 - Bài kiểm tra xếp trình độ, bài ngữ pháp có chấm điểm, ghi âm chất lượng cao / khử ồn tùy chọn, dùng offline (PWA).

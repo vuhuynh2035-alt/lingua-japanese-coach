@@ -1,9 +1,9 @@
 {
  "id": "business",
  "title": "Tiếng Nhật công sở",
- "version": "1.0.0",
+ "version": "1.1.0",
  "framework": "JLPT N5–N2",
- "overview": "8 bài từ N5 đến N2 cho môi trường văn phòng Nhật: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, kính ngữ và thương lượng.",
+ "overview": "12 bài từ N5 đến N2 cho môi trường văn phòng Nhật: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, kính ngữ và thương lượng.",
  "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
  "references": [
   {
@@ -415,6 +415,198 @@
    "audioIds": []
   },
   {
+   "id": "business-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Từ vựng",
+   "title": "Đồ dùng văn phòng và lịch làm việc",
+   "objective": "Gọi tên đồ dùng văn phòng, mượn đồ và nói giờ làm việc.",
+   "reading": "ミン: すみません、ホチキスを貸していただけますか。\n同僚: はい、どうぞ。\nミン: 会社は何時から何時までですか。\n同僚: 九時から六時までです。昼休みは一時間です。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、ホチキスを貸していただけますか。",
+     "phonetic": "Sumimasen, hochikisu o kashite itadakemasu ka.",
+     "translation": "Xin lỗi, cho tôi mượn cái dập ghim được không?"
+    },
+    {
+     "speaker": "同僚",
+     "text": "はい、どうぞ。",
+     "phonetic": "Hai, dōzo.",
+     "translation": "Vâng, đây."
+    },
+    {
+     "speaker": "ミン",
+     "text": "会社は何時から何時までですか。",
+     "phonetic": "Kaisha wa nanji kara nanji made desu ka.",
+     "translation": "Công ty làm từ mấy giờ đến mấy giờ?"
+    },
+    {
+     "speaker": "同僚",
+     "text": "九時から六時までです。昼休みは一時間です。",
+     "phonetic": "Kuji kara rokuji made desu. Hiruyasumi wa ichijikan desu.",
+     "translation": "Từ 9 giờ đến 6 giờ. Nghỉ trưa một tiếng."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "ホチキス",
+     "reading": "hochikisu",
+     "definition": "dập ghim",
+     "example": "ホチキスはどこですか。 (Dập ghim ở đâu?)"
+    },
+    {
+     "term": "貸す",
+     "reading": "kasu",
+     "definition": "cho mượn",
+     "example": "ペンを貸してください。 (Cho tôi mượn bút.)"
+    },
+    {
+     "term": "コピー機",
+     "reading": "kopīki",
+     "definition": "máy photocopy",
+     "example": "コピー機が壊れました。 (Máy photo bị hỏng.)"
+    },
+    {
+     "term": "昼休み",
+     "reading": "hiruyasumi",
+     "definition": "nghỉ trưa",
+     "example": "昼休みは十二時からです。 (Nghỉ trưa từ 12 giờ.)"
+    },
+    {
+     "term": "書類",
+     "reading": "shorui",
+     "definition": "giấy tờ, tài liệu",
+     "example": "書類を出します。 (Tôi nộp giấy tờ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜から〜まで và 〜ていただけますか",
+    "explanation": "Khoảng thời gian: A から B まで. Nhờ lịch sự: V て + いただけますか. Mượn: 借りる (mình mượn), cho mượn: 貸す.",
+    "examples": [
+     "九時から五時まで働きます。[kuji kara goji made hatarakimasu] (Tôi làm từ 9 đến 5 giờ.)",
+     "ペンを貸していただけますか。[pen o kashite itadakemasu ka] (Cho tôi mượn bút được không ạ?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Từ ngoại lai katakana",
+    "tip": "Katakana có trường âm ー: コピー kopī. Đọc đủ trường âm, không rút ngắn. ホチキス có ち (chi).",
+    "words": [
+     "コピーき",
+     "ホチキス",
+     "しょるい",
+     "ひるやすみ"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi mượn 2 đồ dùng văn phòng một cách lịch sự.",
+    "Nói giờ làm việc và giờ nghỉ trưa ở công ty bạn."
+   ],
+   "questions": [
+    {
+     "prompt": "Nhờ mượn bút lịch sự:",
+     "options": [
+      "ペンを借りていただけますか。",
+      "ペンを貸していただけますか。",
+      "ペンが貸しますか。"
+     ],
+     "answer": 1,
+     "explanation": "Người kia cho mượn: 貸して いただけますか."
+    },
+    {
+     "prompt": "“Từ 9 giờ đến 6 giờ” là:",
+     "options": [
+      "九時から六時まで",
+      "九時まで六時から",
+      "九時に六時で"
+     ],
+     "answer": 0,
+     "explanation": "A から B まで."
+    },
+    {
+     "prompt": "「書類」 là:",
+     "options": [
+      "máy tính",
+      "bàn làm việc",
+      "giấy tờ, tài liệu"
+     ],
+     "answer": 2,
+     "explanation": "書類 = tài liệu."
+    },
+    {
+     "prompt": "「コピー機」 là:",
+     "options": [
+      "máy in vé",
+      "máy lạnh",
+      "máy photocopy"
+     ],
+     "answer": 2,
+     "explanation": "コピー機 = máy photo."
+    },
+    {
+     "prompt": "「書類」 có nghĩa là gì?",
+     "options": [
+      "dập ghim",
+      "máy photocopy",
+      "giấy tờ, tài liệu"
+     ],
+     "answer": 2,
+     "explanation": "「書類」 [shorui] = giấy tờ, tài liệu."
+    },
+    {
+     "prompt": "「ホチキス」 đọc là gì?",
+     "options": [
+      "shorui",
+      "hiruyasumi",
+      "hochikisu"
+     ],
+     "answer": 2,
+     "explanation": "「ホチキス」 đọc là [hochikisu], nghĩa là dập ghim."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を出します。  (Tôi nộp giấy tờ.)",
+     "options": [
+      "書類",
+      "コピー機",
+      "ホチキス"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「書類」 (giấy tờ, tài liệu). Câu đầy đủ: 書類を出します。"
+    },
+    {
+     "prompt": "「昼休み」 có nghĩa là gì?",
+     "options": [
+      "giấy tờ, tài liệu",
+      "dập ghim",
+      "nghỉ trưa"
+     ],
+     "answer": 2,
+     "explanation": "「昼休み」 [hiruyasumi] = nghỉ trưa."
+    },
+    {
+     "prompt": "「昼休み」 đọc là gì?",
+     "options": [
+      "hochikisu",
+      "shorui",
+      "hiruyasumi"
+     ],
+     "answer": 2,
+     "explanation": "「昼休み」 đọc là [hiruyasumi], nghĩa là nghỉ trưa."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が壊れました。  (Máy photo bị hỏng.)",
+     "options": [
+      "コピー機",
+      "貸す",
+      "昼休み"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「コピー機」 (máy photocopy). Câu đầy đủ: コピー機が壊れました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "business-a2-1",
    "level": "A2",
    "unit": "N4 · Bài 1",
@@ -811,6 +1003,198 @@
    "audioIds": []
   },
   {
+   "id": "business-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Phỏng vấn xin việc",
+   "objective": "Giới thiệu bản thân, kinh nghiệm và lý do ứng tuyển.",
+   "reading": "面接官: 自己紹介をお願いします。\nミン: グエン・ミンと申します。ベトナムで三年間エンジニアとして働いていました。\n面接官: どうして弊社を希望しましたか。\nミン: 御社の技術に興味があるからです。",
+   "dialogue": [
+    {
+     "speaker": "面接官",
+     "text": "自己紹介をお願いします。",
+     "phonetic": "Jiko shōkai o onegai shimasu.",
+     "translation": "Mời bạn giới thiệu bản thân."
+    },
+    {
+     "speaker": "ミン",
+     "text": "グエン・ミンと申します。ベトナムで三年間エンジニアとして働いていました。",
+     "phonetic": "Guen Min to mōshimasu. Betonamu de sannenkan enjinia to shite hataraite imashita.",
+     "translation": "Tôi là Nguyễn Minh. Tôi đã làm kỹ sư 3 năm ở Việt Nam."
+    },
+    {
+     "speaker": "面接官",
+     "text": "どうして弊社を希望しましたか。",
+     "phonetic": "Dōshite heisha o kibō shimashita ka.",
+     "translation": "Vì sao bạn chọn công ty chúng tôi?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "御社の技術に興味があるからです。",
+     "phonetic": "Onsha no gijutsu ni kyōmi ga aru kara desu.",
+     "translation": "Vì tôi quan tâm đến công nghệ của quý công ty."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "自己紹介",
+     "reading": "jiko shōkai",
+     "definition": "tự giới thiệu",
+     "example": "自己紹介をします。 (Tôi xin tự giới thiệu.)"
+    },
+    {
+     "term": "申します",
+     "reading": "mōshimasu",
+     "definition": "tên là (khiêm nhường)",
+     "example": "ミンと申します。 (Tôi tên là Minh.)"
+    },
+    {
+     "term": "御社",
+     "reading": "onsha",
+     "definition": "quý công ty (khi nói)",
+     "example": "御社で働きたいです。 (Tôi muốn làm ở quý công ty.)"
+    },
+    {
+     "term": "興味",
+     "reading": "kyōmi",
+     "definition": "quan tâm, hứng thú",
+     "example": "日本の文化に興味があります。 (Tôi quan tâm văn hóa Nhật.)"
+    },
+    {
+     "term": "希望",
+     "reading": "kibō",
+     "definition": "nguyện vọng",
+     "example": "営業部を希望します。 (Tôi mong muốn vào phòng kinh doanh.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜として / 〜に興味がある / 〜からです",
+    "explanation": "N として: với tư cách N. N に興味があります: quan tâm N. Trả lời lý do: 〜からです. Nói về công ty người khác: 御社; công ty mình: 弊社.",
+    "examples": [
+     "通訳として働きました。[tsūyaku to shite hatarakimashita] (Tôi làm phiên dịch.)",
+     "IT に興味があるからです。[IT ni kyōmi ga aru kara desu] (Vì tôi quan tâm đến IT.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nói chậm, rõ khi phỏng vấn",
+    "tip": "Âm dài 紹介 shōkai, 興味 kyōmi, 希望 kibō cần đủ trường độ. Cúi chào và nói よろしくお願いいたします khi kết thúc.",
+    "words": [
+     "じこしょうかい",
+     "きょうみ",
+     "きぼう",
+     "おんしゃ"
+    ]
+   },
+   "speakingTasks": [
+    "Tự giới thiệu trong buổi phỏng vấn (tên, kinh nghiệm, lý do).",
+    "Thầy/cô làm người phỏng vấn, hãy trả lời câu 「長所は何ですか」."
+   ],
+   "questions": [
+    {
+     "prompt": "Giới thiệu tên khiêm nhường:",
+     "options": [
+      "ミンと言いましょう。",
+      "ミンとおっしゃいます。",
+      "ミンと申します。"
+     ],
+     "answer": 2,
+     "explanation": "申します là khiêm nhường ngữ."
+    },
+    {
+     "prompt": "Khi nói chuyện, “quý công ty” là:",
+     "options": [
+      "御社",
+      "会社さん",
+      "弊社"
+     ],
+     "answer": 0,
+     "explanation": "御社 dùng trong văn nói; 弊社 là công ty mình."
+    },
+    {
+     "prompt": "“Tôi quan tâm đến IT.” là:",
+     "options": [
+      "IT を興味です。",
+      "IT が興味します。",
+      "IT に興味があります。"
+     ],
+     "answer": 2,
+     "explanation": "N に興味があります."
+    },
+    {
+     "prompt": "“Tôi đã làm kỹ sư” dùng:",
+     "options": [
+      "エンジニアに働きました",
+      "エンジニアとして働いていました",
+      "エンジニアを働いた"
+     ],
+     "answer": 1,
+     "explanation": "N として = với tư cách."
+    },
+    {
+     "prompt": "「自己紹介」 có nghĩa là gì?",
+     "options": [
+      "nguyện vọng",
+      "tự giới thiệu",
+      "quý công ty (khi nói)"
+     ],
+     "answer": 1,
+     "explanation": "「自己紹介」 [jiko shōkai] = tự giới thiệu."
+    },
+    {
+     "prompt": "「御社」 đọc là gì?",
+     "options": [
+      "onsha",
+      "kibō",
+      "jiko shōkai"
+     ],
+     "answer": 0,
+     "explanation": "「御社」 đọc là [onsha], nghĩa là quý công ty (khi nói)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿で働きたいです。  (Tôi muốn làm ở quý công ty.)",
+     "options": [
+      "御社",
+      "希望",
+      "自己紹介"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「御社」 (quý công ty (khi nói)). Câu đầy đủ: 御社で働きたいです。"
+    },
+    {
+     "prompt": "「希望」 có nghĩa là gì?",
+     "options": [
+      "tự giới thiệu",
+      "nguyện vọng",
+      "tên là (khiêm nhường)"
+     ],
+     "answer": 1,
+     "explanation": "「希望」 [kibō] = nguyện vọng."
+    },
+    {
+     "prompt": "「希望」 đọc là gì?",
+     "options": [
+      "kibō",
+      "jiko shōkai",
+      "mōshimasu"
+     ],
+     "answer": 0,
+     "explanation": "「希望」 đọc là [kibō], nghĩa là nguyện vọng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ミンと＿＿＿。  (Tôi tên là Minh.)",
+     "options": [
+      "希望",
+      "興味",
+      "申します"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「申します」 (tên là (khiêm nhường)). Câu đầy đủ: ミンと申します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "business-b1-1",
    "level": "B1",
    "unit": "N3 · Bài 1",
@@ -1197,6 +1581,198 @@
    "audioIds": []
   },
   {
+   "id": "business-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Thuyết trình về số liệu",
+   "objective": "Mô tả biểu đồ, tăng giảm và so sánh số liệu.",
+   "reading": "ミン: こちらのグラフをご覧ください。\nミン: 今期の売上は前期に比べて十五パーセント増加しました。\n部長: 増加の主な理由は何ですか。\nミン: 新製品の販売が好調だったためです。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "こちらのグラフをご覧ください。",
+     "phonetic": "Kochira no gurafu o goran kudasai.",
+     "translation": "Xin mời xem biểu đồ này."
+    },
+    {
+     "speaker": "ミン",
+     "text": "今期の売上は前期に比べて十五パーセント増加しました。",
+     "phonetic": "Konki no uriage wa zenki ni kurabete jūgo pāsento zōka shimashita.",
+     "translation": "Doanh thu kỳ này tăng 15% so với kỳ trước."
+    },
+    {
+     "speaker": "部長",
+     "text": "増加の主な理由は何ですか。",
+     "phonetic": "Zōka no omo na riyū wa nan desu ka.",
+     "translation": "Lý do chính của sự tăng là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "新製品の販売が好調だったためです。",
+     "phonetic": "Shinseihin no hanbai ga kōchō datta tame desu.",
+     "translation": "Là do doanh số sản phẩm mới tốt."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "グラフ",
+     "reading": "gurafu",
+     "definition": "biểu đồ",
+     "example": "グラフを見てください。 (Hãy xem biểu đồ.)"
+    },
+    {
+     "term": "売上",
+     "reading": "uriage",
+     "definition": "doanh thu",
+     "example": "売上が伸びました。 (Doanh thu đã tăng.)"
+    },
+    {
+     "term": "増加",
+     "reading": "zōka",
+     "definition": "gia tăng",
+     "example": "利用者が増加しました。 (Người dùng tăng lên.)"
+    },
+    {
+     "term": "減少",
+     "reading": "genshō",
+     "definition": "giảm",
+     "example": "コストが減少しました。 (Chi phí giảm.)"
+    },
+    {
+     "term": "好調",
+     "reading": "kōchō",
+     "definition": "thuận lợi, tốt",
+     "example": "販売が好調です。 (Bán hàng thuận lợi.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜に比べて / 〜ため",
+    "explanation": "N に比べて: so với N. 〜ためです: là vì ~ (trang trọng). Mời xem: ご覧ください. Mức thay đổi: 〜パーセント増加/減少しました.",
+    "examples": [
+     "昨年に比べて、コストが減少しました。[sakunen ni kurabete, kosuto ga genshō shimashita] (So với năm ngoái, chi phí giảm.)",
+     "円安のためです。[en'yasu no tame desu] (Là do đồng yên yếu.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Con số trong thuyết trình",
+    "tip": "Đọc phần trăm: 十五パーセント jūgo pāsento. Âm dài trong 増加 zōka, 好調 kōchō, 減少 genshō. Nhấn vào số liệu.",
+    "words": [
+     "ぞうか",
+     "げんしょう",
+     "こうちょう",
+     "うりあげ"
+    ]
+   },
+   "speakingTasks": [
+    "Thuyết trình 3 câu về một biểu đồ doanh thu.",
+    "Giải thích nguyên nhân giảm chi phí với thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "Mời người nghe xem biểu đồ:",
+     "options": [
+      "グラフを拝見してください。",
+      "グラフをご覧ください。",
+      "グラフを見てあげます。"
+     ],
+     "answer": 1,
+     "explanation": "ご覧ください là kính ngữ của 見てください."
+    },
+    {
+     "prompt": "“So với năm ngoái” là:",
+     "options": [
+      "昨年を比べて",
+      "昨年に比べて",
+      "昨年で比べる"
+     ],
+     "answer": 1,
+     "explanation": "N に比べて."
+    },
+    {
+     "prompt": "「減少」 nghĩa là:",
+     "options": [
+      "giảm",
+      "tăng",
+      "giữ nguyên"
+     ],
+     "answer": 0,
+     "explanation": "減少 = giảm."
+    },
+    {
+     "prompt": "Nêu nguyên nhân trang trọng:",
+     "options": [
+      "好調だったためです。",
+      "好調だったからだよ。",
+      "好調でしたね。"
+     ],
+     "answer": 0,
+     "explanation": "〜ためです dùng trong thuyết trình."
+    },
+    {
+     "prompt": "「グラフ」 có nghĩa là gì?",
+     "options": [
+      "doanh thu",
+      "biểu đồ",
+      "giảm"
+     ],
+     "answer": 1,
+     "explanation": "「グラフ」 [gurafu] = biểu đồ."
+    },
+    {
+     "prompt": "「売上」 đọc là gì?",
+     "options": [
+      "uriage",
+      "genshō",
+      "zōka"
+     ],
+     "answer": 0,
+     "explanation": "「売上」 đọc là [uriage], nghĩa là doanh thu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 利用者が＿＿＿しました。  (Người dùng tăng lên.)",
+     "options": [
+      "売上",
+      "増加",
+      "好調"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「増加」 (gia tăng). Câu đầy đủ: 利用者が増加しました。"
+    },
+    {
+     "prompt": "「増加」 có nghĩa là gì?",
+     "options": [
+      "gia tăng",
+      "thuận lợi, tốt",
+      "doanh thu"
+     ],
+     "answer": 0,
+     "explanation": "「増加」 [zōka] = gia tăng."
+    },
+    {
+     "prompt": "「増加」 đọc là gì?",
+     "options": [
+      "kōchō",
+      "zōka",
+      "uriage"
+     ],
+     "answer": 1,
+     "explanation": "「増加」 đọc là [zōka], nghĩa là gia tăng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: コストが＿＿＿しました。  (Chi phí giảm.)",
+     "options": [
+      "増加",
+      "減少",
+      "売上"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「減少」 (giảm). Câu đầy đủ: コストが減少しました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "business-b2-1",
    "level": "B2",
    "unit": "N2 · Bài 1",
@@ -1578,6 +2154,198 @@
      ],
      "answer": 1,
      "explanation": "Đáp án: 「検討」 (xem xét). Câu đầy đủ: 前向きに検討します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "business-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Xử lý xung đột và góp ý",
+   "objective": "Góp ý khéo léo, nhận phản hồi và giải quyết bất đồng.",
+   "reading": "ミン: 少しよろしいでしょうか。報告書の件でご相談があるのですが。\n同僚: はい、何でしょう。\nミン: データの部分ですが、もう少し根拠を加えたほうがよいかと思います。\n同僚: 確かにそうですね。ご指摘ありがとうございます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "少しよろしいでしょうか。報告書の件でご相談があるのですが。",
+     "phonetic": "Sukoshi yoroshii deshō ka. Hōkokusho no ken de go-sōdan ga aru no desu ga.",
+     "translation": "Anh có chút thời gian không ạ? Em muốn bàn về bản báo cáo."
+    },
+    {
+     "speaker": "同僚",
+     "text": "はい、何でしょう。",
+     "phonetic": "Hai, nan deshō.",
+     "translation": "Vâng, chuyện gì vậy?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "データの部分ですが、もう少し根拠を加えたほうがよいかと思います。",
+     "phonetic": "Dēta no bubun desu ga, mō sukoshi konkyo o kuwaeta hō ga yoi ka to omoimasu.",
+     "translation": "Phần số liệu, em nghĩ nên bổ sung thêm căn cứ."
+    },
+    {
+     "speaker": "同僚",
+     "text": "確かにそうですね。ご指摘ありがとうございます。",
+     "phonetic": "Tashika ni sō desu ne. Go-shiteki arigatō gozaimasu.",
+     "translation": "Đúng thật. Cảm ơn em đã góp ý."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "相談",
+     "reading": "sōdan",
+     "definition": "trao đổi, xin ý kiến",
+     "example": "上司に相談します。 (Tôi xin ý kiến cấp trên.)"
+    },
+    {
+     "term": "根拠",
+     "reading": "konkyo",
+     "definition": "căn cứ",
+     "example": "根拠を示してください。 (Xin đưa ra căn cứ.)"
+    },
+    {
+     "term": "指摘",
+     "reading": "shiteki",
+     "definition": "chỉ ra, góp ý",
+     "example": "ご指摘ありがとうございます。 (Cảm ơn đã góp ý.)"
+    },
+    {
+     "term": "確かに",
+     "reading": "tashika ni",
+     "definition": "quả thật",
+     "example": "確かにその通りです。 (Quả đúng như vậy.)"
+    },
+    {
+     "term": "誤解",
+     "reading": "gokai",
+     "definition": "hiểu lầm",
+     "example": "誤解があったようです。 (Hình như có hiểu lầm.)"
+    }
+   ],
+   "grammar": {
+    "title": "Góp ý mềm mỏng",
+    "explanation": "Mở lời: 少しよろしいでしょうか. Góp ý: 〜たほうがよいかと思います (giảm mức khẳng định). Nhận góp ý: ご指摘ありがとうございます. Giải tỏa hiểu lầm: 誤解があったようです.",
+    "examples": [
+     "別の方法もあるかと思います。[betsu no hōhō mo aru ka to omoimasu] (Tôi nghĩ có lẽ còn cách khác.)",
+     "お互いに確認しましょう。[otagai ni kakunin shimashō] (Chúng ta cùng xác nhận lại nhé.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng mềm khi góp ý",
+    "tip": "Kéo nhẹ cuối câu 〜のですが… và 〜かと思います, không lên giọng gắt. Âm dài 相談 sōdan, 報告書 hōkokusho.",
+    "words": [
+     "そうだん",
+     "ほうこくしょ",
+     "してき",
+     "ごかい"
+    ]
+   },
+   "speakingTasks": [
+    "Góp ý cho đồng nghiệp về một tài liệu một cách khéo léo.",
+    "Giải quyết một hiểu lầm về lịch họp với thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở lời xin thời gian lịch sự:",
+     "options": [
+      "少しよろしいでしょうか。",
+      "ちょっと来て。",
+      "今すぐ話せ。"
+     ],
+     "answer": 0,
+     "explanation": "よろしいでしょうか rất lịch sự."
+    },
+    {
+     "prompt": "Góp ý mềm mỏng:",
+     "options": [
+      "〜たほうがよいかと思います",
+      "〜はだめです",
+      "〜しなければならない!"
+     ],
+     "answer": 0,
+     "explanation": "かと思います làm giảm mức khẳng định."
+    },
+    {
+     "prompt": "Đáp lại khi được góp ý:",
+     "options": [
+      "知りません。",
+      "ご指摘ありがとうございます。",
+      "うるさいです。"
+     ],
+     "answer": 1,
+     "explanation": "Thể hiện sự cầu thị."
+    },
+    {
+     "prompt": "「誤解」 nghĩa là:",
+     "options": [
+      "giải pháp",
+      "hiểu lầm",
+      "kết luận"
+     ],
+     "answer": 1,
+     "explanation": "誤解 = hiểu lầm."
+    },
+    {
+     "prompt": "「誤解」 có nghĩa là gì?",
+     "options": [
+      "chỉ ra, góp ý",
+      "hiểu lầm",
+      "quả thật"
+     ],
+     "answer": 1,
+     "explanation": "「誤解」 [gokai] = hiểu lầm."
+    },
+    {
+     "prompt": "「確かに」 đọc là gì?",
+     "options": [
+      "tashika ni",
+      "konkyo",
+      "gokai"
+     ],
+     "answer": 0,
+     "explanation": "「確かに」 đọc là [tashika ni], nghĩa là quả thật."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ご＿＿＿ありがとうございます。  (Cảm ơn đã góp ý.)",
+     "options": [
+      "指摘",
+      "根拠",
+      "相談"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「指摘」 (chỉ ra, góp ý). Câu đầy đủ: ご指摘ありがとうございます。"
+    },
+    {
+     "prompt": "「指摘」 có nghĩa là gì?",
+     "options": [
+      "căn cứ",
+      "trao đổi, xin ý kiến",
+      "chỉ ra, góp ý"
+     ],
+     "answer": 2,
+     "explanation": "「指摘」 [shiteki] = chỉ ra, góp ý."
+    },
+    {
+     "prompt": "「根拠」 đọc là gì?",
+     "options": [
+      "konkyo",
+      "tashika ni",
+      "sōdan"
+     ],
+     "answer": 0,
+     "explanation": "「根拠」 đọc là [konkyo], nghĩa là căn cứ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿その通りです。  (Quả đúng như vậy.)",
+     "options": [
+      "根拠",
+      "確かに",
+      "誤解"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「確かに」 (quả thật). Câu đầy đủ: 確かにその通りです。"
     }
    ],
    "audioIds": []

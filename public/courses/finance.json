@@ -1,0 +1,2327 @@
+{
+ "id": "finance",
+ "title": "Tiếng Nhật ngành tài chính",
+ "version": "1.1.0",
+ "framework": "JLPT N5–N2",
+ "overview": "12 bài từ N5 đến N2: giao dịch ngân hàng, mở tài khoản, hóa đơn, tiết kiệm và vay, ngân sách, nhắc thanh toán, báo cáo tài chính, đầu tư, kiểm soát chi phí, thuyết trình với nhà đầu tư, đàm phán tín dụng và tuân thủ.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "finance-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Từ vựng",
+   "title": "Tiền tệ và giao dịch ngân hàng cơ bản",
+   "objective": "Rút tiền, gửi tiền và chuyển khoản tại ngân hàng.",
+   "reading": "ミン: すみません、お金を引き出したいです。\n行員: ATMはあちらです。カードはお持ちですか。\nミン: はい。それから、友だちに振り込みたいです。\n行員: 振り込みもATMでできますよ。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、お金を引き出したいです。",
+     "phonetic": "Sumimasen, okane o hikidashitai desu.",
+     "translation": "Xin lỗi, tôi muốn rút tiền."
+    },
+    {
+     "speaker": "行員",
+     "text": "ATMはあちらです。カードはお持ちですか。",
+     "phonetic": "Ētīemu wa achira desu. Kādo wa omochi desu ka.",
+     "translation": "ATM ở đằng kia. Quý khách có thẻ không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい。それから、友だちに振り込みたいです。",
+     "phonetic": "Hai. Sorekara, tomodachi ni furikomitai desu.",
+     "translation": "Có. Ngoài ra tôi muốn chuyển khoản cho bạn."
+    },
+    {
+     "speaker": "行員",
+     "text": "振り込みもATMでできますよ。",
+     "phonetic": "Furikomi mo ētīemu de dekimasu yo.",
+     "translation": "Chuyển khoản cũng làm được ở ATM ạ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "お金",
+     "reading": "okane",
+     "definition": "tiền",
+     "example": "お金がありません。 (Tôi không có tiền.)"
+    },
+    {
+     "term": "引き出す",
+     "reading": "hikidasu",
+     "definition": "rút (tiền)",
+     "example": "一万円を引き出します。 (Rút 10.000 yên.)"
+    },
+    {
+     "term": "預ける",
+     "reading": "azukeru",
+     "definition": "gửi (tiền)",
+     "example": "お金を預けます。 (Gửi tiền.)"
+    },
+    {
+     "term": "振り込み",
+     "reading": "furikomi",
+     "definition": "chuyển khoản",
+     "example": "振り込みをお願いします。 (Xin chuyển khoản.)"
+    },
+    {
+     "term": "銀行",
+     "reading": "ginkō",
+     "definition": "ngân hàng",
+     "example": "銀行は三時までです。 (Ngân hàng mở đến 3 giờ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜たいです / 〜でできます",
+    "explanation": "Muốn làm: V (bỏ ます) + たいです. Có thể làm ở/bằng: N でできます. Hỏi có mang theo không lịch sự: お持ちですか.",
+    "examples": [
+     "口座を作りたいです。[kōza o tsukuritai desu] (Tôi muốn mở tài khoản.)",
+     "スマホでできます。[sumaho de dekimasu] (Làm được bằng điện thoại.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm ふり, ぎん",
+    "tip": "振り込み furikomi: ふ đọc nhẹ giữa “fu” và “hu”. 銀行 ginkō có trường âm cuối.",
+    "words": [
+     "ふりこみ",
+     "ぎんこう",
+     "おかね",
+     "ひきだす"
+    ]
+   },
+   "speakingTasks": [
+    "Nói với nhân viên ngân hàng bạn muốn rút và chuyển tiền.",
+    "Hỏi thầy/cô giờ mở cửa của ngân hàng."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi muốn rút tiền.” là:",
+     "options": [
+      "お金を預けたいです。",
+      "お金を引き出したいです。",
+      "お金が引き出します。"
+     ],
+     "answer": 1,
+     "explanation": "引き出す = rút."
+    },
+    {
+     "prompt": "「預ける」 nghĩa là:",
+     "options": [
+      "mượn",
+      "rút",
+      "gửi (tiền)"
+     ],
+     "answer": 2,
+     "explanation": "預ける = gửi."
+    },
+    {
+     "prompt": "“Chuyển khoản cũng làm được ở ATM.”:",
+     "options": [
+      "振り込みをATMにします。",
+      "振り込みもATMでできます。",
+      "振り込みはATMができます。"
+     ],
+     "answer": 1,
+     "explanation": "N でできます."
+    },
+    {
+     "prompt": "「銀行」 là:",
+     "options": [
+      "cửa hàng",
+      "ngân hàng",
+      "bưu điện"
+     ],
+     "answer": 1,
+     "explanation": "銀行 = ngân hàng."
+    },
+    {
+     "prompt": "「預ける」 có nghĩa là gì?",
+     "options": [
+      "gửi (tiền)",
+      "tiền",
+      "chuyển khoản"
+     ],
+     "answer": 0,
+     "explanation": "「預ける」 [azukeru] = gửi (tiền)."
+    },
+    {
+     "prompt": "「振り込み」 đọc là gì?",
+     "options": [
+      "azukeru",
+      "okane",
+      "furikomi"
+     ],
+     "answer": 2,
+     "explanation": "「振り込み」 đọc là [furikomi], nghĩa là chuyển khoản."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をお願いします。  (Xin chuyển khoản.)",
+     "options": [
+      "振り込み",
+      "預ける",
+      "お金"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「振り込み」 (chuyển khoản). Câu đầy đủ: 振り込みをお願いします。"
+    },
+    {
+     "prompt": "「銀行」 có nghĩa là gì?",
+     "options": [
+      "ngân hàng",
+      "chuyển khoản",
+      "rút (tiền)"
+     ],
+     "answer": 0,
+     "explanation": "「銀行」 [ginkō] = ngân hàng."
+    },
+    {
+     "prompt": "「お金」 đọc là gì?",
+     "options": [
+      "okane",
+      "ginkō",
+      "azukeru"
+     ],
+     "answer": 0,
+     "explanation": "「お金」 đọc là [okane], nghĩa là tiền."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は三時までです。  (Ngân hàng mở đến 3 giờ.)",
+     "options": [
+      "引き出す",
+      "銀行",
+      "振り込み"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「銀行」 (ngân hàng). Câu đầy đủ: 銀行は三時までです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Mở tài khoản ngân hàng",
+   "objective": "Điền thông tin, trình giấy tờ và chọn loại tài khoản.",
+   "reading": "ミン: 口座を開きたいのですが。\n行員: 在留カードと印鑑をお持ちですか。\nミン: 在留カードはあります。印鑑はありません。\n行員: では、サインで大丈夫です。この用紙に記入してください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "口座を開きたいのですが。",
+     "phonetic": "Kōza o hirakitai no desu ga.",
+     "translation": "Tôi muốn mở tài khoản."
+    },
+    {
+     "speaker": "行員",
+     "text": "在留カードと印鑑をお持ちですか。",
+     "phonetic": "Zairyū kādo to inkan o omochi desu ka.",
+     "translation": "Quý khách có thẻ cư trú và con dấu không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "在留カードはあります。印鑑はありません。",
+     "phonetic": "Zairyū kādo wa arimasu. Inkan wa arimasen.",
+     "translation": "Tôi có thẻ cư trú. Không có con dấu."
+    },
+    {
+     "speaker": "行員",
+     "text": "では、サインで大丈夫です。この用紙に記入してください。",
+     "phonetic": "Dewa, sain de daijōbu desu. Kono yōshi ni kinyū shite kudasai.",
+     "translation": "Vậy ký tên cũng được. Xin điền vào tờ này."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "口座",
+     "reading": "kōza",
+     "definition": "tài khoản",
+     "example": "口座を開きます。 (Mở tài khoản.)"
+    },
+    {
+     "term": "在留カード",
+     "reading": "zairyū kādo",
+     "definition": "thẻ cư trú",
+     "example": "在留カードを見せてください。 (Xin cho xem thẻ cư trú.)"
+    },
+    {
+     "term": "印鑑",
+     "reading": "inkan",
+     "definition": "con dấu cá nhân",
+     "example": "印鑑を押してください。 (Xin đóng dấu.)"
+    },
+    {
+     "term": "用紙",
+     "reading": "yōshi",
+     "definition": "mẫu đơn, tờ giấy",
+     "example": "用紙をください。 (Cho tôi mẫu đơn.)"
+    },
+    {
+     "term": "記入",
+     "reading": "kinyū",
+     "definition": "điền (thông tin)",
+     "example": "住所を記入してください。 (Xin điền địa chỉ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜のですが / N で大丈夫です",
+    "explanation": "Mở lời nhờ vả mềm: V たい + のですが. Thay thế được: N で大丈夫です. Điền vào: N に記入してください.",
+    "examples": [
+     "カードを作りたいのですが。[kādo o tsukuritai no desu ga] (Tôi muốn làm thẻ.)",
+     "パスポートで大丈夫です。[pasupōto de daijōbu desu] (Hộ chiếu cũng được.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài こうざ, ざいりゅう",
+    "tip": "口座 kōza, 在留 zairyū: trường âm phải đủ. Nếu đọc ngắn “koza” sẽ khó hiểu.",
+    "words": [
+     "こうざ",
+     "ざいりゅう",
+     "いんかん",
+     "きにゅう"
+    ]
+   },
+   "speakingTasks": [
+    "Mở tài khoản: nói mục đích, trình giấy tờ, hỏi loại thẻ.",
+    "Hỏi thầy/cô cần mang theo giấy tờ gì."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở lời “Tôi muốn mở tài khoản.”",
+     "options": [
+      "口座を開きたいのですが。",
+      "口座を開いてもいいです。",
+      "口座が開きます。"
+     ],
+     "answer": 0,
+     "explanation": "〜たいのですが mềm mỏng."
+    },
+    {
+     "prompt": "「印鑑」 là:",
+     "options": [
+      "thẻ ATM",
+      "chữ ký điện tử",
+      "con dấu cá nhân"
+     ],
+     "answer": 2,
+     "explanation": "印鑑 = con dấu."
+    },
+    {
+     "prompt": "“Ký tên cũng được.” là:",
+     "options": [
+      "サインが大丈夫ですか。",
+      "サインを大丈夫にします。",
+      "サインで大丈夫です。"
+     ],
+     "answer": 2,
+     "explanation": "N で大丈夫です."
+    },
+    {
+     "prompt": "「記入してください」 nghĩa là:",
+     "options": [
+      "xin đợi",
+      "xin điền vào",
+      "xin ký"
+     ],
+     "answer": 1,
+     "explanation": "記入 = điền."
+    },
+    {
+     "prompt": "「在留カード」 có nghĩa là gì?",
+     "options": [
+      "thẻ cư trú",
+      "mẫu đơn, tờ giấy",
+      "tài khoản"
+     ],
+     "answer": 0,
+     "explanation": "「在留カード」 [zairyū kādo] = thẻ cư trú."
+    },
+    {
+     "prompt": "「口座」 đọc là gì?",
+     "options": [
+      "kōza",
+      "inkan",
+      "yōshi"
+     ],
+     "answer": 0,
+     "explanation": "「口座」 đọc là [kōza], nghĩa là tài khoản."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を開きます。  (Mở tài khoản.)",
+     "options": [
+      "印鑑",
+      "口座",
+      "用紙"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「口座」 (tài khoản). Câu đầy đủ: 口座を開きます。"
+    },
+    {
+     "prompt": "「用紙」 có nghĩa là gì?",
+     "options": [
+      "thẻ cư trú",
+      "tài khoản",
+      "mẫu đơn, tờ giấy"
+     ],
+     "answer": 2,
+     "explanation": "「用紙」 [yōshi] = mẫu đơn, tờ giấy."
+    },
+    {
+     "prompt": "「記入」 đọc là gì?",
+     "options": [
+      "yōshi",
+      "kinyū",
+      "inkan"
+     ],
+     "answer": 1,
+     "explanation": "「記入」 đọc là [kinyū], nghĩa là điền (thông tin)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を押してください。  (Xin đóng dấu.)",
+     "options": [
+      "口座",
+      "印鑑",
+      "記入"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「印鑑」 (con dấu cá nhân). Câu đầy đủ: 印鑑を押してください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Hóa đơn và thanh toán",
+   "objective": "Hỏi số tiền, phương thức và hạn thanh toán.",
+   "reading": "ミン: 今月の電気代はいくらですか。\n係員: 八千五百円です。\nミン: コンビニで払えますか。\n係員: はい。支払い期限は二十五日です。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "今月の電気代はいくらですか。",
+     "phonetic": "Kongetsu no denkidai wa ikura desu ka.",
+     "translation": "Tiền điện tháng này bao nhiêu?"
+    },
+    {
+     "speaker": "係員",
+     "text": "八千五百円です。",
+     "phonetic": "Hassen gohyaku-en desu.",
+     "translation": "8.500 yên."
+    },
+    {
+     "speaker": "ミン",
+     "text": "コンビニで払えますか。",
+     "phonetic": "Konbini de haraemasu ka.",
+     "translation": "Trả ở cửa hàng tiện lợi được không?"
+    },
+    {
+     "speaker": "係員",
+     "text": "はい。支払い期限は二十五日です。",
+     "phonetic": "Hai. Shiharai kigen wa nijūgo-nichi desu.",
+     "translation": "Được. Hạn thanh toán là ngày 25."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "電気代",
+     "reading": "denkidai",
+     "definition": "tiền điện",
+     "example": "電気代が高いです。 (Tiền điện đắt.)"
+    },
+    {
+     "term": "請求書",
+     "reading": "seikyūsho",
+     "definition": "hóa đơn (yêu cầu thanh toán)",
+     "example": "請求書が届きました。 (Hóa đơn đã tới.)"
+    },
+    {
+     "term": "支払い",
+     "reading": "shiharai",
+     "definition": "thanh toán",
+     "example": "支払いは現金です。 (Thanh toán bằng tiền mặt.)"
+    },
+    {
+     "term": "期限",
+     "reading": "kigen",
+     "definition": "kỳ hạn",
+     "example": "期限はいつですか。 (Hạn là khi nào?)"
+    },
+    {
+     "term": "払えます",
+     "reading": "haraemasu",
+     "definition": "có thể trả",
+     "example": "カードで払えます。 (Trả được bằng thẻ.)"
+    }
+   ],
+   "grammar": {
+    "title": "N 代 và ngày tháng",
+    "explanation": "Phí: 電気代, 水道代, 家賃 (tiền nhà). Ngày: 一日 tsuitachi, 二十日 hatsuka, 二十五日 nijūgo-nichi. Hỏi hạn: 期限はいつですか.",
+    "examples": [
+     "家賃は毎月二十七日に払います。[yachin wa maitsuki nijūshichi-nichi ni haraimasu] (Tiền nhà trả ngày 27 hàng tháng.)",
+     "水道代はいくらですか。[suidōdai wa ikura desu ka] (Tiền nước bao nhiêu?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số tiền lớn",
+    "tip": "八千 hassen, 五百 gohyaku, 三百 sanbyaku. 請求書 seikyūsho có hai âm kéo dài.",
+    "words": [
+     "はっせん",
+     "ごひゃく",
+     "せいきゅうしょ",
+     "しはらい"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi số tiền và hạn thanh toán một hóa đơn.",
+    "Nói cho thầy/cô các khoản phí bạn trả hằng tháng."
+   ],
+   "questions": [
+    {
+     "prompt": "“Hạn thanh toán là ngày 25.”:",
+     "options": [
+      "支払いは二十五です期限。",
+      "支払い期限は二十五時です。",
+      "支払い期限は二十五日です。"
+     ],
+     "answer": 2,
+     "explanation": "Ngày = 日."
+    },
+    {
+     "prompt": "8.000 đọc là:",
+     "options": [
+      "やせん",
+      "はちせん",
+      "はっせん"
+     ],
+     "answer": 2,
+     "explanation": "八千 = hassen."
+    },
+    {
+     "prompt": "「請求書」 là:",
+     "options": [
+      "hợp đồng",
+      "biên lai",
+      "hóa đơn yêu cầu thanh toán"
+     ],
+     "answer": 2,
+     "explanation": "請求書 = hóa đơn."
+    },
+    {
+     "prompt": "「電気代」 là:",
+     "options": [
+      "tiền nước",
+      "tiền điện",
+      "tiền nhà"
+     ],
+     "answer": 1,
+     "explanation": "電気 = điện, 代 = phí."
+    },
+    {
+     "prompt": "「払えます」 có nghĩa là gì?",
+     "options": [
+      "thanh toán",
+      "có thể trả",
+      "kỳ hạn"
+     ],
+     "answer": 1,
+     "explanation": "「払えます」 [haraemasu] = có thể trả."
+    },
+    {
+     "prompt": "「請求書」 đọc là gì?",
+     "options": [
+      "shiharai",
+      "haraemasu",
+      "seikyūsho"
+     ],
+     "answer": 2,
+     "explanation": "「請求書」 đọc là [seikyūsho], nghĩa là hóa đơn (yêu cầu thanh toán)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: カードで＿＿＿。  (Trả được bằng thẻ.)",
+     "options": [
+      "期限",
+      "支払い",
+      "払えます"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「払えます」 (có thể trả). Câu đầy đủ: カードで払えます。"
+    },
+    {
+     "prompt": "「支払い」 có nghĩa là gì?",
+     "options": [
+      "thanh toán",
+      "có thể trả",
+      "tiền điện"
+     ],
+     "answer": 0,
+     "explanation": "「支払い」 [shiharai] = thanh toán."
+    },
+    {
+     "prompt": "「期限」 đọc là gì?",
+     "options": [
+      "seikyūsho",
+      "shiharai",
+      "kigen"
+     ],
+     "answer": 2,
+     "explanation": "「期限」 đọc là [kigen], nghĩa là kỳ hạn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が届きました。  (Hóa đơn đã tới.)",
+     "options": [
+      "請求書",
+      "支払い",
+      "払えます"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「請求書」 (hóa đơn (yêu cầu thanh toán)). Câu đầy đủ: 請求書が届きました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Tư vấn sản phẩm tiết kiệm và vay",
+   "objective": "So sánh lãi suất, kỳ hạn và điều kiện vay.",
+   "reading": "ミン: 定期預金の金利はどのくらいですか。\n行員: 一年もので年0.3パーセントです。\nミン: 車のローンも相談したいんですが。\n行員: 収入を証明する書類が必要になります。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "定期預金の金利はどのくらいですか。",
+     "phonetic": "Teiki yokin no kinri wa dono kurai desu ka.",
+     "translation": "Lãi suất tiền gửi kỳ hạn là bao nhiêu?"
+    },
+    {
+     "speaker": "行員",
+     "text": "一年もので年0.3パーセントです。",
+     "phonetic": "Ichinen-mono de nen rei-ten-san pāsento desu.",
+     "translation": "Kỳ hạn 1 năm là 0,3% một năm."
+    },
+    {
+     "speaker": "ミン",
+     "text": "車のローンも相談したいんですが。",
+     "phonetic": "Kuruma no rōn mo sōdan shitai n desu ga.",
+     "translation": "Tôi cũng muốn hỏi về khoản vay mua xe."
+    },
+    {
+     "speaker": "行員",
+     "text": "収入を証明する書類が必要になります。",
+     "phonetic": "Shūnyū o shōmei suru shorui ga hitsuyō ni narimasu.",
+     "translation": "Cần giấy tờ chứng minh thu nhập."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "預金",
+     "reading": "yokin",
+     "definition": "tiền gửi",
+     "example": "毎月預金します。 (Gửi tiết kiệm mỗi tháng.)"
+    },
+    {
+     "term": "金利",
+     "reading": "kinri",
+     "definition": "lãi suất",
+     "example": "金利が上がりました。 (Lãi suất đã tăng.)"
+    },
+    {
+     "term": "ローン",
+     "reading": "rōn",
+     "definition": "khoản vay",
+     "example": "住宅ローンを組みます。 (Vay mua nhà.)"
+    },
+    {
+     "term": "収入",
+     "reading": "shūnyū",
+     "definition": "thu nhập",
+     "example": "収入が増えました。 (Thu nhập tăng.)"
+    },
+    {
+     "term": "必要",
+     "reading": "hitsuyō",
+     "definition": "cần thiết",
+     "example": "書類が必要です。 (Cần giấy tờ.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜が必要になります / どのくらい",
+    "explanation": "Cần: N が必要です (〜になります lịch sự hơn). Hỏi mức độ: どのくらいですか. Tỷ lệ: 年〜パーセント.",
+    "examples": [
+     "保証人が必要になります。[hoshōnin ga hitsuyō ni narimasu] (Cần người bảo lãnh.)",
+     "返済期間はどのくらいですか。[hensai kikan wa dono kurai desu ka] (Thời hạn trả nợ bao lâu?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số thập phân",
+    "tip": "0.3 đọc rei-ten-san; 1.5 itten-go. パーセント có trường âm. 収入 shūnyū: hai trường âm.",
+    "words": [
+     "きんり",
+     "しゅうにゅう",
+     "ひつよう",
+     "ローン"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi ngân hàng về lãi suất tiền gửi và thời hạn.",
+    "Thầy/cô là nhân viên tín dụng, hãy hỏi điều kiện vay."
+   ],
+   "questions": [
+    {
+     "prompt": "Hỏi lãi suất:",
+     "options": [
+      "金利はどのくらいですか。",
+      "金利をいくつですか。",
+      "金利はどこですか。"
+     ],
+     "answer": 0,
+     "explanation": "どのくらい hỏi mức."
+    },
+    {
+     "prompt": "“Cần giấy chứng minh thu nhập.”:",
+     "options": [
+      "収入を証明する書類が必要です。",
+      "収入の書類はいりません。",
+      "収入が証明して書類です。"
+     ],
+     "answer": 0,
+     "explanation": "N が必要です."
+    },
+    {
+     "prompt": "「預金」 nghĩa là:",
+     "options": [
+      "tiền phạt",
+      "tiền gửi",
+      "tiền vay"
+     ],
+     "answer": 1,
+     "explanation": "預金 = tiền gửi."
+    },
+    {
+     "prompt": "「ローン」 là:",
+     "options": [
+      "thuế",
+      "khoản vay",
+      "tiền thưởng"
+     ],
+     "answer": 1,
+     "explanation": "ローン = khoản vay."
+    },
+    {
+     "prompt": "「ローン」 có nghĩa là gì?",
+     "options": [
+      "khoản vay",
+      "thu nhập",
+      "tiền gửi"
+     ],
+     "answer": 0,
+     "explanation": "「ローン」 [rōn] = khoản vay."
+    },
+    {
+     "prompt": "「預金」 đọc là gì?",
+     "options": [
+      "rōn",
+      "hitsuyō",
+      "yokin"
+     ],
+     "answer": 2,
+     "explanation": "「預金」 đọc là [yokin], nghĩa là tiền gửi."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が上がりました。  (Lãi suất đã tăng.)",
+     "options": [
+      "金利",
+      "ローン",
+      "収入"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「金利」 (lãi suất). Câu đầy đủ: 金利が上がりました。"
+    },
+    {
+     "prompt": "「預金」 có nghĩa là gì?",
+     "options": [
+      "khoản vay",
+      "cần thiết",
+      "tiền gửi"
+     ],
+     "answer": 2,
+     "explanation": "「預金」 [yokin] = tiền gửi."
+    },
+    {
+     "prompt": "「ローン」 đọc là gì?",
+     "options": [
+      "rōn",
+      "yokin",
+      "shūnyū"
+     ],
+     "answer": 0,
+     "explanation": "「ローン」 đọc là [rōn], nghĩa là khoản vay."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 住宅＿＿＿を組みます。  (Vay mua nhà.)",
+     "options": [
+      "預金",
+      "収入",
+      "ローン"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「ローン」 (khoản vay). Câu đầy đủ: 住宅ローンを組みます。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Chi phí và ngân sách cá nhân",
+   "objective": "Lập ngân sách tháng, nói về các khoản chi và tiết kiệm.",
+   "reading": "友だち: 毎月どのくらい貯金していますか。\nミン: 給料の二割ぐらいです。家賃と食費が一番高いです。\n友だち: どうやって節約していますか。\nミン: なるべく自炊するようにしています。",
+   "dialogue": [
+    {
+     "speaker": "友だち",
+     "text": "毎月どのくらい貯金していますか。",
+     "phonetic": "Maitsuki dono kurai chokin shite imasu ka.",
+     "translation": "Mỗi tháng bạn tiết kiệm bao nhiêu?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "給料の二割ぐらいです。家賃と食費が一番高いです。",
+     "phonetic": "Kyūryō no niwari gurai desu. Yachin to shokuhi ga ichiban takai desu.",
+     "translation": "Khoảng 20% lương. Tiền nhà và tiền ăn tốn nhất."
+    },
+    {
+     "speaker": "友だち",
+     "text": "どうやって節約していますか。",
+     "phonetic": "Dō yatte setsuyaku shite imasu ka.",
+     "translation": "Bạn tiết kiệm bằng cách nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "なるべく自炊するようにしています。",
+     "phonetic": "Narubeku jisui suru yō ni shite imasu.",
+     "translation": "Tôi cố gắng tự nấu ăn càng nhiều càng tốt."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "貯金",
+     "reading": "chokin",
+     "definition": "tiền tiết kiệm",
+     "example": "旅行のために貯金しています。 (Tôi tiết kiệm để đi du lịch.)"
+    },
+    {
+     "term": "給料",
+     "reading": "kyūryō",
+     "definition": "lương",
+     "example": "給料は二十五日に出ます。 (Lương trả ngày 25.)"
+    },
+    {
+     "term": "食費",
+     "reading": "shokuhi",
+     "definition": "tiền ăn",
+     "example": "食費を減らしたいです。 (Tôi muốn giảm tiền ăn.)"
+    },
+    {
+     "term": "節約",
+     "reading": "setsuyaku",
+     "definition": "tiết kiệm (chi tiêu)",
+     "example": "電気を節約します。 (Tiết kiệm điện.)"
+    },
+    {
+     "term": "自炊",
+     "reading": "jisui",
+     "definition": "tự nấu ăn",
+     "example": "毎日自炊しています。 (Tôi tự nấu ăn mỗi ngày.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ようにしています / 割 / 一番",
+    "explanation": "Thói quen cố gắng duy trì: V る + ようにしています. Tỷ lệ: 一割 = 10%, 二割 = 20%. So sánh nhất: 一番 + tính từ.",
+    "examples": [
+     "毎日家計簿をつけるようにしています。[mainichi kakeibo o tsukeru yō ni shite imasu] (Tôi cố ghi sổ chi tiêu mỗi ngày.)",
+     "交通費が一番安いです。[kōtsūhi ga ichiban yasui desu] (Tiền đi lại rẻ nhất.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm きゅう, ちょ",
+    "tip": "給料 kyūryō (hai âm ghép + trường âm), 貯金 chokin. Phân biệt きゅ và く.",
+    "words": [
+     "きゅうりょう",
+     "ちょきん",
+     "せつやく",
+     "じすい"
+    ]
+   },
+   "speakingTasks": [
+    "Nói ngân sách tháng của bạn: thu nhập, 3 khoản chi, tiết kiệm.",
+    "Chia sẻ 2 mẹo tiết kiệm với thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi cố gắng tự nấu ăn.”:",
+     "options": [
+      "自炊するようにしています。",
+      "自炊することにしましょう。",
+      "自炊したいでしょう。"
+     ],
+     "answer": 0,
+     "explanation": "V る + ようにしています."
+    },
+    {
+     "prompt": "「二割」 bằng:",
+     "options": [
+      "2%",
+      "20%",
+      "200%"
+     ],
+     "answer": 1,
+     "explanation": "一割 = 10%."
+    },
+    {
+     "prompt": "「節約」 nghĩa là:",
+     "options": [
+      "tiết kiệm chi tiêu",
+      "vay mượn",
+      "lãng phí"
+     ],
+     "answer": 0,
+     "explanation": "節約 = tiết kiệm."
+    },
+    {
+     "prompt": "“Tiền nhà tốn nhất.”:",
+     "options": [
+      "家賃が一番安くないです。",
+      "家賃が一番高いです。",
+      "家賃は高いの一番です。"
+     ],
+     "answer": 1,
+     "explanation": "一番 + tính từ."
+    },
+    {
+     "prompt": "「貯金」 có nghĩa là gì?",
+     "options": [
+      "tiết kiệm (chi tiêu)",
+      "tiền tiết kiệm",
+      "tiền ăn"
+     ],
+     "answer": 1,
+     "explanation": "「貯金」 [chokin] = tiền tiết kiệm."
+    },
+    {
+     "prompt": "「自炊」 đọc là gì?",
+     "options": [
+      "chokin",
+      "jisui",
+      "shokuhi"
+     ],
+     "answer": 1,
+     "explanation": "「自炊」 đọc là [jisui], nghĩa là tự nấu ăn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 毎日＿＿＿しています。  (Tôi tự nấu ăn mỗi ngày.)",
+     "options": [
+      "食費",
+      "貯金",
+      "自炊"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「自炊」 (tự nấu ăn). Câu đầy đủ: 毎日自炊しています。"
+    },
+    {
+     "prompt": "「給料」 có nghĩa là gì?",
+     "options": [
+      "lương",
+      "tự nấu ăn",
+      "tiền tiết kiệm"
+     ],
+     "answer": 0,
+     "explanation": "「給料」 [kyūryō] = lương."
+    },
+    {
+     "prompt": "「食費」 đọc là gì?",
+     "options": [
+      "jisui",
+      "chokin",
+      "shokuhi"
+     ],
+     "answer": 2,
+     "explanation": "「食費」 đọc là [shokuhi], nghĩa là tiền ăn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は二十五日に出ます。  (Lương trả ngày 25.)",
+     "options": [
+      "給料",
+      "自炊",
+      "貯金"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「給料」 (lương). Câu đầy đủ: 給料は二十五日に出ます。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Email nhắc thanh toán lịch sự",
+   "objective": "Viết email nhắc khách hàng thanh toán quá hạn một cách lịch sự.",
+   "reading": "ミン: いつもお世話になっております。\nミン: 三月分の請求書につきまして、まだご入金が確認できておりません。\nミン: お手数ですが、ご確認いただけますでしょうか。\nミン: 行き違いの場合は、ご容赦ください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "いつもお世話になっております。",
+     "phonetic": "Itsumo osewa ni natte orimasu.",
+     "translation": "Cảm ơn quý công ty đã luôn hợp tác."
+    },
+    {
+     "speaker": "ミン",
+     "text": "三月分の請求書につきまして、まだご入金が確認できておりません。",
+     "phonetic": "Sangatsu-bun no seikyūsho ni tsukimashite, mada go-nyūkin ga kakunin dekite orimasen.",
+     "translation": "Về hóa đơn tháng 3, chúng tôi vẫn chưa xác nhận được khoản thanh toán."
+    },
+    {
+     "speaker": "ミン",
+     "text": "お手数ですが、ご確認いただけますでしょうか。",
+     "phonetic": "Otesū desu ga, go-kakunin itadakemasu deshō ka.",
+     "translation": "Phiền quý công ty kiểm tra giúp được không ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "行き違いの場合は、ご容赦ください。",
+     "phonetic": "Ikichigai no baai wa, go-yōsha kudasai.",
+     "translation": "Nếu thư này gửi trùng lúc quý vị đã thanh toán, xin thứ lỗi."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "入金",
+     "reading": "nyūkin",
+     "definition": "khoản tiền được chuyển vào",
+     "example": "入金を確認しました。 (Đã xác nhận tiền vào.)"
+    },
+    {
+     "term": "確認",
+     "reading": "kakunin",
+     "definition": "xác nhận, kiểm tra",
+     "example": "ご確認ください。 (Xin kiểm tra.)"
+    },
+    {
+     "term": "お手数",
+     "reading": "otesū",
+     "definition": "sự phiền hà",
+     "example": "お手数をおかけします。 (Xin lỗi đã làm phiền.)"
+    },
+    {
+     "term": "行き違い",
+     "reading": "ikichigai",
+     "definition": "gửi trùng/nhỡ nhau",
+     "example": "行き違いでしたら失礼しました。 (Nếu thư đến nhỡ thì xin lỗi.)"
+    },
+    {
+     "term": "分",
+     "reading": "bun",
+     "definition": "phần (của kỳ)",
+     "example": "四月分の家賃です。 (Tiền nhà của tháng 4.)"
+    }
+   ],
+   "grammar": {
+    "title": "Văn email nhắc nợ",
+    "explanation": "Mở: いつもお世話になっております. Nêu việc: 〜につきまして. Nhờ: お手数ですが、〜いただけますでしょうか. Kết: 行き違いの場合はご容赦ください / よろしくお願いいたします.",
+    "examples": [
+     "お支払い状況をご確認いただけますでしょうか。[o-shiharai jōkyō o go-kakunin itadakemasu deshō ka] (Xin kiểm tra giúp tình trạng thanh toán.)",
+     "請求書を再送いたします。[seikyūsho o saisō itashimasu] (Tôi xin gửi lại hóa đơn.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc văn phong trang trọng",
+    "tip": "Câu dài, ngắt sau につきまして và ですが. Âm 入金 nyūkin, お手数 otesū.",
+    "words": [
+     "にゅうきん",
+     "おてすう",
+     "いきちがい",
+     "かくにん"
+    ]
+   },
+   "speakingTasks": [
+    "Viết email 4 câu nhắc khách thanh toán hóa đơn tháng trước.",
+    "Nhờ thầy/cô sửa giúp câu nhờ vả cho lịch sự hơn."
+   ],
+   "questions": [
+    {
+     "prompt": "Câu mở đầu email công việc:",
+     "options": [
+      "いつもお世話になっております。",
+      "元気ですか。",
+      "こんにちは、久しぶり!"
+     ],
+     "answer": 0,
+     "explanation": "Câu chào chuẩn trong email."
+    },
+    {
+     "prompt": "Nhờ kiểm tra lịch sự:",
+     "options": [
+      "確認しろ。",
+      "確認してもいいよ。",
+      "ご確認いただけますでしょうか。"
+     ],
+     "answer": 2,
+     "explanation": "〜いただけますでしょうか."
+    },
+    {
+     "prompt": "「行き違い」 trong email nhắc nợ nghĩa là:",
+     "options": [
+      "thư và thanh toán nhỡ nhau",
+      "khách đã đi vắng",
+      "gửi sai địa chỉ"
+     ],
+     "answer": 0,
+     "explanation": "Đã thanh toán trước khi nhận thư."
+    },
+    {
+     "prompt": "「入金」 là:",
+     "options": [
+      "lãi suất",
+      "khoản tiền được chuyển vào",
+      "tiền mặt rút ra"
+     ],
+     "answer": 1,
+     "explanation": "入金 = tiền vào."
+    },
+    {
+     "prompt": "「確認」 có nghĩa là gì?",
+     "options": [
+      "phần (của kỳ)",
+      "sự phiền hà",
+      "xác nhận, kiểm tra"
+     ],
+     "answer": 2,
+     "explanation": "「確認」 [kakunin] = xác nhận, kiểm tra."
+    },
+    {
+     "prompt": "「入金」 đọc là gì?",
+     "options": [
+      "nyūkin",
+      "kakunin",
+      "bun"
+     ],
+     "answer": 0,
+     "explanation": "「入金」 đọc là [nyūkin], nghĩa là khoản tiền được chuyển vào."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿でしたら失礼しました。  (Nếu thư đến nhỡ thì xin lỗi.)",
+     "options": [
+      "お手数",
+      "行き違い",
+      "確認"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「行き違い」 (gửi trùng/nhỡ nhau). Câu đầy đủ: 行き違いでしたら失礼しました。"
+    },
+    {
+     "prompt": "「入金」 có nghĩa là gì?",
+     "options": [
+      "khoản tiền được chuyển vào",
+      "xác nhận, kiểm tra",
+      "phần (của kỳ)"
+     ],
+     "answer": 0,
+     "explanation": "「入金」 [nyūkin] = khoản tiền được chuyển vào."
+    },
+    {
+     "prompt": "「お手数」 đọc là gì?",
+     "options": [
+      "bun",
+      "otesū",
+      "kakunin"
+     ],
+     "answer": 1,
+     "explanation": "「お手数」 đọc là [otesū], nghĩa là sự phiền hà."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 四月＿＿＿の家賃です。  (Tiền nhà của tháng 4.)",
+     "options": [
+      "入金",
+      "分",
+      "お手数"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「分」 (phần (của kỳ)). Câu đầy đủ: 四月分の家賃です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Mô tả báo cáo tài chính",
+   "objective": "Giải thích doanh thu, lợi nhuận, chi phí trong báo cáo.",
+   "reading": "上司: 今期の決算はどうでしたか。\nミン: 売上高は前年比で八パーセント増えましたが、営業利益は横ばいでした。\n上司: 原因は何ですか。\nミン: 原材料費の上昇によるものです。",
+   "dialogue": [
+    {
+     "speaker": "上司",
+     "text": "今期の決算はどうでしたか。",
+     "phonetic": "Konki no kessan wa dō deshita ka.",
+     "translation": "Quyết toán kỳ này thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "売上高は前年比で八パーセント増えましたが、営業利益は横ばいでした。",
+     "phonetic": "Uriagedaka wa zennenhi de hachi pāsento fuemashita ga, eigyō rieki wa yokobai deshita.",
+     "translation": "Doanh thu tăng 8% so với năm trước, nhưng lợi nhuận kinh doanh đi ngang."
+    },
+    {
+     "speaker": "上司",
+     "text": "原因は何ですか。",
+     "phonetic": "Gen'in wa nan desu ka.",
+     "translation": "Nguyên nhân là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "原材料費の上昇によるものです。",
+     "phonetic": "Genzairyōhi no jōshō ni yoru mono desu.",
+     "translation": "Là do chi phí nguyên vật liệu tăng."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "決算",
+     "reading": "kessan",
+     "definition": "quyết toán",
+     "example": "決算を発表しました。 (Đã công bố quyết toán.)"
+    },
+    {
+     "term": "売上高",
+     "reading": "uriagedaka",
+     "definition": "doanh thu",
+     "example": "売上高が増加しました。 (Doanh thu tăng.)"
+    },
+    {
+     "term": "利益",
+     "reading": "rieki",
+     "definition": "lợi nhuận",
+     "example": "利益が出ました。 (Đã có lợi nhuận.)"
+    },
+    {
+     "term": "横ばい",
+     "reading": "yokobai",
+     "definition": "đi ngang",
+     "example": "株価は横ばいです。 (Giá cổ phiếu đi ngang.)"
+    },
+    {
+     "term": "上昇",
+     "reading": "jōshō",
+     "definition": "tăng lên",
+     "example": "物価が上昇しています。 (Vật giá đang tăng.)"
+    }
+   ],
+   "grammar": {
+    "title": "前年比 / 〜によるものです",
+    "explanation": "So với năm trước: 前年比で〜. Do ~ gây ra: N によるものです. Đối lập kết quả: 〜ましたが、〜.",
+    "examples": [
+     "円安によるものです。[en'yasu ni yoru mono desu] (Là do đồng yên yếu.)",
+     "前年比で五パーセント減少しました。[zennenhi de go pāsento genshō shimashita] (Giảm 5% so với năm trước.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Thuật ngữ kế toán",
+    "tip": "決算 kessan (っ), 営業利益 eigyō rieki, 上昇 jōshō (hai trường âm). Đọc rõ số liệu.",
+    "words": [
+     "けっさん",
+     "えいぎょうりえき",
+     "じょうしょう",
+     "よこばい"
+    ]
+   },
+   "speakingTasks": [
+    "Tóm tắt báo cáo tài chính 3 câu: doanh thu, lợi nhuận, nguyên nhân.",
+    "Trả lời câu hỏi của thầy/cô về lý do chi phí tăng."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tăng 8% so với năm trước”:",
+     "options": [
+      "前年比を八パーセント増やす",
+      "前年比で八パーセント増えました",
+      "前年で八パーセント増えるでした"
+     ],
+     "answer": 1,
+     "explanation": "前年比で + số liệu."
+    },
+    {
+     "prompt": "「横ばい」 nghĩa là:",
+     "options": [
+      "đi ngang",
+      "tăng mạnh",
+      "giảm mạnh"
+     ],
+     "answer": 0,
+     "explanation": "Không đổi nhiều."
+    },
+    {
+     "prompt": "Nêu nguyên nhân:",
+     "options": [
+      "原材料費が上昇してよかった。",
+      "原材料費でしたよ。",
+      "原材料費の上昇によるものです。"
+     ],
+     "answer": 2,
+     "explanation": "〜によるものです."
+    },
+    {
+     "prompt": "「利益」 là:",
+     "options": [
+      "lợi nhuận",
+      "doanh thu",
+      "nợ"
+     ],
+     "answer": 0,
+     "explanation": "利益 = lợi nhuận."
+    },
+    {
+     "prompt": "「売上高」 có nghĩa là gì?",
+     "options": [
+      "lợi nhuận",
+      "doanh thu",
+      "tăng lên"
+     ],
+     "answer": 1,
+     "explanation": "「売上高」 [uriagedaka] = doanh thu."
+    },
+    {
+     "prompt": "「売上高」 đọc là gì?",
+     "options": [
+      "rieki",
+      "jōshō",
+      "uriagedaka"
+     ],
+     "answer": 2,
+     "explanation": "「売上高」 đọc là [uriagedaka], nghĩa là doanh thu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が増加しました。  (Doanh thu tăng.)",
+     "options": [
+      "利益",
+      "上昇",
+      "売上高"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「売上高」 (doanh thu). Câu đầy đủ: 売上高が増加しました。"
+    },
+    {
+     "prompt": "「決算」 có nghĩa là gì?",
+     "options": [
+      "doanh thu",
+      "quyết toán",
+      "tăng lên"
+     ],
+     "answer": 1,
+     "explanation": "「決算」 [kessan] = quyết toán."
+    },
+    {
+     "prompt": "「上昇」 đọc là gì?",
+     "options": [
+      "rieki",
+      "uriagedaka",
+      "jōshō"
+     ],
+     "answer": 2,
+     "explanation": "「上昇」 đọc là [jōshō], nghĩa là tăng lên."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が出ました。  (Đã có lợi nhuận.)",
+     "options": [
+      "利益",
+      "売上高",
+      "上昇"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「利益」 (lợi nhuận). Câu đầy đủ: 利益が出ました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Tư vấn đầu tư cơ bản",
+   "objective": "Giải thích rủi ro, lợi nhuận và đa dạng hóa đầu tư.",
+   "reading": "顧客: 投資を始めたいんですが、何から始めればいいですか。\nミン: 初めての方には、投資信託をおすすめしています。\n顧客: 元本は保証されますか。\nミン: いいえ、保証はありません。リスクを抑えるために、分散投資が大切です。",
+   "dialogue": [
+    {
+     "speaker": "顧客",
+     "text": "投資を始めたいんですが、何から始めればいいですか。",
+     "phonetic": "Tōshi o hajimetai n desu ga, nani kara hajimereba ii desu ka.",
+     "translation": "Tôi muốn bắt đầu đầu tư, nên bắt đầu từ đâu?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "初めての方には、投資信託をおすすめしています。",
+     "phonetic": "Hajimete no kata ni wa, tōshi shintaku o osusume shite imasu.",
+     "translation": "Với người mới, chúng tôi gợi ý quỹ đầu tư."
+    },
+    {
+     "speaker": "顧客",
+     "text": "元本は保証されますか。",
+     "phonetic": "Ganpon wa hoshō saremasu ka.",
+     "translation": "Có được đảm bảo vốn gốc không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "いいえ、保証はありません。リスクを抑えるために、分散投資が大切です。",
+     "phonetic": "Iie, hoshō wa arimasen. Risuku o osaeru tame ni, bunsan tōshi ga taisetsu desu.",
+     "translation": "Không, không có đảm bảo. Để hạn chế rủi ro, đầu tư phân tán rất quan trọng."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "投資",
+     "reading": "tōshi",
+     "definition": "đầu tư",
+     "example": "株に投資します。 (Đầu tư cổ phiếu.)"
+    },
+    {
+     "term": "元本",
+     "reading": "ganpon",
+     "definition": "vốn gốc",
+     "example": "元本割れの可能性があります。 (Có khả năng mất vốn.)"
+    },
+    {
+     "term": "保証",
+     "reading": "hoshō",
+     "definition": "bảo đảm",
+     "example": "利益は保証されません。 (Lợi nhuận không được bảo đảm.)"
+    },
+    {
+     "term": "リスク",
+     "reading": "risuku",
+     "definition": "rủi ro",
+     "example": "リスクが高いです。 (Rủi ro cao.)"
+    },
+    {
+     "term": "分散",
+     "reading": "bunsan",
+     "definition": "phân tán",
+     "example": "資産を分散します。 (Phân tán tài sản.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ばいいですか / 〜ために / Bị động",
+    "explanation": "Xin lời khuyên: 〜ばいいですか. Mục đích: V る + ために. Bị động: 保証されます (được bảo đảm).",
+    "examples": [
+     "どの商品を選べばいいですか。[dono shōhin o erabeba ii desu ka] (Nên chọn sản phẩm nào?)",
+     "老後のために投資しています。[rōgo no tame ni tōshi shite imasu] (Tôi đầu tư cho tuổi già.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giải thích rõ ràng rủi ro",
+    "tip": "Nhấn 保証はありません rõ ràng để tránh hiểu lầm. Âm 投資 tōshi, 保証 hoshō.",
+    "words": [
+     "とうし",
+     "ほしょう",
+     "がんぽん",
+     "ぶんさん"
+    ]
+   },
+   "speakingTasks": [
+    "Tư vấn cho khách mới bắt đầu đầu tư: rủi ro và cách phân tán.",
+    "Giải thích cho thầy/cô vì sao không có sản phẩm “không rủi ro”."
+   ],
+   "questions": [
+    {
+     "prompt": "Hỏi “Nên bắt đầu từ đâu?”",
+     "options": [
+      "何から始めればいいですか。",
+      "何に始めますか。",
+      "何から始めたらだめですか。"
+     ],
+     "answer": 0,
+     "explanation": "〜ばいいですか."
+    },
+    {
+     "prompt": "「元本」 là:",
+     "options": [
+      "lãi",
+      "vốn gốc",
+      "phí"
+     ],
+     "answer": 1,
+     "explanation": "元本 = tiền gốc."
+    },
+    {
+     "prompt": "Mục đích “để hạn chế rủi ro”:",
+     "options": [
+      "リスクを抑えたから",
+      "リスクを抑えるために",
+      "リスクが抑えるので"
+     ],
+     "answer": 1,
+     "explanation": "V る + ために."
+    },
+    {
+     "prompt": "「分散投資」 là:",
+     "options": [
+      "đầu tư tập trung",
+      "vay đầu tư",
+      "đầu tư phân tán"
+     ],
+     "answer": 2,
+     "explanation": "分散 = phân tán."
+    },
+    {
+     "prompt": "「リスク」 có nghĩa là gì?",
+     "options": [
+      "rủi ro",
+      "vốn gốc",
+      "bảo đảm"
+     ],
+     "answer": 0,
+     "explanation": "「リスク」 [risuku] = rủi ro."
+    },
+    {
+     "prompt": "「保証」 đọc là gì?",
+     "options": [
+      "hoshō",
+      "risuku",
+      "tōshi"
+     ],
+     "answer": 0,
+     "explanation": "「保証」 đọc là [hoshō], nghĩa là bảo đảm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 株に＿＿＿します。  (Đầu tư cổ phiếu.)",
+     "options": [
+      "投資",
+      "分散",
+      "リスク"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「投資」 (đầu tư). Câu đầy đủ: 株に投資します。"
+    },
+    {
+     "prompt": "「投資」 có nghĩa là gì?",
+     "options": [
+      "phân tán",
+      "đầu tư",
+      "rủi ro"
+     ],
+     "answer": 1,
+     "explanation": "「投資」 [tōshi] = đầu tư."
+    },
+    {
+     "prompt": "「リスク」 đọc là gì?",
+     "options": [
+      "hoshō",
+      "risuku",
+      "ganpon"
+     ],
+     "answer": 1,
+     "explanation": "「リスク」 đọc là [risuku], nghĩa là rủi ro."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 利益は＿＿＿されません。  (Lợi nhuận không được bảo đảm.)",
+     "options": [
+      "投資",
+      "保証",
+      "リスク"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「保証」 (bảo đảm). Câu đầy đủ: 利益は保証されません。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Kiểm soát chi phí doanh nghiệp",
+   "objective": "Phân tích chi phí và đề xuất cắt giảm hợp lý.",
+   "reading": "部長: 経費が予算を超えています。何か対策はありますか。\nミン: 出張費を見直して、オンライン会議を増やすべきだと思います。\n部長: どのくらい削減できそうですか。\nミン: 年間で約三百万円の削減が見込めます。",
+   "dialogue": [
+    {
+     "speaker": "部長",
+     "text": "経費が予算を超えています。何か対策はありますか。",
+     "phonetic": "Keihi ga yosan o koete imasu. Nanika taisaku wa arimasu ka.",
+     "translation": "Chi phí đã vượt ngân sách. Có biện pháp gì không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "出張費を見直して、オンライン会議を増やすべきだと思います。",
+     "phonetic": "Shutchōhi o minaoshite, onrain kaigi o fuyasu beki da to omoimasu.",
+     "translation": "Tôi nghĩ nên xem lại chi phí công tác và tăng họp trực tuyến."
+    },
+    {
+     "speaker": "部長",
+     "text": "どのくらい削減できそうですか。",
+     "phonetic": "Dono kurai sakugen dekisō desu ka.",
+     "translation": "Có thể cắt giảm khoảng bao nhiêu?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "年間で約三百万円の削減が見込めます。",
+     "phonetic": "Nenkan de yaku sanbyakuman-en no sakugen ga mikomemasu.",
+     "translation": "Ước tính giảm được khoảng 3 triệu yên mỗi năm."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "経費",
+     "reading": "keihi",
+     "definition": "chi phí (công ty)",
+     "example": "経費を精算します。 (Thanh toán chi phí.)"
+    },
+    {
+     "term": "予算",
+     "reading": "yosan",
+     "definition": "ngân sách",
+     "example": "予算が足りません。 (Thiếu ngân sách.)"
+    },
+    {
+     "term": "対策",
+     "reading": "taisaku",
+     "definition": "biện pháp đối phó",
+     "example": "対策を考えます。 (Nghĩ biện pháp.)"
+    },
+    {
+     "term": "見直す",
+     "reading": "minaosu",
+     "definition": "xem xét lại",
+     "example": "契約を見直します。 (Xem lại hợp đồng.)"
+    },
+    {
+     "term": "削減",
+     "reading": "sakugen",
+     "definition": "cắt giảm",
+     "example": "コストを削減します。 (Cắt giảm chi phí.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜べきだと思います / 〜そうです / 見込める",
+    "explanation": "Đề xuất mạnh: V る + べきだと思います. Có vẻ có thể: V (bỏ ます) + そうです. Dự kiến: 〜が見込めます.",
+    "examples": [
+     "在庫を減らすべきだと思います。[zaiko o herasu beki da to omoimasu] (Tôi nghĩ nên giảm tồn kho.)",
+     "来月には完成できそうです。[raigetsu ni wa kansei dekisō desu] (Có vẻ tháng sau hoàn thành được.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số tiền lớn",
+    "tip": "三百万 sanbyakuman (3 triệu), 一千万 issenman (10 triệu). 出張 shutchō có っ và trường âm.",
+    "words": [
+     "けいひ",
+     "よさん",
+     "さくげん",
+     "しゅっちょう"
+    ]
+   },
+   "speakingTasks": [
+    "Đề xuất 2 biện pháp cắt giảm chi phí cho bộ phận của bạn.",
+    "Trả lời thầy/cô về mức tiết kiệm dự kiến."
+   ],
+   "questions": [
+    {
+     "prompt": "“Chi phí vượt ngân sách.”:",
+     "options": [
+      "経費は予算を超えたいです。",
+      "経費が予算を超えています。",
+      "経費に予算が超えます。"
+     ],
+     "answer": 1,
+     "explanation": "N を超える = vượt."
+    },
+    {
+     "prompt": "Đề xuất “nên tăng họp trực tuyến”:",
+     "options": [
+      "オンライン会議を増やすべきだと思います。",
+      "オンライン会議が増えるべき。",
+      "オンライン会議を増やしてはいけない。"
+     ],
+     "answer": 0,
+     "explanation": "べきだと思います."
+    },
+    {
+     "prompt": "「削減」 nghĩa là:",
+     "options": [
+      "duy trì",
+      "tăng thêm",
+      "cắt giảm"
+     ],
+     "answer": 2,
+     "explanation": "削減 = cắt giảm."
+    },
+    {
+     "prompt": "300万円 đọc là:",
+     "options": [
+      "さんひゃくまんえん",
+      "さんぜんまんえん",
+      "さんびゃくまんえん"
+     ],
+     "answer": 2,
+     "explanation": "三百 = sanbyaku."
+    },
+    {
+     "prompt": "「見直す」 có nghĩa là gì?",
+     "options": [
+      "cắt giảm",
+      "biện pháp đối phó",
+      "xem xét lại"
+     ],
+     "answer": 2,
+     "explanation": "「見直す」 [minaosu] = xem xét lại."
+    },
+    {
+     "prompt": "「削減」 đọc là gì?",
+     "options": [
+      "yosan",
+      "sakugen",
+      "minaosu"
+     ],
+     "answer": 1,
+     "explanation": "「削減」 đọc là [sakugen], nghĩa là cắt giảm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: コストを＿＿＿します。  (Cắt giảm chi phí.)",
+     "options": [
+      "削減",
+      "予算",
+      "見直す"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「削減」 (cắt giảm). Câu đầy đủ: コストを削減します。"
+    },
+    {
+     "prompt": "「対策」 có nghĩa là gì?",
+     "options": [
+      "biện pháp đối phó",
+      "xem xét lại",
+      "chi phí (công ty)"
+     ],
+     "answer": 0,
+     "explanation": "「対策」 [taisaku] = biện pháp đối phó."
+    },
+    {
+     "prompt": "「予算」 đọc là gì?",
+     "options": [
+      "keihi",
+      "yosan",
+      "minaosu"
+     ],
+     "answer": 1,
+     "explanation": "「予算」 đọc là [yosan], nghĩa là ngân sách."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を精算します。  (Thanh toán chi phí.)",
+     "options": [
+      "経費",
+      "削減",
+      "対策"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「経費」 (chi phí (công ty)). Câu đầy đủ: 経費を精算します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Thuyết trình kết quả kinh doanh cho nhà đầu tư",
+   "objective": "Trình bày kết quả, chiến lược và trả lời câu hỏi nhà đầu tư.",
+   "reading": "ミン: 本日はお忙しい中、お集まりいただき誠にありがとうございます。\nミン: 当期は、主力事業の好調に伴い、増収増益となりました。\n投資家: 来期の見通しはいかがですか。\nミン: 為替の影響を考慮しつつも、売上高十パーセント増を目指してまいります。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "本日はお忙しい中、お集まりいただき誠にありがとうございます。",
+     "phonetic": "Honjitsu wa oisogashii naka, oatsumari itadaki makoto ni arigatō gozaimasu.",
+     "translation": "Xin chân thành cảm ơn quý vị đã dành thời gian đến hôm nay."
+    },
+    {
+     "speaker": "ミン",
+     "text": "当期は、主力事業の好調に伴い、増収増益となりました。",
+     "phonetic": "Tōki wa, shuryoku jigyō no kōchō ni tomonai, zōshū zōeki to narimashita.",
+     "translation": "Kỳ này, cùng với sự thuận lợi của mảng kinh doanh chủ lực, doanh thu và lợi nhuận đều tăng."
+    },
+    {
+     "speaker": "投資家",
+     "text": "来期の見通しはいかがですか。",
+     "phonetic": "Raiki no mitōshi wa ikaga desu ka.",
+     "translation": "Triển vọng kỳ tới thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "為替の影響を考慮しつつも、売上高十パーセント増を目指してまいります。",
+     "phonetic": "Kawase no eikyō o kōryo shitsutsu mo, uriagedaka jū pāsento zō o mezashite mairimasu.",
+     "translation": "Vừa tính đến ảnh hưởng tỷ giá, chúng tôi vẫn hướng tới tăng 10% doanh thu."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "主力",
+     "reading": "shuryoku",
+     "definition": "chủ lực",
+     "example": "主力商品が売れています。 (Sản phẩm chủ lực bán chạy.)"
+    },
+    {
+     "term": "増収増益",
+     "reading": "zōshū zōeki",
+     "definition": "tăng doanh thu và lợi nhuận",
+     "example": "三年連続の増収増益です。 (Ba năm liên tiếp tăng thu tăng lãi.)"
+    },
+    {
+     "term": "見通し",
+     "reading": "mitōshi",
+     "definition": "triển vọng, dự báo",
+     "example": "今後の見通しを説明します。 (Giải thích triển vọng.)"
+    },
+    {
+     "term": "為替",
+     "reading": "kawase",
+     "definition": "tỷ giá hối đoái",
+     "example": "為替が変動しています。 (Tỷ giá biến động.)"
+    },
+    {
+     "term": "目指す",
+     "reading": "mezasu",
+     "definition": "hướng tới",
+     "example": "黒字化を目指します。 (Hướng tới có lãi.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜に伴い / 〜つつも / 〜てまいります",
+    "explanation": "N に伴い: cùng với/do N. V (bỏ ます) + つつも: tuy vừa ~ nhưng vẫn. 〜てまいります: khiêm nhường, cam kết hướng tới. 〜いかがですか: hỏi lịch sự.",
+    "examples": [
+     "需要の拡大に伴い、生産を増やしました。[juyō no kakudai ni tomonai, seisan o fuyashimashita] (Cùng với nhu cầu mở rộng, đã tăng sản xuất.)",
+     "リスクを認識しつつも、投資を続けます。[risuku o ninshiki shitsutsu mo, tōshi o tsuzukemasu] (Tuy nhận thức rủi ro nhưng vẫn tiếp tục đầu tư.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Phong thái trang trọng",
+    "tip": "Câu mở đầu dài đọc liền mạch, cúi chào. Âm 増収増益 zōshū zōeki có nhiều trường âm; 見通し mitōshi.",
+    "words": [
+     "ぞうしゅうぞうえき",
+     "みとおし",
+     "かわせ",
+     "しゅりょく"
+    ]
+   },
+   "speakingTasks": [
+    "Thuyết trình 1 phút kết quả kinh doanh và mục tiêu kỳ tới.",
+    "Trả lời câu hỏi khó của nhà đầu tư (thầy/cô) về rủi ro tỷ giá."
+   ],
+   "questions": [
+    {
+     "prompt": "「増収増益」 nghĩa là:",
+     "options": [
+      "tăng doanh thu và lợi nhuận",
+      "lỗ",
+      "giảm doanh thu"
+     ],
+     "answer": 0,
+     "explanation": "増収 = tăng thu, 増益 = tăng lãi."
+    },
+    {
+     "prompt": "「〜に伴い」 nghĩa là:",
+     "options": [
+      "trước khi",
+      "cùng với, do",
+      "mặc dù"
+     ],
+     "answer": 1,
+     "explanation": "伴う = đi kèm."
+    },
+    {
+     "prompt": "Cam kết khiêm nhường:",
+     "options": [
+      "目指してまいります",
+      "目指してあげます",
+      "目指してくれます"
+     ],
+     "answer": 0,
+     "explanation": "〜てまいります."
+    },
+    {
+     "prompt": "「見通し」 là:",
+     "options": [
+      "triển vọng",
+      "nguyên nhân",
+      "quá khứ"
+     ],
+     "answer": 0,
+     "explanation": "見通し = triển vọng."
+    },
+    {
+     "prompt": "「為替」 có nghĩa là gì?",
+     "options": [
+      "tỷ giá hối đoái",
+      "tăng doanh thu và lợi nhuận",
+      "hướng tới"
+     ],
+     "answer": 0,
+     "explanation": "「為替」 [kawase] = tỷ giá hối đoái."
+    },
+    {
+     "prompt": "「為替」 đọc là gì?",
+     "options": [
+      "zōshū zōeki",
+      "mezasu",
+      "kawase"
+     ],
+     "answer": 2,
+     "explanation": "「為替」 đọc là [kawase], nghĩa là tỷ giá hối đoái."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 三年連続の＿＿＿です。  (Ba năm liên tiếp tăng thu tăng lãi.)",
+     "options": [
+      "増収増益",
+      "主力",
+      "見通し"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「増収増益」 (tăng doanh thu và lợi nhuận). Câu đầy đủ: 三年連続の増収増益です。"
+    },
+    {
+     "prompt": "「増収増益」 có nghĩa là gì?",
+     "options": [
+      "triển vọng, dự báo",
+      "tăng doanh thu và lợi nhuận",
+      "chủ lực"
+     ],
+     "answer": 1,
+     "explanation": "「増収増益」 [zōshū zōeki] = tăng doanh thu và lợi nhuận."
+    },
+    {
+     "prompt": "「目指す」 đọc là gì?",
+     "options": [
+      "zōshū zōeki",
+      "shuryoku",
+      "mezasu"
+     ],
+     "answer": 2,
+     "explanation": "「目指す」 đọc là [mezasu], nghĩa là hướng tới."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿商品が売れています。  (Sản phẩm chủ lực bán chạy.)",
+     "options": [
+      "増収増益",
+      "見通し",
+      "主力"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「主力」 (chủ lực). Câu đầy đủ: 主力商品が売れています。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Đàm phán điều khoản tín dụng",
+   "objective": "Thương lượng lãi suất, kỳ hạn và tài sản đảm bảo.",
+   "reading": "ミン: 今回の融資について、金利をもう少しご検討いただけないでしょうか。\n銀行員: 担保を追加していただけるのであれば、検討の余地はございます。\nミン: では、返済期間を五年から七年に延ばすことは可能でしょうか。\n銀行員: 社内で確認のうえ、改めてご連絡いたします。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "今回の融資について、金利をもう少しご検討いただけないでしょうか。",
+     "phonetic": "Konkai no yūshi ni tsuite, kinri o mō sukoshi go-kentō itadakenai deshō ka.",
+     "translation": "Về khoản vay lần này, ngân hàng có thể xem xét thêm về lãi suất không ạ?"
+    },
+    {
+     "speaker": "銀行員",
+     "text": "担保を追加していただけるのであれば、検討の余地はございます。",
+     "phonetic": "Tanpo o tsuika shite itadakeru no de areba, kentō no yochi wa gozaimasu.",
+     "translation": "Nếu quý công ty bổ sung tài sản đảm bảo thì có thể xem xét."
+    },
+    {
+     "speaker": "ミン",
+     "text": "では、返済期間を五年から七年に延ばすことは可能でしょうか。",
+     "phonetic": "Dewa, hensai kikan o gonen kara nananen ni nobasu koto wa kanō deshō ka.",
+     "translation": "Vậy có thể kéo dài thời hạn trả nợ từ 5 lên 7 năm không?"
+    },
+    {
+     "speaker": "銀行員",
+     "text": "社内で確認のうえ、改めてご連絡いたします。",
+     "phonetic": "Shanai de kakunin no ue, aratamete go-renraku itashimasu.",
+     "translation": "Sau khi xác nhận nội bộ, chúng tôi sẽ liên lạc lại."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "融資",
+     "reading": "yūshi",
+     "definition": "khoản vay, cấp tín dụng",
+     "example": "融資を受けます。 (Nhận khoản vay.)"
+    },
+    {
+     "term": "担保",
+     "reading": "tanpo",
+     "definition": "tài sản đảm bảo",
+     "example": "土地を担保にします。 (Thế chấp đất.)"
+    },
+    {
+     "term": "返済",
+     "reading": "hensai",
+     "definition": "trả nợ",
+     "example": "毎月返済します。 (Trả nợ hằng tháng.)"
+    },
+    {
+     "term": "検討",
+     "reading": "kentō",
+     "definition": "xem xét",
+     "example": "前向きに検討します。 (Xem xét tích cực.)"
+    },
+    {
+     "term": "余地",
+     "reading": "yochi",
+     "definition": "chỗ, khả năng (còn)",
+     "example": "交渉の余地があります。 (Còn khả năng đàm phán.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜いただけないでしょうか / 〜のであれば / 〜のうえ",
+    "explanation": "Đề nghị rất lịch sự: 〜ていただけないでしょうか. Điều kiện: 〜のであれば. N のうえ: sau khi ~. Hỏi khả năng: 〜ことは可能でしょうか.",
+    "examples": [
+     "期限を延ばしていただけないでしょうか。[kigen o nobashite itadakenai deshō ka] (Có thể gia hạn giúp không ạ?)",
+     "上司と相談のうえ、お返事します。[jōshi to sōdan no ue, o-henji shimasu] (Sau khi bàn với cấp trên, tôi sẽ trả lời.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nhịp đàm phán",
+    "tip": "Giọng điềm tĩnh, đề nghị kết thúc bằng でしょうか hạ nhẹ. Âm 融資 yūshi, 検討 kentō.",
+    "words": [
+     "ゆうし",
+     "たんぽ",
+     "へんさい",
+     "けんとう"
+    ]
+   },
+   "speakingTasks": [
+    "Thương lượng với ngân hàng về lãi suất và thời hạn vay.",
+    "Thầy/cô là ngân hàng, đưa ra điều kiện; bạn phản đề nghị."
+   ],
+   "questions": [
+    {
+     "prompt": "Đề nghị giảm lãi rất lịch sự:",
+     "options": [
+      "金利は下げますね。",
+      "金利をご検討いただけないでしょうか。",
+      "金利を下げろ。"
+     ],
+     "answer": 1,
+     "explanation": "〜いただけないでしょうか."
+    },
+    {
+     "prompt": "「担保」 là:",
+     "options": [
+      "phí phạt",
+      "lãi suất",
+      "tài sản đảm bảo"
+     ],
+     "answer": 2,
+     "explanation": "担保 = thế chấp."
+    },
+    {
+     "prompt": "「確認のうえ」 nghĩa là:",
+     "options": [
+      "sau khi xác nhận",
+      "thay vì xác nhận",
+      "trong khi xác nhận"
+     ],
+     "answer": 0,
+     "explanation": "N のうえ = sau khi."
+    },
+    {
+     "prompt": "「余地」 trong 「検討の余地」 nghĩa là:",
+     "options": [
+      "còn khả năng xem xét",
+      "không thể",
+      "đã quyết định"
+     ],
+     "answer": 0,
+     "explanation": "余地 = chỗ trống, khả năng."
+    },
+    {
+     "prompt": "「返済」 có nghĩa là gì?",
+     "options": [
+      "xem xét",
+      "trả nợ",
+      "tài sản đảm bảo"
+     ],
+     "answer": 1,
+     "explanation": "「返済」 [hensai] = trả nợ."
+    },
+    {
+     "prompt": "「余地」 đọc là gì?",
+     "options": [
+      "hensai",
+      "yūshi",
+      "yochi"
+     ],
+     "answer": 2,
+     "explanation": "「余地」 đọc là [yochi], nghĩa là chỗ, khả năng (còn)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 前向きに＿＿＿します。  (Xem xét tích cực.)",
+     "options": [
+      "検討",
+      "融資",
+      "余地"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「検討」 (xem xét). Câu đầy đủ: 前向きに検討します。"
+    },
+    {
+     "prompt": "「融資」 có nghĩa là gì?",
+     "options": [
+      "xem xét",
+      "trả nợ",
+      "khoản vay, cấp tín dụng"
+     ],
+     "answer": 2,
+     "explanation": "「融資」 [yūshi] = khoản vay, cấp tín dụng."
+    },
+    {
+     "prompt": "「検討」 đọc là gì?",
+     "options": [
+      "kentō",
+      "yochi",
+      "yūshi"
+     ],
+     "answer": 0,
+     "explanation": "「検討」 đọc là [kentō], nghĩa là xem xét."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 交渉の＿＿＿があります。  (Còn khả năng đàm phán.)",
+     "options": [
+      "融資",
+      "返済",
+      "余地"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「余地」 (chỗ, khả năng (còn)). Câu đầy đủ: 交渉の余地があります。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "finance-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Thảo luận",
+   "title": "Rủi ro, tuân thủ và chống rửa tiền",
+   "objective": "Giải thích quy định tuân thủ, nhận diện giao dịch đáng ngờ.",
+   "reading": "上司: 多額の現金取引があった場合は、どう対応しますか。\nミン: 取引の目的と資金の出所を確認し、不審な点があれば報告いたします。\n上司: 顧客に疑いを知らせてはいけない点にも注意してください。\nミン: 承知しました。法令遵守を徹底いたします。",
+   "dialogue": [
+    {
+     "speaker": "上司",
+     "text": "多額の現金取引があった場合は、どう対応しますか。",
+     "phonetic": "Tagaku no genkin torihiki ga atta baai wa, dō taiō shimasu ka.",
+     "translation": "Nếu có giao dịch tiền mặt lớn, anh xử lý thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "取引の目的と資金の出所を確認し、不審な点があれば報告いたします。",
+     "phonetic": "Torihiki no mokuteki to shikin no dedokoro o kakunin shi, fushin na ten ga areba hōkoku itashimasu.",
+     "translation": "Tôi xác nhận mục đích giao dịch và nguồn tiền, nếu có điểm đáng ngờ sẽ báo cáo."
+    },
+    {
+     "speaker": "上司",
+     "text": "顧客に疑いを知らせてはいけない点にも注意してください。",
+     "phonetic": "Kokyaku ni utagai o shirasete wa ikenai ten ni mo chūi shite kudasai.",
+     "translation": "Cũng chú ý là không được cho khách biết mình đang nghi ngờ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "承知しました。法令遵守を徹底いたします。",
+     "phonetic": "Shōchi shimashita. Hōrei junshu o tettei itashimasu.",
+     "translation": "Tôi đã rõ. Tôi sẽ tuân thủ pháp luật triệt để."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "取引",
+     "reading": "torihiki",
+     "definition": "giao dịch",
+     "example": "取引を記録します。 (Ghi lại giao dịch.)"
+    },
+    {
+     "term": "不審",
+     "reading": "fushin",
+     "definition": "đáng ngờ",
+     "example": "不審な取引を報告します。 (Báo cáo giao dịch đáng ngờ.)"
+    },
+    {
+     "term": "出所",
+     "reading": "dedokoro",
+     "definition": "nguồn gốc",
+     "example": "資金の出所を確認します。 (Xác nhận nguồn tiền.)"
+    },
+    {
+     "term": "対応",
+     "reading": "taiō",
+     "definition": "xử lý, ứng phó",
+     "example": "迅速に対応します。 (Xử lý nhanh chóng.)"
+    },
+    {
+     "term": "徹底",
+     "reading": "tettei",
+     "definition": "triệt để",
+     "example": "管理を徹底します。 (Quản lý triệt để.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜場合は / 〜し、〜 / 〜てはいけない点",
+    "explanation": "Trường hợp: 〜場合は. Liệt kê hành động trang trọng: V (bỏ ます) + 、 (確認し、報告します). Điều không được làm: 〜てはいけない点. 承知しました: đã rõ (lịch sự).",
+    "examples": [
+     "本人確認ができない場合は、取引をお断りします。[honnin kakunin ga dekinai baai wa, torihiki o okotowari shimasu] (Nếu không xác minh được danh tính, chúng tôi từ chối giao dịch.)",
+     "記録を保存し、定期的に点検します。[kiroku o hozon shi, teikiteki ni tenken shimasu] (Lưu hồ sơ và kiểm tra định kỳ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Thuật ngữ pháp lý",
+    "tip": "法令遵守 hōrei junshu, 徹底 tettei (っ), 対応 taiō. Giọng nghiêm túc, rõ ràng.",
+    "words": [
+     "ほうれいじゅんしゅ",
+     "てってい",
+     "たいおう",
+     "ふしん"
+    ]
+   },
+   "speakingTasks": [
+    "Mô tả quy trình xử lý một giao dịch tiền mặt lớn đáng ngờ.",
+    "Thảo luận với thầy/cô vì sao tuân thủ quan trọng với ngân hàng."
+   ],
+   "questions": [
+    {
+     "prompt": "「不審な取引」 là:",
+     "options": [
+      "giao dịch đáng ngờ",
+      "giao dịch online",
+      "giao dịch thường"
+     ],
+     "answer": 0,
+     "explanation": "不審 = đáng ngờ."
+    },
+    {
+     "prompt": "Điều KHÔNG được làm:",
+     "options": [
+      "Xác nhận nguồn tiền",
+      "Báo cáo nội bộ",
+      "Cho khách biết mình đang nghi ngờ"
+     ],
+     "answer": 2,
+     "explanation": "Không được tiết lộ nghi ngờ cho khách."
+    },
+    {
+     "prompt": "「承知しました」 nghĩa là:",
+     "options": [
+      "Tôi không biết",
+      "Tôi từ chối",
+      "Tôi đã rõ (lịch sự)"
+     ],
+     "answer": 2,
+     "explanation": "承知 = hiểu, chấp nhận."
+    },
+    {
+     "prompt": "「法令遵守」 là:",
+     "options": [
+      "tuân thủ pháp luật",
+      "trốn thuế",
+      "rửa tiền"
+     ],
+     "answer": 0,
+     "explanation": "Compliance."
+    },
+    {
+     "prompt": "「取引」 có nghĩa là gì?",
+     "options": [
+      "giao dịch",
+      "đáng ngờ",
+      "nguồn gốc"
+     ],
+     "answer": 0,
+     "explanation": "「取引」 [torihiki] = giao dịch."
+    },
+    {
+     "prompt": "「徹底」 đọc là gì?",
+     "options": [
+      "taiō",
+      "torihiki",
+      "tettei"
+     ],
+     "answer": 2,
+     "explanation": "「徹底」 đọc là [tettei], nghĩa là triệt để."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 迅速に＿＿＿します。  (Xử lý nhanh chóng.)",
+     "options": [
+      "取引",
+      "対応",
+      "出所"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「対応」 (xử lý, ứng phó). Câu đầy đủ: 迅速に対応します。"
+    },
+    {
+     "prompt": "「不審」 có nghĩa là gì?",
+     "options": [
+      "nguồn gốc",
+      "triệt để",
+      "đáng ngờ"
+     ],
+     "answer": 2,
+     "explanation": "「不審」 [fushin] = đáng ngờ."
+    },
+    {
+     "prompt": "「出所」 đọc là gì?",
+     "options": [
+      "tettei",
+      "torihiki",
+      "dedokoro"
+     ],
+     "answer": 2,
+     "explanation": "「出所」 đọc là [dedokoro], nghĩa là nguồn gốc."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 資金の＿＿＿を確認します。  (Xác nhận nguồn tiền.)",
+     "options": [
+      "出所",
+      "徹底",
+      "取引"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「出所」 (nguồn gốc). Câu đầy đủ: 資金の出所を確認します。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

@@ -26,7 +26,7 @@ export type CourseLesson = {
 };
 
 /** Bundled curriculum version; a stored pack with another version is re-downloaded. */
-export const CURRICULUM_VERSION = "1.0.0";
+export const CURRICULUM_VERSION = "1.1.0";
 /** A lesson is passed with at least this share of correct answers (8/10). */
 export const LESSON_PASS_RATIO = 0.8;
 

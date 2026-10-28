@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Nhật du lịch"
-OVERVIEW = "8 bài từ N5 đến N2 cho chuyến đi Nhật: sân bay, khách sạn, tàu điện, nhà hàng, tham quan, xử lý sự cố, ryokan/onsen và khiếu nại."
+OVERVIEW = "12 bài từ N5 đến N2 cho chuyến đi Nhật: sân bay, khách sạn, tàu điện, nhà hàng, tham quan, xử lý sự cố, ryokan/onsen và khiếu nại."
 
 LESSONS = [
     L("A1", "Giao tiếp", "Làm thủ tục ở sân bay",
@@ -173,3 +173,7 @@ LESSONS = [
        ("“Xin phép được đổi phòng.” là:", ["部屋を変更させていただきます。", "部屋を変更してやります。", "部屋を変更ですます。"], 0, "させていただきます: khiêm nhường xin phép.")],
       ["Khiếu nại về một vấn đề trong khách sạn bằng ngôn ngữ lịch sự.", "Thầy/cô đề xuất giải pháp — thương lượng điều kiện."]),
 ]
+
+from extras import TRAVEL  # noqa: E402
+
+LESSONS += TRAVEL

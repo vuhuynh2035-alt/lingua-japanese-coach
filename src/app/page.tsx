@@ -322,7 +322,7 @@ const TUTOR_PERSONAS: Record<TutorPersona, {
   maya: { id: "maya", ...LANG.tutors.maya, gender: "female", kind: "woman", badge: "👩‍🏫 Nữ gia sư" },
   david: { id: "david", ...LANG.tutors.david, gender: "male", kind: "man", badge: "👨‍🏫 Nam gia sư" },
   // The id stays "alex" so a saved choice keeps working.
-  alex: { id: "alex", ...LANG.tutors.alex, gender: "mascot", kind: "mascot", badge: "🌱 Linh vật" },
+  alex: { id: "alex", ...LANG.tutors.alex, gender: "mascot", kind: "mascot", badge: "🦉 Linh vật" },
 };
 
 
@@ -2081,7 +2081,7 @@ Return ONLY valid JSON with these fields: {"score": integer 0-100, "heard": shor
           ))}
           <button type="button" className={voiceProfile.childlike ? "voice-chip active" : "voice-chip"} onClick={() => updateVoiceProfile(voiceForTutor("mascot"))}>🧒 Trẻ em</button>
         </div>
-        <small className="settings-hint">Tự đổi theo nhân vật gia sư: Mr. David → nam, Ms. Maya → nữ, Nova → trẻ em. Bạn vẫn có thể chọn lại ở đây.</small>
+        <small className="settings-hint">Tự đổi theo nhân vật gia sư: {LANG.tutors.david.name} → nam, {LANG.tutors.maya.name} → nữ, {LANG.tutors.alex.name} → trẻ em. Bạn vẫn có thể chọn lại ở đây.</small>
 
         <span className="settings-label">4 · Chọn giọng</span>
         {voiceProfile.engine === "device" ? (
@@ -2553,7 +2553,7 @@ Return ONLY valid JSON with these fields: {"score": integer 0-100, "heard": shor
                 <span className="settings-icon" aria-hidden="true">🎓</span>
                 <div>
                   <h3>Chọn nhân vật gia sư 3D</h3>
-                  <p>Lựa chọn hình tượng gia sư phù hợp với sở thích của bạn. Giọng đọc tự đổi theo nhân vật: thầy → giọng nam, cô → giọng nữ, Nova → giọng trẻ em.</p>
+                  <p>Lựa chọn hình tượng gia sư phù hợp với sở thích của bạn. Giọng đọc tự đổi theo nhân vật: thầy → giọng nam, cô → giọng nữ, {LANG.tutors.alex.name} → giọng trẻ em.</p>
                 </div>
               </div>
               <div className="tutor-persona-grid">

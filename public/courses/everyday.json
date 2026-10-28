@@ -1,9 +1,9 @@
 {
  "id": "everyday",
  "title": "Tiếng Nhật giao tiếp hằng ngày",
- "version": "1.0.0",
+ "version": "1.1.0",
  "framework": "JLPT N5–N2",
- "overview": "12 bài từ N5 đến N2: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có phiên âm và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu.",
+ "overview": "16 bài từ N5 đến N2: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có phiên âm và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu.",
  "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
  "references": [
   {
@@ -607,6 +607,198 @@
    "audioIds": []
   },
   {
+   "id": "everyday-a1-4",
+   "level": "A1",
+   "unit": "N5 · Bài 4",
+   "category": "Từ vựng",
+   "title": "Thời tiết và các mùa",
+   "objective": "Nói về thời tiết hôm nay và mùa yêu thích.",
+   "reading": "田中: 今日はいい天気ですね。\nミン: そうですね。でも、ちょっと暑いです。\n田中: ミンさんはどの季節が好きですか。\nミン: 秋が好きです。涼しいですから。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "今日はいい天気ですね。",
+     "phonetic": "Kyō wa ii tenki desu ne.",
+     "translation": "Hôm nay trời đẹp nhỉ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "そうですね。でも、ちょっと暑いです。",
+     "phonetic": "Sō desu ne. Demo, chotto atsui desu.",
+     "translation": "Đúng vậy. Nhưng hơi nóng."
+    },
+    {
+     "speaker": "田中",
+     "text": "ミンさんはどの季節が好きですか。",
+     "phonetic": "Min-san wa dono kisetsu ga suki desu ka.",
+     "translation": "Bạn Minh thích mùa nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "秋が好きです。涼しいですから。",
+     "phonetic": "Aki ga suki desu. Suzushii desu kara.",
+     "translation": "Tôi thích mùa thu. Vì trời mát."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "天気",
+     "reading": "tenki",
+     "definition": "thời tiết",
+     "example": "明日の天気はどうですか。 (Thời tiết ngày mai thế nào?)"
+    },
+    {
+     "term": "暑い",
+     "reading": "atsui",
+     "definition": "nóng (thời tiết)",
+     "example": "夏はとても暑いです。 (Mùa hè rất nóng.)"
+    },
+    {
+     "term": "寒い",
+     "reading": "samui",
+     "definition": "lạnh (thời tiết)",
+     "example": "冬は寒いです。 (Mùa đông lạnh.)"
+    },
+    {
+     "term": "季節",
+     "reading": "kisetsu",
+     "definition": "mùa",
+     "example": "日本には四つの季節があります。 (Nhật có bốn mùa.)"
+    },
+    {
+     "term": "雨",
+     "reading": "ame",
+     "definition": "mưa",
+     "example": "今日は雨です。 (Hôm nay trời mưa.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜が好きです và 〜から",
+    "explanation": "N が好きです: thích N. Lý do đặt sau câu bằng 〜から (vì): 涼しいですから. Đuôi ね ở cuối câu để tìm sự đồng tình: いい天気ですね.",
+    "examples": [
+     "夏が好きです。[natsu ga suki desu] (Tôi thích mùa hè.)",
+     "寒いですから、コートを着ます。[samui desu kara, kōto o kimasu] (Vì lạnh nên tôi mặc áo khoác.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm つ và す",
+    "tip": "つ (tsu) đầu lưỡi chạm lợi rồi bật ra, khác す (su). 暑い atsui, 涼しい suzushii. Nguyên âm u cuối như です thường đọc rất nhẹ: des.",
+    "words": [
+     "あつい",
+     "すずしい",
+     "きせつ",
+     "てんき"
+    ]
+   },
+   "speakingTasks": [
+    "Nói thời tiết hôm nay và mùa bạn thích, có lý do.",
+    "Hỏi thầy/cô: 日本の夏は暑いですか。"
+   ],
+   "questions": [
+    {
+     "prompt": "“Hôm nay trời đẹp nhỉ.” là:",
+     "options": [
+      "今日はいい天気ですか。",
+      "今日はいい天気ですね。",
+      "今日をいい天気です。"
+     ],
+     "answer": 1,
+     "explanation": "ね cuối câu tìm sự đồng tình."
+    },
+    {
+     "prompt": "“Vì trời mát” là:",
+     "options": [
+      "から涼しいです",
+      "涼しいからです。が",
+      "涼しいですから"
+     ],
+     "answer": 2,
+     "explanation": "Lý do + から."
+    },
+    {
+     "prompt": "「寒い」 nghĩa là:",
+     "options": [
+      "mát",
+      "lạnh",
+      "nóng"
+     ],
+     "answer": 1,
+     "explanation": "寒い = lạnh."
+    },
+    {
+     "prompt": "Hỏi “Bạn thích mùa nào?”",
+     "options": [
+      "どの季節を好きます。",
+      "季節はどれ好きですか。",
+      "どの季節が好きですか。"
+     ],
+     "answer": 2,
+     "explanation": "どの + N + が好きですか."
+    },
+    {
+     "prompt": "「天気」 có nghĩa là gì?",
+     "options": [
+      "lạnh (thời tiết)",
+      "mùa",
+      "thời tiết"
+     ],
+     "answer": 2,
+     "explanation": "「天気」 [tenki] = thời tiết."
+    },
+    {
+     "prompt": "「暑い」 đọc là gì?",
+     "options": [
+      "kisetsu",
+      "ame",
+      "atsui"
+     ],
+     "answer": 2,
+     "explanation": "「暑い」 đọc là [atsui], nghĩa là nóng (thời tiết)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 明日の＿＿＿はどうですか。  (Thời tiết ngày mai thế nào?)",
+     "options": [
+      "季節",
+      "天気",
+      "寒い"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「天気」 (thời tiết). Câu đầy đủ: 明日の天気はどうですか。"
+    },
+    {
+     "prompt": "「雨」 có nghĩa là gì?",
+     "options": [
+      "thời tiết",
+      "mưa",
+      "mùa"
+     ],
+     "answer": 1,
+     "explanation": "「雨」 [ame] = mưa."
+    },
+    {
+     "prompt": "「寒い」 đọc là gì?",
+     "options": [
+      "samui",
+      "ame",
+      "tenki"
+     ],
+     "answer": 0,
+     "explanation": "「寒い」 đọc là [samui], nghĩa là lạnh (thời tiết)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 冬は＿＿＿です。  (Mùa đông lạnh.)",
+     "options": [
+      "雨",
+      "天気",
+      "寒い"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「寒い」 (lạnh (thời tiết)). Câu đầy đủ: 冬は寒いです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "everyday-a2-1",
    "level": "A2",
    "unit": "N4 · Bài 1",
@@ -1201,6 +1393,198 @@
    "audioIds": []
   },
   {
+   "id": "everyday-a2-4",
+   "level": "A2",
+   "unit": "N4 · Bài 4",
+   "category": "Giao tiếp",
+   "title": "Rủ bạn đi chơi cuối tuần",
+   "objective": "Rủ, nhận lời hoặc từ chối và hẹn giờ gặp.",
+   "reading": "ミン: 土曜日、一緒に映画を見ませんか。\n友だち: いいですね。何時にしましょうか。\nミン: 二時に駅の前で会いましょう。\n友だち: わかりました。楽しみにしています。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "土曜日、一緒に映画を見ませんか。",
+     "phonetic": "Doyōbi, issho ni eiga o mimasen ka.",
+     "translation": "Thứ Bảy cùng đi xem phim không?"
+    },
+    {
+     "speaker": "友だち",
+     "text": "いいですね。何時にしましょうか。",
+     "phonetic": "Ii desu ne. Nanji ni shimashō ka.",
+     "translation": "Hay đấy. Hẹn mấy giờ nhỉ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "二時に駅の前で会いましょう。",
+     "phonetic": "Niji ni eki no mae de aimashō.",
+     "translation": "Gặp nhau trước ga lúc 2 giờ nhé."
+    },
+    {
+     "speaker": "友だち",
+     "text": "わかりました。楽しみにしています。",
+     "phonetic": "Wakarimashita. Tanoshimi ni shite imasu.",
+     "translation": "Được rồi. Mình rất mong đợi."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "一緒に",
+     "reading": "issho ni",
+     "definition": "cùng nhau",
+     "example": "一緒に行きましょう。 (Cùng đi nhé.)"
+    },
+    {
+     "term": "映画",
+     "reading": "eiga",
+     "definition": "phim",
+     "example": "映画を見ます。 (Tôi xem phim.)"
+    },
+    {
+     "term": "会います",
+     "reading": "aimasu",
+     "definition": "gặp",
+     "example": "駅の前で会います。 (Gặp trước ga.)"
+    },
+    {
+     "term": "前",
+     "reading": "mae",
+     "definition": "phía trước",
+     "example": "駅の前にいます。 (Tôi đang ở trước ga.)"
+    },
+    {
+     "term": "楽しみ",
+     "reading": "tanoshimi",
+     "definition": "mong đợi, niềm vui",
+     "example": "旅行が楽しみです。 (Tôi mong chuyến du lịch.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ませんか / 〜ましょう",
+    "explanation": "Rủ rê lịch sự: V ませんか (… không?). Đề nghị cùng làm: V ましょう (… nhé). Từ chối khéo: すみません、土曜日はちょっと…",
+    "examples": [
+     "お茶を飲みませんか。[ocha o nomimasen ka] (Uống trà không?)",
+     "三時に会いましょう。[sanji ni aimashō] (Gặp lúc 3 giờ nhé.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Ngữ điệu câu rủ",
+    "tip": "Câu 〜ませんか lên giọng nhẹ ở か. Câu từ chối ちょっと… kéo dài và hạ giọng, không nói hết câu.",
+    "words": [
+     "いっしょに",
+     "えいが",
+     "たのしみ",
+     "ちょっと"
+    ]
+   },
+   "speakingTasks": [
+    "Rủ bạn đi chơi cuối tuần, hẹn giờ và địa điểm.",
+    "Từ chối lời rủ của thầy/cô một cách khéo léo."
+   ],
+   "questions": [
+    {
+     "prompt": "Rủ “Cùng ăn trưa không?”",
+     "options": [
+      "一緒に昼ご飯を食べません。",
+      "一緒に昼ご飯を食べませんか。",
+      "一緒に昼ご飯が食べますか。"
+     ],
+     "answer": 1,
+     "explanation": "V ませんか là lời rủ."
+    },
+    {
+     "prompt": "“Gặp nhau trước ga nhé.” là:",
+     "options": [
+      "駅の前で会いましょう。",
+      "駅の前を会いましょう。",
+      "駅の前に会うでしょう。"
+     ],
+     "answer": 0,
+     "explanation": "Nơi diễn ra hành động dùng で."
+    },
+    {
+     "prompt": "Từ chối khéo thường nói:",
+     "options": [
+      "嫌です。",
+      "いいえ、行きません!",
+      "土曜日はちょっと…"
+     ],
+     "answer": 2,
+     "explanation": "ちょっと… là cách từ chối nhẹ nhàng."
+    },
+    {
+     "prompt": "「楽しみにしています」 nghĩa là:",
+     "options": [
+      "Tôi rất mong đợi",
+      "Tôi không muốn",
+      "Tôi đã mệt"
+     ],
+     "answer": 0,
+     "explanation": "楽しみ = niềm mong đợi."
+    },
+    {
+     "prompt": "「映画」 có nghĩa là gì?",
+     "options": [
+      "phim",
+      "mong đợi, niềm vui",
+      "phía trước"
+     ],
+     "answer": 0,
+     "explanation": "「映画」 [eiga] = phim."
+    },
+    {
+     "prompt": "「楽しみ」 đọc là gì?",
+     "options": [
+      "tanoshimi",
+      "issho ni",
+      "eiga"
+     ],
+     "answer": 0,
+     "explanation": "「楽しみ」 đọc là [tanoshimi], nghĩa là mong đợi, niềm vui."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を見ます。  (Tôi xem phim.)",
+     "options": [
+      "映画",
+      "楽しみ",
+      "前"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「映画」 (phim). Câu đầy đủ: 映画を見ます。"
+    },
+    {
+     "prompt": "「一緒に」 có nghĩa là gì?",
+     "options": [
+      "gặp",
+      "cùng nhau",
+      "phía trước"
+     ],
+     "answer": 1,
+     "explanation": "「一緒に」 [issho ni] = cùng nhau."
+    },
+    {
+     "prompt": "「会います」 đọc là gì?",
+     "options": [
+      "aimasu",
+      "mae",
+      "eiga"
+     ],
+     "answer": 0,
+     "explanation": "「会います」 đọc là [aimasu], nghĩa là gặp."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 旅行が＿＿＿です。  (Tôi mong chuyến du lịch.)",
+     "options": [
+      "一緒に",
+      "映画",
+      "楽しみ"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「楽しみ」 (mong đợi, niềm vui). Câu đầy đủ: 旅行が楽しみです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "everyday-b1-1",
    "level": "B1",
    "unit": "N3 · Bài 1",
@@ -1780,6 +2164,198 @@
    "audioIds": []
   },
   {
+   "id": "everyday-b1-4",
+   "level": "B1",
+   "unit": "N3 · Bài 4",
+   "category": "Ngữ pháp",
+   "title": "Giả định và điều ước",
+   "objective": "Nói điều kiện giả định và mong muốn với 〜たら, 〜ば, 〜といいな.",
+   "reading": "田中: もし宝くじが当たったら、何をしますか。\nミン: 当たったら、世界旅行に行きたいです。\n田中: いいですね。私はもっと時間があればいいのに。\nミン: 早く休みになるといいですね。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "もし宝くじが当たったら、何をしますか。",
+     "phonetic": "Moshi takarakuji ga atattara, nani o shimasu ka.",
+     "translation": "Nếu trúng xổ số, bạn sẽ làm gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "当たったら、世界旅行に行きたいです。",
+     "phonetic": "Atattara, sekai ryokō ni ikitai desu.",
+     "translation": "Nếu trúng, tôi muốn đi du lịch vòng quanh thế giới."
+    },
+    {
+     "speaker": "田中",
+     "text": "いいですね。私はもっと時間があればいいのに。",
+     "phonetic": "Ii desu ne. Watashi wa motto jikan ga areba ii noni.",
+     "translation": "Hay đấy. Tôi thì ước gì có nhiều thời gian hơn."
+    },
+    {
+     "speaker": "ミン",
+     "text": "早く休みになるといいですね。",
+     "phonetic": "Hayaku yasumi ni naru to ii desu ne.",
+     "translation": "Mong sớm đến kỳ nghỉ nhỉ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "もし",
+     "reading": "moshi",
+     "definition": "nếu (giả định)",
+     "example": "もし雨なら、行きません。 (Nếu mưa thì tôi không đi.)"
+    },
+    {
+     "term": "宝くじ",
+     "reading": "takarakuji",
+     "definition": "xổ số",
+     "example": "宝くじを買いました。 (Tôi đã mua xổ số.)"
+    },
+    {
+     "term": "当たる",
+     "reading": "ataru",
+     "definition": "trúng (giải)",
+     "example": "宝くじが当たる。 (Trúng xổ số.)"
+    },
+    {
+     "term": "世界",
+     "reading": "sekai",
+     "definition": "thế giới",
+     "example": "世界を旅行したい。 (Tôi muốn du lịch thế giới.)"
+    },
+    {
+     "term": "休み",
+     "reading": "yasumi",
+     "definition": "kỳ nghỉ, ngày nghỉ",
+     "example": "休みに何をしますか。 (Ngày nghỉ bạn làm gì?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜たら / 〜ば / 〜といい",
+    "explanation": "Thể た + ら: nếu/khi (giả định chung). Thể ば: điều kiện (あれば, 行けば). 〜ばいいのに: ước gì (tiếc nuối). 〜といいですね: mong là ~.",
+    "examples": [
+     "時間があれば、手伝います。[jikan ga areba, tetsudaimasu] (Nếu có thời gian tôi sẽ giúp.)",
+     "晴れるといいですね。[hareru to ii desu ne] (Mong là trời nắng nhỉ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm ら hàng R",
+    "tip": "ら・り・る・れ・ろ đọc giữa “r” và “l”, lưỡi chạm nhẹ một lần, không rung. 当たったら atattara có っ (ngắt) trước たら.",
+    "words": [
+     "あたったら",
+     "りょこう",
+     "あれば",
+     "はれる"
+    ]
+   },
+   "speakingTasks": [
+    "Nói bạn sẽ làm gì nếu trúng xổ số.",
+    "Nêu 2 điều ước của bạn với 〜ばいいのに."
+   ],
+   "questions": [
+    {
+     "prompt": "Thể たら của 「行く」 là:",
+     "options": [
+      "行きたら",
+      "行くたら",
+      "行ったら"
+     ],
+     "answer": 2,
+     "explanation": "行く → 行った → 行ったら."
+    },
+    {
+     "prompt": "“Nếu có tiền, tôi sẽ mua.” là:",
+     "options": [
+      "お金がありば、買います。",
+      "お金があれば、買います。",
+      "お金があるば、買います。"
+     ],
+     "answer": 1,
+     "explanation": "ある → あれば."
+    },
+    {
+     "prompt": "「〜ばいいのに」 diễn tả:",
+     "options": [
+      "Ước gì / tiếc nuối",
+      "Ra lệnh",
+      "Kể chuyện quá khứ"
+     ],
+     "answer": 0,
+     "explanation": "〜ばいいのに = ước gì ~."
+    },
+    {
+     "prompt": "「晴れるといいですね」 nghĩa là:",
+     "options": [
+      "Trời sẽ mưa",
+      "Trời đã nắng rồi",
+      "Mong là trời nắng nhỉ"
+     ],
+     "answer": 2,
+     "explanation": "〜といい = mong là ~."
+    },
+    {
+     "prompt": "「休み」 có nghĩa là gì?",
+     "options": [
+      "kỳ nghỉ, ngày nghỉ",
+      "trúng (giải)",
+      "xổ số"
+     ],
+     "answer": 0,
+     "explanation": "「休み」 [yasumi] = kỳ nghỉ, ngày nghỉ."
+    },
+    {
+     "prompt": "「世界」 đọc là gì?",
+     "options": [
+      "moshi",
+      "sekai",
+      "yasumi"
+     ],
+     "answer": 1,
+     "explanation": "「世界」 đọc là [sekai], nghĩa là thế giới."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 宝くじが＿＿＿。  (Trúng xổ số.)",
+     "options": [
+      "当たる",
+      "宝くじ",
+      "世界"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「当たる」 (trúng (giải)). Câu đầy đủ: 宝くじが当たる。"
+    },
+    {
+     "prompt": "「当たる」 có nghĩa là gì?",
+     "options": [
+      "thế giới",
+      "trúng (giải)",
+      "xổ số"
+     ],
+     "answer": 1,
+     "explanation": "「当たる」 [ataru] = trúng (giải)."
+    },
+    {
+     "prompt": "「当たる」 đọc là gì?",
+     "options": [
+      "takarakuji",
+      "ataru",
+      "sekai"
+     ],
+     "answer": 1,
+     "explanation": "「当たる」 đọc là [ataru], nghĩa là trúng (giải)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿に何をしますか。  (Ngày nghỉ bạn làm gì?)",
+     "options": [
+      "休み",
+      "宝くじ",
+      "当たる"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「休み」 (kỳ nghỉ, ngày nghỉ). Câu đầy đủ: 休みに何をしますか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
    "id": "everyday-b2-1",
    "level": "B2",
    "unit": "N2 · Bài 1",
@@ -2354,6 +2930,198 @@
      ],
      "answer": 1,
      "explanation": "Đáp án: 「当然」 (đương nhiên). Câu đầy đủ: それは当然です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b2-4",
+   "level": "B2",
+   "unit": "N2 · Bài 4",
+   "category": "Văn hóa",
+   "title": "Thành ngữ và tục ngữ thông dụng",
+   "objective": "Hiểu và dùng đúng các ことわざ phổ biến trong hội thoại.",
+   "reading": "先輩: 失敗しても大丈夫。七転び八起きだよ。\nミン: ありがとうございます。継続は力なり、ですね。\n先輩: そう。それに、急がば回れとも言うよ。\nミン: 焦らず、基礎から練習し直します。",
+   "dialogue": [
+    {
+     "speaker": "先輩",
+     "text": "失敗しても大丈夫。七転び八起きだよ。",
+     "phonetic": "Shippai shite mo daijōbu. Nanakorobi yaoki da yo.",
+     "translation": "Thất bại cũng không sao. Bảy lần ngã tám lần đứng dậy mà."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ありがとうございます。継続は力なり、ですね。",
+     "phonetic": "Arigatō gozaimasu. Keizoku wa chikara nari, desu ne.",
+     "translation": "Cảm ơn anh. Kiên trì là sức mạnh nhỉ."
+    },
+    {
+     "speaker": "先輩",
+     "text": "そう。それに、急がば回れとも言うよ。",
+     "phonetic": "Sō. Sore ni, isogaba maware to mo iu yo.",
+     "translation": "Đúng. Còn có câu “dục tốc bất đạt” nữa."
+    },
+    {
+     "speaker": "ミン",
+     "text": "焦らず、基礎から練習し直します。",
+     "phonetic": "Aserazu, kiso kara renshū shinaoshimasu.",
+     "translation": "Em sẽ không vội, luyện lại từ cơ bản."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "失敗",
+     "reading": "shippai",
+     "definition": "thất bại",
+     "example": "失敗は成功のもと。 (Thất bại là mẹ thành công.)"
+    },
+    {
+     "term": "継続",
+     "reading": "keizoku",
+     "definition": "duy trì, kiên trì",
+     "example": "継続は力なり。 (Kiên trì là sức mạnh.)"
+    },
+    {
+     "term": "急ぐ",
+     "reading": "isogu",
+     "definition": "vội vàng",
+     "example": "急がなくてもいいです。 (Không cần vội.)"
+    },
+    {
+     "term": "基礎",
+     "reading": "kiso",
+     "definition": "cơ bản, nền tảng",
+     "example": "基礎が大切です。 (Nền tảng rất quan trọng.)"
+    },
+    {
+     "term": "焦る",
+     "reading": "aseru",
+     "definition": "nóng vội, sốt ruột",
+     "example": "焦らないでください。 (Đừng nóng vội.)"
+    }
+   ],
+   "grammar": {
+    "title": "ことわざ trong câu",
+    "explanation": "Tục ngữ thường dẫn bằng 〜と言う / 〜とも言う hoặc đứng riêng với だよ/ですね. 〜ず = 〜ないで (văn viết): 焦らず = đừng vội mà…. V ます bỏ ます + 直す: làm lại.",
+    "examples": [
+     "「猿も木から落ちる」と言いますね。[saru mo ki kara ochiru to iimasu ne] (Như người ta nói “khỉ cũng có lúc rơi từ cây”.)",
+     "書き直します。[kakinaoshimasu] (Tôi sẽ viết lại.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nhịp đọc tục ngữ",
+    "tip": "Tục ngữ có nhịp 5-7 hoặc 4-4. Đọc theo cụm: ななころび / やおき; けいぞくは / ちからなり.",
+    "words": [
+     "ななころびやおき",
+     "いそがばまわれ",
+     "けいぞく",
+     "しっぱい"
+    ]
+   },
+   "speakingTasks": [
+    "Kể một trải nghiệm và kết bằng một câu tục ngữ phù hợp.",
+    "Hỏi thầy/cô ý nghĩa của 「猿も木から落ちる」."
+   ],
+   "questions": [
+    {
+     "prompt": "「七転び八起き」 nghĩa gần nhất:",
+     "options": [
+      "Ăn ít sống lâu",
+      "Thất bại nhiều lần vẫn đứng dậy",
+      "Đi nhanh để kịp"
+     ],
+     "answer": 1,
+     "explanation": "Ngã bảy lần, đứng dậy tám lần."
+    },
+    {
+     "prompt": "「急がば回れ」 khuyên điều gì?",
+     "options": [
+      "Luôn chạy thật nhanh",
+      "Đừng bao giờ đi xa",
+      "Vội thì nên đi đường chắc chắn"
+     ],
+     "answer": 2,
+     "explanation": "Tương đương “dục tốc bất đạt”."
+    },
+    {
+     "prompt": "「焦らず」 tương đương:",
+     "options": [
+      "焦って",
+      "焦りたい",
+      "焦らないで"
+     ],
+     "answer": 2,
+     "explanation": "〜ず = 〜ないで."
+    },
+    {
+     "prompt": "“Tôi sẽ luyện lại từ đầu.” là:",
+     "options": [
+      "練習直しします。",
+      "直し練習します。",
+      "練習し直します。"
+     ],
+     "answer": 2,
+     "explanation": "V(bỏ ます) + 直す = làm lại."
+    },
+    {
+     "prompt": "「急ぐ」 có nghĩa là gì?",
+     "options": [
+      "cơ bản, nền tảng",
+      "duy trì, kiên trì",
+      "vội vàng"
+     ],
+     "answer": 2,
+     "explanation": "「急ぐ」 [isogu] = vội vàng."
+    },
+    {
+     "prompt": "「急ぐ」 đọc là gì?",
+     "options": [
+      "keizoku",
+      "isogu",
+      "kiso"
+     ],
+     "answer": 1,
+     "explanation": "「急ぐ」 đọc là [isogu], nghĩa là vội vàng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は成功のもと。  (Thất bại là mẹ thành công.)",
+     "options": [
+      "失敗",
+      "継続",
+      "焦る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「失敗」 (thất bại). Câu đầy đủ: 失敗は成功のもと。"
+    },
+    {
+     "prompt": "「継続」 có nghĩa là gì?",
+     "options": [
+      "nóng vội, sốt ruột",
+      "thất bại",
+      "duy trì, kiên trì"
+     ],
+     "answer": 2,
+     "explanation": "「継続」 [keizoku] = duy trì, kiên trì."
+    },
+    {
+     "prompt": "「継続」 đọc là gì?",
+     "options": [
+      "aseru",
+      "keizoku",
+      "shippai"
+     ],
+     "answer": 1,
+     "explanation": "「継続」 đọc là [keizoku], nghĩa là duy trì, kiên trì."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が大切です。  (Nền tảng rất quan trọng.)",
+     "options": [
+      "基礎",
+      "継続",
+      "焦る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「基礎」 (cơ bản, nền tảng). Câu đầy đủ: 基礎が大切です。"
     }
    ],
    "audioIds": []

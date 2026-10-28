@@ -1,0 +1,2339 @@
+{
+ "id": "refrigeration",
+ "title": "Tiếng Nhật kỹ thuật điện lạnh công nghiệp",
+ "version": "1.1.0",
+ "framework": "JLPT N5–N2",
+ "overview": "12 bài từ N5 đến N2 cho kỹ thuật viên điện lạnh công nghiệp: dụng cụ và linh kiện, nhận yêu cầu sửa chữa, an toàn lao động, đọc nhiệt độ – áp suất, chẩn đoán lỗi, bảo trì định kỳ, kho lạnh và hệ thống amoniac, báo cáo dịch vụ, giải thích cho khách hàng, xử lý sự cố khẩn cấp, hợp đồng bảo trì và tiết kiệm năng lượng.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "refrigeration-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Từ vựng",
+   "title": "Dụng cụ và linh kiện cơ bản",
+   "objective": "Gọi tên dụng cụ, linh kiện chính của hệ thống lạnh.",
+   "reading": "先輩: これは何ですか。\nミン: 圧縮機です。冷媒を圧縮します。\n先輩: じゃあ、これは？\nミン: 凝縮器です。その横にあるのはマニホールドゲージです。",
+   "dialogue": [
+    {
+     "speaker": "先輩",
+     "text": "これは何ですか。",
+     "phonetic": "Kore wa nan desu ka.",
+     "translation": "Cái này là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "圧縮機です。冷媒を圧縮します。",
+     "phonetic": "Asshukuki desu. Reibai o asshuku shimasu.",
+     "translation": "Là máy nén. Nó nén môi chất lạnh."
+    },
+    {
+     "speaker": "先輩",
+     "text": "じゃあ、これは？",
+     "phonetic": "Jā, kore wa?",
+     "translation": "Thế còn cái này?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "凝縮器です。その横にあるのはマニホールドゲージです。",
+     "phonetic": "Gyōshukuki desu. Sono yoko ni aru no wa manihōrudo gēji desu.",
+     "translation": "Là dàn ngưng. Cái bên cạnh là bộ đồng hồ đo áp."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "圧縮機",
+     "reading": "asshukuki",
+     "definition": "máy nén",
+     "example": "圧縮機が止まりました。 (Máy nén đã dừng.)"
+    },
+    {
+     "term": "冷媒",
+     "reading": "reibai",
+     "definition": "môi chất lạnh",
+     "example": "冷媒が足りません。 (Thiếu môi chất lạnh.)"
+    },
+    {
+     "term": "凝縮器",
+     "reading": "gyōshukuki",
+     "definition": "dàn ngưng",
+     "example": "凝縮器を掃除します。 (Vệ sinh dàn ngưng.)"
+    },
+    {
+     "term": "蒸発器",
+     "reading": "jōhatsuki",
+     "definition": "dàn bay hơi",
+     "example": "蒸発器に霜がつきました。 (Dàn bay hơi bị đóng tuyết.)"
+    },
+    {
+     "term": "膨張弁",
+     "reading": "bōchōben",
+     "definition": "van tiết lưu",
+     "example": "膨張弁を調整します。 (Điều chỉnh van tiết lưu.)"
+    }
+   ],
+   "grammar": {
+    "title": "これ・それ・あれ và 〜のは〜です",
+    "explanation": "Chỉ vật: これ/それ/あれは〜です. Nhấn mạnh vật được nói đến: 〜にあるのは N です (cái nằm ở ~ là N).",
+    "examples": [
+     "それはドライバーです。[sore wa doraibā desu] (Đó là tua vít.)",
+     "右にあるのはスパナです。[migi ni aru no wa supana desu] (Cái bên phải là cờ lê.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm っ và trường âm",
+    "tip": "圧縮機 asshukuki có っ; 凝縮器 gyōshukuki, 蒸発器 jōhatsuki, 膨張弁 bōchōben có nhiều trường âm. Đọc chậm từng nhịp.",
+    "words": [
+     "あっしゅくき",
+     "ぎょうしゅくき",
+     "じょうはつき",
+     "ぼうちょうべん"
+    ]
+   },
+   "speakingTasks": [
+    "Gọi tên 5 bộ phận chính của chu trình lạnh và chức năng của nó.",
+    "Hỏi thầy/cô tên một dụng cụ bạn hay dùng."
+   ],
+   "questions": [
+    {
+     "prompt": "「圧縮機」 là:",
+     "options": [
+      "quạt",
+      "dàn ngưng",
+      "máy nén"
+     ],
+     "answer": 2,
+     "explanation": "圧縮 = nén."
+    },
+    {
+     "prompt": "Bộ phận làm lạnh trong kho (hấp thụ nhiệt) là:",
+     "options": [
+      "蒸発器",
+      "圧縮機",
+      "凝縮器"
+     ],
+     "answer": 0,
+     "explanation": "蒸発器 = dàn bay hơi."
+    },
+    {
+     "prompt": "「膨張弁」 là:",
+     "options": [
+      "van an toàn",
+      "van tiết lưu",
+      "van một chiều"
+     ],
+     "answer": 1,
+     "explanation": "膨張 = giãn nở."
+    },
+    {
+     "prompt": "“Thiếu môi chất lạnh.” là:",
+     "options": [
+      "冷媒が足りません。",
+      "冷媒に足りないです。",
+      "冷媒を足ります。"
+     ],
+     "answer": 0,
+     "explanation": "N が足りません."
+    },
+    {
+     "prompt": "「膨張弁」 có nghĩa là gì?",
+     "options": [
+      "van tiết lưu",
+      "môi chất lạnh",
+      "dàn ngưng"
+     ],
+     "answer": 0,
+     "explanation": "「膨張弁」 [bōchōben] = van tiết lưu."
+    },
+    {
+     "prompt": "「圧縮機」 đọc là gì?",
+     "options": [
+      "gyōshukuki",
+      "bōchōben",
+      "asshukuki"
+     ],
+     "answer": 2,
+     "explanation": "「圧縮機」 đọc là [asshukuki], nghĩa là máy nén."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿に霜がつきました。  (Dàn bay hơi bị đóng tuyết.)",
+     "options": [
+      "蒸発器",
+      "冷媒",
+      "凝縮器"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「蒸発器」 (dàn bay hơi). Câu đầy đủ: 蒸発器に霜がつきました。"
+    },
+    {
+     "prompt": "「凝縮器」 có nghĩa là gì?",
+     "options": [
+      "dàn bay hơi",
+      "dàn ngưng",
+      "môi chất lạnh"
+     ],
+     "answer": 1,
+     "explanation": "「凝縮器」 [gyōshukuki] = dàn ngưng."
+    },
+    {
+     "prompt": "「膨張弁」 đọc là gì?",
+     "options": [
+      "bōchōben",
+      "gyōshukuki",
+      "reibai"
+     ],
+     "answer": 0,
+     "explanation": "「膨張弁」 đọc là [bōchōben], nghĩa là van tiết lưu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が足りません。  (Thiếu môi chất lạnh.)",
+     "options": [
+      "冷媒",
+      "凝縮器",
+      "膨張弁"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「冷媒」 (môi chất lạnh). Câu đầy đủ: 冷媒が足りません。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Nhận yêu cầu sửa chữa qua điện thoại",
+   "objective": "Hỏi tên khách, địa chỉ, thiết bị và triệu chứng.",
+   "reading": "ミン: お電話ありがとうございます。冷凍サービスのミンです。\nお客様: 倉庫の冷凍庫が冷えないんです。\nミン: 庫内温度は今何度ですか。\nお客様: マイナス五度です。いつもはマイナス二十度です。\nミン: わかりました。住所を教えてください。すぐに伺います。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "お電話ありがとうございます。冷凍サービスのミンです。",
+     "phonetic": "O-denwa arigatō gozaimasu. Reitō sābisu no Min desu.",
+     "translation": "Cảm ơn quý khách đã gọi. Tôi là Minh, dịch vụ lạnh."
+    },
+    {
+     "speaker": "お客様",
+     "text": "倉庫の冷凍庫が冷えないんです。",
+     "phonetic": "Sōko no reitōko ga hienai n desu.",
+     "translation": "Tủ đông trong kho không lạnh."
+    },
+    {
+     "speaker": "ミン",
+     "text": "庫内温度は今何度ですか。",
+     "phonetic": "Konai ondo wa ima nando desu ka.",
+     "translation": "Nhiệt độ trong kho hiện là bao nhiêu độ?"
+    },
+    {
+     "speaker": "お客様",
+     "text": "マイナス五度です。いつもはマイナス二十度です。",
+     "phonetic": "Mainasu go-do desu. Itsumo wa mainasu nijū-do desu.",
+     "translation": "Âm 5 độ. Thường là âm 20 độ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "わかりました。住所を教えてください。すぐに伺います。",
+     "phonetic": "Wakarimashita. Jūsho o oshiete kudasai. Sugu ni ukagaimasu.",
+     "translation": "Tôi hiểu rồi. Xin cho biết địa chỉ. Tôi sẽ đến ngay."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "冷凍庫",
+     "reading": "reitōko",
+     "definition": "tủ đông, kho đông",
+     "example": "冷凍庫を点検します。 (Kiểm tra kho đông.)"
+    },
+    {
+     "term": "冷えない",
+     "reading": "hienai",
+     "definition": "không lạnh",
+     "example": "部屋が冷えないです。 (Phòng không lạnh.)"
+    },
+    {
+     "term": "温度",
+     "reading": "ondo",
+     "definition": "nhiệt độ",
+     "example": "温度を確認します。 (Kiểm tra nhiệt độ.)"
+    },
+    {
+     "term": "倉庫",
+     "reading": "sōko",
+     "definition": "nhà kho",
+     "example": "倉庫は二階です。 (Nhà kho ở tầng 2.)"
+    },
+    {
+     "term": "伺います",
+     "reading": "ukagaimasu",
+     "definition": "đến (khiêm nhường)",
+     "example": "午後に伺います。 (Buổi chiều tôi sẽ đến.)"
+    }
+   ],
+   "grammar": {
+    "title": "何度 và 〜んです",
+    "explanation": "Hỏi nhiệt độ: 何度ですか. Âm độ: マイナス〜度. Khách giải thích sự việc: 〜ないんです. Đến nhà khách: 伺います (khiêm nhường của 行きます).",
+    "examples": [
+     "今、何度ですか。[ima, nando desu ka] (Bây giờ bao nhiêu độ?)",
+     "明日の朝伺います。[ashita no asa ukagaimasu] (Sáng mai tôi đến.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc nhiệt độ",
+    "tip": "マイナス二十度 mainasu nijū-do. Trường âm: 冷凍 reitō, 温度 ondo (không dài), 倉庫 sōko.",
+    "words": [
+     "れいとうこ",
+     "おんど",
+     "マイナス",
+     "うかがいます"
+    ]
+   },
+   "speakingTasks": [
+    "Nhận cuộc gọi báo hỏng kho lạnh: hỏi 4 thông tin cần thiết.",
+    "Thầy/cô là khách, hãy hỏi triệu chứng và hẹn giờ đến."
+   ],
+   "questions": [
+    {
+     "prompt": "Hỏi nhiệt độ trong kho:",
+     "options": [
+      "庫内温度は何度ですか。",
+      "庫内温度はいくらですか。",
+      "庫内温度はどこですか。"
+     ],
+     "answer": 0,
+     "explanation": "何度 hỏi độ."
+    },
+    {
+     "prompt": "「冷えない」 nghĩa là:",
+     "options": [
+      "không lạnh",
+      "bị đóng băng",
+      "quá lạnh"
+     ],
+     "answer": 0,
+     "explanation": "冷える = lạnh đi."
+    },
+    {
+     "prompt": "Khiêm nhường của 「行きます」 là:",
+     "options": [
+      "参りません",
+      "伺います",
+      "いらっしゃいます"
+     ],
+     "answer": 1,
+     "explanation": "伺う = đến thăm (khiêm nhường)."
+    },
+    {
+     "prompt": "“Âm 20 độ” đọc là:",
+     "options": [
+      "二十マイナス度",
+      "マイナス二十度",
+      "下二十度"
+     ],
+     "answer": 1,
+     "explanation": "マイナス + số + 度."
+    },
+    {
+     "prompt": "「冷凍庫」 có nghĩa là gì?",
+     "options": [
+      "tủ đông, kho đông",
+      "nhiệt độ",
+      "đến (khiêm nhường)"
+     ],
+     "answer": 0,
+     "explanation": "「冷凍庫」 [reitōko] = tủ đông, kho đông."
+    },
+    {
+     "prompt": "「冷えない」 đọc là gì?",
+     "options": [
+      "hienai",
+      "ukagaimasu",
+      "reitōko"
+     ],
+     "answer": 0,
+     "explanation": "「冷えない」 đọc là [hienai], nghĩa là không lạnh."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 部屋が＿＿＿です。  (Phòng không lạnh.)",
+     "options": [
+      "冷えない",
+      "冷凍庫",
+      "伺います"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「冷えない」 (không lạnh). Câu đầy đủ: 部屋が冷えないです。"
+    },
+    {
+     "prompt": "「温度」 có nghĩa là gì?",
+     "options": [
+      "nhiệt độ",
+      "không lạnh",
+      "nhà kho"
+     ],
+     "answer": 0,
+     "explanation": "「温度」 [ondo] = nhiệt độ."
+    },
+    {
+     "prompt": "「伺います」 đọc là gì?",
+     "options": [
+      "sōko",
+      "ukagaimasu",
+      "ondo"
+     ],
+     "answer": 1,
+     "explanation": "「伺います」 đọc là [ukagaimasu], nghĩa là đến (khiêm nhường)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を確認します。  (Kiểm tra nhiệt độ.)",
+     "options": [
+      "温度",
+      "倉庫",
+      "冷えない"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「温度」 (nhiệt độ). Câu đầy đủ: 温度を確認します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "An toàn lao động",
+   "objective": "Nhắc các quy tắc an toàn: đồ bảo hộ, ngắt điện, khóa thẻ.",
+   "reading": "班長: 作業の前に、必ず電源を切ってください。\nミン: はい。ブレーカーに鍵と札をかけます。\n班長: 手袋と保護メガネもつけてください。\nミン: わかりました。安全第一ですね。",
+   "dialogue": [
+    {
+     "speaker": "班長",
+     "text": "作業の前に、必ず電源を切ってください。",
+     "phonetic": "Sagyō no mae ni, kanarazu dengen o kitte kudasai.",
+     "translation": "Trước khi làm việc, nhất định phải ngắt nguồn điện."
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい。ブレーカーに鍵と札をかけます。",
+     "phonetic": "Hai. Burēkā ni kagi to fuda o kakemasu.",
+     "translation": "Vâng. Tôi sẽ khóa và treo thẻ ở cầu dao."
+    },
+    {
+     "speaker": "班長",
+     "text": "手袋と保護メガネもつけてください。",
+     "phonetic": "Tebukuro to hogo megane mo tsukete kudasai.",
+     "translation": "Đeo cả găng tay và kính bảo hộ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "わかりました。安全第一ですね。",
+     "phonetic": "Wakarimashita. Anzen daiichi desu ne.",
+     "translation": "Tôi hiểu. An toàn là trên hết."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "電源",
+     "reading": "dengen",
+     "definition": "nguồn điện",
+     "example": "電源を切ります。 (Ngắt nguồn.)"
+    },
+    {
+     "term": "手袋",
+     "reading": "tebukuro",
+     "definition": "găng tay",
+     "example": "手袋をつけます。 (Đeo găng tay.)"
+    },
+    {
+     "term": "保護メガネ",
+     "reading": "hogo megane",
+     "definition": "kính bảo hộ",
+     "example": "保護メガネをかけてください。 (Hãy đeo kính bảo hộ.)"
+    },
+    {
+     "term": "安全",
+     "reading": "anzen",
+     "definition": "an toàn",
+     "example": "安全を確認します。 (Kiểm tra an toàn.)"
+    },
+    {
+     "term": "ブレーカー",
+     "reading": "burēkā",
+     "definition": "cầu dao (aptomat)",
+     "example": "ブレーカーを落とします。 (Ngắt cầu dao.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜の前に / 必ず〜てください",
+    "explanation": "Trước khi làm: N の前に / V る前に. Nhấn mạnh bắt buộc: 必ず + V てください. Đeo đồ bảo hộ: つける / かける (kính).",
+    "examples": [
+     "作業の前に、点検してください。[sagyō no mae ni, tenken shite kudasai] (Trước khi làm, hãy kiểm tra.)",
+     "必ずヘルメットをかぶってください。[kanarazu herumetto o kabutte kudasai] (Nhất định phải đội mũ bảo hộ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Lời nhắc rõ ràng",
+    "tip": "Lời an toàn nói to, rõ, dứt khoát. 第一 daiichi, 安全 anzen. 指差し確認: chỉ tay và nói 「よし！」.",
+    "words": [
+     "あんぜん",
+     "てぶくろ",
+     "ブレーカー",
+     "よし"
+    ]
+   },
+   "speakingTasks": [
+    "Nêu 4 quy tắc an toàn trước khi sửa máy lạnh công nghiệp.",
+    "Nhắc nhở đồng nghiệp (thầy/cô) đeo đồ bảo hộ."
+   ],
+   "questions": [
+    {
+     "prompt": "“Trước khi làm, ngắt nguồn.”:",
+     "options": [
+      "作業の後に、電源を入れて。",
+      "作業中に電源です。",
+      "作業の前に、電源を切ってください。"
+     ],
+     "answer": 2,
+     "explanation": "N の前に."
+    },
+    {
+     "prompt": "「手袋」 là:",
+     "options": [
+      "mũ bảo hộ",
+      "ủng",
+      "găng tay"
+     ],
+     "answer": 2,
+     "explanation": "手袋 = găng tay."
+    },
+    {
+     "prompt": "「安全第一」 nghĩa là:",
+     "options": [
+      "Rẻ nhất",
+      "Nhanh là số một",
+      "An toàn là trên hết"
+     ],
+     "answer": 2,
+     "explanation": "第一 = số một."
+    },
+    {
+     "prompt": "Khóa và treo thẻ ở cầu dao là để:",
+     "options": [
+      "Tiết kiệm điện",
+      "Làm đẹp",
+      "Không ai bật điện khi đang sửa"
+     ],
+     "answer": 2,
+     "explanation": "Lockout/Tagout."
+    },
+    {
+     "prompt": "「手袋」 có nghĩa là gì?",
+     "options": [
+      "an toàn",
+      "găng tay",
+      "cầu dao (aptomat)"
+     ],
+     "answer": 1,
+     "explanation": "「手袋」 [tebukuro] = găng tay."
+    },
+    {
+     "prompt": "「保護メガネ」 đọc là gì?",
+     "options": [
+      "tebukuro",
+      "anzen",
+      "hogo megane"
+     ],
+     "answer": 2,
+     "explanation": "「保護メガネ」 đọc là [hogo megane], nghĩa là kính bảo hộ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を確認します。  (Kiểm tra an toàn.)",
+     "options": [
+      "電源",
+      "安全",
+      "保護メガネ"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「安全」 (an toàn). Câu đầy đủ: 安全を確認します。"
+    },
+    {
+     "prompt": "「電源」 có nghĩa là gì?",
+     "options": [
+      "găng tay",
+      "nguồn điện",
+      "cầu dao (aptomat)"
+     ],
+     "answer": 1,
+     "explanation": "「電源」 [dengen] = nguồn điện."
+    },
+    {
+     "prompt": "「電源」 đọc là gì?",
+     "options": [
+      "tebukuro",
+      "dengen",
+      "burēkā"
+     ],
+     "answer": 1,
+     "explanation": "「電源」 đọc là [dengen], nghĩa là nguồn điện."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をかけてください。  (Hãy đeo kính bảo hộ.)",
+     "options": [
+      "手袋",
+      "安全",
+      "保護メガネ"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「保護メガネ」 (kính bảo hộ). Câu đầy đủ: 保護メガネをかけてください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Đọc thông số: nhiệt độ và áp suất",
+   "objective": "Đọc và báo cáo áp suất hút, áp suất đẩy, nhiệt độ quá nhiệt.",
+   "reading": "先輩: ゲージの数字を読んでください。\nミン: 低圧は0.2メガパスカル、高圧は1.6メガパスカルです。\n先輩: 吸入ガスの温度はどうですか。\nミン: 過熱度は十二度で、少し高いようです。",
+   "dialogue": [
+    {
+     "speaker": "先輩",
+     "text": "ゲージの数字を読んでください。",
+     "phonetic": "Gēji no sūji o yonde kudasai.",
+     "translation": "Đọc số trên đồng hồ đo đi."
+    },
+    {
+     "speaker": "ミン",
+     "text": "低圧は0.2メガパスカル、高圧は1.6メガパスカルです。",
+     "phonetic": "Teiatsu wa rei-ten-ni megapasukaru, kōatsu wa itten-roku megapasukaru desu.",
+     "translation": "Áp thấp 0,2 MPa, áp cao 1,6 MPa."
+    },
+    {
+     "speaker": "先輩",
+     "text": "吸入ガスの温度はどうですか。",
+     "phonetic": "Kyūnyū gasu no ondo wa dō desu ka.",
+     "translation": "Nhiệt độ hơi hút thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "過熱度は十二度で、少し高いようです。",
+     "phonetic": "Kanetsudo wa jūni-do de, sukoshi takai yō desu.",
+     "translation": "Độ quá nhiệt là 12 độ, có vẻ hơi cao."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "低圧",
+     "reading": "teiatsu",
+     "definition": "áp thấp (áp hút)",
+     "example": "低圧が下がっています。 (Áp thấp đang giảm.)"
+    },
+    {
+     "term": "高圧",
+     "reading": "kōatsu",
+     "definition": "áp cao (áp đẩy)",
+     "example": "高圧が高すぎます。 (Áp cao quá cao.)"
+    },
+    {
+     "term": "吸入",
+     "reading": "kyūnyū",
+     "definition": "hút vào",
+     "example": "吸入圧力を測ります。 (Đo áp suất hút.)"
+    },
+    {
+     "term": "過熱度",
+     "reading": "kanetsudo",
+     "definition": "độ quá nhiệt",
+     "example": "過熱度を調整します。 (Điều chỉnh độ quá nhiệt.)"
+    },
+    {
+     "term": "数字",
+     "reading": "sūji",
+     "definition": "con số",
+     "example": "数字を記録します。 (Ghi lại số liệu.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ようです / 〜すぎます",
+    "explanation": "Phán đoán dựa trên quan sát: 〜ようです (có vẻ). Quá mức: tính từ bỏ い + すぎます (高すぎます). Nối hai câu trạng thái: 〜で、〜.",
+    "examples": [
+     "冷媒が少ないようです。[reibai ga sukunai yō desu] (Có vẻ thiếu môi chất.)",
+     "温度が低すぎます。[ondo ga hikusugimasu] (Nhiệt độ quá thấp.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc số thập phân và đơn vị",
+    "tip": "0.2 rei-ten-ni, 1.6 itten-roku. MPa: メガパスカル. Trường âm 高圧 kōatsu, 吸入 kyūnyū.",
+    "words": [
+     "ていあつ",
+     "こうあつ",
+     "きゅうにゅう",
+     "かねつど"
+    ]
+   },
+   "speakingTasks": [
+    "Đọc và báo cáo 4 thông số của một máy lạnh đang chạy.",
+    "Nhận xét thông số bất thường với thầy/cô bằng 〜ようです."
+   ],
+   "questions": [
+    {
+     "prompt": "「高圧」 trong hệ thống lạnh là:",
+     "options": [
+      "áp suất phía đẩy",
+      "áp suất phía hút",
+      "điện áp cao"
+     ],
+     "answer": 0,
+     "explanation": "高圧 = áp cao (đầu đẩy)."
+    },
+    {
+     "prompt": "“Có vẻ thiếu môi chất.”:",
+     "options": [
+      "冷媒を少なくようです。",
+      "冷媒が少ないはずです。",
+      "冷媒が少ないようです。"
+     ],
+     "answer": 2,
+     "explanation": "〜ようです = có vẻ."
+    },
+    {
+     "prompt": "1.6 đọc là:",
+     "options": [
+      "ひとつろく",
+      "いちろく",
+      "いってんろく"
+     ],
+     "answer": 2,
+     "explanation": "1.6 = itten-roku."
+    },
+    {
+     "prompt": "「過熱度」 là:",
+     "options": [
+      "độ quá nhiệt",
+      "nhiệt độ ngưng tụ",
+      "độ quá lạnh"
+     ],
+     "answer": 0,
+     "explanation": "Superheat."
+    },
+    {
+     "prompt": "「高圧」 có nghĩa là gì?",
+     "options": [
+      "áp thấp (áp hút)",
+      "áp cao (áp đẩy)",
+      "con số"
+     ],
+     "answer": 1,
+     "explanation": "「高圧」 [kōatsu] = áp cao (áp đẩy)."
+    },
+    {
+     "prompt": "「高圧」 đọc là gì?",
+     "options": [
+      "sūji",
+      "teiatsu",
+      "kōatsu"
+     ],
+     "answer": 2,
+     "explanation": "「高圧」 đọc là [kōatsu], nghĩa là áp cao (áp đẩy)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が高すぎます。  (Áp cao quá cao.)",
+     "options": [
+      "低圧",
+      "数字",
+      "高圧"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「高圧」 (áp cao (áp đẩy)). Câu đầy đủ: 高圧が高すぎます。"
+    },
+    {
+     "prompt": "「吸入」 có nghĩa là gì?",
+     "options": [
+      "con số",
+      "áp cao (áp đẩy)",
+      "hút vào"
+     ],
+     "answer": 2,
+     "explanation": "「吸入」 [kyūnyū] = hút vào."
+    },
+    {
+     "prompt": "「数字」 đọc là gì?",
+     "options": [
+      "sūji",
+      "kanetsudo",
+      "kōatsu"
+     ],
+     "answer": 0,
+     "explanation": "「数字」 đọc là [sūji], nghĩa là con số."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿圧力を測ります。  (Đo áp suất hút.)",
+     "options": [
+      "吸入",
+      "数字",
+      "高圧"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「吸入」 (hút vào). Câu đầy đủ: 吸入圧力を測ります。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Chẩn đoán lỗi cơ bản",
+   "objective": "Hỏi triệu chứng, kiểm tra và nêu nguyên nhân có thể.",
+   "reading": "お客様: 冷凍機から変な音がします。\nミン: いつから音がしていますか。\nお客様: 昨日からです。それに、霜がたくさんついています。\nミン: ファンモーターか、霜取りヒーターの故障かもしれません。確認してみます。",
+   "dialogue": [
+    {
+     "speaker": "お客様",
+     "text": "冷凍機から変な音がします。",
+     "phonetic": "Reitōki kara hen na oto ga shimasu.",
+     "translation": "Máy lạnh có tiếng kêu lạ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "いつから音がしていますか。",
+     "phonetic": "Itsu kara oto ga shite imasu ka.",
+     "translation": "Tiếng kêu từ khi nào ạ?"
+    },
+    {
+     "speaker": "お客様",
+     "text": "昨日からです。それに、霜がたくさんついています。",
+     "phonetic": "Kinō kara desu. Sore ni, shimo ga takusan tsuite imasu.",
+     "translation": "Từ hôm qua. Hơn nữa, bị đóng tuyết rất nhiều."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ファンモーターか、霜取りヒーターの故障かもしれません。確認してみます。",
+     "phonetic": "Fan mōtā ka, shimotori hītā no koshō kamoshiremasen. Kakunin shite mimasu.",
+     "translation": "Có thể hỏng mô-tơ quạt hoặc điện trở xả đá. Tôi sẽ kiểm tra thử."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "音",
+     "reading": "oto",
+     "definition": "âm thanh, tiếng kêu",
+     "example": "大きい音がします。 (Có tiếng kêu to.)"
+    },
+    {
+     "term": "霜",
+     "reading": "shimo",
+     "definition": "tuyết bám, sương giá",
+     "example": "霜を取ります。 (Xả đá.)"
+    },
+    {
+     "term": "霜取り",
+     "reading": "shimotori",
+     "definition": "xả đá",
+     "example": "霜取りが動きません。 (Xả đá không hoạt động.)"
+    },
+    {
+     "term": "故障",
+     "reading": "koshō",
+     "definition": "hỏng hóc",
+     "example": "モーターが故障しました。 (Mô-tơ bị hỏng.)"
+    },
+    {
+     "term": "かもしれません",
+     "reading": "kamoshiremasen",
+     "definition": "có thể là",
+     "example": "ヒューズかもしれません。 (Có thể là cầu chì.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜がします / 〜かもしれません / 〜てみます",
+    "explanation": "Cảm nhận giác quan: 音/においがします. Phỏng đoán: 〜かもしれません. Thử làm: V て + みます. Liệt kê khả năng: A か B.",
+    "examples": [
+     "焦げたにおいがします。[kogeta nioi ga shimasu] (Có mùi khét.)",
+     "センサーの故障かもしれません。[sensā no koshō kamoshiremasen] (Có thể cảm biến hỏng.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm しも và こしょう",
+    "tip": "霜 shimo (sương giá) — phân biệt với 下 shimo (dưới) qua ngữ cảnh. 故障 koshō có trường âm.",
+    "words": [
+     "しも",
+     "しもとり",
+     "こしょう",
+     "ファンモーター"
+    ]
+   },
+   "speakingTasks": [
+    "Hỏi khách 3 câu về triệu chứng và đưa ra 2 nguyên nhân có thể.",
+    "Thầy/cô mô tả lỗi, bạn chẩn đoán bằng かもしれません."
+   ],
+   "questions": [
+    {
+     "prompt": "“Có tiếng kêu lạ.” là:",
+     "options": [
+      "変な音がします。",
+      "変な音があります。",
+      "変な音をします。"
+     ],
+     "answer": 0,
+     "explanation": "音がします."
+    },
+    {
+     "prompt": "Phỏng đoán “có thể là cảm biến hỏng”:",
+     "options": [
+      "センサーの故障にちがいない。",
+      "センサーが故障しましょう。",
+      "センサーの故障かもしれません。"
+     ],
+     "answer": 2,
+     "explanation": "かもしれません."
+    },
+    {
+     "prompt": "「霜取り」 là:",
+     "options": [
+      "nạp gas",
+      "xả đá",
+      "thay dầu"
+     ],
+     "answer": 1,
+     "explanation": "霜取り = defrost."
+    },
+    {
+     "prompt": "“Tôi sẽ kiểm tra thử.”:",
+     "options": [
+      "確認してみます。",
+      "確認しておきました。",
+      "確認してしまいます。"
+     ],
+     "answer": 0,
+     "explanation": "V て + みます."
+    },
+    {
+     "prompt": "「かもしれません」 có nghĩa là gì?",
+     "options": [
+      "âm thanh, tiếng kêu",
+      "hỏng hóc",
+      "có thể là"
+     ],
+     "answer": 2,
+     "explanation": "「かもしれません」 [kamoshiremasen] = có thể là."
+    },
+    {
+     "prompt": "「故障」 đọc là gì?",
+     "options": [
+      "oto",
+      "shimotori",
+      "koshō"
+     ],
+     "answer": 2,
+     "explanation": "「故障」 đọc là [koshō], nghĩa là hỏng hóc."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を取ります。  (Xả đá.)",
+     "options": [
+      "かもしれません",
+      "故障",
+      "霜"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「霜」 (tuyết bám, sương giá). Câu đầy đủ: 霜を取ります。"
+    },
+    {
+     "prompt": "「故障」 có nghĩa là gì?",
+     "options": [
+      "âm thanh, tiếng kêu",
+      "xả đá",
+      "hỏng hóc"
+     ],
+     "answer": 2,
+     "explanation": "「故障」 [koshō] = hỏng hóc."
+    },
+    {
+     "prompt": "「霜」 đọc là gì?",
+     "options": [
+      "kamoshiremasen",
+      "koshō",
+      "shimo"
+     ],
+     "answer": 2,
+     "explanation": "「霜」 đọc là [shimo], nghĩa là tuyết bám, sương giá."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ヒューズ＿＿＿。  (Có thể là cầu chì.)",
+     "options": [
+      "音",
+      "かもしれません",
+      "故障"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「かもしれません」 (có thể là). Câu đầy đủ: ヒューズかもしれません。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Bảo trì định kỳ",
+   "objective": "Mô tả các bước bảo trì và ghi chép kết quả kiểm tra.",
+   "reading": "ミン: 今日は月例点検に参りました。\nお客様: 何をしますか。\nミン: フィルターを清掃して、ベルトの張りを確認して、油の量を測ります。\nミン: 終わったら、点検表に記録しておきます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "今日は月例点検に参りました。",
+     "phonetic": "Kyō wa getsurei tenken ni mairimashita.",
+     "translation": "Hôm nay tôi đến kiểm tra định kỳ hằng tháng."
+    },
+    {
+     "speaker": "お客様",
+     "text": "何をしますか。",
+     "phonetic": "Nani o shimasu ka.",
+     "translation": "Anh sẽ làm gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "フィルターを清掃して、ベルトの張りを確認して、油の量を測ります。",
+     "phonetic": "Firutā o seisō shite, beruto no hari o kakunin shite, abura no ryō o hakarimasu.",
+     "translation": "Tôi vệ sinh lọc, kiểm tra độ căng dây đai và đo lượng dầu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "終わったら、点検表に記録しておきます。",
+     "phonetic": "Owattara, tenkenhyō ni kiroku shite okimasu.",
+     "translation": "Xong rồi tôi sẽ ghi sẵn vào phiếu kiểm tra."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "点検",
+     "reading": "tenken",
+     "definition": "kiểm tra",
+     "example": "毎月点検します。 (Kiểm tra mỗi tháng.)"
+    },
+    {
+     "term": "清掃",
+     "reading": "seisō",
+     "definition": "vệ sinh",
+     "example": "凝縮器を清掃します。 (Vệ sinh dàn ngưng.)"
+    },
+    {
+     "term": "油",
+     "reading": "abura",
+     "definition": "dầu",
+     "example": "油を補充します。 (Bổ sung dầu.)"
+    },
+    {
+     "term": "記録",
+     "reading": "kiroku",
+     "definition": "ghi chép",
+     "example": "結果を記録します。 (Ghi lại kết quả.)"
+    },
+    {
+     "term": "交換",
+     "reading": "kōkan",
+     "definition": "thay thế",
+     "example": "ベルトを交換します。 (Thay dây đai.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ておきます / 〜たら",
+    "explanation": "Làm sẵn cho sau: V て + おきます. Sau khi xong: V た + ら. Liệt kê bước bằng thể て.",
+    "examples": [
+     "部品を準備しておきます。[buhin o junbi shite okimasu] (Tôi chuẩn bị sẵn linh kiện.)",
+     "点検が終わったら、報告します。[tenken ga owattara, hōkoku shimasu] (Kiểm tra xong tôi sẽ báo cáo.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm てんけん, せいそう",
+    "tip": "点検 tenken (hai ん), 清掃 seisō (trường âm), 交換 kōkan. Đọc chuẩn để khách tin tưởng.",
+    "words": [
+     "てんけん",
+     "せいそう",
+     "こうかん",
+     "きろく"
+    ]
+   },
+   "speakingTasks": [
+    "Giải thích cho khách 4 bước bảo trì định kỳ máy lạnh công nghiệp.",
+    "Đọc kết quả kiểm tra cho thầy/cô ghi vào phiếu."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi sẽ ghi sẵn vào phiếu.”:",
+     "options": [
+      "点検表に記録しておきます。",
+      "点検表に記録してみます。",
+      "点検表を記録しています。"
+     ],
+     "answer": 0,
+     "explanation": "V て + おきます."
+    },
+    {
+     "prompt": "「清掃」 nghĩa là:",
+     "options": [
+      "thay thế",
+      "vệ sinh",
+      "đo lường"
+     ],
+     "answer": 1,
+     "explanation": "清掃 = làm sạch."
+    },
+    {
+     "prompt": "「交換」 nghĩa là:",
+     "options": [
+      "thay thế",
+      "sửa chữa",
+      "kiểm tra"
+     ],
+     "answer": 0,
+     "explanation": "交換 = thay."
+    },
+    {
+     "prompt": "Đến làm việc (khiêm nhường):",
+     "options": [
+      "いらっしゃいました",
+      "参りました",
+      "来やがった"
+     ],
+     "answer": 1,
+     "explanation": "参る = khiêm nhường của 来る."
+    },
+    {
+     "prompt": "「点検」 có nghĩa là gì?",
+     "options": [
+      "thay thế",
+      "kiểm tra",
+      "dầu"
+     ],
+     "answer": 1,
+     "explanation": "「点検」 [tenken] = kiểm tra."
+    },
+    {
+     "prompt": "「点検」 đọc là gì?",
+     "options": [
+      "tenken",
+      "kōkan",
+      "abura"
+     ],
+     "answer": 0,
+     "explanation": "「点検」 đọc là [tenken], nghĩa là kiểm tra."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 凝縮器を＿＿＿します。  (Vệ sinh dàn ngưng.)",
+     "options": [
+      "点検",
+      "清掃",
+      "記録"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「清掃」 (vệ sinh). Câu đầy đủ: 凝縮器を清掃します。"
+    },
+    {
+     "prompt": "「交換」 có nghĩa là gì?",
+     "options": [
+      "thay thế",
+      "vệ sinh",
+      "ghi chép"
+     ],
+     "answer": 0,
+     "explanation": "「交換」 [kōkan] = thay thế."
+    },
+    {
+     "prompt": "「油」 đọc là gì?",
+     "options": [
+      "tenken",
+      "abura",
+      "kiroku"
+     ],
+     "answer": 1,
+     "explanation": "「油」 đọc là [abura], nghĩa là dầu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 毎月＿＿＿します。  (Kiểm tra mỗi tháng.)",
+     "options": [
+      "点検",
+      "油",
+      "交換"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「点検」 (kiểm tra). Câu đầy đủ: 毎月点検します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Kho lạnh và hệ thống amoniac (NH3)",
+   "objective": "Giải thích cấu tạo hệ thống NH3, nguy hiểm và biện pháp an toàn.",
+   "reading": "工場長: この工場ではアンモニア冷凍機を使っています。\nミン: アンモニアは効率がいい反面、毒性があるので、漏れには十分注意しなければなりません。\n工場長: 漏れた場合はどうしますか。\nミン: まず避難させ、防毒マスクをつけてから、元弁を閉めます。",
+   "dialogue": [
+    {
+     "speaker": "工場長",
+     "text": "この工場ではアンモニア冷凍機を使っています。",
+     "phonetic": "Kono kōjō de wa anmonia reitōki o tsukatte imasu.",
+     "translation": "Nhà máy này dùng máy lạnh amoniac."
+    },
+    {
+     "speaker": "ミン",
+     "text": "アンモニアは効率がいい反面、毒性があるので、漏れには十分注意しなければなりません。",
+     "phonetic": "Anmonia wa kōritsu ga ii hanmen, dokusei ga aru node, more ni wa jūbun chūi shinakereba narimasen.",
+     "translation": "Amoniac hiệu suất tốt nhưng có độc tính, nên phải hết sức chú ý rò rỉ."
+    },
+    {
+     "speaker": "工場長",
+     "text": "漏れた場合はどうしますか。",
+     "phonetic": "Moreta baai wa dō shimasu ka.",
+     "translation": "Nếu rò rỉ thì làm gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "まず避難させ、防毒マスクをつけてから、元弁を閉めます。",
+     "phonetic": "Mazu hinan sase, bōdoku masuku o tsukete kara, motoben o shimemasu.",
+     "translation": "Trước tiên cho mọi người sơ tán, đeo mặt nạ phòng độc rồi đóng van chính."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "アンモニア",
+     "reading": "anmonia",
+     "definition": "amoniac (NH3)",
+     "example": "アンモニアのにおいがします。 (Có mùi amoniac.)"
+    },
+    {
+     "term": "効率",
+     "reading": "kōritsu",
+     "definition": "hiệu suất",
+     "example": "効率が上がりました。 (Hiệu suất tăng.)"
+    },
+    {
+     "term": "漏れ",
+     "reading": "more",
+     "definition": "rò rỉ",
+     "example": "ガス漏れを点検します。 (Kiểm tra rò rỉ gas.)"
+    },
+    {
+     "term": "避難",
+     "reading": "hinan",
+     "definition": "sơ tán",
+     "example": "すぐに避難してください。 (Hãy sơ tán ngay.)"
+    },
+    {
+     "term": "元弁",
+     "reading": "motoben",
+     "definition": "van chính",
+     "example": "元弁を閉めてください。 (Hãy đóng van chính.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜なければなりません / 〜てから / Sai khiến",
+    "explanation": "Bắt buộc: V ない bỏ い + ければなりません. Làm A xong rồi B: V て + から. Sai khiến: 避難させる (cho/bắt sơ tán). 〜反面: mặt khác.",
+    "examples": [
+     "検知器を毎年校正しなければなりません。[kenchiki o maitoshi kōsei shinakereba narimasen] (Phải hiệu chuẩn máy dò hằng năm.)",
+     "マスクをつけてから、中に入ります。[masuku o tsukete kara, naka ni hairimasu] (Đeo mặt nạ rồi mới vào trong.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài trong thuật ngữ",
+    "tip": "工場 kōjō, 効率 kōritsu, 防毒 bōdoku. ん trong 避難 hinan và アンモニア.",
+    "words": [
+     "アンモニア",
+     "こうりつ",
+     "ひなん",
+     "もとべん"
+    ]
+   },
+   "speakingTasks": [
+    "Giải thích ưu, nhược điểm của hệ thống NH3.",
+    "Trình bày quy trình khẩn cấp khi rò rỉ amoniac."
+   ],
+   "questions": [
+    {
+     "prompt": "Nhược điểm chính của NH3 là:",
+     "options": [
+      "quá đắt",
+      "có độc tính",
+      "hiệu suất kém"
+     ],
+     "answer": 1,
+     "explanation": "毒性 = độc tính."
+    },
+    {
+     "prompt": "“Phải chú ý rò rỉ.”:",
+     "options": [
+      "漏れに注意しなくてもいいです。",
+      "漏れを注意したがります。",
+      "漏れに注意しなければなりません。"
+     ],
+     "answer": 2,
+     "explanation": "〜なければなりません."
+    },
+    {
+     "prompt": "Thứ tự đúng khi rò rỉ NH3:",
+     "options": [
+      "Sơ tán → đeo mặt nạ → đóng van chính",
+      "Đóng van → bỏ chạy → báo cáo",
+      "Mở cửa → ngửi thử → đóng van"
+     ],
+     "answer": 0,
+     "explanation": "An toàn người trước."
+    },
+    {
+     "prompt": "「元弁」 là:",
+     "options": [
+      "van chính",
+      "van an toàn",
+      "van xả"
+     ],
+     "answer": 0,
+     "explanation": "元弁 = main valve."
+    },
+    {
+     "prompt": "「漏れ」 có nghĩa là gì?",
+     "options": [
+      "rò rỉ",
+      "amoniac (NH3)",
+      "hiệu suất"
+     ],
+     "answer": 0,
+     "explanation": "「漏れ」 [more] = rò rỉ."
+    },
+    {
+     "prompt": "「アンモニア」 đọc là gì?",
+     "options": [
+      "anmonia",
+      "more",
+      "hinan"
+     ],
+     "answer": 0,
+     "explanation": "「アンモニア」 đọc là [anmonia], nghĩa là amoniac (NH3)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿のにおいがします。  (Có mùi amoniac.)",
+     "options": [
+      "アンモニア",
+      "避難",
+      "漏れ"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「アンモニア」 (amoniac (NH3)). Câu đầy đủ: アンモニアのにおいがします。"
+    },
+    {
+     "prompt": "「アンモニア」 có nghĩa là gì?",
+     "options": [
+      "amoniac (NH3)",
+      "rò rỉ",
+      "sơ tán"
+     ],
+     "answer": 0,
+     "explanation": "「アンモニア」 [anmonia] = amoniac (NH3)."
+    },
+    {
+     "prompt": "「効率」 đọc là gì?",
+     "options": [
+      "kōritsu",
+      "hinan",
+      "more"
+     ],
+     "answer": 0,
+     "explanation": "「効率」 đọc là [kōritsu], nghĩa là hiệu suất."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を閉めてください。  (Hãy đóng van chính.)",
+     "options": [
+      "アンモニア",
+      "元弁",
+      "漏れ"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「元弁」 (van chính). Câu đầy đủ: 元弁を閉めてください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Viết báo cáo dịch vụ",
+   "objective": "Ghi rõ hiện trạng, nguyên nhân, công việc đã làm và đề xuất.",
+   "reading": "ミン: 作業報告書を書きました。ご確認ください。\nミン: 現象：庫内温度が設定値まで下がらない。\nミン: 原因：膨張弁の詰まりによる冷媒不足。処置：膨張弁を交換し、冷媒を補充した。\n上司: よく書けていますね。今後の提案も入れてください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "作業報告書を書きました。ご確認ください。",
+     "phonetic": "Sagyō hōkokusho o kakimashita. Go-kakunin kudasai.",
+     "translation": "Tôi đã viết báo cáo công việc. Xin kiểm tra."
+    },
+    {
+     "speaker": "ミン",
+     "text": "現象：庫内温度が設定値まで下がらない。",
+     "phonetic": "Genshō: konai ondo ga setteichi made sagaranai.",
+     "translation": "Hiện tượng: nhiệt độ trong kho không hạ xuống giá trị cài đặt."
+    },
+    {
+     "speaker": "ミン",
+     "text": "原因：膨張弁の詰まりによる冷媒不足。処置：膨張弁を交換し、冷媒を補充した。",
+     "phonetic": "Gen'in: bōchōben no tsumari ni yoru reibai busoku. Shochi: bōchōben o kōkan shi, reibai o hojū shita.",
+     "translation": "Nguyên nhân: thiếu môi chất do tắc van tiết lưu. Xử lý: thay van tiết lưu, nạp bổ sung môi chất."
+    },
+    {
+     "speaker": "上司",
+     "text": "よく書けていますね。今後の提案も入れてください。",
+     "phonetic": "Yoku kakete imasu ne. Kongo no teian mo irete kudasai.",
+     "translation": "Viết tốt đấy. Hãy thêm đề xuất cho sau này."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "報告書",
+     "reading": "hōkokusho",
+     "definition": "bản báo cáo",
+     "example": "報告書を提出します。 (Nộp báo cáo.)"
+    },
+    {
+     "term": "現象",
+     "reading": "genshō",
+     "definition": "hiện tượng",
+     "example": "現象を確認しました。 (Đã xác nhận hiện tượng.)"
+    },
+    {
+     "term": "詰まり",
+     "reading": "tsumari",
+     "definition": "tắc nghẽn",
+     "example": "配管に詰まりがあります。 (Đường ống bị tắc.)"
+    },
+    {
+     "term": "処置",
+     "reading": "shochi",
+     "definition": "xử lý, biện pháp",
+     "example": "処置が完了しました。 (Đã xử lý xong.)"
+    },
+    {
+     "term": "補充",
+     "reading": "hojū",
+     "definition": "bổ sung, nạp thêm",
+     "example": "冷媒を補充しました。 (Đã nạp thêm môi chất.)"
+    }
+   ],
+   "grammar": {
+    "title": "Thể thường trong báo cáo / 〜による",
+    "explanation": "Báo cáo kỹ thuật dùng thể thường (下がらない, 補充した) và danh từ ngắn gọn. Nguyên nhân: N による N. Nối hành động: V (bỏ ます) + 、.",
+    "examples": [
+     "配管の詰まりによる圧力低下。[haikan no tsumari ni yoru atsuryoku teika] (Áp suất giảm do tắc ống.)",
+     "部品を交換し、試運転を行った。[buhin o kōkan shi, shiunten o okonatta] (Đã thay linh kiện và chạy thử.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc báo cáo rõ mạch",
+    "tip": "Đọc mục đề (現象・原因・処置・提案) rồi ngắt nhịp. Trường âm 報告書 hōkokusho, 現象 genshō, 補充 hojū.",
+    "words": [
+     "ほうこくしょ",
+     "げんしょう",
+     "しょち",
+     "ほじゅう"
+    ]
+   },
+   "speakingTasks": [
+    "Viết báo cáo dịch vụ 4 mục cho một lần sửa kho lạnh.",
+    "Đọc báo cáo của bạn cho thầy/cô và nhận góp ý."
+   ],
+   "questions": [
+    {
+     "prompt": "Thứ tự mục trong báo cáo dịch vụ:",
+     "options": [
+      "提案 → 処置 → 現象",
+      "現象 → 原因 → 処置 → 提案",
+      "原因 → 提案 → 現象"
+     ],
+     "answer": 1,
+     "explanation": "Hiện tượng, nguyên nhân, xử lý, đề xuất."
+    },
+    {
+     "prompt": "「詰まり」 nghĩa là:",
+     "options": [
+      "quá nhiệt",
+      "rò rỉ",
+      "tắc nghẽn"
+     ],
+     "answer": 2,
+     "explanation": "詰まる = bị tắc."
+    },
+    {
+     "prompt": "Văn phong báo cáo kỹ thuật thường dùng:",
+     "options": [
+      "thể thường, ngắn gọn",
+      "văn nói thân mật",
+      "kính ngữ dài"
+     ],
+     "answer": 0,
+     "explanation": "Ngắn gọn, khách quan."
+    },
+    {
+     "prompt": "「補充」 là:",
+     "options": [
+      "thải bỏ",
+      "đo đạc",
+      "bổ sung, nạp thêm"
+     ],
+     "answer": 2,
+     "explanation": "補充 = refill."
+    },
+    {
+     "prompt": "「現象」 có nghĩa là gì?",
+     "options": [
+      "xử lý, biện pháp",
+      "bổ sung, nạp thêm",
+      "hiện tượng"
+     ],
+     "answer": 2,
+     "explanation": "「現象」 [genshō] = hiện tượng."
+    },
+    {
+     "prompt": "「報告書」 đọc là gì?",
+     "options": [
+      "hōkokusho",
+      "genshō",
+      "tsumari"
+     ],
+     "answer": 0,
+     "explanation": "「報告書」 đọc là [hōkokusho], nghĩa là bản báo cáo."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 配管に＿＿＿があります。  (Đường ống bị tắc.)",
+     "options": [
+      "処置",
+      "補充",
+      "詰まり"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「詰まり」 (tắc nghẽn). Câu đầy đủ: 配管に詰まりがあります。"
+    },
+    {
+     "prompt": "「詰まり」 có nghĩa là gì?",
+     "options": [
+      "bổ sung, nạp thêm",
+      "tắc nghẽn",
+      "xử lý, biện pháp"
+     ],
+     "answer": 1,
+     "explanation": "「詰まり」 [tsumari] = tắc nghẽn."
+    },
+    {
+     "prompt": "「現象」 đọc là gì?",
+     "options": [
+      "genshō",
+      "shochi",
+      "hojū"
+     ],
+     "answer": 0,
+     "explanation": "「現象」 đọc là [genshō], nghĩa là hiện tượng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を提出します。  (Nộp báo cáo.)",
+     "options": [
+      "報告書",
+      "現象",
+      "詰まり"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「報告書」 (bản báo cáo). Câu đầy đủ: 報告書を提出します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Giải thích sự cố cho khách hàng",
+   "objective": "Giải thích nguyên nhân bằng lời dễ hiểu, báo chi phí và thời gian.",
+   "reading": "お客様: 結局、何が原因だったんですか。\nミン: 簡単に言うと、冷やすためのガスが少なくなっていたんです。\nミン: 配管の溶接部分から少しずつ漏れていました。\nお客様: 修理にはどのくらいかかりますか。\nミン: 部品がそろい次第、半日ほどで終わります。費用は見積書をお送りします。",
+   "dialogue": [
+    {
+     "speaker": "お客様",
+     "text": "結局、何が原因だったんですか。",
+     "phonetic": "Kekkyoku, nani ga gen'in datta n desu ka.",
+     "translation": "Rốt cuộc nguyên nhân là gì vậy?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "簡単に言うと、冷やすためのガスが少なくなっていたんです。",
+     "phonetic": "Kantan ni iu to, hiyasu tame no gasu ga sukunaku natte ita n desu.",
+     "translation": "Nói đơn giản thì khí dùng để làm lạnh đã bị thiếu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "配管の溶接部分から少しずつ漏れていました。",
+     "phonetic": "Haikan no yōsetsu bubun kara sukoshi zutsu morete imashita.",
+     "translation": "Nó rò rỉ từ từ ở mối hàn của đường ống."
+    },
+    {
+     "speaker": "お客様",
+     "text": "修理にはどのくらいかかりますか。",
+     "phonetic": "Shūri ni wa dono kurai kakarimasu ka.",
+     "translation": "Sửa mất bao lâu?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "部品がそろい次第、半日ほどで終わります。費用は見積書をお送りします。",
+     "phonetic": "Buhin ga soroi shidai, hannichi hodo de owarimasu. Hiyō wa mitsumorisho o ookuri shimasu.",
+     "translation": "Ngay khi đủ linh kiện, khoảng nửa ngày là xong. Chi phí tôi sẽ gửi báo giá."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "原因",
+     "reading": "gen'in",
+     "definition": "nguyên nhân",
+     "example": "原因がわかりました。 (Đã biết nguyên nhân.)"
+    },
+    {
+     "term": "配管",
+     "reading": "haikan",
+     "definition": "đường ống",
+     "example": "配管を交換します。 (Thay đường ống.)"
+    },
+    {
+     "term": "溶接",
+     "reading": "yōsetsu",
+     "definition": "hàn",
+     "example": "溶接部分を修理します。 (Sửa mối hàn.)"
+    },
+    {
+     "term": "見積書",
+     "reading": "mitsumorisho",
+     "definition": "bảng báo giá",
+     "example": "見積書を作ります。 (Lập báo giá.)"
+    },
+    {
+     "term": "費用",
+     "reading": "hiyō",
+     "definition": "chi phí",
+     "example": "費用はいくらですか。 (Chi phí bao nhiêu?)"
+    }
+   ],
+   "grammar": {
+    "title": "簡単に言うと / 〜ていたんです / 〜次第",
+    "explanation": "Diễn giải dễ hiểu: 簡単に言うと. Giải thích tình trạng đã kéo dài: 〜ていたんです. Ngay khi: V (bỏ ます) + 次第.",
+    "examples": [
+     "簡単に言うと、部品が古くなっていたんです。[kantan ni iu to, buhin ga furuku natte ita n desu] (Nói đơn giản là linh kiện đã cũ.)",
+     "確認でき次第、ご連絡します。[kakunin deki shidai, go-renraku shimasu] (Xác nhận được là tôi liên lạc ngay.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nói với người không chuyên",
+    "tip": "Tránh thuật ngữ khó; nếu dùng thì giải thích ngay. Giọng chậm, thân thiện. Âm 溶接 yōsetsu, 費用 hiyō.",
+    "words": [
+     "はいかん",
+     "ようせつ",
+     "みつもりしょ",
+     "ひよう"
+    ]
+   },
+   "speakingTasks": [
+    "Giải thích nguyên nhân sự cố cho chủ kho lạnh bằng lời dễ hiểu.",
+    "Trả lời câu hỏi về chi phí và thời gian sửa của thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở đầu diễn giải đơn giản:",
+     "options": [
+      "専門的に言えば、",
+      "簡単に言うと、",
+      "とにかく、"
+     ],
+     "answer": 1,
+     "explanation": "簡単に言うと = nói đơn giản."
+    },
+    {
+     "prompt": "“Ngay khi đủ linh kiện”:",
+     "options": [
+      "部品がそろい次第",
+      "部品がそろったまま",
+      "部品のそろうから"
+     ],
+     "answer": 0,
+     "explanation": "V(bỏ ます) + 次第."
+    },
+    {
+     "prompt": "「見積書」 là:",
+     "options": [
+      "hợp đồng",
+      "hóa đơn",
+      "bảng báo giá"
+     ],
+     "answer": 2,
+     "explanation": "見積 = ước tính."
+    },
+    {
+     "prompt": "「溶接」 nghĩa là:",
+     "options": [
+      "cắt",
+      "hàn",
+      "sơn"
+     ],
+     "answer": 1,
+     "explanation": "溶接 = welding."
+    },
+    {
+     "prompt": "「原因」 có nghĩa là gì?",
+     "options": [
+      "hàn",
+      "chi phí",
+      "nguyên nhân"
+     ],
+     "answer": 2,
+     "explanation": "「原因」 [gen'in] = nguyên nhân."
+    },
+    {
+     "prompt": "「見積書」 đọc là gì?",
+     "options": [
+      "mitsumorisho",
+      "haikan",
+      "yōsetsu"
+     ],
+     "answer": 0,
+     "explanation": "「見積書」 đọc là [mitsumorisho], nghĩa là bảng báo giá."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を交換します。  (Thay đường ống.)",
+     "options": [
+      "配管",
+      "溶接",
+      "見積書"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「配管」 (đường ống). Câu đầy đủ: 配管を交換します。"
+    },
+    {
+     "prompt": "「見積書」 có nghĩa là gì?",
+     "options": [
+      "hàn",
+      "bảng báo giá",
+      "đường ống"
+     ],
+     "answer": 1,
+     "explanation": "「見積書」 [mitsumorisho] = bảng báo giá."
+    },
+    {
+     "prompt": "「費用」 đọc là gì?",
+     "options": [
+      "haikan",
+      "hiyō",
+      "mitsumorisho"
+     ],
+     "answer": 1,
+     "explanation": "「費用」 đọc là [hiyō], nghĩa là chi phí."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿はいくらですか。  (Chi phí bao nhiêu?)",
+     "options": [
+      "配管",
+      "見積書",
+      "費用"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「費用」 (chi phí). Câu đầy đủ: 費用はいくらですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Xử lý sự cố hệ thống lạnh công nghiệp",
+   "objective": "Điều phối xử lý sự cố khẩn: dừng máy, phân tích, khôi phục, phòng ngừa.",
+   "reading": "ミン: 第二冷凍機が高圧異常で停止しました。冷凍倉庫の温度が上昇しつつあります。\n工場長: 製品への影響は？\nミン: 第一機をバックアップ運転に切り替えたため、当面は問題ないと考えられます。\nミン: 冷却塔の水量不足が原因と見られます。復旧後、再発防止策を提出いたします。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "第二冷凍機が高圧異常で停止しました。冷凍倉庫の温度が上昇しつつあります。",
+     "phonetic": "Daini reitōki ga kōatsu ijō de teishi shimashita. Reitō sōko no ondo ga jōshō shitsutsu arimasu.",
+     "translation": "Máy lạnh số 2 dừng do áp cao bất thường. Nhiệt độ kho đông đang tăng dần."
+    },
+    {
+     "speaker": "工場長",
+     "text": "製品への影響は？",
+     "phonetic": "Seihin e no eikyō wa?",
+     "translation": "Ảnh hưởng đến sản phẩm thì sao?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "第一機をバックアップ運転に切り替えたため、当面は問題ないと考えられます。",
+     "phonetic": "Daiichiki o bakkuappu unten ni kirikaeta tame, tōmen wa mondai nai to kangaeraremasu.",
+     "translation": "Vì đã chuyển máy số 1 sang chạy dự phòng nên trước mắt được cho là không có vấn đề."
+    },
+    {
+     "speaker": "ミン",
+     "text": "冷却塔の水量不足が原因と見られます。復旧後、再発防止策を提出いたします。",
+     "phonetic": "Reikyakutō no suiryō busoku ga gen'in to miraremasu. Fukkyūgo, saihatsu bōshisaku o teishutsu itashimasu.",
+     "translation": "Nguyên nhân được xem là thiếu nước ở tháp giải nhiệt. Sau khi khôi phục, tôi sẽ nộp biện pháp chống tái phát."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "異常",
+     "reading": "ijō",
+     "definition": "bất thường",
+     "example": "異常を発見しました。 (Phát hiện bất thường.)"
+    },
+    {
+     "term": "停止",
+     "reading": "teishi",
+     "definition": "dừng (máy)",
+     "example": "機械が停止しました。 (Máy đã dừng.)"
+    },
+    {
+     "term": "切り替える",
+     "reading": "kirikaeru",
+     "definition": "chuyển đổi",
+     "example": "予備機に切り替えます。 (Chuyển sang máy dự phòng.)"
+    },
+    {
+     "term": "冷却塔",
+     "reading": "reikyakutō",
+     "definition": "tháp giải nhiệt",
+     "example": "冷却塔を点検します。 (Kiểm tra tháp giải nhiệt.)"
+    },
+    {
+     "term": "復旧",
+     "reading": "fukkyū",
+     "definition": "khôi phục",
+     "example": "システムが復旧しました。 (Hệ thống đã khôi phục.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜つつある / 〜と考えられます / 〜と見られます",
+    "explanation": "Đang dần ~: V (bỏ ます) + つつある. Nhận định khách quan: 〜と考えられます / 〜と見られます. Nguyên nhân dẫn đến hành động: 〜たため.",
+    "examples": [
+     "圧力が回復しつつあります。[atsuryoku ga kaifuku shitsutsu arimasu] (Áp suất đang dần phục hồi.)",
+     "センサーの誤作動と考えられます。[sensā no gosadō to kangaeraremasu] (Được cho là cảm biến hoạt động sai.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Báo cáo khẩn trong nhà máy",
+    "tip": "Nói theo thứ tự: hiện tượng → ảnh hưởng → biện pháp tạm thời → nguyên nhân → phòng ngừa. Trường âm: 異常 ijō, 冷却塔 reikyakutō, 復旧 fukkyū.",
+    "words": [
+     "いじょう",
+     "ていし",
+     "れいきゃくとう",
+     "ふっきゅう"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cáo khẩn sự cố máy nén dừng do áp cao theo 5 bước.",
+    "Thầy/cô là giám đốc nhà máy, trả lời các câu hỏi về ảnh hưởng sản phẩm."
+   ],
+   "questions": [
+    {
+     "prompt": "「高圧異常で停止」 nghĩa là:",
+     "options": [
+      "áp thấp bình thường",
+      "chạy với áp cao",
+      "dừng do áp cao bất thường"
+     ],
+     "answer": 2,
+     "explanation": "異常 = bất thường, 停止 = dừng."
+    },
+    {
+     "prompt": "“Nhiệt độ đang tăng dần.”:",
+     "options": [
+      "温度を上昇つつあります。",
+      "温度が上昇しつつでした。",
+      "温度が上昇しつつあります。"
+     ],
+     "answer": 2,
+     "explanation": "V(bỏ ます) + つつある."
+    },
+    {
+     "prompt": "Nhận định khách quan:",
+     "options": [
+      "〜だろうな",
+      "〜に決まっています",
+      "〜と考えられます"
+     ],
+     "answer": 2,
+     "explanation": "Văn báo cáo trang trọng."
+    },
+    {
+     "prompt": "「冷却塔」 là:",
+     "options": [
+      "bình chứa cao áp",
+      "dàn bay hơi",
+      "tháp giải nhiệt"
+     ],
+     "answer": 2,
+     "explanation": "Cooling tower."
+    },
+    {
+     "prompt": "「復旧」 có nghĩa là gì?",
+     "options": [
+      "khôi phục",
+      "bất thường",
+      "dừng (máy)"
+     ],
+     "answer": 0,
+     "explanation": "「復旧」 [fukkyū] = khôi phục."
+    },
+    {
+     "prompt": "「冷却塔」 đọc là gì?",
+     "options": [
+      "kirikaeru",
+      "reikyakutō",
+      "teishi"
+     ],
+     "answer": 1,
+     "explanation": "「冷却塔」 đọc là [reikyakutō], nghĩa là tháp giải nhiệt."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 機械が＿＿＿しました。  (Máy đã dừng.)",
+     "options": [
+      "復旧",
+      "停止",
+      "切り替える"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「停止」 (dừng (máy)). Câu đầy đủ: 機械が停止しました。"
+    },
+    {
+     "prompt": "「停止」 có nghĩa là gì?",
+     "options": [
+      "dừng (máy)",
+      "chuyển đổi",
+      "khôi phục"
+     ],
+     "answer": 0,
+     "explanation": "「停止」 [teishi] = dừng (máy)."
+    },
+    {
+     "prompt": "「停止」 đọc là gì?",
+     "options": [
+      "fukkyū",
+      "teishi",
+      "kirikaeru"
+     ],
+     "answer": 1,
+     "explanation": "「停止」 đọc là [teishi], nghĩa là dừng (máy)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を発見しました。  (Phát hiện bất thường.)",
+     "options": [
+      "切り替える",
+      "冷却塔",
+      "異常"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「異常」 (bất thường). Câu đầy đủ: 異常を発見しました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Đàm phán hợp đồng bảo trì",
+   "objective": "Đề xuất gói bảo trì, thương lượng giá và phạm vi dịch vụ.",
+   "reading": "ミン: 年間保守契約をご提案させていただきます。月一回の点検と、二十四時間の緊急対応が含まれております。\nお客様: もう少し費用を抑えられませんか。\nミン: 点検を隔月にすれば、一割ほどお安くできます。ただし、故障リスクは高まりかねません。\nお客様: では、月一回のまま、部品代を割引していただくのはいかがでしょう。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "年間保守契約をご提案させていただきます。月一回の点検と、二十四時間の緊急対応が含まれております。",
+     "phonetic": "Nenkan hoshu keiyaku o go-teian sasete itadakimasu. Tsuki ikkai no tenken to, nijūyo-jikan no kinkyū taiō ga fukumarete orimasu.",
+     "translation": "Xin đề xuất hợp đồng bảo trì hằng năm. Bao gồm kiểm tra mỗi tháng một lần và ứng cứu khẩn cấp 24 giờ."
+    },
+    {
+     "speaker": "お客様",
+     "text": "もう少し費用を抑えられませんか。",
+     "phonetic": "Mō sukoshi hiyō o osaeraremasen ka.",
+     "translation": "Có thể giảm chi phí thêm không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "点検を隔月にすれば、一割ほどお安くできます。ただし、故障リスクは高まりかねません。",
+     "phonetic": "Tenken o kakugetsu ni sureba, ichiwari hodo oyasuku dekimasu. Tadashi, koshō risuku wa takamari kanemasen.",
+     "translation": "Nếu kiểm tra hai tháng một lần thì giảm được khoảng 10%. Tuy nhiên, rủi ro hỏng hóc có thể tăng."
+    },
+    {
+     "speaker": "お客様",
+     "text": "では、月一回のまま、部品代を割引していただくのはいかがでしょう。",
+     "phonetic": "Dewa, tsuki ikkai no mama, buhindai o waribiki shite itadaku no wa ikaga deshō.",
+     "translation": "Vậy giữ mỗi tháng một lần, nhưng giảm giá linh kiện thì sao?"
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "保守",
+     "reading": "hoshu",
+     "definition": "bảo trì",
+     "example": "保守を担当します。 (Phụ trách bảo trì.)"
+    },
+    {
+     "term": "契約",
+     "reading": "keiyaku",
+     "definition": "hợp đồng",
+     "example": "契約を更新します。 (Gia hạn hợp đồng.)"
+    },
+    {
+     "term": "緊急",
+     "reading": "kinkyū",
+     "definition": "khẩn cấp",
+     "example": "緊急の場合は連絡してください。 (Khẩn cấp thì hãy liên lạc.)"
+    },
+    {
+     "term": "含まれる",
+     "reading": "fukumareru",
+     "definition": "được bao gồm",
+     "example": "税金が含まれています。 (Đã bao gồm thuế.)"
+    },
+    {
+     "term": "割引",
+     "reading": "waribiki",
+     "definition": "giảm giá",
+     "example": "一割の割引です。 (Giảm 10%.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ば〜できます / 〜かねません / 〜のはいかがでしょう",
+    "explanation": "Điều kiện để nhượng bộ: 〜ば、〜できます. Cảnh báo rủi ro xấu: V (bỏ ます) + かねません (có thể dẫn đến). Đề xuất mềm: 〜のはいかがでしょう.",
+    "examples": [
+     "三年契約にすれば、割引できます。[sannen keiyaku ni sureba, waribiki dekimasu] (Nếu hợp đồng 3 năm thì có thể giảm giá.)",
+     "放置すると、大きな事故になりかねません。[hōchi suru to, ōkina jiko ni nari kanemasen] (Để mặc thì có thể thành tai nạn lớn.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng đàm phán chuyên nghiệp",
+    "tip": "Nhấn vào điều kiện (〜ば) và rủi ro (かねません). Âm 保守 hoshu, 緊急 kinkyū, 契約 keiyaku.",
+    "words": [
+     "ほしゅ",
+     "けいやく",
+     "きんきゅう",
+     "わりびき"
+    ]
+   },
+   "speakingTasks": [
+    "Đề xuất một gói bảo trì kho lạnh và thương lượng với khách.",
+    "Thầy/cô là khách khó tính, hãy đưa ra nhượng bộ có điều kiện."
+   ],
+   "questions": [
+    {
+     "prompt": "「〜かねません」 dùng để:",
+     "options": [
+      "cảnh báo khả năng xấu",
+      "khen ngợi",
+      "xin phép"
+     ],
+     "answer": 0,
+     "explanation": "かねない = có thể dẫn đến điều xấu."
+    },
+    {
+     "prompt": "“Nếu 2 tháng/lần thì giảm 10%.”:",
+     "options": [
+      "隔月なので、割引しません。",
+      "隔月にすれば、一割安くできます。",
+      "隔月にしても、一割高いです。"
+     ],
+     "answer": 1,
+     "explanation": "〜ば、〜できます."
+    },
+    {
+     "prompt": "Đề xuất mềm mỏng:",
+     "options": [
+      "〜のはいかがでしょう",
+      "〜に決まっている",
+      "〜しろ"
+     ],
+     "answer": 0,
+     "explanation": "いかがでしょう = thì sao ạ."
+    },
+    {
+     "prompt": "「保守契約」 là:",
+     "options": [
+      "hợp đồng lao động",
+      "hợp đồng mua bán",
+      "hợp đồng bảo trì"
+     ],
+     "answer": 2,
+     "explanation": "保守 = maintenance."
+    },
+    {
+     "prompt": "「緊急」 có nghĩa là gì?",
+     "options": [
+      "được bao gồm",
+      "bảo trì",
+      "khẩn cấp"
+     ],
+     "answer": 2,
+     "explanation": "「緊急」 [kinkyū] = khẩn cấp."
+    },
+    {
+     "prompt": "「緊急」 đọc là gì?",
+     "options": [
+      "hoshu",
+      "kinkyū",
+      "fukumareru"
+     ],
+     "answer": 1,
+     "explanation": "「緊急」 đọc là [kinkyū], nghĩa là khẩn cấp."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿の場合は連絡してください。  (Khẩn cấp thì hãy liên lạc.)",
+     "options": [
+      "含まれる",
+      "緊急",
+      "保守"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「緊急」 (khẩn cấp). Câu đầy đủ: 緊急の場合は連絡してください。"
+    },
+    {
+     "prompt": "「保守」 có nghĩa là gì?",
+     "options": [
+      "được bao gồm",
+      "bảo trì",
+      "giảm giá"
+     ],
+     "answer": 1,
+     "explanation": "「保守」 [hoshu] = bảo trì."
+    },
+    {
+     "prompt": "「契約」 đọc là gì?",
+     "options": [
+      "hoshu",
+      "keiyaku",
+      "kinkyū"
+     ],
+     "answer": 1,
+     "explanation": "「契約」 đọc là [keiyaku], nghĩa là hợp đồng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を更新します。  (Gia hạn hợp đồng.)",
+     "options": [
+      "保守",
+      "緊急",
+      "契約"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「契約」 (hợp đồng). Câu đầy đủ: 契約を更新します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "refrigeration-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Thảo luận",
+   "title": "Hiệu quả năng lượng và môi chất tự nhiên",
+   "objective": "Thảo luận biến tần, thu hồi nhiệt, môi chất CO2/NH3 và quy định môi trường.",
+   "reading": "工場長: 電気代が毎年上がっていて、何とかしたいんです。\nミン: 圧縮機にインバーターを導入すれば、負荷に応じて回転数を制御でき、二割程度の省エネが期待できます。\n工場長: 冷媒も見直すべきでしょうか。\nミン: フロン規制が強化されつつあるので、CO2などの自然冷媒への転換を検討する価値はあると思います。",
+   "dialogue": [
+    {
+     "speaker": "工場長",
+     "text": "電気代が毎年上がっていて、何とかしたいんです。",
+     "phonetic": "Denkidai ga maitoshi agatte ite, nantoka shitai n desu.",
+     "translation": "Tiền điện năm nào cũng tăng, tôi muốn làm gì đó."
+    },
+    {
+     "speaker": "ミン",
+     "text": "圧縮機にインバーターを導入すれば、負荷に応じて回転数を制御でき、二割程度の省エネが期待できます。",
+     "phonetic": "Asshukuki ni inbātā o dōnyū sureba, fuka ni ōjite kaitensū o seigyo deki, niwari teido no shōene ga kitai dekimasu.",
+     "translation": "Nếu lắp biến tần cho máy nén, có thể điều khiển tốc độ theo tải và kỳ vọng tiết kiệm khoảng 20% năng lượng."
+    },
+    {
+     "speaker": "工場長",
+     "text": "冷媒も見直すべきでしょうか。",
+     "phonetic": "Reibai mo minaosu beki deshō ka.",
+     "translation": "Có nên xem xét lại môi chất không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "フロン規制が強化されつつあるので、CO2などの自然冷媒への転換を検討する価値はあると思います。",
+     "phonetic": "Furon kisei ga kyōka saretsutsu aru node, shīōtsū nado no shizen reibai e no tenkan o kentō suru kachi wa aru to omoimasu.",
+     "translation": "Vì quy định về freon đang được siết chặt, tôi nghĩ đáng để xem xét chuyển sang môi chất tự nhiên như CO2."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "省エネ",
+     "reading": "shōene",
+     "definition": "tiết kiệm năng lượng",
+     "example": "省エネ対策をします。 (Thực hiện biện pháp tiết kiệm năng lượng.)"
+    },
+    {
+     "term": "インバーター",
+     "reading": "inbātā",
+     "definition": "biến tần",
+     "example": "インバーターで制御します。 (Điều khiển bằng biến tần.)"
+    },
+    {
+     "term": "負荷",
+     "reading": "fuka",
+     "definition": "tải",
+     "example": "負荷が大きいです。 (Tải lớn.)"
+    },
+    {
+     "term": "規制",
+     "reading": "kisei",
+     "definition": "quy định, hạn chế",
+     "example": "規制が厳しくなりました。 (Quy định đã nghiêm ngặt hơn.)"
+    },
+    {
+     "term": "自然冷媒",
+     "reading": "shizen reibai",
+     "definition": "môi chất lạnh tự nhiên",
+     "example": "自然冷媒を使います。 (Dùng môi chất tự nhiên.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜に応じて / 〜程度 / 〜価値がある",
+    "explanation": "N に応じて: tùy theo N. 〜程度: khoảng, mức. V る + 価値がある: đáng để ~. 〜が期待できます: có thể kỳ vọng.",
+    "examples": [
+     "季節に応じて設定温度を変えます。[kisetsu ni ōjite settei ondo o kaemasu] (Thay đổi nhiệt độ cài đặt theo mùa.)",
+     "排熱を回収する価値があります。[hainetsu o kaishū suru kachi ga arimasu] (Đáng để thu hồi nhiệt thải.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Thuyết phục bằng số liệu",
+    "tip": "Nhấn vào con số (二割程度) và lợi ích. Trường âm: 省エネ shōene, インバーター inbātā, 規制 kisei.",
+    "words": [
+     "しょうエネ",
+     "インバーター",
+     "ふか",
+     "しぜんれいばい"
+    ]
+   },
+   "speakingTasks": [
+    "Đề xuất 3 biện pháp tiết kiệm năng lượng cho một kho lạnh.",
+    "Tranh luận với thầy/cô về việc chuyển sang môi chất CO2."
+   ],
+   "questions": [
+    {
+     "prompt": "Lợi ích của biến tần cho máy nén:",
+     "options": [
+      "điều khiển tốc độ theo tải, tiết kiệm điện",
+      "tăng áp suất tối đa",
+      "không cần bảo trì"
+     ],
+     "answer": 0,
+     "explanation": "負荷に応じて回転数を制御."
+    },
+    {
+     "prompt": "「〜に応じて」 nghĩa là:",
+     "options": [
+      "tùy theo",
+      "bất chấp",
+      "trước khi"
+     ],
+     "answer": 0,
+     "explanation": "応じる = đáp ứng theo."
+    },
+    {
+     "prompt": "“Đáng để xem xét.”:",
+     "options": [
+      "検討した価値でした。",
+      "検討の価値をします。",
+      "検討する価値があります。"
+     ],
+     "answer": 2,
+     "explanation": "V る + 価値がある."
+    },
+    {
+     "prompt": "Ví dụ môi chất lạnh tự nhiên:",
+     "options": [
+      "R134a",
+      "R22, R404A",
+      "CO2, NH3"
+     ],
+     "answer": 2,
+     "explanation": "CO2 và amoniac là môi chất tự nhiên."
+    },
+    {
+     "prompt": "「規制」 có nghĩa là gì?",
+     "options": [
+      "quy định, hạn chế",
+      "tiết kiệm năng lượng",
+      "biến tần"
+     ],
+     "answer": 0,
+     "explanation": "「規制」 [kisei] = quy định, hạn chế."
+    },
+    {
+     "prompt": "「インバーター」 đọc là gì?",
+     "options": [
+      "inbātā",
+      "shōene",
+      "kisei"
+     ],
+     "answer": 0,
+     "explanation": "「インバーター」 đọc là [inbātā], nghĩa là biến tần."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿対策をします。  (Thực hiện biện pháp tiết kiệm năng lượng.)",
+     "options": [
+      "省エネ",
+      "インバーター",
+      "規制"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「省エネ」 (tiết kiệm năng lượng). Câu đầy đủ: 省エネ対策をします。"
+    },
+    {
+     "prompt": "「負荷」 có nghĩa là gì?",
+     "options": [
+      "biến tần",
+      "tải",
+      "môi chất lạnh tự nhiên"
+     ],
+     "answer": 1,
+     "explanation": "「負荷」 [fuka] = tải."
+    },
+    {
+     "prompt": "「負荷」 đọc là gì?",
+     "options": [
+      "shizen reibai",
+      "fuka",
+      "inbātā"
+     ],
+     "answer": 1,
+     "explanation": "「負荷」 đọc là [fuka], nghĩa là tải."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が厳しくなりました。  (Quy định đã nghiêm ngặt hơn.)",
+     "options": [
+      "省エネ",
+      "規制",
+      "インバーター"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「規制」 (quy định, hạn chế). Câu đầy đủ: 規制が厳しくなりました。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

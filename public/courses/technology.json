@@ -1,0 +1,2327 @@
+{
+ "id": "technology",
+ "title": "Tiếng Nhật ngành công nghệ",
+ "version": "1.1.0",
+ "framework": "JLPT N5–N2",
+ "overview": "12 bài từ N5 đến N2 cho kỹ sư IT làm việc với người Nhật: máy tính, báo lỗi, hướng dẫn thao tác, họp hằng ngày, báo cáo bug, giải thích tính năng, review code, phỏng vấn kỹ thuật, bảo mật, thuyết trình giải pháp, xử lý sự cố và AI.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "technology-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Từ vựng",
+   "title": "Máy tính và công việc IT",
+   "objective": "Gọi tên thiết bị và nói công việc IT của bạn.",
+   "reading": "田中: ミンさんの仕事は何ですか。\nミン: プログラマーです。毎日パソコンでプログラムを書きます。\n田中: どんな言語を使いますか。\nミン: JavaとPythonを使います。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "ミンさんの仕事は何ですか。",
+     "phonetic": "Min-san no shigoto wa nan desu ka.",
+     "translation": "Công việc của bạn Minh là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "プログラマーです。毎日パソコンでプログラムを書きます。",
+     "phonetic": "Puroguramā desu. Mainichi pasokon de puroguramu o kakimasu.",
+     "translation": "Tôi là lập trình viên. Ngày nào tôi cũng viết chương trình trên máy tính."
+    },
+    {
+     "speaker": "田中",
+     "text": "どんな言語を使いますか。",
+     "phonetic": "Donna gengo o tsukaimasu ka.",
+     "translation": "Bạn dùng ngôn ngữ nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "JavaとPythonを使います。",
+     "phonetic": "Jaba to Paison o tsukaimasu.",
+     "translation": "Tôi dùng Java và Python."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "パソコン",
+     "reading": "pasokon",
+     "definition": "máy tính cá nhân",
+     "example": "パソコンを使います。 (Tôi dùng máy tính.)"
+    },
+    {
+     "term": "プログラム",
+     "reading": "puroguramu",
+     "definition": "chương trình",
+     "example": "プログラムを書きます。 (Tôi viết chương trình.)"
+    },
+    {
+     "term": "言語",
+     "reading": "gengo",
+     "definition": "ngôn ngữ",
+     "example": "どんな言語が好きですか。 (Bạn thích ngôn ngữ nào?)"
+    },
+    {
+     "term": "画面",
+     "reading": "gamen",
+     "definition": "màn hình",
+     "example": "画面が大きいです。 (Màn hình lớn.)"
+    },
+    {
+     "term": "使います",
+     "reading": "tsukaimasu",
+     "definition": "sử dụng",
+     "example": "マウスを使います。 (Tôi dùng chuột.)"
+    }
+   ],
+   "grammar": {
+    "title": "N で V và どんな N",
+    "explanation": "Công cụ/phương tiện dùng で: パソコンで書きます. Hỏi loại: どんな + N (N như thế nào). Nối danh từ: A と B.",
+    "examples": [
+     "スマホでメールを読みます。[sumaho de mēru o yomimasu] (Tôi đọc mail bằng điện thoại.)",
+     "どんな仕事ですか。[donna shigoto desu ka] (Công việc như thế nào?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Từ mượn katakana",
+    "tip": "Từ IT phần lớn là katakana: パソコン, プログラム, サーバー. Đọc theo âm tiết Nhật, mỗi âm một nhịp, có trường âm ー.",
+    "words": [
+     "パソコン",
+     "プログラム",
+     "サーバー",
+     "がめん"
+    ]
+   },
+   "speakingTasks": [
+    "Giới thiệu công việc IT và công cụ bạn dùng hằng ngày.",
+    "Hỏi thầy/cô: どんな言語を使いますか。"
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi viết chương trình bằng máy tính.” là:",
+     "options": [
+      "パソコンをプログラムで書きます。",
+      "パソコンにプログラムが書きます。",
+      "パソコンでプログラムを書きます。"
+     ],
+     "answer": 2,
+     "explanation": "Công cụ + で."
+    },
+    {
+     "prompt": "Hỏi “Bạn dùng ngôn ngữ nào?”",
+     "options": [
+      "何言語にしますか。",
+      "どんな言語を使いますか。",
+      "どの言語が使いますか。"
+     ],
+     "answer": 1,
+     "explanation": "どんな + N + を使いますか."
+    },
+    {
+     "prompt": "「画面」 là:",
+     "options": [
+      "bàn phím",
+      "ổ cứng",
+      "màn hình"
+     ],
+     "answer": 2,
+     "explanation": "画面 = màn hình."
+    },
+    {
+     "prompt": "「プログラマー」 là:",
+     "options": [
+      "lập trình viên",
+      "quản lý",
+      "khách hàng"
+     ],
+     "answer": 0,
+     "explanation": "Người viết chương trình."
+    },
+    {
+     "prompt": "「言語」 có nghĩa là gì?",
+     "options": [
+      "sử dụng",
+      "ngôn ngữ",
+      "màn hình"
+     ],
+     "answer": 1,
+     "explanation": "「言語」 [gengo] = ngôn ngữ."
+    },
+    {
+     "prompt": "「使います」 đọc là gì?",
+     "options": [
+      "pasokon",
+      "tsukaimasu",
+      "gamen"
+     ],
+     "answer": 1,
+     "explanation": "「使います」 đọc là [tsukaimasu], nghĩa là sử dụng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を書きます。  (Tôi viết chương trình.)",
+     "options": [
+      "使います",
+      "プログラム",
+      "画面"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「プログラム」 (chương trình). Câu đầy đủ: プログラムを書きます。"
+    },
+    {
+     "prompt": "「パソコン」 có nghĩa là gì?",
+     "options": [
+      "màn hình",
+      "chương trình",
+      "máy tính cá nhân"
+     ],
+     "answer": 2,
+     "explanation": "「パソコン」 [pasokon] = máy tính cá nhân."
+    },
+    {
+     "prompt": "「画面」 đọc là gì?",
+     "options": [
+      "tsukaimasu",
+      "gamen",
+      "puroguramu"
+     ],
+     "answer": 1,
+     "explanation": "「画面」 đọc là [gamen], nghĩa là màn hình."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が大きいです。  (Màn hình lớn.)",
+     "options": [
+      "使います",
+      "プログラム",
+      "画面"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「画面」 (màn hình). Câu đầy đủ: 画面が大きいです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Báo lỗi máy tính đơn giản",
+   "objective": "Nói máy tính không chạy, hỏi giúp đỡ.",
+   "reading": "ミン: すみません、パソコンが動きません。\nIT担当: 電源は入っていますか。\nミン: はい、でも画面が真っ黒です。\nIT担当: 一度再起動してみてください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、パソコンが動きません。",
+     "phonetic": "Sumimasen, pasokon ga ugokimasen.",
+     "translation": "Xin lỗi, máy tính không chạy."
+    },
+    {
+     "speaker": "IT担当",
+     "text": "電源は入っていますか。",
+     "phonetic": "Dengen wa haitte imasu ka.",
+     "translation": "Đã bật nguồn chưa?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、でも画面が真っ黒です。",
+     "phonetic": "Hai, demo gamen ga makkuro desu.",
+     "translation": "Rồi, nhưng màn hình đen thui."
+    },
+    {
+     "speaker": "IT担当",
+     "text": "一度再起動してみてください。",
+     "phonetic": "Ichido saikidō shite mite kudasai.",
+     "translation": "Hãy thử khởi động lại một lần."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "動きません",
+     "reading": "ugokimasen",
+     "definition": "không chạy, không hoạt động",
+     "example": "プリンターが動きません。 (Máy in không chạy.)"
+    },
+    {
+     "term": "電源",
+     "reading": "dengen",
+     "definition": "nguồn điện",
+     "example": "電源を切ってください。 (Hãy tắt nguồn.)"
+    },
+    {
+     "term": "再起動",
+     "reading": "saikidō",
+     "definition": "khởi động lại",
+     "example": "パソコンを再起動します。 (Khởi động lại máy tính.)"
+    },
+    {
+     "term": "インターネット",
+     "reading": "intānetto",
+     "definition": "internet",
+     "example": "インターネットにつながりません。 (Không kết nối được internet.)"
+    },
+    {
+     "term": "パスワード",
+     "reading": "pasuwādo",
+     "definition": "mật khẩu",
+     "example": "パスワードを忘れました。 (Tôi quên mật khẩu.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜てみてください",
+    "explanation": "V て + みてください: hãy thử làm. N が動きません: N không hoạt động. Nguồn đang bật: 電源が入っています.",
+    "examples": [
+     "もう一度押してみてください。[mō ichido oshite mite kudasai] (Hãy thử bấm lại lần nữa.)",
+     "Wi-Fiにつながりません。[waifai ni tsunagarimasen] (Không vào được Wi-Fi.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm っ và ん",
+    "tip": "真っ黒 makkuro có っ (dừng một nhịp), 電源 dengen có ん (một nhịp riêng). Đếm nhịp: ま・っ・く・ろ.",
+    "words": [
+     "まっくろ",
+     "でんげん",
+     "さいきどう",
+     "パスワード"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cho bộ phận IT biết máy tính của bạn gặp lỗi.",
+    "Hỏi thầy/cô cách xử lý khi không vào được Wi-Fi."
+   ],
+   "questions": [
+    {
+     "prompt": "“Máy tính không chạy.” là:",
+     "options": [
+      "パソコンに動くないです。",
+      "パソコンが動きません。",
+      "パソコンを動きません。"
+     ],
+     "answer": 1,
+     "explanation": "Chủ thể + が + 動きません."
+    },
+    {
+     "prompt": "“Hãy thử khởi động lại.” là:",
+     "options": [
+      "再起動がみてください。",
+      "再起動してみます。",
+      "再起動してみてください。"
+     ],
+     "answer": 2,
+     "explanation": "V て + みてください."
+    },
+    {
+     "prompt": "“Tôi quên mật khẩu.” là:",
+     "options": [
+      "パスワードを忘れました。",
+      "パスワードに忘れでした。",
+      "パスワードが忘れます。"
+     ],
+     "answer": 0,
+     "explanation": "N を忘れました."
+    },
+    {
+     "prompt": "「電源」 là:",
+     "options": [
+      "nguồn điện",
+      "mạng",
+      "màn hình"
+     ],
+     "answer": 0,
+     "explanation": "電源 = nguồn điện."
+    },
+    {
+     "prompt": "「再起動」 có nghĩa là gì?",
+     "options": [
+      "không chạy, không hoạt động",
+      "khởi động lại",
+      "nguồn điện"
+     ],
+     "answer": 1,
+     "explanation": "「再起動」 [saikidō] = khởi động lại."
+    },
+    {
+     "prompt": "「電源」 đọc là gì?",
+     "options": [
+      "pasuwādo",
+      "dengen",
+      "intānetto"
+     ],
+     "answer": 1,
+     "explanation": "「電源」 đọc là [dengen], nghĩa là nguồn điện."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を切ってください。  (Hãy tắt nguồn.)",
+     "options": [
+      "電源",
+      "インターネット",
+      "パスワード"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「電源」 (nguồn điện). Câu đầy đủ: 電源を切ってください。"
+    },
+    {
+     "prompt": "「動きません」 có nghĩa là gì?",
+     "options": [
+      "không chạy, không hoạt động",
+      "internet",
+      "mật khẩu"
+     ],
+     "answer": 0,
+     "explanation": "「動きません」 [ugokimasen] = không chạy, không hoạt động."
+    },
+    {
+     "prompt": "「再起動」 đọc là gì?",
+     "options": [
+      "dengen",
+      "saikidō",
+      "ugokimasen"
+     ],
+     "answer": 1,
+     "explanation": "「再起動」 đọc là [saikidō], nghĩa là khởi động lại."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: パソコンを＿＿＿します。  (Khởi động lại máy tính.)",
+     "options": [
+      "動きません",
+      "電源",
+      "再起動"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「再起動」 (khởi động lại). Câu đầy đủ: パソコンを再起動します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Hướng dẫn từng bước",
+   "objective": "Hướng dẫn thao tác theo thứ tự: trước tiên, tiếp theo, cuối cùng.",
+   "reading": "ミン: まず、このアイコンをクリックしてください。\nお客様: はい、クリックしました。\nミン: 次に、名前を入力して、保存ボタンを押してください。\nミン: 最後に、画面を閉じてください。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "まず、このアイコンをクリックしてください。",
+     "phonetic": "Mazu, kono aikon o kurikku shite kudasai.",
+     "translation": "Trước tiên, hãy bấm vào biểu tượng này."
+    },
+    {
+     "speaker": "お客様",
+     "text": "はい、クリックしました。",
+     "phonetic": "Hai, kurikku shimashita.",
+     "translation": "Vâng, tôi đã bấm."
+    },
+    {
+     "speaker": "ミン",
+     "text": "次に、名前を入力して、保存ボタンを押してください。",
+     "phonetic": "Tsugi ni, namae o nyūryoku shite, hozon botan o oshite kudasai.",
+     "translation": "Tiếp theo, nhập tên rồi bấm nút lưu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "最後に、画面を閉じてください。",
+     "phonetic": "Saigo ni, gamen o tojite kudasai.",
+     "translation": "Cuối cùng, hãy đóng màn hình."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "まず",
+     "reading": "mazu",
+     "definition": "trước tiên",
+     "example": "まず電源を入れます。 (Trước tiên bật nguồn.)"
+    },
+    {
+     "term": "次に",
+     "reading": "tsugi ni",
+     "definition": "tiếp theo",
+     "example": "次にボタンを押します。 (Tiếp theo bấm nút.)"
+    },
+    {
+     "term": "入力",
+     "reading": "nyūryoku",
+     "definition": "nhập (dữ liệu)",
+     "example": "名前を入力してください。 (Hãy nhập tên.)"
+    },
+    {
+     "term": "保存",
+     "reading": "hozon",
+     "definition": "lưu",
+     "example": "ファイルを保存します。 (Lưu tệp.)"
+    },
+    {
+     "term": "押して",
+     "reading": "oshite",
+     "definition": "bấm, ấn (thể て)",
+     "example": "ボタンを押してください。 (Hãy bấm nút.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜て、〜て、〜てください",
+    "explanation": "Nối các bước bằng thể て rồi kết thúc bằng 〜てください. Thứ tự: まず → 次に → それから → 最後に.",
+    "examples": [
+     "ファイルを開いて、内容を確認してください。[fairu o hiraite, naiyō o kakunin shite kudasai] (Hãy mở tệp rồi kiểm tra nội dung.)",
+     "最後に保存してください。[saigo ni hozon shite kudasai] (Cuối cùng hãy lưu lại.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài にゅう",
+    "tip": "入力 nyūryoku có にゅ + trường âm u, rồi りょ. Đọc chậm: にゅう・りょく.",
+    "words": [
+     "にゅうりょく",
+     "ほぞん",
+     "クリック",
+     "さいご"
+    ]
+   },
+   "speakingTasks": [
+    "Hướng dẫn thầy/cô cách gửi một email có tệp đính kèm theo 3 bước.",
+    "Hướng dẫn cách đổi mật khẩu theo thứ tự."
+   ],
+   "questions": [
+    {
+     "prompt": "Từ chỉ bước đầu tiên:",
+     "options": [
+      "まず",
+      "それで",
+      "最後に"
+     ],
+     "answer": 0,
+     "explanation": "まず = trước tiên."
+    },
+    {
+     "prompt": "“Hãy nhập tên.” là:",
+     "options": [
+      "名前に入力ください。",
+      "名前が入力してください。",
+      "名前を入力してください。"
+     ],
+     "answer": 2,
+     "explanation": "N を入力してください."
+    },
+    {
+     "prompt": "Thể て của 「押す」 là:",
+     "options": [
+      "押いて",
+      "押して",
+      "押って"
+     ],
+     "answer": 1,
+     "explanation": "す → して."
+    },
+    {
+     "prompt": "「保存」 nghĩa là:",
+     "options": [
+      "xóa",
+      "mở",
+      "lưu"
+     ],
+     "answer": 2,
+     "explanation": "保存 = lưu."
+    },
+    {
+     "prompt": "「保存」 có nghĩa là gì?",
+     "options": [
+      "lưu",
+      "trước tiên",
+      "nhập (dữ liệu)"
+     ],
+     "answer": 0,
+     "explanation": "「保存」 [hozon] = lưu."
+    },
+    {
+     "prompt": "「押して」 đọc là gì?",
+     "options": [
+      "oshite",
+      "mazu",
+      "tsugi ni"
+     ],
+     "answer": 0,
+     "explanation": "「押して」 đọc là [oshite], nghĩa là bấm, ấn (thể て)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿電源を入れます。  (Trước tiên bật nguồn.)",
+     "options": [
+      "まず",
+      "入力",
+      "押して"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「まず」 (trước tiên). Câu đầy đủ: まず電源を入れます。"
+    },
+    {
+     "prompt": "「次に」 có nghĩa là gì?",
+     "options": [
+      "tiếp theo",
+      "trước tiên",
+      "bấm, ấn (thể て)"
+     ],
+     "answer": 0,
+     "explanation": "「次に」 [tsugi ni] = tiếp theo."
+    },
+    {
+     "prompt": "「保存」 đọc là gì?",
+     "options": [
+      "hozon",
+      "nyūryoku",
+      "mazu"
+     ],
+     "answer": 0,
+     "explanation": "「保存」 đọc là [hozon], nghĩa là lưu."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ボタンを＿＿＿ください。  (Hãy bấm nút.)",
+     "options": [
+      "まず",
+      "押して",
+      "次に"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「押して」 (bấm, ấn (thể て)). Câu đầy đủ: ボタンを押してください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Họp standup hằng ngày",
+   "objective": "Báo cáo việc hôm qua, việc hôm nay và vướng mắc.",
+   "reading": "リーダー: では、朝会を始めます。ミンさんからお願いします。\nミン: 昨日はログイン画面を作りました。\nミン: 今日はテストをする予定です。\nミン: 問題は特にありません。",
+   "dialogue": [
+    {
+     "speaker": "リーダー",
+     "text": "では、朝会を始めます。ミンさんからお願いします。",
+     "phonetic": "Dewa, chōkai o hajimemasu. Min-san kara onegai shimasu.",
+     "translation": "Bắt đầu họp buổi sáng. Mời Minh trước."
+    },
+    {
+     "speaker": "ミン",
+     "text": "昨日はログイン画面を作りました。",
+     "phonetic": "Kinō wa roguin gamen o tsukurimashita.",
+     "translation": "Hôm qua tôi đã làm màn hình đăng nhập."
+    },
+    {
+     "speaker": "ミン",
+     "text": "今日はテストをする予定です。",
+     "phonetic": "Kyō wa tesuto o suru yotei desu.",
+     "translation": "Hôm nay tôi dự định kiểm thử."
+    },
+    {
+     "speaker": "ミン",
+     "text": "問題は特にありません。",
+     "phonetic": "Mondai wa toku ni arimasen.",
+     "translation": "Không có vấn đề gì đặc biệt."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "朝会",
+     "reading": "chōkai",
+     "definition": "họp buổi sáng",
+     "example": "朝会は九時からです。 (Họp sáng từ 9 giờ.)"
+    },
+    {
+     "term": "作りました",
+     "reading": "tsukurimashita",
+     "definition": "đã làm, đã tạo",
+     "example": "新しい機能を作りました。 (Tôi đã làm chức năng mới.)"
+    },
+    {
+     "term": "予定",
+     "reading": "yotei",
+     "definition": "dự định",
+     "example": "明日リリースする予定です。 (Dự định phát hành ngày mai.)"
+    },
+    {
+     "term": "テスト",
+     "reading": "tesuto",
+     "definition": "kiểm thử",
+     "example": "テストが終わりました。 (Kiểm thử đã xong.)"
+    },
+    {
+     "term": "問題",
+     "reading": "mondai",
+     "definition": "vấn đề",
+     "example": "問題があります。 (Có vấn đề.)"
+    }
+   ],
+   "grammar": {
+    "title": "V る + 予定です và 特に〜ない",
+    "explanation": "Dự định: V (thể từ điển) + 予定です. Không có gì đặc biệt: 特に〜ありません. Báo cáo quá khứ dùng 〜ました.",
+    "examples": [
+     "午後レビューをする予定です。[gogo rebyū o suru yotei desu] (Chiều nay dự định review.)",
+     "特に質問はありません。[toku ni shitsumon wa arimasen] (Không có câu hỏi gì đặc biệt.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài ちょう",
+    "tip": "朝会 chōkai: ちょ + trường âm o. 予定 yotei đọc yo-te-e (ei thường thành ē).",
+    "words": [
+     "ちょうかい",
+     "よてい",
+     "もんだい",
+     "テスト"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cáo standup 3 câu: hôm qua, hôm nay, vướng mắc.",
+    "Hỏi thầy/cô cách nói “tôi đang bị chặn bởi …”."
+   ],
+   "questions": [
+    {
+     "prompt": "“Hôm nay dự định kiểm thử.” là:",
+     "options": [
+      "今日はテストした予定です。",
+      "今日はテストをする予定です。",
+      "今日はテストの予定をします。"
+     ],
+     "answer": 1,
+     "explanation": "V thể từ điển + 予定です."
+    },
+    {
+     "prompt": "“Không có vấn đề gì đặc biệt.” là:",
+     "options": [
+      "特に問題でした。",
+      "問題は特にありません。",
+      "問題が特にあります。"
+     ],
+     "answer": 1,
+     "explanation": "特に〜ありません."
+    },
+    {
+     "prompt": "「朝会」 là:",
+     "options": [
+      "họp buổi sáng",
+      "bữa sáng",
+      "cuối tuần"
+     ],
+     "answer": 0,
+     "explanation": "朝会 = họp sáng."
+    },
+    {
+     "prompt": "Báo cáo việc đã làm hôm qua dùng:",
+     "options": [
+      "〜ましょう",
+      "〜ました",
+      "〜ませんか"
+     ],
+     "answer": 1,
+     "explanation": "Quá khứ lịch sự: 〜ました."
+    },
+    {
+     "prompt": "「予定」 có nghĩa là gì?",
+     "options": [
+      "dự định",
+      "vấn đề",
+      "kiểm thử"
+     ],
+     "answer": 0,
+     "explanation": "「予定」 [yotei] = dự định."
+    },
+    {
+     "prompt": "「テスト」 đọc là gì?",
+     "options": [
+      "mondai",
+      "tsukurimashita",
+      "tesuto"
+     ],
+     "answer": 2,
+     "explanation": "「テスト」 đọc là [tesuto], nghĩa là kiểm thử."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が終わりました。  (Kiểm thử đã xong.)",
+     "options": [
+      "テスト",
+      "問題",
+      "作りました"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「テスト」 (kiểm thử). Câu đầy đủ: テストが終わりました。"
+    },
+    {
+     "prompt": "「テスト」 có nghĩa là gì?",
+     "options": [
+      "đã làm, đã tạo",
+      "kiểm thử",
+      "vấn đề"
+     ],
+     "answer": 1,
+     "explanation": "「テスト」 [tesuto] = kiểm thử."
+    },
+    {
+     "prompt": "「問題」 đọc là gì?",
+     "options": [
+      "yotei",
+      "mondai",
+      "tsukurimashita"
+     ],
+     "answer": 1,
+     "explanation": "「問題」 đọc là [mondai], nghĩa là vấn đề."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 新しい機能を＿＿＿。  (Tôi đã làm chức năng mới.)",
+     "options": [
+      "予定",
+      "作りました",
+      "問題"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「作りました」 (đã làm, đã tạo). Câu đầy đủ: 新しい機能を作りました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Mô tả lỗi phần mềm (bug report)",
+   "objective": "Mô tả bước tái hiện, kết quả mong đợi và kết quả thực tế.",
+   "reading": "ミン: バグを見つけました。\n先輩: どうすると起きますか。\nミン: 保存ボタンを二回押すと、エラーが出ます。\n先輩: 本当は一回だけ保存されるはずですね。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "バグを見つけました。",
+     "phonetic": "Bagu o mitsukemashita.",
+     "translation": "Tôi đã tìm thấy một lỗi."
+    },
+    {
+     "speaker": "先輩",
+     "text": "どうすると起きますか。",
+     "phonetic": "Dō suru to okimasu ka.",
+     "translation": "Làm thế nào thì lỗi xảy ra?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "保存ボタンを二回押すと、エラーが出ます。",
+     "phonetic": "Hozon botan o nikai osu to, erā ga demasu.",
+     "translation": "Bấm nút lưu hai lần thì báo lỗi."
+    },
+    {
+     "speaker": "先輩",
+     "text": "本当は一回だけ保存されるはずですね。",
+     "phonetic": "Hontō wa ikkai dake hozon sareru hazu desu ne.",
+     "translation": "Đúng ra chỉ được lưu một lần thôi nhỉ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "バグ",
+     "reading": "bagu",
+     "definition": "lỗi phần mềm",
+     "example": "バグを直しました。 (Tôi đã sửa lỗi.)"
+    },
+    {
+     "term": "見つけました",
+     "reading": "mitsukemashita",
+     "definition": "đã tìm thấy",
+     "example": "原因を見つけました。 (Đã tìm ra nguyên nhân.)"
+    },
+    {
+     "term": "起きます",
+     "reading": "okimasu",
+     "definition": "xảy ra",
+     "example": "エラーが起きます。 (Lỗi xảy ra.)"
+    },
+    {
+     "term": "エラー",
+     "reading": "erā",
+     "definition": "lỗi (thông báo)",
+     "example": "エラーが出ます。 (Hiện thông báo lỗi.)"
+    },
+    {
+     "term": "直す",
+     "reading": "naosu",
+     "definition": "sửa",
+     "example": "バグを直す。 (Sửa lỗi.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜と (điều kiện tất yếu) và 〜はず",
+    "explanation": "V thể từ điển + と: hễ … thì (kết quả luôn xảy ra): 押すと、エラーが出ます. 〜はずです: lẽ ra phải ~.",
+    "examples": [
+     "このボタンを押すと、画面が変わります。[kono botan o osu to, gamen ga kawarimasu] (Bấm nút này thì màn hình đổi.)",
+     "もう届いているはずです。[mō todoite iru hazu desu] (Lẽ ra đã tới rồi.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm dài エラー",
+    "tip": "Katakana trường âm: エラー erā, ユーザー yūzā. Đọc đủ trường âm, không rút gọn thành “era”.",
+    "words": [
+     "エラー",
+     "ユーザー",
+     "バグ",
+     "なおす"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cáo một lỗi: các bước, kết quả mong đợi và thực tế.",
+    "Giải thích cho thầy/cô lỗi bạn từng gặp và cách sửa."
+   ],
+   "questions": [
+    {
+     "prompt": "“Bấm nút thì hiện lỗi.” là:",
+     "options": [
+      "ボタンが押すと、エラーに出ます。",
+      "ボタンを押しと、エラーを出ます。",
+      "ボタンを押すと、エラーが出ます。"
+     ],
+     "answer": 2,
+     "explanation": "V る + と."
+    },
+    {
+     "prompt": "「〜はずです」 nghĩa là:",
+     "options": [
+      "không bao giờ",
+      "vừa mới",
+      "lẽ ra phải"
+     ],
+     "answer": 2,
+     "explanation": "はず = lẽ ra."
+    },
+    {
+     "prompt": "“Tôi đã sửa lỗi.” là:",
+     "options": [
+      "バグが直します。",
+      "バグに直しでした。",
+      "バグを直しました。"
+     ],
+     "answer": 2,
+     "explanation": "N を直しました."
+    },
+    {
+     "prompt": "Hỏi cách tái hiện lỗi:",
+     "options": [
+      "どうすると起きますか。",
+      "誰が起きますか。",
+      "いつ起きましたか。"
+     ],
+     "answer": 0,
+     "explanation": "どうすると = làm thế nào thì."
+    },
+    {
+     "prompt": "「直す」 có nghĩa là gì?",
+     "options": [
+      "đã tìm thấy",
+      "xảy ra",
+      "sửa"
+     ],
+     "answer": 2,
+     "explanation": "「直す」 [naosu] = sửa."
+    },
+    {
+     "prompt": "「バグ」 đọc là gì?",
+     "options": [
+      "bagu",
+      "mitsukemashita",
+      "naosu"
+     ],
+     "answer": 0,
+     "explanation": "「バグ」 đọc là [bagu], nghĩa là lỗi phần mềm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を直しました。  (Tôi đã sửa lỗi.)",
+     "options": [
+      "直す",
+      "バグ",
+      "見つけました"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「バグ」 (lỗi phần mềm). Câu đầy đủ: バグを直しました。"
+    },
+    {
+     "prompt": "「見つけました」 có nghĩa là gì?",
+     "options": [
+      "lỗi (thông báo)",
+      "xảy ra",
+      "đã tìm thấy"
+     ],
+     "answer": 2,
+     "explanation": "「見つけました」 [mitsukemashita] = đã tìm thấy."
+    },
+    {
+     "prompt": "「エラー」 đọc là gì?",
+     "options": [
+      "erā",
+      "mitsukemashita",
+      "naosu"
+     ],
+     "answer": 0,
+     "explanation": "「エラー」 đọc là [erā], nghĩa là lỗi (thông báo)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 原因を＿＿＿。  (Đã tìm ra nguyên nhân.)",
+     "options": [
+      "エラー",
+      "起きます",
+      "見つけました"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「見つけました」 (đã tìm thấy). Câu đầy đủ: 原因を見つけました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Giải thích tính năng cho khách hàng",
+   "objective": "Giới thiệu tính năng mới và lợi ích của nó.",
+   "reading": "お客様: 新しい機能について教えてください。\nミン: このアプリでは、写真をすぐに共有することができます。\nお客様: スマホでも使えますか。\nミン: はい、パソコンでもスマホでも使えます。",
+   "dialogue": [
+    {
+     "speaker": "お客様",
+     "text": "新しい機能について教えてください。",
+     "phonetic": "Atarashii kinō ni tsuite oshiete kudasai.",
+     "translation": "Hãy cho tôi biết về chức năng mới."
+    },
+    {
+     "speaker": "ミン",
+     "text": "このアプリでは、写真をすぐに共有することができます。",
+     "phonetic": "Kono apuri de wa, shashin o sugu ni kyōyū suru koto ga dekimasu.",
+     "translation": "Với ứng dụng này, bạn có thể chia sẻ ảnh ngay lập tức."
+    },
+    {
+     "speaker": "お客様",
+     "text": "スマホでも使えますか。",
+     "phonetic": "Sumaho demo tsukaemasu ka.",
+     "translation": "Trên điện thoại có dùng được không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、パソコンでもスマホでも使えます。",
+     "phonetic": "Hai, pasokon demo sumaho demo tsukaemasu.",
+     "translation": "Vâng, dùng được cả trên máy tính và điện thoại."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "機能",
+     "reading": "kinō",
+     "definition": "chức năng",
+     "example": "便利な機能があります。 (Có chức năng tiện lợi.)"
+    },
+    {
+     "term": "アプリ",
+     "reading": "apuri",
+     "definition": "ứng dụng",
+     "example": "アプリをダウンロードします。 (Tải ứng dụng.)"
+    },
+    {
+     "term": "共有",
+     "reading": "kyōyū",
+     "definition": "chia sẻ",
+     "example": "ファイルを共有します。 (Chia sẻ tệp.)"
+    },
+    {
+     "term": "便利",
+     "reading": "benri",
+     "definition": "tiện lợi",
+     "example": "このアプリは便利です。 (Ứng dụng này tiện lợi.)"
+    },
+    {
+     "term": "簡単",
+     "reading": "kantan",
+     "definition": "đơn giản",
+     "example": "設定は簡単です。 (Cài đặt đơn giản.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ことができます và 〜でも〜でも",
+    "explanation": "V thể từ điển + ことができます: có thể làm. A でも B でも: cả A lẫn B. N について: về N.",
+    "examples": [
+     "日本語で検索することができます。[Nihongo de kensaku suru koto ga dekimasu] (Có thể tìm kiếm bằng tiếng Nhật.)",
+     "朝でも夜でも使えます。[asa demo yoru demo tsukaemasu] (Dùng được cả sáng lẫn tối.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm きょう và きの",
+    "tip": "共有 kyōyū (hai trường âm), 機能 kinō. Phân biệt きょ (kyo) và きよ (kiyo).",
+    "words": [
+     "きょうゆう",
+     "きのう",
+     "べんり",
+     "かんたん"
+    ]
+   },
+   "speakingTasks": [
+    "Giới thiệu 2 tính năng của một ứng dụng bạn thích.",
+    "Trả lời câu hỏi của khách: 「オフラインでも使えますか」."
+   ],
+   "questions": [
+    {
+     "prompt": "“Có thể chia sẻ ảnh.” là:",
+     "options": [
+      "写真を共有することができます。",
+      "写真を共有ができます。",
+      "写真が共有するできます。"
+     ],
+     "answer": 0,
+     "explanation": "V る + ことができます."
+    },
+    {
+     "prompt": "“Cả máy tính lẫn điện thoại” là:",
+     "options": [
+      "パソコンもスマホをも",
+      "パソコンやスマホでや",
+      "パソコンでもスマホでも"
+     ],
+     "answer": 2,
+     "explanation": "A でも B でも."
+    },
+    {
+     "prompt": "「機能」 là:",
+     "options": [
+      "khách hàng",
+      "chức năng",
+      "giá cả"
+     ],
+     "answer": 1,
+     "explanation": "機能 = chức năng."
+    },
+    {
+     "prompt": "「便利」 nghĩa là:",
+     "options": [
+      "tiện lợi",
+      "đắt",
+      "khó"
+     ],
+     "answer": 0,
+     "explanation": "便利 = tiện lợi."
+    },
+    {
+     "prompt": "「便利」 có nghĩa là gì?",
+     "options": [
+      "chức năng",
+      "ứng dụng",
+      "tiện lợi"
+     ],
+     "answer": 2,
+     "explanation": "「便利」 [benri] = tiện lợi."
+    },
+    {
+     "prompt": "「機能」 đọc là gì?",
+     "options": [
+      "kyōyū",
+      "apuri",
+      "kinō"
+     ],
+     "answer": 2,
+     "explanation": "「機能」 đọc là [kinō], nghĩa là chức năng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: このアプリは＿＿＿です。  (Ứng dụng này tiện lợi.)",
+     "options": [
+      "アプリ",
+      "機能",
+      "便利"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「便利」 (tiện lợi). Câu đầy đủ: このアプリは便利です。"
+    },
+    {
+     "prompt": "「アプリ」 có nghĩa là gì?",
+     "options": [
+      "ứng dụng",
+      "đơn giản",
+      "chia sẻ"
+     ],
+     "answer": 0,
+     "explanation": "「アプリ」 [apuri] = ứng dụng."
+    },
+    {
+     "prompt": "「アプリ」 đọc là gì?",
+     "options": [
+      "kantan",
+      "apuri",
+      "kyōyū"
+     ],
+     "answer": 1,
+     "explanation": "「アプリ」 đọc là [apuri], nghĩa là ứng dụng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をダウンロードします。  (Tải ứng dụng.)",
+     "options": [
+      "共有",
+      "アプリ",
+      "簡単"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「アプリ」 (ứng dụng). Câu đầy đủ: アプリをダウンロードします。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Review code và góp ý kỹ thuật",
+   "objective": "Đưa ra nhận xét code lịch sự và giải thích lý do.",
+   "reading": "先輩: プルリクエストを見ました。全体的によく書けていますね。\n先輩: ただ、この関数は少し長すぎるので、分けたほうがいいと思います。\nミン: わかりました。テストも追加したほうがいいですか。\n先輩: はい、境界値のテストがあると安心です。",
+   "dialogue": [
+    {
+     "speaker": "先輩",
+     "text": "プルリクエストを見ました。全体的によく書けていますね。",
+     "phonetic": "Puru rikuesuto o mimashita. Zentaiteki ni yoku kakete imasu ne.",
+     "translation": "Anh xem pull request rồi. Nhìn chung viết tốt đấy."
+    },
+    {
+     "speaker": "先輩",
+     "text": "ただ、この関数は少し長すぎるので、分けたほうがいいと思います。",
+     "phonetic": "Tada, kono kansū wa sukoshi nagasugiru node, waketa hō ga ii to omoimasu.",
+     "translation": "Có điều hàm này hơi dài, nên tách ra."
+    },
+    {
+     "speaker": "ミン",
+     "text": "わかりました。テストも追加したほうがいいですか。",
+     "phonetic": "Wakarimashita. Tesuto mo tsuika shita hō ga ii desu ka.",
+     "translation": "Em hiểu rồi. Có nên thêm test không ạ?"
+    },
+    {
+     "speaker": "先輩",
+     "text": "はい、境界値のテストがあると安心です。",
+     "phonetic": "Hai, kyōkaichi no tesuto ga aru to anshin desu.",
+     "translation": "Có, có test giá trị biên thì yên tâm hơn."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "関数",
+     "reading": "kansū",
+     "definition": "hàm",
+     "example": "関数を分けます。 (Tách hàm.)"
+    },
+    {
+     "term": "長すぎる",
+     "reading": "nagasugiru",
+     "definition": "quá dài",
+     "example": "この説明は長すぎる。 (Phần giải thích này quá dài.)"
+    },
+    {
+     "term": "追加",
+     "reading": "tsuika",
+     "definition": "thêm vào",
+     "example": "機能を追加しました。 (Đã thêm chức năng.)"
+    },
+    {
+     "term": "全体的に",
+     "reading": "zentaiteki ni",
+     "definition": "nhìn chung",
+     "example": "全体的に問題ありません。 (Nhìn chung không có vấn đề.)"
+    },
+    {
+     "term": "安心",
+     "reading": "anshin",
+     "definition": "yên tâm",
+     "example": "テストがあると安心です。 (Có test thì yên tâm.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜すぎる / 〜ので / 〜たほうがいい",
+    "explanation": "Tính từ/động từ bỏ đuôi + すぎる: quá ~. 〜ので: vì (khách quan, mềm hơn から). Góp ý: 〜たほうがいいと思います. Mở đầu khen trước rồi dùng ただ để chuyển ý.",
+    "examples": [
+     "変数名が短すぎるので、わかりにくいです。[hensūmei ga mijikasugiru node, wakarinikui desu] (Tên biến quá ngắn nên khó hiểu.)",
+     "コメントを書いたほうがいいと思います。[komento o kaita hō ga ii to omoimasu] (Tôi nghĩ nên viết chú thích.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm かんすう và きょうかいち",
+    "tip": "関数 kansū: ん là một nhịp. 境界値 kyōkaichi có hai trường âm. Đọc chậm từng nhịp.",
+    "words": [
+     "かんすう",
+     "ついか",
+     "きょうかいち",
+     "あんしん"
+    ]
+   },
+   "speakingTasks": [
+    "Nhận xét một đoạn code: khen một điểm, góp ý một điểm.",
+    "Trả lời góp ý review của thầy/cô một cách cầu thị."
+   ],
+   "questions": [
+    {
+     "prompt": "Góp ý lịch sự “nên tách hàm”:",
+     "options": [
+      "関数を分けたほうがいいと思います。",
+      "関数を分けないでください。",
+      "関数を分けろ。"
+     ],
+     "answer": 0,
+     "explanation": "〜たほうがいいと思います."
+    },
+    {
+     "prompt": "“Quá dài” là:",
+     "options": [
+      "長すぎる",
+      "長くすぎる",
+      "長いすぎる"
+     ],
+     "answer": 0,
+     "explanation": "長い → 長 + すぎる."
+    },
+    {
+     "prompt": "Từ chuyển ý sau lời khen:",
+     "options": [
+      "だから",
+      "ただ",
+      "それに"
+     ],
+     "answer": 1,
+     "explanation": "ただ = có điều, tuy nhiên."
+    },
+    {
+     "prompt": "「追加」 nghĩa là:",
+     "options": [
+      "đổi tên",
+      "thêm vào",
+      "xóa"
+     ],
+     "answer": 1,
+     "explanation": "追加 = thêm."
+    },
+    {
+     "prompt": "「長すぎる」 có nghĩa là gì?",
+     "options": [
+      "nhìn chung",
+      "quá dài",
+      "thêm vào"
+     ],
+     "answer": 1,
+     "explanation": "「長すぎる」 [nagasugiru] = quá dài."
+    },
+    {
+     "prompt": "「関数」 đọc là gì?",
+     "options": [
+      "kansū",
+      "anshin",
+      "tsuika"
+     ],
+     "answer": 0,
+     "explanation": "「関数」 đọc là [kansū], nghĩa là hàm."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: テストがあると＿＿＿です。  (Có test thì yên tâm.)",
+     "options": [
+      "安心",
+      "長すぎる",
+      "追加"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「安心」 (yên tâm). Câu đầy đủ: テストがあると安心です。"
+    },
+    {
+     "prompt": "「全体的に」 có nghĩa là gì?",
+     "options": [
+      "nhìn chung",
+      "hàm",
+      "quá dài"
+     ],
+     "answer": 0,
+     "explanation": "「全体的に」 [zentaiteki ni] = nhìn chung."
+    },
+    {
+     "prompt": "「追加」 đọc là gì?",
+     "options": [
+      "zentaiteki ni",
+      "nagasugiru",
+      "tsuika"
+     ],
+     "answer": 2,
+     "explanation": "「追加」 đọc là [tsuika], nghĩa là thêm vào."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿問題ありません。  (Nhìn chung không có vấn đề.)",
+     "options": [
+      "関数",
+      "長すぎる",
+      "全体的に"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「全体的に」 (nhìn chung). Câu đầy đủ: 全体的に問題ありません。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Phỏng vấn kỹ thuật",
+   "objective": "Trình bày dự án, vai trò và cách giải quyết khó khăn.",
+   "reading": "面接官: これまでに担当したプロジェクトについて説明してください。\nミン: ECサイトのバックエンドを担当しました。\n面接官: 一番大変だったことは何ですか。\nミン: アクセスが急に増えたことです。キャッシュを導入して解決しました。",
+   "dialogue": [
+    {
+     "speaker": "面接官",
+     "text": "これまでに担当したプロジェクトについて説明してください。",
+     "phonetic": "Kore made ni tantō shita purojekuto ni tsuite setsumei shite kudasai.",
+     "translation": "Hãy giải thích về dự án bạn đã phụ trách."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ECサイトのバックエンドを担当しました。",
+     "phonetic": "Ī-shī saito no bakkuendo o tantō shimashita.",
+     "translation": "Tôi phụ trách phần backend của trang thương mại điện tử."
+    },
+    {
+     "speaker": "面接官",
+     "text": "一番大変だったことは何ですか。",
+     "phonetic": "Ichiban taihen datta koto wa nan desu ka.",
+     "translation": "Điều khó khăn nhất là gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "アクセスが急に増えたことです。キャッシュを導入して解決しました。",
+     "phonetic": "Akusesu ga kyū ni fueta koto desu. Kyasshu o dōnyū shite kaiketsu shimashita.",
+     "translation": "Là lượng truy cập tăng đột ngột. Tôi đã giải quyết bằng cách đưa cache vào."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "担当",
+     "reading": "tantō",
+     "definition": "phụ trách",
+     "example": "テストを担当しました。 (Tôi phụ trách kiểm thử.)"
+    },
+    {
+     "term": "説明",
+     "reading": "setsumei",
+     "definition": "giải thích",
+     "example": "仕組みを説明します。 (Giải thích cơ chế.)"
+    },
+    {
+     "term": "大変",
+     "reading": "taihen",
+     "definition": "vất vả, khó khăn",
+     "example": "締め切りが大変でした。 (Hạn chót rất vất vả.)"
+    },
+    {
+     "term": "導入",
+     "reading": "dōnyū",
+     "definition": "đưa vào áp dụng",
+     "example": "新しいツールを導入しました。 (Đã áp dụng công cụ mới.)"
+    },
+    {
+     "term": "解決",
+     "reading": "kaiketsu",
+     "definition": "giải quyết",
+     "example": "問題を解決しました。 (Đã giải quyết vấn đề.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ことです và 〜て解決しました",
+    "explanation": "Danh từ hóa: V た + こと (việc ~). Trả lời “điều … là gì”: 〜ことです. Cách làm + kết quả: 〜て、解決しました.",
+    "examples": [
+     "一番うれしかったことは、ユーザーに褒められたことです。[ichiban ureshikatta koto wa, yūzā ni homerareta koto desu] (Điều vui nhất là được người dùng khen.)",
+     "ログを調べて、原因を見つけました。[rogu o shirabete, gen'in o mitsukemashita] (Tôi xem log và tìm ra nguyên nhân.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Trình bày mạch lạc",
+    "tip": "Dùng cấu trúc STAR, ngắt nhịp sau mỗi ý. Âm dài: 担当 tantō, 導入 dōnyū. Nói tự tin, kết câu dứt khoát.",
+    "words": [
+     "たんとう",
+     "どうにゅう",
+     "かいけつ",
+     "せつめい"
+    ]
+   },
+   "speakingTasks": [
+    "Giới thiệu một dự án bạn từng làm và vai trò của bạn.",
+    "Kể khó khăn lớn nhất trong dự án và cách bạn giải quyết."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi phụ trách backend.” là:",
+     "options": [
+      "バックエンドに担当でした。",
+      "バックエンドが担当します。",
+      "バックエンドを担当しました。"
+     ],
+     "answer": 2,
+     "explanation": "N を担当しました."
+    },
+    {
+     "prompt": "Trả lời “Điều khó nhất là …”:",
+     "options": [
+      "〜からだ。",
+      "〜ことです。",
+      "〜ものだ。"
+     ],
+     "answer": 1,
+     "explanation": "Câu hỏi 〜ことは何ですか → 〜ことです."
+    },
+    {
+     "prompt": "「導入」 nghĩa là:",
+     "options": [
+      "xóa bỏ",
+      "đưa vào áp dụng",
+      "trì hoãn"
+     ],
+     "answer": 1,
+     "explanation": "導入 = áp dụng."
+    },
+    {
+     "prompt": "“Xem log rồi tìm ra nguyên nhân” dùng:",
+     "options": [
+      "ログを調べて、原因を見つけました",
+      "ログ調べたら原因でした",
+      "ログを調べると、原因を見つけろ"
+     ],
+     "answer": 0,
+     "explanation": "Nối hành động bằng thể て."
+    },
+    {
+     "prompt": "「導入」 có nghĩa là gì?",
+     "options": [
+      "giải quyết",
+      "phụ trách",
+      "đưa vào áp dụng"
+     ],
+     "answer": 2,
+     "explanation": "「導入」 [dōnyū] = đưa vào áp dụng."
+    },
+    {
+     "prompt": "「説明」 đọc là gì?",
+     "options": [
+      "kaiketsu",
+      "taihen",
+      "setsumei"
+     ],
+     "answer": 2,
+     "explanation": "「説明」 đọc là [setsumei], nghĩa là giải thích."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 問題を＿＿＿しました。  (Đã giải quyết vấn đề.)",
+     "options": [
+      "解決",
+      "説明",
+      "導入"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「解決」 (giải quyết). Câu đầy đủ: 問題を解決しました。"
+    },
+    {
+     "prompt": "「解決」 có nghĩa là gì?",
+     "options": [
+      "giải thích",
+      "giải quyết",
+      "đưa vào áp dụng"
+     ],
+     "answer": 1,
+     "explanation": "「解決」 [kaiketsu] = giải quyết."
+    },
+    {
+     "prompt": "「導入」 đọc là gì?",
+     "options": [
+      "dōnyū",
+      "kaiketsu",
+      "tantō"
+     ],
+     "answer": 0,
+     "explanation": "「導入」 đọc là [dōnyū], nghĩa là đưa vào áp dụng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 新しいツールを＿＿＿しました。  (Đã áp dụng công cụ mới.)",
+     "options": [
+      "担当",
+      "解決",
+      "導入"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「導入」 (đưa vào áp dụng). Câu đầy đủ: 新しいツールを導入しました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Kỹ năng",
+   "title": "Bảo mật và dữ liệu",
+   "objective": "Giải thích quy tắc bảo mật và cách xử lý dữ liệu cá nhân.",
+   "reading": "リーダー: 個人情報を扱うときは、必ずルールを守ってください。\nミン: 具体的には何に気をつければいいですか。\nリーダー: データは暗号化して、パスワードを他人に教えないことです。\nミン: 怪しいメールが来たら、すぐに報告します。",
+   "dialogue": [
+    {
+     "speaker": "リーダー",
+     "text": "個人情報を扱うときは、必ずルールを守ってください。",
+     "phonetic": "Kojin jōhō o atsukau toki wa, kanarazu rūru o mamotte kudasai.",
+     "translation": "Khi xử lý thông tin cá nhân, nhất định phải tuân thủ quy tắc."
+    },
+    {
+     "speaker": "ミン",
+     "text": "具体的には何に気をつければいいですか。",
+     "phonetic": "Gutaiteki ni wa nani ni ki o tsukereba ii desu ka.",
+     "translation": "Cụ thể cần chú ý điều gì ạ?"
+    },
+    {
+     "speaker": "リーダー",
+     "text": "データは暗号化して、パスワードを他人に教えないことです。",
+     "phonetic": "Dēta wa angōka shite, pasuwādo o tanin ni oshienai koto desu.",
+     "translation": "Mã hóa dữ liệu và không cho người khác biết mật khẩu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "怪しいメールが来たら、すぐに報告します。",
+     "phonetic": "Ayashii mēru ga kitara, sugu ni hōkoku shimasu.",
+     "translation": "Nếu có email đáng ngờ, tôi sẽ báo cáo ngay."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "個人情報",
+     "reading": "kojin jōhō",
+     "definition": "thông tin cá nhân",
+     "example": "個人情報を守ります。 (Bảo vệ thông tin cá nhân.)"
+    },
+    {
+     "term": "暗号化",
+     "reading": "angōka",
+     "definition": "mã hóa",
+     "example": "ファイルを暗号化します。 (Mã hóa tệp.)"
+    },
+    {
+     "term": "怪しい",
+     "reading": "ayashii",
+     "definition": "đáng ngờ",
+     "example": "怪しいリンクを開かないでください。 (Đừng mở liên kết đáng ngờ.)"
+    },
+    {
+     "term": "報告",
+     "reading": "hōkoku",
+     "definition": "báo cáo",
+     "example": "上司に報告します。 (Báo cáo cấp trên.)"
+    },
+    {
+     "term": "守る",
+     "reading": "mamoru",
+     "definition": "tuân thủ, bảo vệ",
+     "example": "ルールを守ってください。 (Hãy tuân thủ quy tắc.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ば いいですか / 〜ないこと / 〜たら",
+    "explanation": "Hỏi nên làm gì: 〜ばいいですか. Quy tắc dạng danh sách: V ない + こと (không được ~). Khi/nếu: 〜たら.",
+    "examples": [
+     "誰に連絡すればいいですか。[dare ni renraku sureba ii desu ka] (Tôi nên liên lạc với ai?)",
+     "USBメモリを持ち出さないこと。[yū-esu-bī memori o mochidasanai koto] (Không mang USB ra ngoài.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm きょ, じょう",
+    "tip": "個人情報 kojin jōhō: じょう là jo + trường âm. 暗号化 angōka có ん và trường âm ō.",
+    "words": [
+     "こじんじょうほう",
+     "あんごうか",
+     "あやしい",
+     "ほうこく"
+    ]
+   },
+   "speakingTasks": [
+    "Nêu 3 quy tắc bảo mật ở công ty bạn.",
+    "Giải thích cho thầy/cô cách nhận biết email lừa đảo."
+   ],
+   "questions": [
+    {
+     "prompt": "Hỏi “Nên chú ý điều gì?”",
+     "options": [
+      "何が気をつけますか。",
+      "何に気をつければいいですか。",
+      "何を気をつけたらだめですか。"
+     ],
+     "answer": 1,
+     "explanation": "〜ばいいですか."
+    },
+    {
+     "prompt": "Quy tắc “Không cho người khác biết mật khẩu” viết:",
+     "options": [
+      "パスワードは教えたいこと。",
+      "パスワードを他人に教えること。",
+      "パスワードを他人に教えないこと。"
+     ],
+     "answer": 2,
+     "explanation": "V ない + こと."
+    },
+    {
+     "prompt": "「暗号化」 là:",
+     "options": [
+      "sao lưu",
+      "xóa",
+      "mã hóa"
+     ],
+     "answer": 2,
+     "explanation": "暗号化 = mã hóa."
+    },
+    {
+     "prompt": "“Nếu có email lạ, báo ngay.”:",
+     "options": [
+      "怪しいメールが来ると、報告しません。",
+      "怪しいメールで来たから報告する。",
+      "怪しいメールが来たら、すぐに報告します。"
+     ],
+     "answer": 2,
+     "explanation": "〜たら = nếu/khi."
+    },
+    {
+     "prompt": "「報告」 có nghĩa là gì?",
+     "options": [
+      "mã hóa",
+      "thông tin cá nhân",
+      "báo cáo"
+     ],
+     "answer": 2,
+     "explanation": "「報告」 [hōkoku] = báo cáo."
+    },
+    {
+     "prompt": "「守る」 đọc là gì?",
+     "options": [
+      "mamoru",
+      "kojin jōhō",
+      "angōka"
+     ],
+     "answer": 0,
+     "explanation": "「守る」 đọc là [mamoru], nghĩa là tuân thủ, bảo vệ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿リンクを開かないでください。  (Đừng mở liên kết đáng ngờ.)",
+     "options": [
+      "怪しい",
+      "守る",
+      "報告"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「怪しい」 (đáng ngờ). Câu đầy đủ: 怪しいリンクを開かないでください。"
+    },
+    {
+     "prompt": "「守る」 có nghĩa là gì?",
+     "options": [
+      "thông tin cá nhân",
+      "tuân thủ, bảo vệ",
+      "mã hóa"
+     ],
+     "answer": 1,
+     "explanation": "「守る」 [mamoru] = tuân thủ, bảo vệ."
+    },
+    {
+     "prompt": "「怪しい」 đọc là gì?",
+     "options": [
+      "hōkoku",
+      "mamoru",
+      "ayashii"
+     ],
+     "answer": 2,
+     "explanation": "「怪しい」 đọc là [ayashii], nghĩa là đáng ngờ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ファイルを＿＿＿します。  (Mã hóa tệp.)",
+     "options": [
+      "個人情報",
+      "報告",
+      "暗号化"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「暗号化」 (mã hóa). Câu đầy đủ: ファイルを暗号化します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Kỹ năng",
+   "title": "Thuyết trình giải pháp kỹ thuật",
+   "objective": "Trình bày vấn đề, đề xuất giải pháp và so sánh phương án.",
+   "reading": "ミン: 本日は、システムの処理速度を改善するための提案をさせていただきます。\nミン: 現状では、ピーク時に応答が三秒以上かかっております。\nミン: A案はコストが低い反面、効果が限定的です。B案は初期費用がかかるものの、長期的には有利です。\n部長: なるほど。B案で進めましょう。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "本日は、システムの処理速度を改善するための提案をさせていただきます。",
+     "phonetic": "Honjitsu wa, shisutemu no shori sokudo o kaizen suru tame no teian o sasete itadakimasu.",
+     "translation": "Hôm nay, tôi xin trình bày đề xuất cải thiện tốc độ xử lý của hệ thống."
+    },
+    {
+     "speaker": "ミン",
+     "text": "現状では、ピーク時に応答が三秒以上かかっております。",
+     "phonetic": "Genjō de wa, pīkuji ni ōtō ga sanbyō ijō kakatte orimasu.",
+     "translation": "Hiện tại, giờ cao điểm phản hồi mất hơn 3 giây."
+    },
+    {
+     "speaker": "ミン",
+     "text": "A案はコストが低い反面、効果が限定的です。B案は初期費用がかかるものの、長期的には有利です。",
+     "phonetic": "Ēan wa kosuto ga hikui hanmen, kōka ga genteiteki desu. Bīan wa shoki hiyō ga kakaru mono no, chōkiteki ni wa yūri desu.",
+     "translation": "Phương án A chi phí thấp nhưng hiệu quả hạn chế. Phương án B tốn chi phí ban đầu nhưng có lợi lâu dài."
+    },
+    {
+     "speaker": "部長",
+     "text": "なるほど。B案で進めましょう。",
+     "phonetic": "Naruhodo. Bīan de susumemashō.",
+     "translation": "Ra vậy. Tiến hành theo phương án B."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "改善",
+     "reading": "kaizen",
+     "definition": "cải thiện",
+     "example": "品質を改善します。 (Cải thiện chất lượng.)"
+    },
+    {
+     "term": "提案",
+     "reading": "teian",
+     "definition": "đề xuất",
+     "example": "新しい提案があります。 (Có một đề xuất mới.)"
+    },
+    {
+     "term": "現状",
+     "reading": "genjō",
+     "definition": "hiện trạng",
+     "example": "現状を説明します。 (Giải thích hiện trạng.)"
+    },
+    {
+     "term": "応答",
+     "reading": "ōtō",
+     "definition": "phản hồi (hệ thống)",
+     "example": "応答が遅いです。 (Phản hồi chậm.)"
+    },
+    {
+     "term": "有利",
+     "reading": "yūri",
+     "definition": "có lợi",
+     "example": "長期的には有利です。 (Về lâu dài có lợi.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜反面 / 〜ものの / 〜させていただきます",
+    "explanation": "〜反面: mặt khác lại ~ (hai mặt của một sự việc). 〜ものの: tuy ~ nhưng. 〜させていただきます: khiêm nhường khi trình bày. Phong cách thuyết trình dùng 〜ております.",
+    "examples": [
+     "クラウドは便利な反面、費用管理が難しいです。[kuraudo wa benri na hanmen, hiyō kanri ga muzukashii desu] (Cloud tiện nhưng khó quản lý chi phí.)",
+     "時間はかかるものの、確実な方法です。[jikan wa kakaru mono no, kakujitsu na hōhō desu] (Tuy mất thời gian nhưng là cách chắc chắn.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng thuyết trình",
+    "tip": "Nói chậm, nhấn vào số liệu và từ khóa (改善, 提案). Trường âm 応答 ōtō, 有利 yūri, 現状 genjō đọc đủ nhịp.",
+    "words": [
+     "かいぜん",
+     "ていあん",
+     "おうとう",
+     "げんじょう"
+    ]
+   },
+   "speakingTasks": [
+    "Thuyết trình 1 phút: vấn đề – 2 phương án – đề xuất.",
+    "Thầy/cô làm trưởng phòng, hãy thuyết phục chọn phương án của bạn."
+   ],
+   "questions": [
+    {
+     "prompt": "Mở đầu thuyết trình khiêm nhường:",
+     "options": [
+      "提案をしろ。",
+      "提案をしてあげます。",
+      "提案をさせていただきます。"
+     ],
+     "answer": 2,
+     "explanation": "させていただきます là khiêm nhường."
+    },
+    {
+     "prompt": "「〜反面」 diễn tả:",
+     "options": [
+      "thời gian",
+      "hai mặt trái ngược của một sự việc",
+      "nguyên nhân"
+     ],
+     "answer": 1,
+     "explanation": "反面 = mặt khác."
+    },
+    {
+     "prompt": "「時間はかかるものの」 nghĩa là:",
+     "options": [
+      "Nếu mất thời gian thì…",
+      "Tuy mất thời gian nhưng…",
+      "Vì mất thời gian nên…"
+     ],
+     "answer": 1,
+     "explanation": "ものの = tuy… nhưng."
+    },
+    {
+     "prompt": "「現状」 là:",
+     "options": [
+      "kết luận",
+      "tương lai",
+      "hiện trạng"
+     ],
+     "answer": 2,
+     "explanation": "現状 = tình trạng hiện tại."
+    },
+    {
+     "prompt": "「改善」 có nghĩa là gì?",
+     "options": [
+      "có lợi",
+      "cải thiện",
+      "đề xuất"
+     ],
+     "answer": 1,
+     "explanation": "「改善」 [kaizen] = cải thiện."
+    },
+    {
+     "prompt": "「提案」 đọc là gì?",
+     "options": [
+      "teian",
+      "yūri",
+      "kaizen"
+     ],
+     "answer": 0,
+     "explanation": "「提案」 đọc là [teian], nghĩa là đề xuất."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 新しい＿＿＿があります。  (Có một đề xuất mới.)",
+     "options": [
+      "提案",
+      "有利",
+      "改善"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「提案」 (đề xuất). Câu đầy đủ: 新しい提案があります。"
+    },
+    {
+     "prompt": "「現状」 có nghĩa là gì?",
+     "options": [
+      "hiện trạng",
+      "cải thiện",
+      "phản hồi (hệ thống)"
+     ],
+     "answer": 0,
+     "explanation": "「現状」 [genjō] = hiện trạng."
+    },
+    {
+     "prompt": "「応答」 đọc là gì?",
+     "options": [
+      "kaizen",
+      "yūri",
+      "ōtō"
+     ],
+     "answer": 2,
+     "explanation": "「応答」 đọc là [ōtō], nghĩa là phản hồi (hệ thống)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を説明します。  (Giải thích hiện trạng.)",
+     "options": [
+      "応答",
+      "改善",
+      "現状"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「現状」 (hiện trạng). Câu đầy đủ: 現状を説明します。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Xử lý sự cố hệ thống (incident)",
+   "objective": "Báo cáo sự cố khẩn, nguyên nhân, biện pháp và phòng ngừa tái phát.",
+   "reading": "ミン: 至急ご報告いたします。本番サーバーで障害が発生しております。\n部長: 影響範囲はどのくらいですか。\nミン: 全ユーザーがログインできない状態です。原因は設定ミスと思われます。\nミン: 設定を元に戻し次第、再発防止策をまとめます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "至急ご報告いたします。本番サーバーで障害が発生しております。",
+     "phonetic": "Shikyū go-hōkoku itashimasu. Honban sābā de shōgai ga hassei shite orimasu.",
+     "translation": "Tôi xin báo cáo khẩn. Máy chủ production đang gặp sự cố."
+    },
+    {
+     "speaker": "部長",
+     "text": "影響範囲はどのくらいですか。",
+     "phonetic": "Eikyō han'i wa dono kurai desu ka.",
+     "translation": "Phạm vi ảnh hưởng thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "全ユーザーがログインできない状態です。原因は設定ミスと思われます。",
+     "phonetic": "Zen yūzā ga roguin dekinai jōtai desu. Gen'in wa settei misu to omowaremasu.",
+     "translation": "Toàn bộ người dùng không đăng nhập được. Nguyên nhân có lẽ là lỗi cấu hình."
+    },
+    {
+     "speaker": "ミン",
+     "text": "設定を元に戻し次第、再発防止策をまとめます。",
+     "phonetic": "Settei o moto ni modoshi shidai, saihatsu bōshisaku o matomemasu.",
+     "translation": "Ngay khi khôi phục cấu hình, tôi sẽ tổng hợp biện pháp chống tái phát."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "障害",
+     "reading": "shōgai",
+     "definition": "sự cố (hệ thống)",
+     "example": "障害が発生しました。 (Sự cố đã xảy ra.)"
+    },
+    {
+     "term": "発生",
+     "reading": "hassei",
+     "definition": "phát sinh, xảy ra",
+     "example": "エラーが発生しています。 (Lỗi đang phát sinh.)"
+    },
+    {
+     "term": "影響",
+     "reading": "eikyō",
+     "definition": "ảnh hưởng",
+     "example": "影響はありません。 (Không có ảnh hưởng.)"
+    },
+    {
+     "term": "原因",
+     "reading": "gen'in",
+     "definition": "nguyên nhân",
+     "example": "原因を調査します。 (Điều tra nguyên nhân.)"
+    },
+    {
+     "term": "再発防止",
+     "reading": "saihatsu bōshi",
+     "definition": "phòng ngừa tái phát",
+     "example": "再発防止に努めます。 (Nỗ lực phòng ngừa tái phát.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜次第 / 〜と思われます / 〜ております",
+    "explanation": "V ます bỏ ます + 次第: ngay khi ~. 〜と思われます: có lẽ là (khách quan, thận trọng). 〜ております: khiêm nhường của 〜ています, dùng khi báo cáo.",
+    "examples": [
+     "復旧し次第、ご連絡いたします。[fukkyū shi shidai, go-renraku itashimasu] (Ngay khi khôi phục, tôi sẽ liên lạc.)",
+     "ネットワークの問題と思われます。[nettowāku no mondai to omowaremasu] (Có lẽ là vấn đề mạng.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Báo cáo khẩn rõ ràng",
+    "tip": "Nói ngắn, nêu 3 ý: hiện trạng – ảnh hưởng – hành động. Âm っ trong 発生 hassei, trường âm 障害 shōgai, 影響 eikyō.",
+    "words": [
+     "しょうがい",
+     "はっせい",
+     "えいきょう",
+     "げんいん"
+    ]
+   },
+   "speakingTasks": [
+    "Báo cáo khẩn một sự cố hệ thống theo 3 ý: hiện trạng, ảnh hưởng, hành động.",
+    "Trình bày biện pháp phòng ngừa tái phát cho thầy/cô."
+   ],
+   "questions": [
+    {
+     "prompt": "“Ngay khi khôi phục, tôi sẽ liên lạc.” là:",
+     "options": [
+      "復旧したら次第連絡です。",
+      "復旧し次第、ご連絡いたします。",
+      "復旧する次第、連絡します。"
+     ],
+     "answer": 1,
+     "explanation": "V(bỏ ます) + 次第."
+    },
+    {
+     "prompt": "Nêu nguyên nhân thận trọng:",
+     "options": [
+      "設定ミスに決まっている。",
+      "設定ミスだろうか。",
+      "設定ミスと思われます。"
+     ],
+     "answer": 2,
+     "explanation": "〜と思われます thận trọng, khách quan."
+    },
+    {
+     "prompt": "「影響範囲」 là:",
+     "options": [
+      "thời gian khôi phục",
+      "phạm vi ảnh hưởng",
+      "người phụ trách"
+     ],
+     "answer": 1,
+     "explanation": "影響 = ảnh hưởng, 範囲 = phạm vi."
+    },
+    {
+     "prompt": "「再発防止」 nghĩa là:",
+     "options": [
+      "phòng ngừa tái phát",
+      "khôi phục dữ liệu",
+      "báo cáo khẩn"
+     ],
+     "answer": 0,
+     "explanation": "再発 = tái phát, 防止 = phòng ngừa."
+    },
+    {
+     "prompt": "「再発防止」 có nghĩa là gì?",
+     "options": [
+      "phát sinh, xảy ra",
+      "phòng ngừa tái phát",
+      "nguyên nhân"
+     ],
+     "answer": 1,
+     "explanation": "「再発防止」 [saihatsu bōshi] = phòng ngừa tái phát."
+    },
+    {
+     "prompt": "「発生」 đọc là gì?",
+     "options": [
+      "shōgai",
+      "gen'in",
+      "hassei"
+     ],
+     "answer": 2,
+     "explanation": "「発生」 đọc là [hassei], nghĩa là phát sinh, xảy ra."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を調査します。  (Điều tra nguyên nhân.)",
+     "options": [
+      "原因",
+      "発生",
+      "障害"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「原因」 (nguyên nhân). Câu đầy đủ: 原因を調査します。"
+    },
+    {
+     "prompt": "「原因」 có nghĩa là gì?",
+     "options": [
+      "phát sinh, xảy ra",
+      "nguyên nhân",
+      "sự cố (hệ thống)"
+     ],
+     "answer": 1,
+     "explanation": "「原因」 [gen'in] = nguyên nhân."
+    },
+    {
+     "prompt": "「障害」 đọc là gì?",
+     "options": [
+      "gen'in",
+      "eikyō",
+      "shōgai"
+     ],
+     "answer": 2,
+     "explanation": "「障害」 đọc là [shōgai], nghĩa là sự cố (hệ thống)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿はありません。  (Không có ảnh hưởng.)",
+     "options": [
+      "原因",
+      "影響",
+      "再発防止"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「影響」 (ảnh hưởng). Câu đầy đủ: 影響はありません。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "technology-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Thảo luận",
+   "title": "AI và xu hướng công nghệ",
+   "objective": "Thảo luận lợi ích, rủi ro của AI và nêu quan điểm.",
+   "reading": "同僚: 生成AIの普及によって、私たちの仕事はどう変わると思いますか。\nミン: 単純な作業は減る一方で、AIを使いこなす力が求められるようになると思います。\n同僚: 情報の正確さについてはどうですか。\nミン: AIの答えをうのみにせず、必ず人間が確認すべきです。",
+   "dialogue": [
+    {
+     "speaker": "同僚",
+     "text": "生成AIの普及によって、私たちの仕事はどう変わると思いますか。",
+     "phonetic": "Seisei Ēai no fukyū ni yotte, watashitachi no shigoto wa dō kawaru to omoimasu ka.",
+     "translation": "Theo anh, công việc của chúng ta sẽ thay đổi thế nào khi AI tạo sinh phổ biến?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "単純な作業は減る一方で、AIを使いこなす力が求められるようになると思います。",
+     "phonetic": "Tanjun na sagyō wa heru ippō de, Ēai o tsukaikonasu chikara ga motomerareru yō ni naru to omoimasu.",
+     "translation": "Công việc đơn giản sẽ giảm, mặt khác sẽ cần năng lực sử dụng thành thạo AI."
+    },
+    {
+     "speaker": "同僚",
+     "text": "情報の正確さについてはどうですか。",
+     "phonetic": "Jōhō no seikakusa ni tsuite wa dō desu ka.",
+     "translation": "Còn về độ chính xác của thông tin?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "AIの答えをうのみにせず、必ず人間が確認すべきです。",
+     "phonetic": "Ēai no kotae o unomi ni sezu, kanarazu ningen ga kakunin subeki desu.",
+     "translation": "Không nên tin ngay câu trả lời của AI, con người nhất định phải kiểm tra."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "普及",
+     "reading": "fukyū",
+     "definition": "phổ biến (lan rộng)",
+     "example": "スマホが普及しました。 (Điện thoại thông minh đã phổ biến.)"
+    },
+    {
+     "term": "作業",
+     "reading": "sagyō",
+     "definition": "công việc, thao tác",
+     "example": "作業を自動化します。 (Tự động hóa công việc.)"
+    },
+    {
+     "term": "求められる",
+     "reading": "motomerareru",
+     "definition": "được yêu cầu",
+     "example": "スキルが求められる。 (Kỹ năng được đòi hỏi.)"
+    },
+    {
+     "term": "正確",
+     "reading": "seikaku",
+     "definition": "chính xác",
+     "example": "正確なデータが必要です。 (Cần dữ liệu chính xác.)"
+    },
+    {
+     "term": "確認",
+     "reading": "kakunin",
+     "definition": "kiểm tra, xác nhận",
+     "example": "結果を確認します。 (Kiểm tra kết quả.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜によって / 〜一方で / 〜べきだ",
+    "explanation": "N によって: do/nhờ N. 〜一方で: trong khi đó, mặt khác. V る + べきだ: nên, phải (quan điểm mạnh). 〜ず = 〜ないで.",
+    "examples": [
+     "技術の進歩によって、生活が便利になった。[gijutsu no shinpo ni yotte, seikatsu ga benri ni natta] (Nhờ tiến bộ kỹ thuật, cuộc sống tiện hơn.)",
+     "個人情報は慎重に扱うべきだ。[kojin jōhō wa shinchō ni atsukau beki da] (Nên xử lý thông tin cá nhân thận trọng.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nêu quan điểm thuyết phục",
+    "tip": "Nhấn vào kết luận 〜べきです và từ đối lập 一方で. Trường âm 普及 fukyū, 作業 sagyō.",
+    "words": [
+     "ふきゅう",
+     "さぎょう",
+     "せいかく",
+     "かくにん"
+    ]
+   },
+   "speakingTasks": [
+    "Nêu quan điểm của bạn về AI trong công việc (lợi ích và rủi ro).",
+    "Tranh luận với thầy/cô: AI có thay thế lập trình viên không?"
+   ],
+   "questions": [
+    {
+     "prompt": "「〜一方で」 dùng để:",
+     "options": [
+      "nêu mặt đối lập",
+      "kể thứ tự",
+      "hỏi lý do"
+     ],
+     "answer": 0,
+     "explanation": "一方で = mặt khác."
+    },
+    {
+     "prompt": "“Con người phải kiểm tra.” (quan điểm mạnh):",
+     "options": [
+      "人間が確認するかもしれない。",
+      "人間が確認したいです。",
+      "人間が確認すべきです。"
+     ],
+     "answer": 2,
+     "explanation": "べき = nên, phải."
+    },
+    {
+     "prompt": "「普及」 nghĩa là:",
+     "options": [
+      "biến mất",
+      "bị cấm",
+      "phổ biến rộng rãi"
+     ],
+     "answer": 2,
+     "explanation": "普及 = lan rộng."
+    },
+    {
+     "prompt": "「うのみにせず」 nghĩa là:",
+     "options": [
+      "tin tuyệt đối",
+      "không tin ngay mà không xét",
+      "nói to lên"
+     ],
+     "answer": 1,
+     "explanation": "うのみにする = tin ngay; せず = không."
+    },
+    {
+     "prompt": "「求められる」 có nghĩa là gì?",
+     "options": [
+      "chính xác",
+      "công việc, thao tác",
+      "được yêu cầu"
+     ],
+     "answer": 2,
+     "explanation": "「求められる」 [motomerareru] = được yêu cầu."
+    },
+    {
+     "prompt": "「作業」 đọc là gì?",
+     "options": [
+      "seikaku",
+      "sagyō",
+      "motomerareru"
+     ],
+     "answer": 1,
+     "explanation": "「作業」 đọc là [sagyō], nghĩa là công việc, thao tác."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 結果を＿＿＿します。  (Kiểm tra kết quả.)",
+     "options": [
+      "普及",
+      "確認",
+      "求められる"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「確認」 (kiểm tra, xác nhận). Câu đầy đủ: 結果を確認します。"
+    },
+    {
+     "prompt": "「正確」 có nghĩa là gì?",
+     "options": [
+      "phổ biến (lan rộng)",
+      "chính xác",
+      "kiểm tra, xác nhận"
+     ],
+     "answer": 1,
+     "explanation": "「正確」 [seikaku] = chính xác."
+    },
+    {
+     "prompt": "「確認」 đọc là gì?",
+     "options": [
+      "kakunin",
+      "fukyū",
+      "motomerareru"
+     ],
+     "answer": 0,
+     "explanation": "「確認」 đọc là [kakunin], nghĩa là kiểm tra, xác nhận."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: スキルが＿＿＿。  (Kỹ năng được đòi hỏi.)",
+     "options": [
+      "正確",
+      "求められる",
+      "作業"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「求められる」 (được yêu cầu). Câu đầy đủ: スキルが求められる。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

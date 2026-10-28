@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Nhật công sở"
-OVERVIEW = "8 bài từ N5 đến N2 cho môi trường văn phòng Nhật: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, kính ngữ và thương lượng."
+OVERVIEW = "12 bài từ N5 đến N2 cho môi trường văn phòng Nhật: giới thiệu công ty, chào hỏi hằng ngày, điện thoại, hẹn lịch, email, họp và báo cáo, kính ngữ và thương lượng."
 
 LESSONS = [
     L("A1", "Giao tiếp", "Giới thiệu công ty và chức vụ",
@@ -172,3 +172,7 @@ LESSONS = [
        ("「納期を短縮する」 là:", ["rút ngắn thời hạn giao hàng", "kéo dài hợp đồng", "tăng giá"], 0, "短縮 = rút ngắn.")],
       ["Thương lượng với thầy/cô (đối tác) về giá và thời hạn giao hàng.", "Đưa một nhượng bộ kèm một điều kiện."]),
 ]
+
+from extras import BUSINESS  # noqa: E402
+
+LESSONS += BUSINESS

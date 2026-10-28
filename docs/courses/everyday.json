@@ -1,0 +1,3131 @@
+{
+ "id": "everyday",
+ "title": "Tiếng Nhật giao tiếp hằng ngày",
+ "version": "1.1.0",
+ "framework": "JLPT N5–N2",
+ "overview": "16 bài từ N5 đến N2: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có phiên âm và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu.",
+ "contentLicense": "Nội dung biên soạn riêng cho Teacher AI, phân cấp theo JLPT/CEFR",
+ "references": [
+  {
+   "title": "JF Standard for Japanese-Language Education (Japan Foundation)",
+   "url": "https://jfstandard.jp/",
+   "license": "Khung tham chiếu năng lực tiếng Nhật theo CEFR (chỉ dùng để phân cấp, không sao chép nội dung)"
+  },
+  {
+   "title": "JLPT – Japanese-Language Proficiency Test",
+   "url": "https://www.jlpt.jp/e/",
+   "license": "Tham khảo cấp độ N5–N2 (không sao chép đề thi)"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "everyday-a1-1",
+   "level": "A1",
+   "unit": "N5 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Chào hỏi và tự giới thiệu",
+   "objective": "Chào khi gặp lần đầu, nói tên, quê quán và nghề nghiệp.",
+   "reading": "田中: はじめまして。田中です。\nミン: はじめまして。ミンです。ベトナムから来ました。\n田中: ミンさんは学生ですか。\nミン: はい、学生です。どうぞよろしくお願いします。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "はじめまして。田中です。",
+     "phonetic": "Hajimemashite. Tanaka desu.",
+     "translation": "Rất vui được gặp. Tôi là Tanaka."
+    },
+    {
+     "speaker": "ミン",
+     "text": "はじめまして。ミンです。ベトナムから来ました。",
+     "phonetic": "Hajimemashite. Min desu. Betonamu kara kimashita.",
+     "translation": "Rất vui được gặp. Tôi là Minh. Tôi đến từ Việt Nam."
+    },
+    {
+     "speaker": "田中",
+     "text": "ミンさんは学生ですか。",
+     "phonetic": "Min-san wa gakusei desu ka.",
+     "translation": "Bạn Minh là sinh viên phải không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、学生です。どうぞよろしくお願いします。",
+     "phonetic": "Hai, gakusei desu. Dōzo yoroshiku onegai shimasu.",
+     "translation": "Vâng, tôi là sinh viên. Rất mong được giúp đỡ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "はじめまして",
+     "reading": "hajimemashite",
+     "definition": "rất vui được gặp (lần đầu)",
+     "example": "はじめまして、ミンです。 (Rất vui được gặp, tôi là Minh.)"
+    },
+    {
+     "term": "学生",
+     "reading": "gakusei",
+     "definition": "sinh viên, học sinh",
+     "example": "私は学生です。 (Tôi là sinh viên.)"
+    },
+    {
+     "term": "来ました",
+     "reading": "kimashita",
+     "definition": "đã đến",
+     "example": "ベトナムから来ました。 (Tôi đến từ Việt Nam.)"
+    },
+    {
+     "term": "よろしくお願いします",
+     "reading": "yoroshiku onegai shimasu",
+     "definition": "rất mong được giúp đỡ",
+     "example": "どうぞよろしくお願いします。 (Rất mong được giúp đỡ.)"
+    },
+    {
+     "term": "先生",
+     "reading": "sensei",
+     "definition": "giáo viên",
+     "example": "田中さんは先生です。 (Anh Tanaka là giáo viên.)"
+    }
+   ],
+   "grammar": {
+    "title": "AはBです",
+    "explanation": "は (đọc là wa) đánh dấu chủ đề; です là cách nói lịch sự “là”. Hỏi thêm か ở cuối câu. Phủ định lịch sự: ではありません.",
+    "examples": [
+     "私は学生です。[watashi wa gakusei desu] (Tôi là sinh viên.)",
+     "田中さんは先生ですか。[Tanaka-san wa sensei desu ka] (Anh Tanaka là giáo viên phải không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Trợ từ は đọc là “wa”",
+    "tip": "Chữ は khi làm trợ từ chủ đề đọc là “wa”, không phải “ha”. Các nguyên âm a-i-u-e-o ngắn và gọn; u không tròn môi như tiếng Việt.",
+    "words": [
+     "私は",
+     "学生",
+     "はい",
+     "ミン"
+    ]
+   },
+   "speakingTasks": [
+    "Giới thiệu tên, quê quán và nghề nghiệp của bạn bằng 3 câu.",
+    "Hỏi thầy/cô: お名前は何ですか。"
+   ],
+   "questions": [
+    {
+     "prompt": "Câu “Tôi đến từ Việt Nam” là:",
+     "options": [
+      "ベトナムを来ました。",
+      "ベトナムから来ました。",
+      "ベトナムに来ましたです。"
+     ],
+     "answer": 1,
+     "explanation": "から nghĩa là “từ”."
+    },
+    {
+     "prompt": "Trợ từ は trong 「私は学生です」 đọc là gì?",
+     "options": [
+      "wa",
+      "ha",
+      "o"
+     ],
+     "answer": 0,
+     "explanation": "Khi là trợ từ chủ đề, は đọc là wa."
+    },
+    {
+     "prompt": "Câu chào khi gặp lần đầu là:",
+     "options": [
+      "いただきます",
+      "おやすみなさい",
+      "はじめまして"
+     ],
+     "answer": 2,
+     "explanation": "はじめまして dùng khi gặp lần đầu."
+    },
+    {
+     "prompt": "Cuối buổi làm quen thường nói:",
+     "options": [
+      "いってきます。",
+      "どうぞよろしくお願いします。",
+      "ただいま。"
+     ],
+     "answer": 1,
+     "explanation": "Câu này nghĩa là “rất mong được giúp đỡ”."
+    },
+    {
+     "prompt": "「学生」 có nghĩa là gì?",
+     "options": [
+      "đã đến",
+      "giáo viên",
+      "sinh viên, học sinh"
+     ],
+     "answer": 2,
+     "explanation": "「学生」 [gakusei] = sinh viên, học sinh."
+    },
+    {
+     "prompt": "「来ました」 đọc là gì?",
+     "options": [
+      "sensei",
+      "kimashita",
+      "yoroshiku onegai shimasu"
+     ],
+     "answer": 1,
+     "explanation": "「来ました」 đọc là [kimashita], nghĩa là đã đến."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ベトナムから＿＿＿。  (Tôi đến từ Việt Nam.)",
+     "options": [
+      "よろしくお願いします",
+      "来ました",
+      "先生"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「来ました」 (đã đến). Câu đầy đủ: ベトナムから来ました。"
+    },
+    {
+     "prompt": "「先生」 có nghĩa là gì?",
+     "options": [
+      "sinh viên, học sinh",
+      "giáo viên",
+      "rất mong được giúp đỡ"
+     ],
+     "answer": 1,
+     "explanation": "「先生」 [sensei] = giáo viên."
+    },
+    {
+     "prompt": "「先生」 đọc là gì?",
+     "options": [
+      "sensei",
+      "gakusei",
+      "yoroshiku onegai shimasu"
+     ],
+     "answer": 0,
+     "explanation": "「先生」 đọc là [sensei], nghĩa là giáo viên."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿、ミンです。  (Rất vui được gặp, tôi là Minh.)",
+     "options": [
+      "はじめまして",
+      "先生",
+      "学生"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「はじめまして」 (rất vui được gặp (lần đầu)). Câu đầy đủ: はじめまして、ミンです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a1-2",
+   "level": "A1",
+   "unit": "N5 · Bài 2",
+   "category": "Từ vựng",
+   "title": "Gia đình, số đếm và tuổi",
+   "objective": "Gọi tên người trong gia đình, đếm số và nói tuổi.",
+   "reading": "ミン: これは私の家族の写真です。\n田中: お父さんは何歳ですか。\nミン: 五十二歳です。母は四十八歳です。\n田中: 兄弟はいますか。\nミン: はい、姉が一人います。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "これは私の家族の写真です。",
+     "phonetic": "Kore wa watashi no kazoku no shashin desu.",
+     "translation": "Đây là ảnh gia đình tôi."
+    },
+    {
+     "speaker": "田中",
+     "text": "お父さんは何歳ですか。",
+     "phonetic": "Otōsan wa nansai desu ka.",
+     "translation": "Bố bạn bao nhiêu tuổi?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "五十二歳です。母は四十八歳です。",
+     "phonetic": "Gojūni-sai desu. Haha wa yonjūhassai desu.",
+     "translation": "Ông 52 tuổi. Mẹ tôi 48 tuổi."
+    },
+    {
+     "speaker": "田中",
+     "text": "兄弟はいますか。",
+     "phonetic": "Kyōdai wa imasu ka.",
+     "translation": "Bạn có anh chị em không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、姉が一人います。",
+     "phonetic": "Hai, ane ga hitori imasu.",
+     "translation": "Có, tôi có một chị gái."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "家族",
+     "reading": "kazoku",
+     "definition": "gia đình",
+     "example": "私の家族は四人です。 (Gia đình tôi có bốn người.)"
+    },
+    {
+     "term": "お父さん",
+     "reading": "otōsan",
+     "definition": "bố (của người khác)",
+     "example": "お父さんは会社員です。 (Bố bạn là nhân viên công ty.)"
+    },
+    {
+     "term": "母",
+     "reading": "haha",
+     "definition": "mẹ (của mình)",
+     "example": "母は先生です。 (Mẹ tôi là giáo viên.)"
+    },
+    {
+     "term": "何歳",
+     "reading": "nansai",
+     "definition": "bao nhiêu tuổi",
+     "example": "お母さんは何歳ですか。 (Mẹ bạn bao nhiêu tuổi?)"
+    },
+    {
+     "term": "兄弟",
+     "reading": "kyōdai",
+     "definition": "anh chị em",
+     "example": "兄弟がいますか。 (Bạn có anh chị em không?)"
+    }
+   ],
+   "grammar": {
+    "title": "Số đếm và あります／います",
+    "explanation": "います dùng cho người và động vật, あります cho đồ vật. Số người: 一人 (hitori), 二人 (futari), 三人 (sannin). Gọi người nhà mình dùng 母/父/姉/兄; gọi nhà người khác dùng お母さん/お父さん/お姉さん/お兄さん.",
+    "examples": [
+     "姉が一人います。[ane ga hitori imasu] (Tôi có một chị gái.)",
+     "犬が二匹います。[inu ga nihiki imasu] (Tôi có hai con chó.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Số và âm ngắn / dài",
+    "tip": "Chú ý nguyên âm dài: おばさん (cô, dì) khác おばあさん (bà). Với số: 四 đọc yon, 七 đọc nana trong nhiều trường hợp để tránh nhầm với 死 (shi).",
+    "words": [
+     "おとうさん",
+     "おばさん",
+     "おばあさん",
+     "ごじゅう"
+    ]
+   },
+   "speakingTasks": [
+    "Nói gia đình bạn có mấy người và tuổi của từng người.",
+    "Hỏi thầy/cô: 兄弟はいますか。"
+   ],
+   "questions": [
+    {
+     "prompt": "Gọi mẹ của người khác một cách lịch sự là:",
+     "options": [
+      "お母さん",
+      "ママさん",
+      "母"
+     ],
+     "answer": 0,
+     "explanation": "お母さん dùng cho mẹ người khác; 母 cho mẹ mình."
+    },
+    {
+     "prompt": "“Tôi có một chị gái.” là:",
+     "options": [
+      "姉が一人います。",
+      "姉に一人います。",
+      "姉を一人あります。"
+     ],
+     "answer": 0,
+     "explanation": "います dùng cho người; chủ thể của います đi với が."
+    },
+    {
+     "prompt": "「おばさん」 và 「おばあさん」 khác nhau ở điểm nào?",
+     "options": [
+      "Trọng âm câu",
+      "Không khác",
+      "Độ dài nguyên âm"
+     ],
+     "answer": 2,
+     "explanation": "Nguyên âm dài làm đổi nghĩa: cô/dì và bà."
+    },
+    {
+     "prompt": "Để hỏi tuổi người khác, nói:",
+     "options": [
+      "いくらですか。",
+      "何歳ですか。",
+      "何ですか。"
+     ],
+     "answer": 1,
+     "explanation": "何歳 = bao nhiêu tuổi."
+    },
+    {
+     "prompt": "「お父さん」 có nghĩa là gì?",
+     "options": [
+      "bố (của người khác)",
+      "anh chị em",
+      "gia đình"
+     ],
+     "answer": 0,
+     "explanation": "「お父さん」 [otōsan] = bố (của người khác)."
+    },
+    {
+     "prompt": "「母」 đọc là gì?",
+     "options": [
+      "nansai",
+      "kazoku",
+      "haha"
+     ],
+     "answer": 2,
+     "explanation": "「母」 đọc là [haha], nghĩa là mẹ (của mình)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は会社員です。  (Bố bạn là nhân viên công ty.)",
+     "options": [
+      "お父さん",
+      "家族",
+      "兄弟"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「お父さん」 (bố (của người khác)). Câu đầy đủ: お父さんは会社員です。"
+    },
+    {
+     "prompt": "「兄弟」 có nghĩa là gì?",
+     "options": [
+      "bố (của người khác)",
+      "anh chị em",
+      "gia đình"
+     ],
+     "answer": 1,
+     "explanation": "「兄弟」 [kyōdai] = anh chị em."
+    },
+    {
+     "prompt": "「兄弟」 đọc là gì?",
+     "options": [
+      "kazoku",
+      "otōsan",
+      "kyōdai"
+     ],
+     "answer": 2,
+     "explanation": "「兄弟」 đọc là [kyōdai], nghĩa là anh chị em."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は先生です。  (Mẹ tôi là giáo viên.)",
+     "options": [
+      "家族",
+      "母",
+      "何歳"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「母」 (mẹ (của mình)). Câu đầy đủ: 母は先生です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a1-3",
+   "level": "A1",
+   "unit": "N5 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Mua sắm và hỏi giá",
+   "objective": "Hỏi giá, chọn món, nói số tiền bằng yên.",
+   "reading": "客: すみません、このシャツはいくらですか。\n店員: 三千円です。\n客: もう少し安いのはありますか。\n店員: はい、こちらは二千円です。\n客: じゃあ、それをください。",
+   "dialogue": [
+    {
+     "speaker": "客",
+     "text": "すみません、このシャツはいくらですか。",
+     "phonetic": "Sumimasen, kono shatsu wa ikura desu ka.",
+     "translation": "Xin lỗi, chiếc áo này giá bao nhiêu?"
+    },
+    {
+     "speaker": "店員",
+     "text": "三千円です。",
+     "phonetic": "Sanzen-en desu.",
+     "translation": "3.000 yên ạ."
+    },
+    {
+     "speaker": "客",
+     "text": "もう少し安いのはありますか。",
+     "phonetic": "Mō sukoshi yasui no wa arimasu ka.",
+     "translation": "Có cái nào rẻ hơn một chút không?"
+    },
+    {
+     "speaker": "店員",
+     "text": "はい、こちらは二千円です。",
+     "phonetic": "Hai, kochira wa nisen-en desu.",
+     "translation": "Vâng, cái này 2.000 yên ạ."
+    },
+    {
+     "speaker": "客",
+     "text": "じゃあ、それをください。",
+     "phonetic": "Jā, sore o kudasai.",
+     "translation": "Vậy cho tôi cái đó."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "いくら",
+     "reading": "ikura",
+     "definition": "bao nhiêu tiền",
+     "example": "これはいくらですか。 (Cái này bao nhiêu tiền?)"
+    },
+    {
+     "term": "円",
+     "reading": "en",
+     "definition": "yên (tiền Nhật)",
+     "example": "千円です。 (1.000 yên.)"
+    },
+    {
+     "term": "安い",
+     "reading": "yasui",
+     "definition": "rẻ",
+     "example": "この店は安いです。 (Cửa hàng này rẻ.)"
+    },
+    {
+     "term": "高い",
+     "reading": "takai",
+     "definition": "đắt, cao",
+     "example": "この時計は高いです。 (Chiếc đồng hồ này đắt.)"
+    },
+    {
+     "term": "ください",
+     "reading": "kudasai",
+     "definition": "xin hãy cho tôi",
+     "example": "これをください。 (Cho tôi cái này.)"
+    }
+   ],
+   "grammar": {
+    "title": "これ・それ・あれ và 〜をください",
+    "explanation": "これ (cái này, gần người nói), それ (cái đó, gần người nghe), あれ (cái kia, xa cả hai). Mua đồ: N をください. Hỏi giá: N はいくらですか.",
+    "examples": [
+     "これはいくらですか。[kore wa ikura desu ka] (Cái này bao nhiêu tiền?)",
+     "それをください。[sore o kudasai] (Cho tôi cái đó.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Đọc số tiền",
+    "tip": "Hàng nghìn có biến âm: 三千 sanzen (không phải sansen), 八千 hassen. Hàng trăm: 三百 sanbyaku, 六百 roppyaku, 八百 happyaku.",
+    "words": [
+     "さんぜん",
+     "ろっぴゃく",
+     "はっぴゃく",
+     "いちまん"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai khách hỏi giá 3 món và mua một món.",
+    "Thầy/cô là nhân viên bán hàng, hãy hỏi giá và nói “rẻ hơn một chút”."
+   ],
+   "questions": [
+    {
+     "prompt": "Muốn mua cái này, bạn nói:",
+     "options": [
+      "これはありません。",
+      "これがいくらです。",
+      "これをください。"
+     ],
+     "answer": 2,
+     "explanation": "N をください = cho tôi N."
+    },
+    {
+     "prompt": "Số tiền 3.000 yên đọc là:",
+     "options": [
+      "さんぜんえん",
+      "さんせんえん",
+      "みっつぜんえん"
+     ],
+     "answer": 0,
+     "explanation": "三千 đọc là sanzen (biến âm)."
+    },
+    {
+     "prompt": "Hỏi “có cái nào rẻ hơn không?” là:",
+     "options": [
+      "安いのはですか。",
+      "もう少し安いのはありますか。",
+      "もう少し高いのはいますか。"
+     ],
+     "answer": 1,
+     "explanation": "あります dùng cho đồ vật; 安い = rẻ."
+    },
+    {
+     "prompt": "「それ」 chỉ vật ở đâu?",
+     "options": [
+      "Gần người nghe",
+      "Gần người nói",
+      "Xa cả hai"
+     ],
+     "answer": 0,
+     "explanation": "それ là cái ở gần người nghe."
+    },
+    {
+     "prompt": "「安い」 có nghĩa là gì?",
+     "options": [
+      "xin hãy cho tôi",
+      "rẻ",
+      "đắt, cao"
+     ],
+     "answer": 1,
+     "explanation": "「安い」 [yasui] = rẻ."
+    },
+    {
+     "prompt": "「高い」 đọc là gì?",
+     "options": [
+      "yasui",
+      "en",
+      "takai"
+     ],
+     "answer": 2,
+     "explanation": "「高い」 đọc là [takai], nghĩa là đắt, cao."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 千＿＿＿です。  (1.000 yên.)",
+     "options": [
+      "円",
+      "高い",
+      "ください"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「円」 (yên (tiền Nhật)). Câu đầy đủ: 千円です。"
+    },
+    {
+     "prompt": "「ください」 có nghĩa là gì?",
+     "options": [
+      "bao nhiêu tiền",
+      "rẻ",
+      "xin hãy cho tôi"
+     ],
+     "answer": 2,
+     "explanation": "「ください」 [kudasai] = xin hãy cho tôi."
+    },
+    {
+     "prompt": "「安い」 đọc là gì?",
+     "options": [
+      "yasui",
+      "kudasai",
+      "takai"
+     ],
+     "answer": 0,
+     "explanation": "「安い」 đọc là [yasui], nghĩa là rẻ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: これは＿＿＿ですか。  (Cái này bao nhiêu tiền?)",
+     "options": [
+      "円",
+      "高い",
+      "いくら"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「いくら」 (bao nhiêu tiền). Câu đầy đủ: これはいくらですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a1-4",
+   "level": "A1",
+   "unit": "N5 · Bài 4",
+   "category": "Từ vựng",
+   "title": "Thời tiết và các mùa",
+   "objective": "Nói về thời tiết hôm nay và mùa yêu thích.",
+   "reading": "田中: 今日はいい天気ですね。\nミン: そうですね。でも、ちょっと暑いです。\n田中: ミンさんはどの季節が好きですか。\nミン: 秋が好きです。涼しいですから。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "今日はいい天気ですね。",
+     "phonetic": "Kyō wa ii tenki desu ne.",
+     "translation": "Hôm nay trời đẹp nhỉ."
+    },
+    {
+     "speaker": "ミン",
+     "text": "そうですね。でも、ちょっと暑いです。",
+     "phonetic": "Sō desu ne. Demo, chotto atsui desu.",
+     "translation": "Đúng vậy. Nhưng hơi nóng."
+    },
+    {
+     "speaker": "田中",
+     "text": "ミンさんはどの季節が好きですか。",
+     "phonetic": "Min-san wa dono kisetsu ga suki desu ka.",
+     "translation": "Bạn Minh thích mùa nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "秋が好きです。涼しいですから。",
+     "phonetic": "Aki ga suki desu. Suzushii desu kara.",
+     "translation": "Tôi thích mùa thu. Vì trời mát."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "天気",
+     "reading": "tenki",
+     "definition": "thời tiết",
+     "example": "明日の天気はどうですか。 (Thời tiết ngày mai thế nào?)"
+    },
+    {
+     "term": "暑い",
+     "reading": "atsui",
+     "definition": "nóng (thời tiết)",
+     "example": "夏はとても暑いです。 (Mùa hè rất nóng.)"
+    },
+    {
+     "term": "寒い",
+     "reading": "samui",
+     "definition": "lạnh (thời tiết)",
+     "example": "冬は寒いです。 (Mùa đông lạnh.)"
+    },
+    {
+     "term": "季節",
+     "reading": "kisetsu",
+     "definition": "mùa",
+     "example": "日本には四つの季節があります。 (Nhật có bốn mùa.)"
+    },
+    {
+     "term": "雨",
+     "reading": "ame",
+     "definition": "mưa",
+     "example": "今日は雨です。 (Hôm nay trời mưa.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜が好きです và 〜から",
+    "explanation": "N が好きです: thích N. Lý do đặt sau câu bằng 〜から (vì): 涼しいですから. Đuôi ね ở cuối câu để tìm sự đồng tình: いい天気ですね.",
+    "examples": [
+     "夏が好きです。[natsu ga suki desu] (Tôi thích mùa hè.)",
+     "寒いですから、コートを着ます。[samui desu kara, kōto o kimasu] (Vì lạnh nên tôi mặc áo khoác.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm つ và す",
+    "tip": "つ (tsu) đầu lưỡi chạm lợi rồi bật ra, khác す (su). 暑い atsui, 涼しい suzushii. Nguyên âm u cuối như です thường đọc rất nhẹ: des.",
+    "words": [
+     "あつい",
+     "すずしい",
+     "きせつ",
+     "てんき"
+    ]
+   },
+   "speakingTasks": [
+    "Nói thời tiết hôm nay và mùa bạn thích, có lý do.",
+    "Hỏi thầy/cô: 日本の夏は暑いですか。"
+   ],
+   "questions": [
+    {
+     "prompt": "“Hôm nay trời đẹp nhỉ.” là:",
+     "options": [
+      "今日はいい天気ですか。",
+      "今日はいい天気ですね。",
+      "今日をいい天気です。"
+     ],
+     "answer": 1,
+     "explanation": "ね cuối câu tìm sự đồng tình."
+    },
+    {
+     "prompt": "“Vì trời mát” là:",
+     "options": [
+      "から涼しいです",
+      "涼しいからです。が",
+      "涼しいですから"
+     ],
+     "answer": 2,
+     "explanation": "Lý do + から."
+    },
+    {
+     "prompt": "「寒い」 nghĩa là:",
+     "options": [
+      "mát",
+      "lạnh",
+      "nóng"
+     ],
+     "answer": 1,
+     "explanation": "寒い = lạnh."
+    },
+    {
+     "prompt": "Hỏi “Bạn thích mùa nào?”",
+     "options": [
+      "どの季節を好きます。",
+      "季節はどれ好きですか。",
+      "どの季節が好きですか。"
+     ],
+     "answer": 2,
+     "explanation": "どの + N + が好きですか."
+    },
+    {
+     "prompt": "「天気」 có nghĩa là gì?",
+     "options": [
+      "lạnh (thời tiết)",
+      "mùa",
+      "thời tiết"
+     ],
+     "answer": 2,
+     "explanation": "「天気」 [tenki] = thời tiết."
+    },
+    {
+     "prompt": "「暑い」 đọc là gì?",
+     "options": [
+      "kisetsu",
+      "ame",
+      "atsui"
+     ],
+     "answer": 2,
+     "explanation": "「暑い」 đọc là [atsui], nghĩa là nóng (thời tiết)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 明日の＿＿＿はどうですか。  (Thời tiết ngày mai thế nào?)",
+     "options": [
+      "季節",
+      "天気",
+      "寒い"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「天気」 (thời tiết). Câu đầy đủ: 明日の天気はどうですか。"
+    },
+    {
+     "prompt": "「雨」 có nghĩa là gì?",
+     "options": [
+      "thời tiết",
+      "mưa",
+      "mùa"
+     ],
+     "answer": 1,
+     "explanation": "「雨」 [ame] = mưa."
+    },
+    {
+     "prompt": "「寒い」 đọc là gì?",
+     "options": [
+      "samui",
+      "ame",
+      "tenki"
+     ],
+     "answer": 0,
+     "explanation": "「寒い」 đọc là [samui], nghĩa là lạnh (thời tiết)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 冬は＿＿＿です。  (Mùa đông lạnh.)",
+     "options": [
+      "雨",
+      "天気",
+      "寒い"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「寒い」 (lạnh (thời tiết)). Câu đầy đủ: 冬は寒いです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a2-1",
+   "level": "A2",
+   "unit": "N4 · Bài 1",
+   "category": "Ngữ pháp",
+   "title": "Thói quen hằng ngày và giờ giấc",
+   "objective": "Kể một ngày bình thường với thể ます và giờ giấc.",
+   "reading": "ミン: 毎朝六時に起きます。\n田中: 朝ごはんは何を食べますか。\nミン: パンを食べて、コーヒーを飲みます。\n田中: 何時に会社へ行きますか。\nミン: 八時に家を出て、電車で行きます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "毎朝六時に起きます。",
+     "phonetic": "Maiasa rokuji ni okimasu.",
+     "translation": "Mỗi sáng tôi dậy lúc 6 giờ."
+    },
+    {
+     "speaker": "田中",
+     "text": "朝ごはんは何を食べますか。",
+     "phonetic": "Asagohan wa nani o tabemasu ka.",
+     "translation": "Bạn ăn gì vào bữa sáng?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "パンを食べて、コーヒーを飲みます。",
+     "phonetic": "Pan o tabete, kōhī o nomimasu.",
+     "translation": "Tôi ăn bánh mì rồi uống cà phê."
+    },
+    {
+     "speaker": "田中",
+     "text": "何時に会社へ行きますか。",
+     "phonetic": "Nanji ni kaisha e ikimasu ka.",
+     "translation": "Bạn đi làm lúc mấy giờ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "八時に家を出て、電車で行きます。",
+     "phonetic": "Hachiji ni ie o dete, densha de ikimasu.",
+     "translation": "Tôi ra khỏi nhà lúc 8 giờ và đi bằng tàu điện."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "毎朝",
+     "reading": "maiasa",
+     "definition": "mỗi sáng",
+     "example": "毎朝コーヒーを飲みます。 (Mỗi sáng tôi uống cà phê.)"
+    },
+    {
+     "term": "起きます",
+     "reading": "okimasu",
+     "definition": "thức dậy",
+     "example": "六時に起きます。 (Tôi dậy lúc 6 giờ.)"
+    },
+    {
+     "term": "会社",
+     "reading": "kaisha",
+     "definition": "công ty",
+     "example": "会社へ行きます。 (Tôi đi đến công ty.)"
+    },
+    {
+     "term": "電車",
+     "reading": "densha",
+     "definition": "tàu điện",
+     "example": "電車で行きます。 (Tôi đi bằng tàu điện.)"
+    },
+    {
+     "term": "何時",
+     "reading": "nanji",
+     "definition": "mấy giờ",
+     "example": "今、何時ですか。 (Bây giờ là mấy giờ?)"
+    }
+   ],
+   "grammar": {
+    "title": "Thể て để nối hành động",
+    "explanation": "Nối các hành động liên tiếp bằng thể て: V1 て、V2. Phương tiện đi với で, thời điểm với に: 八時に / 電車で.",
+    "examples": [
+     "起きて、顔を洗います。[okite, kao o araimasu] (Tôi dậy rồi rửa mặt.)",
+     "バスで会社へ行きます。[basu de kaisha e ikimasu] (Tôi đi làm bằng xe buýt.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giờ trong tiếng Nhật",
+    "tip": "Giờ: 一時 ichiji, 四時 yoji (không đọc shiji), 七時 shichiji, 九時 kuji (không đọc kyūji). Phút: 一分 ippun, 三分 sanpun, 五分 gofun.",
+    "words": [
+     "よじ",
+     "くじ",
+     "しちじ",
+     "ごふん"
+    ]
+   },
+   "speakingTasks": [
+    "Kể 5 việc bạn làm từ sáng đến tối, có giờ cụ thể.",
+    "Hỏi thầy/cô: 何時に起きますか。"
+   ],
+   "questions": [
+    {
+     "prompt": "Thể て của 「食べます」 là:",
+     "options": [
+      "食べんで",
+      "食べて",
+      "食べって"
+     ],
+     "answer": 1,
+     "explanation": "Nhóm 2: bỏ ます thêm て."
+    },
+    {
+     "prompt": "“Tôi đi làm bằng tàu điện.” là:",
+     "options": [
+      "電車に会社を行きます。",
+      "電車で会社へ行きます。",
+      "電車を会社へ行きます。"
+     ],
+     "answer": 1,
+     "explanation": "Phương tiện đi với で."
+    },
+    {
+     "prompt": "4 giờ đọc là:",
+     "options": [
+      "しじ",
+      "よじ",
+      "よんじ"
+     ],
+     "answer": 1,
+     "explanation": "4 giờ đọc yoji."
+    },
+    {
+     "prompt": "“Tôi dậy lúc 6 giờ.” là:",
+     "options": [
+      "六時で起きます。",
+      "六時に起きます。",
+      "六時を起きます。"
+     ],
+     "answer": 1,
+     "explanation": "Thời điểm cụ thể đi với に."
+    },
+    {
+     "prompt": "「毎朝」 có nghĩa là gì?",
+     "options": [
+      "mỗi sáng",
+      "mấy giờ",
+      "thức dậy"
+     ],
+     "answer": 0,
+     "explanation": "「毎朝」 [maiasa] = mỗi sáng."
+    },
+    {
+     "prompt": "「電車」 đọc là gì?",
+     "options": [
+      "maiasa",
+      "densha",
+      "nanji"
+     ],
+     "answer": 1,
+     "explanation": "「電車」 đọc là [densha], nghĩa là tàu điện."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 六時に＿＿＿。  (Tôi dậy lúc 6 giờ.)",
+     "options": [
+      "何時",
+      "起きます",
+      "毎朝"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「起きます」 (thức dậy). Câu đầy đủ: 六時に起きます。"
+    },
+    {
+     "prompt": "「電車」 có nghĩa là gì?",
+     "options": [
+      "tàu điện",
+      "mấy giờ",
+      "mỗi sáng"
+     ],
+     "answer": 0,
+     "explanation": "「電車」 [densha] = tàu điện."
+    },
+    {
+     "prompt": "「何時」 đọc là gì?",
+     "options": [
+      "densha",
+      "maiasa",
+      "nanji"
+     ],
+     "answer": 2,
+     "explanation": "「何時」 đọc là [nanji], nghĩa là mấy giờ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿コーヒーを飲みます。  (Mỗi sáng tôi uống cà phê.)",
+     "options": [
+      "毎朝",
+      "何時",
+      "起きます"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「毎朝」 (mỗi sáng). Câu đầy đủ: 毎朝コーヒーを飲みます。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a2-2",
+   "level": "A2",
+   "unit": "N4 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Gọi món ở nhà hàng",
+   "objective": "Gọi món, hỏi món gợi ý, nói sở thích và thanh toán.",
+   "reading": "店員: いらっしゃいませ。何名様ですか。\nミン: 二人です。メニューをお願いします。\n店員: ご注文はお決まりですか。\nミン: ラーメンと餃子をください。\nミン: すみません、お会計をお願いします。",
+   "dialogue": [
+    {
+     "speaker": "店員",
+     "text": "いらっしゃいませ。何名様ですか。",
+     "phonetic": "Irasshaimase. Nanmei-sama desu ka.",
+     "translation": "Xin chào quý khách. Quý khách đi mấy người ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "二人です。メニューをお願いします。",
+     "phonetic": "Futari desu. Menyū o onegai shimasu.",
+     "translation": "Hai người. Cho tôi xem thực đơn."
+    },
+    {
+     "speaker": "店員",
+     "text": "ご注文はお決まりですか。",
+     "phonetic": "Gochūmon wa okimari desu ka.",
+     "translation": "Quý khách đã chọn món chưa ạ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "ラーメンと餃子をください。",
+     "phonetic": "Rāmen to gyōza o kudasai.",
+     "translation": "Cho tôi mì ramen và há cảo."
+    },
+    {
+     "speaker": "ミン",
+     "text": "すみません、お会計をお願いします。",
+     "phonetic": "Sumimasen, okaikei o onegai shimasu.",
+     "translation": "Xin lỗi, cho tôi thanh toán."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "注文",
+     "reading": "chūmon",
+     "definition": "gọi món",
+     "example": "注文をお願いします。 (Cho tôi gọi món.)"
+    },
+    {
+     "term": "メニュー",
+     "reading": "menyū",
+     "definition": "thực đơn",
+     "example": "メニューをください。 (Cho tôi thực đơn.)"
+    },
+    {
+     "term": "お会計",
+     "reading": "okaikei",
+     "definition": "thanh toán",
+     "example": "お会計をお願いします。 (Cho tôi thanh toán.)"
+    },
+    {
+     "term": "おすすめ",
+     "reading": "osusume",
+     "definition": "món gợi ý",
+     "example": "おすすめは何ですか。 (Món gợi ý là gì?)"
+    },
+    {
+     "term": "辛い",
+     "reading": "karai",
+     "definition": "cay",
+     "example": "このスープは辛いです。 (Món canh này cay.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜をお願いします・〜と〜をください",
+    "explanation": "Nhờ lịch sự: N をお願いします. Gọi nhiều món nối bằng と: ラーメンと餃子をください. Hỏi gợi ý: おすすめは何ですか。",
+    "examples": [
+     "水をお願いします。[mizu o onegai shimasu] (Cho tôi nước.)",
+     "ラーメンと餃子をください。[rāmen to gyōza o kudasai] (Cho tôi ramen và há cảo.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm ngắt っ và âm kéo dài",
+    "tip": "っ nhỏ là khoảng ngắt ngắn trước phụ âm: ざっし, ちょっと. Hãy giữ nhịp một phách trống. Âm dài như ラーメン (rāmen) cần kéo đủ hai phách.",
+    "words": [
+     "ちょっと",
+     "ざっし",
+     "ラーメン",
+     "おすすめ"
+    ]
+   },
+   "speakingTasks": [
+    "Đóng vai khách gọi 2 món và hỏi món gợi ý.",
+    "Thầy/cô là nhân viên: trả lời và hỏi lại “お飲み物は？”."
+   ],
+   "questions": [
+    {
+     "prompt": "Gọi mì ramen và há cảo:",
+     "options": [
+      "ラーメンを餃子をください。",
+      "ラーメンで餃子をください。",
+      "ラーメンと餃子をください。"
+     ],
+     "answer": 2,
+     "explanation": "Nối danh từ bằng と."
+    },
+    {
+     "prompt": "Muốn thanh toán, bạn nói:",
+     "options": [
+      "いただきます。",
+      "お会計をお願いします。",
+      "メニューをお願いします。"
+     ],
+     "answer": 1,
+     "explanation": "お会計 = thanh toán."
+    },
+    {
+     "prompt": "「辛い」 nghĩa là:",
+     "options": [
+      "ngọt",
+      "cay",
+      "chua"
+     ],
+     "answer": 1,
+     "explanation": "辛い (karai) = cay."
+    },
+    {
+     "prompt": "Hỏi món gợi ý của quán:",
+     "options": [
+      "おすすめはどこですか。",
+      "おすすめは何ですか。",
+      "おすすめはいくらです。"
+     ],
+     "answer": 1,
+     "explanation": "何 = cái gì."
+    },
+    {
+     "prompt": "「メニュー」 có nghĩa là gì?",
+     "options": [
+      "cay",
+      "gọi món",
+      "thực đơn"
+     ],
+     "answer": 2,
+     "explanation": "「メニュー」 [menyū] = thực đơn."
+    },
+    {
+     "prompt": "「メニュー」 đọc là gì?",
+     "options": [
+      "karai",
+      "chūmon",
+      "menyū"
+     ],
+     "answer": 2,
+     "explanation": "「メニュー」 đọc là [menyū], nghĩa là thực đơn."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をお願いします。  (Cho tôi gọi món.)",
+     "options": [
+      "おすすめ",
+      "辛い",
+      "注文"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「注文」 (gọi món). Câu đầy đủ: 注文をお願いします。"
+    },
+    {
+     "prompt": "「お会計」 có nghĩa là gì?",
+     "options": [
+      "thanh toán",
+      "gọi món",
+      "món gợi ý"
+     ],
+     "answer": 0,
+     "explanation": "「お会計」 [okaikei] = thanh toán."
+    },
+    {
+     "prompt": "「注文」 đọc là gì?",
+     "options": [
+      "karai",
+      "chūmon",
+      "osusume"
+     ],
+     "answer": 1,
+     "explanation": "「注文」 đọc là [chūmon], nghĩa là gọi món."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は何ですか。  (Món gợi ý là gì?)",
+     "options": [
+      "注文",
+      "おすすめ",
+      "辛い"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「おすすめ」 (món gợi ý). Câu đầy đủ: おすすめは何ですか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a2-3",
+   "level": "A2",
+   "unit": "N4 · Bài 3",
+   "category": "Giao tiếp",
+   "title": "Hỏi đường và đi tàu điện",
+   "objective": "Hỏi đường, hiểu chỉ dẫn rẽ trái phải và hỏi ga.",
+   "reading": "ミン: すみません、駅はどこですか。\n男性: まっすぐ行って、二つ目の角を右に曲がってください。\nミン: 歩いて何分ぐらいですか。\n男性: 五分ぐらいです。銀行の隣にありますよ。\nミン: ありがとうございます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "すみません、駅はどこですか。",
+     "phonetic": "Sumimasen, eki wa doko desu ka.",
+     "translation": "Xin lỗi, ga ở đâu ạ?"
+    },
+    {
+     "speaker": "男性",
+     "text": "まっすぐ行って、二つ目の角を右に曲がってください。",
+     "phonetic": "Massugu itte, futatsu-me no kado o migi ni magatte kudasai.",
+     "translation": "Hãy đi thẳng rồi rẽ phải ở góc thứ hai."
+    },
+    {
+     "speaker": "ミン",
+     "text": "歩いて何分ぐらいですか。",
+     "phonetic": "Aruite nanpun gurai desu ka.",
+     "translation": "Đi bộ khoảng bao nhiêu phút ạ?"
+    },
+    {
+     "speaker": "男性",
+     "text": "五分ぐらいです。銀行の隣にありますよ。",
+     "phonetic": "Gofun gurai desu. Ginkō no tonari ni arimasu yo.",
+     "translation": "Khoảng 5 phút. Nó ở cạnh ngân hàng đấy."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ありがとうございます。",
+     "phonetic": "Arigatō gozaimasu.",
+     "translation": "Cảm ơn anh."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "まっすぐ",
+     "reading": "massugu",
+     "definition": "thẳng",
+     "example": "まっすぐ行ってください。 (Hãy đi thẳng.)"
+    },
+    {
+     "term": "右",
+     "reading": "migi",
+     "definition": "bên phải",
+     "example": "右に曲がってください。 (Hãy rẽ phải.)"
+    },
+    {
+     "term": "左",
+     "reading": "hidari",
+     "definition": "bên trái",
+     "example": "左にあります。 (Nó ở bên trái.)"
+    },
+    {
+     "term": "隣",
+     "reading": "tonari",
+     "definition": "bên cạnh",
+     "example": "銀行の隣にあります。 (Nó ở cạnh ngân hàng.)"
+    },
+    {
+     "term": "駅",
+     "reading": "eki",
+     "definition": "ga tàu",
+     "example": "駅はどこですか。 (Ga ở đâu?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜てください và vị trí",
+    "explanation": "Nhờ chỉ đường dùng thể て + ください: 曲がってください. Vị trí: N の隣 / 前 / 後ろ / 近く + に あります. Hỏi nơi chốn: どこですか。",
+    "examples": [
+     "右に曲がってください。[migi ni magatte kudasai] (Hãy rẽ phải.)",
+     "コンビニは駅の前にあります。[konbini wa eki no mae ni arimasu] (Cửa hàng tiện lợi ở trước ga.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Trọng âm cao thấp (pitch)",
+    "tip": "Tiếng Nhật có trọng âm cao – thấp theo từng từ. はし (cây cầu) và はし (đôi đũa) khác nhau ở cao độ. Hãy bắt chước đúng giai điệu khi nghe mẫu.",
+    "words": [
+     "はし",
+     "あめ",
+     "いま",
+     "えき"
+    ]
+   },
+   "speakingTasks": [
+    "Chỉ đường từ nhà bạn đến ga gần nhất.",
+    "Hỏi thầy/cô đường đến bưu điện."
+   ],
+   "questions": [
+    {
+     "prompt": "“Hãy rẽ phải.” là:",
+     "options": [
+      "右が曲がってです。",
+      "右に曲がってください。",
+      "右を曲がるください。"
+     ],
+     "answer": 1,
+     "explanation": "曲がる → 曲がって + ください."
+    },
+    {
+     "prompt": "Hỏi ga ở đâu:",
+     "options": [
+      "駅はどこですか。",
+      "駅はだれですか。",
+      "駅はいくらですか。"
+     ],
+     "answer": 0,
+     "explanation": "どこ = ở đâu."
+    },
+    {
+     "prompt": "「隣」 nghĩa là:",
+     "options": [
+      "phía trên",
+      "bên cạnh",
+      "phía sau"
+     ],
+     "answer": 1,
+     "explanation": "隣 (tonari) = bên cạnh."
+    },
+    {
+     "prompt": "Cửa hàng ở trước ga:",
+     "options": [
+      "駅の前でいます。",
+      "駅の前をあります。",
+      "駅の前にあります。"
+     ],
+     "answer": 2,
+     "explanation": "Đồ vật tồn tại ở đâu: に あります."
+    },
+    {
+     "prompt": "「駅」 có nghĩa là gì?",
+     "options": [
+      "bên phải",
+      "ga tàu",
+      "bên cạnh"
+     ],
+     "answer": 1,
+     "explanation": "「駅」 [eki] = ga tàu."
+    },
+    {
+     "prompt": "「まっすぐ」 đọc là gì?",
+     "options": [
+      "hidari",
+      "massugu",
+      "tonari"
+     ],
+     "answer": 1,
+     "explanation": "「まっすぐ」 đọc là [massugu], nghĩa là thẳng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 銀行の＿＿＿にあります。  (Nó ở cạnh ngân hàng.)",
+     "options": [
+      "右",
+      "まっすぐ",
+      "隣"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「隣」 (bên cạnh). Câu đầy đủ: 銀行の隣にあります。"
+    },
+    {
+     "prompt": "「隣」 có nghĩa là gì?",
+     "options": [
+      "thẳng",
+      "bên phải",
+      "bên cạnh"
+     ],
+     "answer": 2,
+     "explanation": "「隣」 [tonari] = bên cạnh."
+    },
+    {
+     "prompt": "「左」 đọc là gì?",
+     "options": [
+      "hidari",
+      "eki",
+      "tonari"
+     ],
+     "answer": 0,
+     "explanation": "「左」 đọc là [hidari], nghĩa là bên trái."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿行ってください。  (Hãy đi thẳng.)",
+     "options": [
+      "左",
+      "隣",
+      "まっすぐ"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「まっすぐ」 (thẳng). Câu đầy đủ: まっすぐ行ってください。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-a2-4",
+   "level": "A2",
+   "unit": "N4 · Bài 4",
+   "category": "Giao tiếp",
+   "title": "Rủ bạn đi chơi cuối tuần",
+   "objective": "Rủ, nhận lời hoặc từ chối và hẹn giờ gặp.",
+   "reading": "ミン: 土曜日、一緒に映画を見ませんか。\n友だち: いいですね。何時にしましょうか。\nミン: 二時に駅の前で会いましょう。\n友だち: わかりました。楽しみにしています。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "土曜日、一緒に映画を見ませんか。",
+     "phonetic": "Doyōbi, issho ni eiga o mimasen ka.",
+     "translation": "Thứ Bảy cùng đi xem phim không?"
+    },
+    {
+     "speaker": "友だち",
+     "text": "いいですね。何時にしましょうか。",
+     "phonetic": "Ii desu ne. Nanji ni shimashō ka.",
+     "translation": "Hay đấy. Hẹn mấy giờ nhỉ?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "二時に駅の前で会いましょう。",
+     "phonetic": "Niji ni eki no mae de aimashō.",
+     "translation": "Gặp nhau trước ga lúc 2 giờ nhé."
+    },
+    {
+     "speaker": "友だち",
+     "text": "わかりました。楽しみにしています。",
+     "phonetic": "Wakarimashita. Tanoshimi ni shite imasu.",
+     "translation": "Được rồi. Mình rất mong đợi."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "一緒に",
+     "reading": "issho ni",
+     "definition": "cùng nhau",
+     "example": "一緒に行きましょう。 (Cùng đi nhé.)"
+    },
+    {
+     "term": "映画",
+     "reading": "eiga",
+     "definition": "phim",
+     "example": "映画を見ます。 (Tôi xem phim.)"
+    },
+    {
+     "term": "会います",
+     "reading": "aimasu",
+     "definition": "gặp",
+     "example": "駅の前で会います。 (Gặp trước ga.)"
+    },
+    {
+     "term": "前",
+     "reading": "mae",
+     "definition": "phía trước",
+     "example": "駅の前にいます。 (Tôi đang ở trước ga.)"
+    },
+    {
+     "term": "楽しみ",
+     "reading": "tanoshimi",
+     "definition": "mong đợi, niềm vui",
+     "example": "旅行が楽しみです。 (Tôi mong chuyến du lịch.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ませんか / 〜ましょう",
+    "explanation": "Rủ rê lịch sự: V ませんか (… không?). Đề nghị cùng làm: V ましょう (… nhé). Từ chối khéo: すみません、土曜日はちょっと…",
+    "examples": [
+     "お茶を飲みませんか。[ocha o nomimasen ka] (Uống trà không?)",
+     "三時に会いましょう。[sanji ni aimashō] (Gặp lúc 3 giờ nhé.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Ngữ điệu câu rủ",
+    "tip": "Câu 〜ませんか lên giọng nhẹ ở か. Câu từ chối ちょっと… kéo dài và hạ giọng, không nói hết câu.",
+    "words": [
+     "いっしょに",
+     "えいが",
+     "たのしみ",
+     "ちょっと"
+    ]
+   },
+   "speakingTasks": [
+    "Rủ bạn đi chơi cuối tuần, hẹn giờ và địa điểm.",
+    "Từ chối lời rủ của thầy/cô một cách khéo léo."
+   ],
+   "questions": [
+    {
+     "prompt": "Rủ “Cùng ăn trưa không?”",
+     "options": [
+      "一緒に昼ご飯を食べません。",
+      "一緒に昼ご飯を食べませんか。",
+      "一緒に昼ご飯が食べますか。"
+     ],
+     "answer": 1,
+     "explanation": "V ませんか là lời rủ."
+    },
+    {
+     "prompt": "“Gặp nhau trước ga nhé.” là:",
+     "options": [
+      "駅の前で会いましょう。",
+      "駅の前を会いましょう。",
+      "駅の前に会うでしょう。"
+     ],
+     "answer": 0,
+     "explanation": "Nơi diễn ra hành động dùng で."
+    },
+    {
+     "prompt": "Từ chối khéo thường nói:",
+     "options": [
+      "嫌です。",
+      "いいえ、行きません!",
+      "土曜日はちょっと…"
+     ],
+     "answer": 2,
+     "explanation": "ちょっと… là cách từ chối nhẹ nhàng."
+    },
+    {
+     "prompt": "「楽しみにしています」 nghĩa là:",
+     "options": [
+      "Tôi rất mong đợi",
+      "Tôi không muốn",
+      "Tôi đã mệt"
+     ],
+     "answer": 0,
+     "explanation": "楽しみ = niềm mong đợi."
+    },
+    {
+     "prompt": "「映画」 có nghĩa là gì?",
+     "options": [
+      "phim",
+      "mong đợi, niềm vui",
+      "phía trước"
+     ],
+     "answer": 0,
+     "explanation": "「映画」 [eiga] = phim."
+    },
+    {
+     "prompt": "「楽しみ」 đọc là gì?",
+     "options": [
+      "tanoshimi",
+      "issho ni",
+      "eiga"
+     ],
+     "answer": 0,
+     "explanation": "「楽しみ」 đọc là [tanoshimi], nghĩa là mong đợi, niềm vui."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿を見ます。  (Tôi xem phim.)",
+     "options": [
+      "映画",
+      "楽しみ",
+      "前"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「映画」 (phim). Câu đầy đủ: 映画を見ます。"
+    },
+    {
+     "prompt": "「一緒に」 có nghĩa là gì?",
+     "options": [
+      "gặp",
+      "cùng nhau",
+      "phía trước"
+     ],
+     "answer": 1,
+     "explanation": "「一緒に」 [issho ni] = cùng nhau."
+    },
+    {
+     "prompt": "「会います」 đọc là gì?",
+     "options": [
+      "aimasu",
+      "mae",
+      "eiga"
+     ],
+     "answer": 0,
+     "explanation": "「会います」 đọc là [aimasu], nghĩa là gặp."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 旅行が＿＿＿です。  (Tôi mong chuyến du lịch.)",
+     "options": [
+      "一緒に",
+      "映画",
+      "楽しみ"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「楽しみ」 (mong đợi, niềm vui). Câu đầy đủ: 旅行が楽しみです。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b1-1",
+   "level": "B1",
+   "unit": "N3 · Bài 1",
+   "category": "Ngữ pháp",
+   "title": "Kể về kinh nghiệm và kế hoạch",
+   "objective": "Nói về điều đã từng làm và dự định tương lai.",
+   "reading": "田中: 日本の生活はどうですか。\nミン: 最初は大変でしたが、今は慣れました。富士山に登ったことがあります。\n田中: すごいですね。今度の休みは何をする予定ですか。\nミン: 京都へ行くつもりです。お寺を見たり、お茶を飲んだりしたいです。\n田中: いいですね。桜の季節なら最高ですよ。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "日本の生活はどうですか。",
+     "translation": "Cuộc sống ở Nhật thế nào?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "最初は大変でしたが、今は慣れました。富士山に登ったことがあります。",
+     "translation": "Lúc đầu vất vả nhưng giờ tôi quen rồi. Tôi đã từng leo núi Phú Sĩ."
+    },
+    {
+     "speaker": "田中",
+     "text": "すごいですね。今度の休みは何をする予定ですか。",
+     "translation": "Giỏi quá. Kỳ nghỉ tới bạn định làm gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "京都へ行くつもりです。お寺を見たり、お茶を飲んだりしたいです。",
+     "translation": "Tôi định đi Kyoto. Tôi muốn ngắm chùa, uống trà."
+    },
+    {
+     "speaker": "田中",
+     "text": "いいですね。桜の季節なら最高ですよ。",
+     "translation": "Hay đấy. Nếu là mùa hoa anh đào thì tuyệt nhất đấy."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "生活",
+     "reading": "せいかつ",
+     "definition": "cuộc sống",
+     "example": "日本の生活に慣れました。 (Tôi đã quen với cuộc sống ở Nhật.)"
+    },
+    {
+     "term": "慣れました",
+     "reading": "なれました",
+     "definition": "đã quen",
+     "example": "仕事に慣れました。 (Tôi đã quen với công việc.)"
+    },
+    {
+     "term": "予定",
+     "reading": "よてい",
+     "definition": "dự định, lịch",
+     "example": "来週の予定を教えてください。 (Hãy cho tôi biết lịch tuần sau.)"
+    },
+    {
+     "term": "つもり",
+     "reading": "つもり",
+     "definition": "định, có ý định",
+     "example": "来年日本へ行くつもりです。 (Năm sau tôi định đi Nhật.)"
+    },
+    {
+     "term": "季節",
+     "reading": "きせつ",
+     "definition": "mùa",
+     "example": "春は桜の季節です。 (Mùa xuân là mùa hoa anh đào.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜たことがある・〜つもり・〜たり〜たり",
+    "explanation": "V た + ことがある: đã từng. V る + つもりだ: định làm (đã quyết định). V たり V たりする: liệt kê vài hành động tiêu biểu.",
+    "examples": [
+     "沖縄へ行ったことがあります。(Tôi đã từng đến Okinawa.)",
+     "週末は友だちと会うつもりです。(Cuối tuần tôi định gặp bạn.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nhịp điệu mora",
+    "tip": "Tiếng Nhật đọc theo phách (mora) đều nhau, kể cả âm っ và ん. 「にほん」 có 3 phách, 「ちょっと」 có 4 phách. Gõ nhịp khi đọc để không rút ngắn các âm.",
+    "words": [
+     "にほん",
+     "ちょっと",
+     "せいかつ",
+     "つもり"
+    ]
+   },
+   "speakingTasks": [
+    "Kể 2 điều bạn đã từng làm ở Nhật (hoặc muốn làm).",
+    "Nói kế hoạch kỳ nghỉ tới bằng 〜つもり."
+   ],
+   "questions": [
+    {
+     "prompt": "“Tôi đã từng leo núi Phú Sĩ.” là:",
+     "options": [
+      "富士山に登ったことがあります。",
+      "富士山を登りたことがあります。",
+      "富士山に登ることがあります。"
+     ],
+     "answer": 0,
+     "explanation": "V た + ことがある = đã từng."
+    },
+    {
+     "prompt": "「来年日本へ行く___です。」 Điền từ:",
+     "options": [
+      "ところ",
+      "はず",
+      "つもり"
+     ],
+     "answer": 2,
+     "explanation": "V る + つもり = có ý định."
+    },
+    {
+     "prompt": "Liệt kê hành động đúng:",
+     "options": [
+      "映画を見たり、買い物したりします。",
+      "映画を見たり、買い物します。",
+      "映画を見て、買い物したりです。"
+     ],
+     "answer": 0,
+     "explanation": "〜たり phải xuất hiện ở từng hành động."
+    },
+    {
+     "prompt": "「慣れました」 nghĩa là:",
+     "options": [
+      "đã quen",
+      "đã quên",
+      "đã mệt"
+     ],
+     "answer": 0,
+     "explanation": "慣れる = quen với."
+    },
+    {
+     "prompt": "「生活」 có nghĩa là gì?",
+     "options": [
+      "cuộc sống",
+      "đã quen",
+      "mùa"
+     ],
+     "answer": 0,
+     "explanation": "「生活」 [せいかつ] = cuộc sống."
+    },
+    {
+     "prompt": "「慣れました」 đọc là gì?",
+     "options": [
+      "なれました",
+      "よてい",
+      "きせつ"
+     ],
+     "answer": 0,
+     "explanation": "「慣れました」 đọc là [なれました], nghĩa là đã quen."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 来年日本へ行く＿＿＿です。  (Năm sau tôi định đi Nhật.)",
+     "options": [
+      "慣れました",
+      "つもり",
+      "生活"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「つもり」 (định, có ý định). Câu đầy đủ: 来年日本へ行くつもりです。"
+    },
+    {
+     "prompt": "「つもり」 có nghĩa là gì?",
+     "options": [
+      "định, có ý định",
+      "cuộc sống",
+      "đã quen"
+     ],
+     "answer": 0,
+     "explanation": "「つもり」 [つもり] = định, có ý định."
+    },
+    {
+     "prompt": "「季節」 đọc là gì?",
+     "options": [
+      "よてい",
+      "きせつ",
+      "なれました"
+     ],
+     "answer": 1,
+     "explanation": "「季節」 đọc là [きせつ], nghĩa là mùa."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 春は桜の＿＿＿です。  (Mùa xuân là mùa hoa anh đào.)",
+     "options": [
+      "慣れました",
+      "予定",
+      "季節"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「季節」 (mùa). Câu đầy đủ: 春は桜の季節です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b1-2",
+   "level": "B1",
+   "unit": "N3 · Bài 2",
+   "category": "Giao tiếp",
+   "title": "Nhờ vả, xin phép và từ chối khéo",
+   "objective": "Nhờ người khác, xin phép và từ chối một cách lịch sự.",
+   "reading": "ミン: 田中さん、ちょっとお願いがあるんですが。\n田中: はい、何ですか。\nミン: この資料を日本語でチェックしていただけませんか。\n田中: すみません、今日は忙しくて、明日でもいいですか。\nミン: はい、大丈夫です。ありがとうございます。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "田中さん、ちょっとお願いがあるんですが。",
+     "translation": "Anh Tanaka, tôi có chút việc muốn nhờ."
+    },
+    {
+     "speaker": "田中",
+     "text": "はい、何ですか。",
+     "translation": "Vâng, chuyện gì vậy?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "この資料を日本語でチェックしていただけませんか。",
+     "translation": "Anh có thể kiểm tra giúp tài liệu này bằng tiếng Nhật không?"
+    },
+    {
+     "speaker": "田中",
+     "text": "すみません、今日は忙しくて、明日でもいいですか。",
+     "translation": "Xin lỗi, hôm nay tôi bận, ngày mai được không?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "はい、大丈夫です。ありがとうございます。",
+     "translation": "Vâng, không sao ạ. Cảm ơn anh."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "お願い",
+     "reading": "おねがい",
+     "definition": "việc nhờ vả",
+     "example": "お願いがあるんですが。 (Tôi có chút việc muốn nhờ.)"
+    },
+    {
+     "term": "チェックする",
+     "reading": "ちぇっくする",
+     "definition": "kiểm tra",
+     "example": "メールをチェックします。 (Tôi kiểm tra email.)"
+    },
+    {
+     "term": "忙しい",
+     "reading": "いそがしい",
+     "definition": "bận",
+     "example": "今週は忙しいです。 (Tuần này tôi bận.)"
+    },
+    {
+     "term": "大丈夫",
+     "reading": "だいじょうぶ",
+     "definition": "ổn, không sao",
+     "example": "それで大丈夫です。 (Như vậy là ổn.)"
+    },
+    {
+     "term": "遠慮",
+     "reading": "えんりょ",
+     "definition": "e ngại, từ chối khéo",
+     "example": "どうぞご遠慮なく。 (Xin đừng ngại.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ていただけませんか・〜てもいいですか",
+    "explanation": "Nhờ rất lịch sự: V て + いただけませんか. Xin phép: V て + もいいですか. Từ chối khéo: nêu lý do rồi dùng 〜ので / 〜から, tránh nói thẳng “できません”.",
+    "examples": [
+     "写真を撮ってもいいですか。(Tôi chụp ảnh được không?)",
+     "少し待っていただけませんか。(Anh vui lòng đợi một chút được không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Ngữ điệu lên xuống",
+    "tip": "Câu hỏi lịch sự lên giọng nhẹ ở cuối (か↗). Khi nhờ vả hãy kéo dài nhẹ ở “が…” để nghe mềm mại: ちょっとお願いがあるんですが…",
+    "words": [
+     "おねがい",
+     "いただけませんか",
+     "だいじょうぶ",
+     "いそがしい"
+    ]
+   },
+   "speakingTasks": [
+    "Nhờ thầy/cô giúp một việc bằng 〜ていただけませんか。",
+    "Từ chối một lời mời đi chơi một cách khéo léo."
+   ],
+   "questions": [
+    {
+     "prompt": "Cách nhờ lịch sự nhất là:",
+     "options": [
+      "見ろ。",
+      "見てください。",
+      "見ていただけませんか。"
+     ],
+     "answer": 2,
+     "explanation": "いただけませんか rất lịch sự."
+    },
+    {
+     "prompt": "Xin phép chụp ảnh:",
+     "options": [
+      "写真を撮ってですか。",
+      "写真を撮ってもいいですか。",
+      "写真を撮るですか。"
+     ],
+     "answer": 1,
+     "explanation": "V て + もいいですか = tôi ... có được không?"
+    },
+    {
+     "prompt": "Từ chối khéo, nên:",
+     "options": [
+      "Nêu lý do rồi xin lỗi",
+      "Im lặng",
+      "Nói thẳng “không”"
+     ],
+     "answer": 0,
+     "explanation": "Người Nhật thường từ chối gián tiếp, kèm lý do."
+    },
+    {
+     "prompt": "「大丈夫です」 có thể mang nghĩa:",
+     "options": [
+      "Rất tiếc",
+      "Rất vui",
+      "Không sao / không cần"
+     ],
+     "answer": 2,
+     "explanation": "Tùy ngữ cảnh: “ổn” hoặc “không cần đâu”."
+    },
+    {
+     "prompt": "「忙しい」 có nghĩa là gì?",
+     "options": [
+      "e ngại, từ chối khéo",
+      "bận",
+      "việc nhờ vả"
+     ],
+     "answer": 1,
+     "explanation": "「忙しい」 [いそがしい] = bận."
+    },
+    {
+     "prompt": "「チェックする」 đọc là gì?",
+     "options": [
+      "えんりょ",
+      "ちぇっくする",
+      "おねがい"
+     ],
+     "answer": 1,
+     "explanation": "「チェックする」 đọc là [ちぇっくする], nghĩa là kiểm tra."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿があるんですが。  (Tôi có chút việc muốn nhờ.)",
+     "options": [
+      "忙しい",
+      "お願い",
+      "チェックする"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「お願い」 (việc nhờ vả). Câu đầy đủ: お願いがあるんですが。"
+    },
+    {
+     "prompt": "「お願い」 có nghĩa là gì?",
+     "options": [
+      "kiểm tra",
+      "bận",
+      "việc nhờ vả"
+     ],
+     "answer": 2,
+     "explanation": "「お願い」 [おねがい] = việc nhờ vả."
+    },
+    {
+     "prompt": "「遠慮」 đọc là gì?",
+     "options": [
+      "おねがい",
+      "いそがしい",
+      "えんりょ"
+     ],
+     "answer": 2,
+     "explanation": "「遠慮」 đọc là [えんりょ], nghĩa là e ngại, từ chối khéo."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: どうぞご＿＿＿なく。  (Xin đừng ngại.)",
+     "options": [
+      "忙しい",
+      "お願い",
+      "遠慮"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「遠慮」 (e ngại, từ chối khéo). Câu đầy đủ: どうぞご遠慮なく。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b1-3",
+   "level": "B1",
+   "unit": "N3 · Bài 3",
+   "category": "Từ vựng",
+   "title": "Sức khỏe và đi khám bệnh",
+   "objective": "Mô tả triệu chứng, hiểu lời dặn của bác sĩ.",
+   "reading": "医者: 今日はどうしましたか。\nミン: 昨日から熱があって、のども痛いです。\n医者: 風邪ですね。薬を出しますから、一日三回飲んでください。\nミン: お酒は飲んでもいいですか。\n医者: いいえ、治るまで飲まないでください。",
+   "dialogue": [
+    {
+     "speaker": "医者",
+     "text": "今日はどうしましたか。",
+     "translation": "Hôm nay bạn bị sao vậy?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "昨日から熱があって、のども痛いです。",
+     "translation": "Từ hôm qua tôi bị sốt và đau họng."
+    },
+    {
+     "speaker": "医者",
+     "text": "風邪ですね。薬を出しますから、一日三回飲んでください。",
+     "translation": "Bạn bị cảm. Tôi kê thuốc, hãy uống ngày ba lần."
+    },
+    {
+     "speaker": "ミン",
+     "text": "お酒は飲んでもいいですか。",
+     "translation": "Tôi uống rượu được không?"
+    },
+    {
+     "speaker": "医者",
+     "text": "いいえ、治るまで飲まないでください。",
+     "translation": "Không, đừng uống cho đến khi khỏi."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "熱",
+     "reading": "ねつ",
+     "definition": "sốt",
+     "example": "熱があります。 (Tôi bị sốt.)"
+    },
+    {
+     "term": "のど",
+     "reading": "のど",
+     "definition": "họng, cổ họng",
+     "example": "のどが痛いです。 (Tôi đau họng.)"
+    },
+    {
+     "term": "風邪",
+     "reading": "かぜ",
+     "definition": "cảm cúm",
+     "example": "風邪をひきました。 (Tôi bị cảm.)"
+    },
+    {
+     "term": "薬",
+     "reading": "くすり",
+     "definition": "thuốc",
+     "example": "薬を飲んでください。 (Hãy uống thuốc.)"
+    },
+    {
+     "term": "治る",
+     "reading": "なおる",
+     "definition": "khỏi bệnh",
+     "example": "風邪が治るまで休みます。 (Tôi nghỉ cho đến khi khỏi cảm.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ないでください・〜まで・〜から",
+    "explanation": "V ない + でください: xin đừng làm gì. V る + まで: cho đến khi. 〜から (vì ...) nêu lý do lịch sự: 薬を出しますから、飲んでください.",
+    "examples": [
+     "無理しないでください。(Xin đừng cố quá sức.)",
+     "治るまで休んでください。(Hãy nghỉ cho đến khi khỏi.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm đục và âm trong",
+    "tip": "Phân biệt か/が, た/だ, は/ば. Đặt tay lên cổ khi nói: âm đục làm dây thanh rung. 「かぜ」 (cảm) ≠ 「がぜ」, 「ねつ」 đọc dứt khoát.",
+    "words": [
+     "かぜ",
+     "くすり",
+     "ねつ",
+     "なおる"
+    ]
+   },
+   "speakingTasks": [
+    "Mô tả triệu chứng khi bạn bị cảm.",
+    "Thầy/cô là bác sĩ: hỏi và dặn thuốc."
+   ],
+   "questions": [
+    {
+     "prompt": "“Xin đừng uống rượu.” là:",
+     "options": [
+      "お酒を飲んでないください。",
+      "お酒を飲まないでください。",
+      "お酒を飲まくださいない。"
+     ],
+     "answer": 1,
+     "explanation": "V ない + でください."
+    },
+    {
+     "prompt": "Bác sĩ hỏi “Hôm nay bạn bị sao?”:",
+     "options": [
+      "今日はだれですか。",
+      "今日はどこですか。",
+      "今日はどうしましたか。"
+     ],
+     "answer": 2,
+     "explanation": "どうしましたか = bạn bị sao/ có chuyện gì?"
+    },
+    {
+     "prompt": "「熱がある」 nghĩa là:",
+     "options": [
+      "bị sốt",
+      "bị đau đầu",
+      "bị ho"
+     ],
+     "answer": 0,
+     "explanation": "熱 = sốt."
+    },
+    {
+     "prompt": "「風邪が治るまで休みます」 nghĩa là:",
+     "options": [
+      "Nghỉ vì bị cảm",
+      "Nghỉ sau khi khỏi cảm",
+      "Nghỉ cho đến khi khỏi cảm"
+     ],
+     "answer": 2,
+     "explanation": "〜まで = cho đến khi."
+    },
+    {
+     "prompt": "「薬」 có nghĩa là gì?",
+     "options": [
+      "họng, cổ họng",
+      "khỏi bệnh",
+      "thuốc"
+     ],
+     "answer": 2,
+     "explanation": "「薬」 [くすり] = thuốc."
+    },
+    {
+     "prompt": "「熱」 đọc là gì?",
+     "options": [
+      "ねつ",
+      "なおる",
+      "のど"
+     ],
+     "answer": 0,
+     "explanation": "「熱」 đọc là [ねつ], nghĩa là sốt."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿があります。  (Tôi bị sốt.)",
+     "options": [
+      "熱",
+      "のど",
+      "治る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「熱」 (sốt). Câu đầy đủ: 熱があります。"
+    },
+    {
+     "prompt": "「のど」 có nghĩa là gì?",
+     "options": [
+      "họng, cổ họng",
+      "thuốc",
+      "khỏi bệnh"
+     ],
+     "answer": 0,
+     "explanation": "「のど」 [のど] = họng, cổ họng."
+    },
+    {
+     "prompt": "「薬」 đọc là gì?",
+     "options": [
+      "くすり",
+      "のど",
+      "なおる"
+     ],
+     "answer": 0,
+     "explanation": "「薬」 đọc là [くすり], nghĩa là thuốc."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿をひきました。  (Tôi bị cảm.)",
+     "options": [
+      "熱",
+      "薬",
+      "風邪"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「風邪」 (cảm cúm). Câu đầy đủ: 風邪をひきました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b1-4",
+   "level": "B1",
+   "unit": "N3 · Bài 4",
+   "category": "Ngữ pháp",
+   "title": "Giả định và điều ước",
+   "objective": "Nói điều kiện giả định và mong muốn với 〜たら, 〜ば, 〜といいな.",
+   "reading": "田中: もし宝くじが当たったら、何をしますか。\nミン: 当たったら、世界旅行に行きたいです。\n田中: いいですね。私はもっと時間があればいいのに。\nミン: 早く休みになるといいですね。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "もし宝くじが当たったら、何をしますか。",
+     "phonetic": "Moshi takarakuji ga atattara, nani o shimasu ka.",
+     "translation": "Nếu trúng xổ số, bạn sẽ làm gì?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "当たったら、世界旅行に行きたいです。",
+     "phonetic": "Atattara, sekai ryokō ni ikitai desu.",
+     "translation": "Nếu trúng, tôi muốn đi du lịch vòng quanh thế giới."
+    },
+    {
+     "speaker": "田中",
+     "text": "いいですね。私はもっと時間があればいいのに。",
+     "phonetic": "Ii desu ne. Watashi wa motto jikan ga areba ii noni.",
+     "translation": "Hay đấy. Tôi thì ước gì có nhiều thời gian hơn."
+    },
+    {
+     "speaker": "ミン",
+     "text": "早く休みになるといいですね。",
+     "phonetic": "Hayaku yasumi ni naru to ii desu ne.",
+     "translation": "Mong sớm đến kỳ nghỉ nhỉ."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "もし",
+     "reading": "moshi",
+     "definition": "nếu (giả định)",
+     "example": "もし雨なら、行きません。 (Nếu mưa thì tôi không đi.)"
+    },
+    {
+     "term": "宝くじ",
+     "reading": "takarakuji",
+     "definition": "xổ số",
+     "example": "宝くじを買いました。 (Tôi đã mua xổ số.)"
+    },
+    {
+     "term": "当たる",
+     "reading": "ataru",
+     "definition": "trúng (giải)",
+     "example": "宝くじが当たる。 (Trúng xổ số.)"
+    },
+    {
+     "term": "世界",
+     "reading": "sekai",
+     "definition": "thế giới",
+     "example": "世界を旅行したい。 (Tôi muốn du lịch thế giới.)"
+    },
+    {
+     "term": "休み",
+     "reading": "yasumi",
+     "definition": "kỳ nghỉ, ngày nghỉ",
+     "example": "休みに何をしますか。 (Ngày nghỉ bạn làm gì?)"
+    }
+   ],
+   "grammar": {
+    "title": "〜たら / 〜ば / 〜といい",
+    "explanation": "Thể た + ら: nếu/khi (giả định chung). Thể ば: điều kiện (あれば, 行けば). 〜ばいいのに: ước gì (tiếc nuối). 〜といいですね: mong là ~.",
+    "examples": [
+     "時間があれば、手伝います。[jikan ga areba, tetsudaimasu] (Nếu có thời gian tôi sẽ giúp.)",
+     "晴れるといいですね。[hareru to ii desu ne] (Mong là trời nắng nhỉ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Âm ら hàng R",
+    "tip": "ら・り・る・れ・ろ đọc giữa “r” và “l”, lưỡi chạm nhẹ một lần, không rung. 当たったら atattara có っ (ngắt) trước たら.",
+    "words": [
+     "あたったら",
+     "りょこう",
+     "あれば",
+     "はれる"
+    ]
+   },
+   "speakingTasks": [
+    "Nói bạn sẽ làm gì nếu trúng xổ số.",
+    "Nêu 2 điều ước của bạn với 〜ばいいのに."
+   ],
+   "questions": [
+    {
+     "prompt": "Thể たら của 「行く」 là:",
+     "options": [
+      "行きたら",
+      "行くたら",
+      "行ったら"
+     ],
+     "answer": 2,
+     "explanation": "行く → 行った → 行ったら."
+    },
+    {
+     "prompt": "“Nếu có tiền, tôi sẽ mua.” là:",
+     "options": [
+      "お金がありば、買います。",
+      "お金があれば、買います。",
+      "お金があるば、買います。"
+     ],
+     "answer": 1,
+     "explanation": "ある → あれば."
+    },
+    {
+     "prompt": "「〜ばいいのに」 diễn tả:",
+     "options": [
+      "Ước gì / tiếc nuối",
+      "Ra lệnh",
+      "Kể chuyện quá khứ"
+     ],
+     "answer": 0,
+     "explanation": "〜ばいいのに = ước gì ~."
+    },
+    {
+     "prompt": "「晴れるといいですね」 nghĩa là:",
+     "options": [
+      "Trời sẽ mưa",
+      "Trời đã nắng rồi",
+      "Mong là trời nắng nhỉ"
+     ],
+     "answer": 2,
+     "explanation": "〜といい = mong là ~."
+    },
+    {
+     "prompt": "「休み」 có nghĩa là gì?",
+     "options": [
+      "kỳ nghỉ, ngày nghỉ",
+      "trúng (giải)",
+      "xổ số"
+     ],
+     "answer": 0,
+     "explanation": "「休み」 [yasumi] = kỳ nghỉ, ngày nghỉ."
+    },
+    {
+     "prompt": "「世界」 đọc là gì?",
+     "options": [
+      "moshi",
+      "sekai",
+      "yasumi"
+     ],
+     "answer": 1,
+     "explanation": "「世界」 đọc là [sekai], nghĩa là thế giới."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 宝くじが＿＿＿。  (Trúng xổ số.)",
+     "options": [
+      "当たる",
+      "宝くじ",
+      "世界"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「当たる」 (trúng (giải)). Câu đầy đủ: 宝くじが当たる。"
+    },
+    {
+     "prompt": "「当たる」 có nghĩa là gì?",
+     "options": [
+      "thế giới",
+      "trúng (giải)",
+      "xổ số"
+     ],
+     "answer": 1,
+     "explanation": "「当たる」 [ataru] = trúng (giải)."
+    },
+    {
+     "prompt": "「当たる」 đọc là gì?",
+     "options": [
+      "takarakuji",
+      "ataru",
+      "sekai"
+     ],
+     "answer": 1,
+     "explanation": "「当たる」 đọc là [ataru], nghĩa là trúng (giải)."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿に何をしますか。  (Ngày nghỉ bạn làm gì?)",
+     "options": [
+      "休み",
+      "宝くじ",
+      "当たる"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「休み」 (kỳ nghỉ, ngày nghỉ). Câu đầy đủ: 休みに何をしますか。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b2-1",
+   "level": "B2",
+   "unit": "N2 · Bài 1",
+   "category": "Giao tiếp",
+   "title": "Nêu ý kiến, đồng ý và phản đối",
+   "objective": "Trình bày quan điểm có lập luận, đồng ý một phần và phản đối lịch sự.",
+   "reading": "司会: 在宅勤務についてどう思いますか。\nリン: 私は賛成です。通勤時間が減り、家族との時間が増えるからです。\n佐藤: おっしゃることはよく分かりますが、チームの連携が難しくなるのではないでしょうか。\nリン: 確かにその点は課題ですね。週に二日出社するのはどうでしょうか。\n佐藤: それなら現実的だと思います。",
+   "dialogue": [
+    {
+     "speaker": "司会",
+     "text": "在宅勤務についてどう思いますか。",
+     "translation": "Mọi người nghĩ sao về làm việc tại nhà?"
+    },
+    {
+     "speaker": "リン",
+     "text": "私は賛成です。通勤時間が減り、家族との時間が増えるからです。",
+     "translation": "Tôi tán thành. Vì giảm thời gian đi lại và có thêm thời gian cho gia đình."
+    },
+    {
+     "speaker": "佐藤",
+     "text": "おっしゃることはよく分かりますが、チームの連携が難しくなるのではないでしょうか。",
+     "translation": "Tôi hiểu ý chị, nhưng liệu việc phối hợp trong nhóm có khó hơn không?"
+    },
+    {
+     "speaker": "リン",
+     "text": "確かにその点は課題ですね。週に二日出社するのはどうでしょうか。",
+     "translation": "Đúng là điểm đó là vấn đề. Mỗi tuần đến công ty hai ngày thì sao?"
+    },
+    {
+     "speaker": "佐藤",
+     "text": "それなら現実的だと思います。",
+     "translation": "Nếu vậy thì tôi nghĩ khả thi."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "賛成",
+     "reading": "さんせい",
+     "definition": "tán thành",
+     "example": "その案に賛成です。 (Tôi tán thành đề xuất đó.)"
+    },
+    {
+     "term": "反対",
+     "reading": "はんたい",
+     "definition": "phản đối",
+     "example": "私は反対です。 (Tôi phản đối.)"
+    },
+    {
+     "term": "確かに",
+     "reading": "たしかに",
+     "definition": "quả thật, đúng là",
+     "example": "確かにそうですね。 (Đúng là như vậy.)"
+    },
+    {
+     "term": "課題",
+     "reading": "かだい",
+     "definition": "vấn đề cần giải quyết",
+     "example": "これが今後の課題です。 (Đây là vấn đề cần giải quyết sắp tới.)"
+    },
+    {
+     "term": "現実的",
+     "reading": "げんじつてき",
+     "definition": "thực tế, khả thi",
+     "example": "現実的な計画です。 (Đây là kế hoạch thực tế.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜と思います・〜のではないでしょうか・〜べきだ",
+    "explanation": "Nêu ý kiến: 〜と思います. Phản biện mềm: 〜のではないでしょうか (liệu có phải ~ không?). Nhấn mạnh nghĩa vụ: V る + べきだ. Đồng ý một phần: おっしゃることは分かりますが、〜.",
+    "examples": [
+     "もっと早く連絡すべきでした。(Lẽ ra phải liên lạc sớm hơn.)",
+     "リスクが大きいのではないでしょうか。(Liệu rủi ro có lớn không?)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Làm mềm lời phản đối",
+    "tip": "Kéo dài nhẹ và hạ giọng ở cuối: 「〜ではないでしょうか」. Dùng おっしゃる thay 言う để thể hiện sự tôn trọng. Tránh dừng đột ngột.",
+    "words": [
+     "さんせい",
+     "はんたい",
+     "げんじつてき",
+     "おっしゃる"
+    ]
+   },
+   "speakingTasks": [
+    "Nêu ý kiến của bạn về làm việc tại nhà (2 lý do).",
+    "Thầy/cô phản đối — hãy đáp lại lịch sự."
+   ],
+   "questions": [
+    {
+     "prompt": "Cách phản đối mềm mỏng:",
+     "options": [
+      "〜はだめだ。",
+      "〜のではないでしょうか。",
+      "〜は間違いです。"
+     ],
+     "answer": 1,
+     "explanation": "Dạng nghi vấn phủ định làm câu nói nhẹ nhàng."
+    },
+    {
+     "prompt": "「賛成」 nghĩa là:",
+     "options": [
+      "phản đối",
+      "chờ đợi",
+      "tán thành"
+     ],
+     "answer": 2,
+     "explanation": "賛成 = đồng ý, tán thành."
+    },
+    {
+     "prompt": "“Lẽ ra phải ~” là:",
+     "options": [
+      "V るはずがない",
+      "V るつもりだった",
+      "V るべきだった"
+     ],
+     "answer": 2,
+     "explanation": "〜べきだった: lẽ ra nên."
+    },
+    {
+     "prompt": "Câu thể hiện đồng ý một phần:",
+     "options": [
+      "それは間違いです。",
+      "おっしゃることは分かりますが、",
+      "全然違います。"
+     ],
+     "answer": 1,
+     "explanation": "Ghi nhận ý người khác rồi mới phản biện."
+    },
+    {
+     "prompt": "「確かに」 có nghĩa là gì?",
+     "options": [
+      "vấn đề cần giải quyết",
+      "phản đối",
+      "quả thật, đúng là"
+     ],
+     "answer": 2,
+     "explanation": "「確かに」 [たしかに] = quả thật, đúng là."
+    },
+    {
+     "prompt": "「現実的」 đọc là gì?",
+     "options": [
+      "げんじつてき",
+      "かだい",
+      "さんせい"
+     ],
+     "answer": 0,
+     "explanation": "「現実的」 đọc là [げんじつてき], nghĩa là thực tế, khả thi."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: その案に＿＿＿です。  (Tôi tán thành đề xuất đó.)",
+     "options": [
+      "賛成",
+      "確かに",
+      "反対"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「賛成」 (tán thành). Câu đầy đủ: その案に賛成です。"
+    },
+    {
+     "prompt": "「現実的」 có nghĩa là gì?",
+     "options": [
+      "vấn đề cần giải quyết",
+      "thực tế, khả thi",
+      "tán thành"
+     ],
+     "answer": 1,
+     "explanation": "「現実的」 [げんじつてき] = thực tế, khả thi."
+    },
+    {
+     "prompt": "「反対」 đọc là gì?",
+     "options": [
+      "はんたい",
+      "げんじつてき",
+      "さんせい"
+     ],
+     "answer": 0,
+     "explanation": "「反対」 đọc là [はんたい], nghĩa là phản đối."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: これが今後の＿＿＿です。  (Đây là vấn đề cần giải quyết sắp tới.)",
+     "options": [
+      "課題",
+      "確かに",
+      "現実的"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「課題」 (vấn đề cần giải quyết). Câu đầy đủ: これが今後の課題です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b2-2",
+   "level": "B2",
+   "unit": "N2 · Bài 2",
+   "category": "Kỹ năng",
+   "title": "Kể chuyện và giải thích lý do",
+   "objective": "Kể một sự việc có trình tự, nêu nguyên nhân và kết quả.",
+   "reading": "ミン: 先週、電車が止まってしまって、会議に遅れそうになりました。\n田中: それは大変でしたね。どうしたんですか。\nミン: タクシーに乗ろうとしたのですが、長い列ができていたんです。\nミン: 結局、上司に連絡して、オンラインで参加することになりました。\n田中: 無事に済んでよかったですね。",
+   "dialogue": [
+    {
+     "speaker": "ミン",
+     "text": "先週、電車が止まってしまって、会議に遅れそうになりました。",
+     "translation": "Tuần trước tàu bị dừng, nên suýt nữa tôi đến họp muộn."
+    },
+    {
+     "speaker": "田中",
+     "text": "それは大変でしたね。どうしたんですか。",
+     "translation": "Vất vả nhỉ. Rồi bạn làm sao?"
+    },
+    {
+     "speaker": "ミン",
+     "text": "タクシーに乗ろうとしたのですが、長い列ができていたんです。",
+     "translation": "Tôi định bắt taxi, nhưng đã có hàng dài người xếp hàng."
+    },
+    {
+     "speaker": "ミン",
+     "text": "結局、上司に連絡して、オンラインで参加することになりました。",
+     "translation": "Rốt cuộc tôi liên lạc với sếp và quyết định tham gia trực tuyến."
+    },
+    {
+     "speaker": "田中",
+     "text": "無事に済んでよかったですね。",
+     "translation": "May là mọi chuyện ổn thỏa."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "止まる",
+     "reading": "とまる",
+     "definition": "dừng lại",
+     "example": "電車が止まりました。 (Tàu đã dừng.)"
+    },
+    {
+     "term": "遅れる",
+     "reading": "おくれる",
+     "definition": "bị muộn",
+     "example": "会議に遅れそうです。 (Tôi có vẻ sẽ đến họp muộn.)"
+    },
+    {
+     "term": "結局",
+     "reading": "けっきょく",
+     "definition": "rốt cuộc",
+     "example": "結局、行かないことにしました。 (Rốt cuộc tôi quyết định không đi.)"
+    },
+    {
+     "term": "連絡",
+     "reading": "れんらく",
+     "definition": "liên lạc",
+     "example": "上司に連絡します。 (Tôi liên lạc với sếp.)"
+    },
+    {
+     "term": "無事",
+     "reading": "ぶじ",
+     "definition": "bình an, ổn thỏa",
+     "example": "無事に着きました。 (Tôi đã đến nơi an toàn.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜てしまう・〜ようとする・〜ことになる",
+    "explanation": "V て + しまう: lỡ làm / làm xong. V よう + とする: định làm (nhưng...). V る + ことになる: được quyết định là (do hoàn cảnh/ người khác), ngược với ことにする (tự quyết định).",
+    "examples": [
+     "寝坊してしまいました。(Tôi lỡ ngủ quên.)",
+     "来月から東京で働くことになりました。(Từ tháng sau tôi sẽ làm việc ở Tokyo.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Tốc độ và ngắt nhịp khi kể chuyện",
+    "tip": "Chia câu dài thành cụm 3–4 phách, hơi ngắt sau trợ từ が, て, けど. Giữ giọng đều rồi hạ xuống ở cuối câu khẳng định.",
+    "words": [
+     "けっきょく",
+     "れんらく",
+     "とまってしまって",
+     "ぶじ"
+    ]
+   },
+   "speakingTasks": [
+    "Kể một sự cố bạn từng gặp bằng 4–5 câu, có nguyên nhân và kết quả.",
+    "Thầy/cô hỏi chi tiết — trả lời đầy đủ câu."
+   ],
+   "questions": [
+    {
+     "prompt": "「ことになる」 khác 「ことにする」 ở chỗ:",
+     "options": [
+      "Một cái là quá khứ",
+      "Ý do hoàn cảnh quyết định / tự mình quyết định",
+      "Không khác"
+     ],
+     "answer": 1,
+     "explanation": "ことになる: được quyết định; ことにする: tự quyết định."
+    },
+    {
+     "prompt": "“Tôi lỡ ngủ quên.” là:",
+     "options": [
+      "寝坊することにしました。",
+      "寝坊してしまいました。",
+      "寝坊しようとしました。"
+     ],
+     "answer": 1,
+     "explanation": "V て + しまう diễn tả lỡ làm / tiếc nuối."
+    },
+    {
+     "prompt": "「結局」 nghĩa là:",
+     "options": [
+      "rốt cuộc",
+      "ngay lập tức",
+      "thỉnh thoảng"
+     ],
+     "answer": 0,
+     "explanation": "結局 (kekkyoku) = cuối cùng thì."
+    },
+    {
+     "prompt": "“Tôi định bắt taxi nhưng ...” là:",
+     "options": [
+      "タクシーに乗るべきですが、",
+      "タクシーに乗ってしまったので、",
+      "タクシーに乗ろうとしたのですが、"
+     ],
+     "answer": 2,
+     "explanation": "V よう + とする = định làm (nhưng chưa được)."
+    },
+    {
+     "prompt": "「無事」 có nghĩa là gì?",
+     "options": [
+      "bị muộn",
+      "rốt cuộc",
+      "bình an, ổn thỏa"
+     ],
+     "answer": 2,
+     "explanation": "「無事」 [ぶじ] = bình an, ổn thỏa."
+    },
+    {
+     "prompt": "「止まる」 đọc là gì?",
+     "options": [
+      "れんらく",
+      "とまる",
+      "おくれる"
+     ],
+     "answer": 1,
+     "explanation": "「止まる」 đọc là [とまる], nghĩa là dừng lại."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: 上司に＿＿＿します。  (Tôi liên lạc với sếp.)",
+     "options": [
+      "連絡",
+      "結局",
+      "無事"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「連絡」 (liên lạc). Câu đầy đủ: 上司に連絡します。"
+    },
+    {
+     "prompt": "「遅れる」 có nghĩa là gì?",
+     "options": [
+      "bị muộn",
+      "bình an, ổn thỏa",
+      "dừng lại"
+     ],
+     "answer": 0,
+     "explanation": "「遅れる」 [おくれる] = bị muộn."
+    },
+    {
+     "prompt": "「連絡」 đọc là gì?",
+     "options": [
+      "れんらく",
+      "けっきょく",
+      "ぶじ"
+     ],
+     "answer": 0,
+     "explanation": "「連絡」 đọc là [れんらく], nghĩa là liên lạc."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿、行かないことにしました。  (Rốt cuộc tôi quyết định không đi.)",
+     "options": [
+      "無事",
+      "遅れる",
+      "結局"
+     ],
+     "answer": 2,
+     "explanation": "Đáp án: 「結局」 (rốt cuộc). Câu đầy đủ: 結局、行かないことにしました。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b2-3",
+   "level": "B2",
+   "unit": "N2 · Bài 3",
+   "category": "Văn hóa",
+   "title": "Văn hóa Nhật Bản và quy tắc ứng xử",
+   "objective": "Hiểu và nói về phép lịch sự, quy tắc xã hội và văn hóa công cộng ở Nhật.",
+   "reading": "田中: 日本では、電車の中で電話で話さないことになっています。\nミン: なるほど。周りに迷惑をかけないようにするのですね。\n田中: そうです。「迷惑をかけない」ことは日本社会で大切にされています。\nミン: ごみの分別も厳しいと聞きました。\n田中: ええ、地域のルールを守るのは当然のことです。",
+   "dialogue": [
+    {
+     "speaker": "田中",
+     "text": "日本では、電車の中で電話で話さないことになっています。",
+     "translation": "Ở Nhật, quy định là không nói chuyện điện thoại trên tàu."
+    },
+    {
+     "speaker": "ミン",
+     "text": "なるほど。周りに迷惑をかけないようにするのですね。",
+     "translation": "Ra vậy. Tức là cố gắng không làm phiền xung quanh."
+    },
+    {
+     "speaker": "田中",
+     "text": "そうです。「迷惑をかけない」ことは日本社会で大切にされています。",
+     "translation": "Đúng vậy. “Không gây phiền” được coi trọng trong xã hội Nhật."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ごみの分別も厳しいと聞きました。",
+     "translation": "Tôi nghe nói việc phân loại rác cũng rất nghiêm."
+    },
+    {
+     "speaker": "田中",
+     "text": "ええ、地域のルールを守るのは当然のことです。",
+     "translation": "Vâng, tuân thủ quy định của địa phương là điều đương nhiên."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "迷惑",
+     "reading": "めいわく",
+     "definition": "phiền hà",
+     "example": "人に迷惑をかけないでください。 (Xin đừng gây phiền cho người khác.)"
+    },
+    {
+     "term": "分別",
+     "reading": "ぶんべつ",
+     "definition": "phân loại",
+     "example": "ごみの分別をします。 (Tôi phân loại rác.)"
+    },
+    {
+     "term": "守る",
+     "reading": "まもる",
+     "definition": "tuân thủ, bảo vệ",
+     "example": "ルールを守ります。 (Tôi tuân thủ quy tắc.)"
+    },
+    {
+     "term": "当然",
+     "reading": "とうぜん",
+     "definition": "đương nhiên",
+     "example": "それは当然です。 (Điều đó là đương nhiên.)"
+    },
+    {
+     "term": "習慣",
+     "reading": "しゅうかん",
+     "definition": "tập quán",
+     "example": "日本の習慣を学びます。 (Tôi học tập quán của Nhật.)"
+    }
+   ],
+   "grammar": {
+    "title": "〜ことになっている・〜ものだ・〜ようにする",
+    "explanation": "V る + ことになっている: quy định / thông lệ là. V る + ものだ: nên (đạo lý), thường là (nhận xét chung). V る + ようにする: cố gắng làm cho thành thói quen.",
+    "examples": [
+     "ここでは靴を脱ぐことになっています。(Ở đây quy định phải cởi giày.)",
+     "年上の人には敬語を使うものです。(Với người lớn tuổi thì nên dùng kính ngữ.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Giọng điệu trang trọng và thể thông thường",
+    "tip": "Khi giải thích quy tắc, dùng giọng trung tính, đều, hạ giọng cuối câu. Chú ý 「ことになっている」 phát âm rõ ràng từng cụm: ことに / なって / いる.",
+    "words": [
+     "ことになっている",
+     "めいわく",
+     "ぶんべつ",
+     "とうぜん"
+    ]
+   },
+   "speakingTasks": [
+    "Giải thích 2 quy tắc ứng xử ở Nhật mà bạn biết.",
+    "So sánh một quy tắc ở Nhật với Việt Nam."
+   ],
+   "questions": [
+    {
+     "prompt": "“Ở đây quy định phải cởi giày.” là:",
+     "options": [
+      "ここでは靴を脱いでしまいます。",
+      "ここでは靴を脱ぐことになっています。",
+      "ここでは靴を脱ぐつもりです。"
+     ],
+     "answer": 1,
+     "explanation": "〜ことになっている = quy định là."
+    },
+    {
+     "prompt": "「迷惑をかけない」 nghĩa là:",
+     "options": [
+      "Không có tiền",
+      "Không quen biết",
+      "Không gây phiền hà"
+     ],
+     "answer": 2,
+     "explanation": "迷惑をかける = gây phiền."
+    },
+    {
+     "prompt": "「分別」 trong 「ごみの分別」 nghĩa là:",
+     "options": [
+      "vứt bỏ",
+      "tái sử dụng",
+      "phân loại"
+     ],
+     "answer": 2,
+     "explanation": "分別 = phân loại."
+    },
+    {
+     "prompt": "“Với người lớn tuổi nên dùng kính ngữ.” là:",
+     "options": [
+      "年上の人には敬語を使おうとします。",
+      "年上の人には敬語を使うものです。",
+      "年上の人には敬語を使ってしまいます。"
+     ],
+     "answer": 1,
+     "explanation": "V る + ものだ diễn tả điều nên làm / lẽ thường."
+    },
+    {
+     "prompt": "「迷惑」 có nghĩa là gì?",
+     "options": [
+      "phân loại",
+      "phiền hà",
+      "tuân thủ, bảo vệ"
+     ],
+     "answer": 1,
+     "explanation": "「迷惑」 [めいわく] = phiền hà."
+    },
+    {
+     "prompt": "「分別」 đọc là gì?",
+     "options": [
+      "めいわく",
+      "まもる",
+      "ぶんべつ"
+     ],
+     "answer": 2,
+     "explanation": "「分別」 đọc là [ぶんべつ], nghĩa là phân loại."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ごみの＿＿＿をします。  (Tôi phân loại rác.)",
+     "options": [
+      "分別",
+      "迷惑",
+      "守る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「分別」 (phân loại). Câu đầy đủ: ごみの分別をします。"
+    },
+    {
+     "prompt": "「守る」 có nghĩa là gì?",
+     "options": [
+      "tập quán",
+      "tuân thủ, bảo vệ",
+      "phiền hà"
+     ],
+     "answer": 1,
+     "explanation": "「守る」 [まもる] = tuân thủ, bảo vệ."
+    },
+    {
+     "prompt": "「守る」 đọc là gì?",
+     "options": [
+      "しゅうかん",
+      "まもる",
+      "めいわく"
+     ],
+     "answer": 1,
+     "explanation": "「守る」 đọc là [まもる], nghĩa là tuân thủ, bảo vệ."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: それは＿＿＿です。  (Điều đó là đương nhiên.)",
+     "options": [
+      "迷惑",
+      "当然",
+      "習慣"
+     ],
+     "answer": 1,
+     "explanation": "Đáp án: 「当然」 (đương nhiên). Câu đầy đủ: それは当然です。"
+    }
+   ],
+   "audioIds": []
+  },
+  {
+   "id": "everyday-b2-4",
+   "level": "B2",
+   "unit": "N2 · Bài 4",
+   "category": "Văn hóa",
+   "title": "Thành ngữ và tục ngữ thông dụng",
+   "objective": "Hiểu và dùng đúng các ことわざ phổ biến trong hội thoại.",
+   "reading": "先輩: 失敗しても大丈夫。七転び八起きだよ。\nミン: ありがとうございます。継続は力なり、ですね。\n先輩: そう。それに、急がば回れとも言うよ。\nミン: 焦らず、基礎から練習し直します。",
+   "dialogue": [
+    {
+     "speaker": "先輩",
+     "text": "失敗しても大丈夫。七転び八起きだよ。",
+     "phonetic": "Shippai shite mo daijōbu. Nanakorobi yaoki da yo.",
+     "translation": "Thất bại cũng không sao. Bảy lần ngã tám lần đứng dậy mà."
+    },
+    {
+     "speaker": "ミン",
+     "text": "ありがとうございます。継続は力なり、ですね。",
+     "phonetic": "Arigatō gozaimasu. Keizoku wa chikara nari, desu ne.",
+     "translation": "Cảm ơn anh. Kiên trì là sức mạnh nhỉ."
+    },
+    {
+     "speaker": "先輩",
+     "text": "そう。それに、急がば回れとも言うよ。",
+     "phonetic": "Sō. Sore ni, isogaba maware to mo iu yo.",
+     "translation": "Đúng. Còn có câu “dục tốc bất đạt” nữa."
+    },
+    {
+     "speaker": "ミン",
+     "text": "焦らず、基礎から練習し直します。",
+     "phonetic": "Aserazu, kiso kara renshū shinaoshimasu.",
+     "translation": "Em sẽ không vội, luyện lại từ cơ bản."
+    }
+   ],
+   "vocabulary": [
+    {
+     "term": "失敗",
+     "reading": "shippai",
+     "definition": "thất bại",
+     "example": "失敗は成功のもと。 (Thất bại là mẹ thành công.)"
+    },
+    {
+     "term": "継続",
+     "reading": "keizoku",
+     "definition": "duy trì, kiên trì",
+     "example": "継続は力なり。 (Kiên trì là sức mạnh.)"
+    },
+    {
+     "term": "急ぐ",
+     "reading": "isogu",
+     "definition": "vội vàng",
+     "example": "急がなくてもいいです。 (Không cần vội.)"
+    },
+    {
+     "term": "基礎",
+     "reading": "kiso",
+     "definition": "cơ bản, nền tảng",
+     "example": "基礎が大切です。 (Nền tảng rất quan trọng.)"
+    },
+    {
+     "term": "焦る",
+     "reading": "aseru",
+     "definition": "nóng vội, sốt ruột",
+     "example": "焦らないでください。 (Đừng nóng vội.)"
+    }
+   ],
+   "grammar": {
+    "title": "ことわざ trong câu",
+    "explanation": "Tục ngữ thường dẫn bằng 〜と言う / 〜とも言う hoặc đứng riêng với だよ/ですね. 〜ず = 〜ないで (văn viết): 焦らず = đừng vội mà…. V ます bỏ ます + 直す: làm lại.",
+    "examples": [
+     "「猿も木から落ちる」と言いますね。[saru mo ki kara ochiru to iimasu ne] (Như người ta nói “khỉ cũng có lúc rơi từ cây”.)",
+     "書き直します。[kakinaoshimasu] (Tôi sẽ viết lại.)"
+    ]
+   },
+   "pronunciation": {
+    "focus": "Nhịp đọc tục ngữ",
+    "tip": "Tục ngữ có nhịp 5-7 hoặc 4-4. Đọc theo cụm: ななころび / やおき; けいぞくは / ちからなり.",
+    "words": [
+     "ななころびやおき",
+     "いそがばまわれ",
+     "けいぞく",
+     "しっぱい"
+    ]
+   },
+   "speakingTasks": [
+    "Kể một trải nghiệm và kết bằng một câu tục ngữ phù hợp.",
+    "Hỏi thầy/cô ý nghĩa của 「猿も木から落ちる」."
+   ],
+   "questions": [
+    {
+     "prompt": "「七転び八起き」 nghĩa gần nhất:",
+     "options": [
+      "Ăn ít sống lâu",
+      "Thất bại nhiều lần vẫn đứng dậy",
+      "Đi nhanh để kịp"
+     ],
+     "answer": 1,
+     "explanation": "Ngã bảy lần, đứng dậy tám lần."
+    },
+    {
+     "prompt": "「急がば回れ」 khuyên điều gì?",
+     "options": [
+      "Luôn chạy thật nhanh",
+      "Đừng bao giờ đi xa",
+      "Vội thì nên đi đường chắc chắn"
+     ],
+     "answer": 2,
+     "explanation": "Tương đương “dục tốc bất đạt”."
+    },
+    {
+     "prompt": "「焦らず」 tương đương:",
+     "options": [
+      "焦って",
+      "焦りたい",
+      "焦らないで"
+     ],
+     "answer": 2,
+     "explanation": "〜ず = 〜ないで."
+    },
+    {
+     "prompt": "“Tôi sẽ luyện lại từ đầu.” là:",
+     "options": [
+      "練習直しします。",
+      "直し練習します。",
+      "練習し直します。"
+     ],
+     "answer": 2,
+     "explanation": "V(bỏ ます) + 直す = làm lại."
+    },
+    {
+     "prompt": "「急ぐ」 có nghĩa là gì?",
+     "options": [
+      "cơ bản, nền tảng",
+      "duy trì, kiên trì",
+      "vội vàng"
+     ],
+     "answer": 2,
+     "explanation": "「急ぐ」 [isogu] = vội vàng."
+    },
+    {
+     "prompt": "「急ぐ」 đọc là gì?",
+     "options": [
+      "keizoku",
+      "isogu",
+      "kiso"
+     ],
+     "answer": 1,
+     "explanation": "「急ぐ」 đọc là [isogu], nghĩa là vội vàng."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿は成功のもと。  (Thất bại là mẹ thành công.)",
+     "options": [
+      "失敗",
+      "継続",
+      "焦る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「失敗」 (thất bại). Câu đầy đủ: 失敗は成功のもと。"
+    },
+    {
+     "prompt": "「継続」 có nghĩa là gì?",
+     "options": [
+      "nóng vội, sốt ruột",
+      "thất bại",
+      "duy trì, kiên trì"
+     ],
+     "answer": 2,
+     "explanation": "「継続」 [keizoku] = duy trì, kiên trì."
+    },
+    {
+     "prompt": "「継続」 đọc là gì?",
+     "options": [
+      "aseru",
+      "keizoku",
+      "shippai"
+     ],
+     "answer": 1,
+     "explanation": "「継続」 đọc là [keizoku], nghĩa là duy trì, kiên trì."
+    },
+    {
+     "prompt": "Điền từ thích hợp vào chỗ trống: ＿＿＿が大切です。  (Nền tảng rất quan trọng.)",
+     "options": [
+      "基礎",
+      "継続",
+      "焦る"
+     ],
+     "answer": 0,
+     "explanation": "Đáp án: 「基礎」 (cơ bản, nền tảng). Câu đầy đủ: 基礎が大切です。"
+    }
+   ],
+   "audioIds": []
+  }
+ ],
+ "audio": []
+}

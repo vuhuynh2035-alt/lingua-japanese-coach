@@ -2214,7 +2214,7 @@ html[data-theme="blue"] .wz-crumb { opacity: .92; }
 .floating-back-button span { font-size: .75rem; }
 .floating-back-button:hover:not(:disabled) { width: 36px; }
 
-/* ===== Nova: sprout sways, body bounces with the voice ===== */
+/* ===== Mascot: sprout sways, body bounces with the voice ===== */
 .av-sprout { transform-box: fill-box; transform-origin: 30% 100%; animation: av-sprout 3.2s ease-in-out infinite; }
 @keyframes av-sprout { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(6deg); } }
 .av-emo-cheer .av-sprout, .av-status-speaking .av-sprout { animation-duration: 1.2s; }

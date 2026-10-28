@@ -1,7 +1,7 @@
 from build import L
 
 TITLE = "Tiếng Nhật giao tiếp hằng ngày"
-OVERVIEW = "12 bài từ N5 đến N2: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có phiên âm và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu."
+OVERVIEW = "16 bài từ N5 đến N2: chào hỏi, gia đình, mua sắm, thói quen, gọi món, hỏi đường, kể kinh nghiệm, nhờ vả, sức khỏe, nêu ý kiến, kể chuyện và văn hóa ứng xử. Mỗi bài có hội thoại có phiên âm và bản dịch, từ vựng, ngữ pháp, phát âm và bài kiểm tra 10 câu."
 
 LESSONS = [
     # ---------------- N5 ----------------
@@ -259,3 +259,7 @@ LESSONS = [
        ("“Với người lớn tuổi nên dùng kính ngữ.” là:", ["年上の人には敬語を使うものです。", "年上の人には敬語を使ってしまいます。", "年上の人には敬語を使おうとします。"], 0, "V る + ものだ diễn tả điều nên làm / lẽ thường.")],
       ["Giải thích 2 quy tắc ứng xử ở Nhật mà bạn biết.", "So sánh một quy tắc ở Nhật với Việt Nam."]),
 ]
+
+from extras import EVERYDAY  # noqa: E402
+
+LESSONS += EVERYDAY
