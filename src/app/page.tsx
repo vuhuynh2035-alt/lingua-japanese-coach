@@ -25,7 +25,7 @@ import {
 import { GrammarQuestion, GrammarTopic, grammarTopics } from "@/lib/grammar";
 import { LANG, levelLabel } from "@/lib/language";
 
-import { IllustrationIcon, IllustrationName } from "@/components/illustration-icon";
+import { IllustrationIcon } from "@/components/illustration-icon";
 import { AvatarEmotion, AvatarKind, TutorAvatar } from "@/components/tutor-avatar";
 import { attachLipSync, pulseMouth, resumeLipSync } from "@/lib/lipsync";
 import { WaitDots, WaitIndicator } from "@/components/net-indicator";
@@ -3226,7 +3226,7 @@ Cô giải thích ngắn gọn cách dùng cấu trúc này và cho em một tì
         <div className="wz-welcome-art">
           <TutorAvatar kind={persona.kind} status="idle" emotion="happy" size={190} />
         </div>
-        <span className="eyebrow">TEACHER AI · GIA SƯ TIẾNG ANH CỦA BẠN</span>
+        <span className="eyebrow">TEACHER AI · GIA SƯ TIẾNG NHẬT CỦA BẠN</span>
         <h1>Xin chào! Cùng nói tiếng Nhật tự tin hơn nhé.</h1>
         <p className="wz-lead">
           Mỗi ngày một chút. Học bài bản theo giáo trình, hoặc trò chuyện với {TUTOR_PERSONAS[tutorPersona].name} — người sẽ chủ động dẫn dắt bạn qua từng tình huống phù hợp với trình độ của bạn.
